@@ -1,0 +1,176 @@
+[
+  {
+    "chainId": 534352,
+    "address": "0x79379c0e09a41d7978f883a56246290ee9a8c4d3",
+    "symbol": "AAVE",
+    "decimals": 18
+  },
+  {
+    "chainId": 534352,
+    "address": "0x6a28e90582c583fcd3347931c544819c31e9d0e0",
+    "symbol": "BAL",
+    "decimals": 18
+  },
+  {
+    "chainId": 534352,
+    "address": "0xb755039edc7910c1f1bd985d48322e55a31ac0bf",
+    "symbol": "CRV",
+    "decimals": 18
+  },
+  {
+    "chainId": 534352,
+    "address": "0xca77eb3fefe3725dc33bccb54edefc3d9f764f97",
+    "symbol": "DAI",
+    "decimals": 18
+  },
+  {
+    "chainId": 534352,
+    "address": "0x608ef9a3bffe206b86c3108218003b3cfbf99c84",
+    "symbol": "KNC",
+    "decimals": 18
+  },
+  {
+    "chainId": 534352,
+    "address": "0xedeabc3a1e7d21fe835ffa6f83a710c70bb1a051",
+    "symbol": "LUSD",
+    "decimals": 18
+  },
+  {
+    "chainId": 534352,
+    "address": "0x53878b874283351d26d206fa512aece1bef6c0dd",
+    "symbol": "rETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 534352,
+    "address": "0x434cda25e8a2ca5d9c1c449a8cb6bcbf719233e8",
+    "symbol": "UNI",
+    "decimals": 18
+  },
+  {
+    "chainId": 534352,
+    "address": "0x06efdbff2a14a7c8e15944d1f4a48f9f95f663a4",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  {
+    "chainId": 534352,
+    "address": "0xf55bec9cafdbe8730f096aa55dad6d22d44099df",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  {
+    "chainId": 534352,
+    "address": "0x3c1bca5a656e69edcd0d4e36bebb3fcdaca60cf1",
+    "symbol": "WBTC",
+    "decimals": 8
+  },
+  {
+    "chainId": 534352,
+    "address": "0x5300000000000000000000000000000000000004",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 534352,
+    "address": "0xf610a9dfb7c89644979b4a0f27063e9e7d7cda32",
+    "symbol": "wstETH",
+    "decimals": 18
+  },
+  {
+    "address": "0x967ecff87b3d2771c8769b099dcdc3f8c44bf856",
+    "decimals": 18,
+    "symbol": "PTL"
+  },
+  {
+    "address": "0xaaae8378809bb8815c08d3c59eb0c7d1529ad769",
+    "decimals": 18,
+    "symbol": "NURI"
+  },
+  {
+    "address": "0x80137510979822322193fc997d400d5a6c747bf7",
+    "decimals": 18,
+    "symbol": "STONE"
+  },
+  {
+    "address": "0xa25b25548b4c98b0c7d3d27dca5d5ca743d68b7f",
+    "decimals": 18,
+    "symbol": "wrsETH"
+  },
+  {
+    "address": "0x9d92e3d212f0e7367ef007affa5920f9891eb1d4",
+    "decimals": 18,
+    "symbol": "KOMO"
+  },
+  {
+    "address": "0x01f0a31698c4d065659b9bdc21b3610292a1c506",
+    "decimals": 18,
+    "symbol": "weETH"
+  },
+  {
+    "address": "0x549423e69576b80e91dc836ae37e04209660c4ec",
+    "symbol": "LORE",
+    "decimals": 18,
+    "chainId": 534352
+  },
+  {
+    "address": "0x330c43d22bd65a60ffea93a197f04e87faa27b70",
+    "symbol": "abcNURI",
+    "decimals": 18,
+    "chainId": 534352
+  },
+  {
+    "address": "0x77fbf86399ed764a084f77b9accb049f3dbc32d2",
+    "symbol": "loreUSD",
+    "decimals": 18,
+    "chainId": 534352
+  },
+  {
+    "address": "0xd29687c813d741e2f938f4ac377128810e217b1b",
+    "symbol": "SCR",
+    "decimals": 18,
+    "chainId": 534352
+  },
+  {
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "symbol": "USDe",
+    "decimals": 18,
+    "chainId": 534352
+  },
+  {
+    "address": "0xc4d46e8402f476f269c379677c99f18e22ea030e",
+    "symbol": "PufETH",
+    "decimals": 18,
+    "chainId": 534352
+  },
+  {
+    "address": "0xd44605d3e5ef9a73379ce5258b06e4383c6ff32a",
+    "symbol": "agETH",
+    "decimals": 18,
+    "chainId": 534352
+  },
+  {
+    "address": "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979",
+    "symbol": "fBOMB",
+    "decimals": 18,
+    "chainId": 534352
+  },
+  {
+    "address": "0x1d738a3436a8c49ceffbab7fbf04b660fb528cbd",
+    "symbol": "aScrUSDC",
+    "decimals": 6,
+    "chainId": 534352
+  },
+  {
+    "address": "0xf301805be1df81102c957f6d4ce29d2b8c056b2a",
+    "symbol": "aScrWETH",
+    "decimals": 18,
+    "chainId": 534352
+  },
+  {
+    "address": "0x5b1322eeb46240b02e20062b8f0f9908d525b09c",
+    "symbol": "aScrwstETH",
+    "decimals": 18,
+    "chainId": 534352
+  }
+]

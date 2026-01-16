@@ -1,0 +1,122 @@
+[
+  {
+    "address": "0x3bd359c1119da7da1d913d1c4d2b7c461115433a",
+    "symbol": "WMON",
+    "decimals": 18,
+    "chainId": 143
+  },
+  {
+    "address": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+    "symbol": "AUSD",
+    "decimals": 6,
+    "chainId": 143
+  },
+  {
+    "address": "0x4917a5ec9fcb5e10f47cbb197abe6ab63be81fe8",
+    "symbol": "AZND",
+    "decimals": 18,
+    "chainId": 143
+  },
+  {
+    "address": "0xe7cd86e13ac4309349f30b3435a9d337750fc82d",
+    "symbol": "USDT0",
+    "decimals": 6,
+    "chainId": 143
+  },
+  {
+    "address": "0x754704bc059f8c67012fed69bc8a327a5aafb603",
+    "symbol": "USDC",
+    "decimals": 6,
+    "chainId": 143
+  },
+  {
+    "address": "0x336d414754967c6682b5a665c7daf6f1409e63e8",
+    "symbol": "muBOND",
+    "decimals": 18,
+    "chainId": 143
+  },
+  {
+    "address": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
+    "symbol": "USD1",
+    "decimals": 6,
+    "chainId": 143
+  },
+  {
+    "address": "0x0c65a0bc65a5d819235b71f554d210d3f80e0852",
+    "symbol": "aprMON",
+    "decimals": 18,
+    "chainId": 143
+  },
+  {
+    "address": "0x1b68626dca36c7fe922fd2d55e4f631d962de19c",
+    "symbol": "shMON",
+    "decimals": 18,
+    "chainId": 143
+  },
+  {
+    "address": "0xa3227c5969757783154c60bf0bc1944180ed81b9",
+    "symbol": "sMON",
+    "decimals": 18,
+    "chainId": 143
+  },
+  {
+    "address": "0x8498312a6b3cbd158bf0c93abdcf29e6e4f55081",
+    "symbol": "gMON",
+    "decimals": 18,
+    "chainId": 143
+  },
+  {
+    "address": "0x10aeaf63194db8d453d4d85a06e5efe1dd0b5417",
+    "symbol": "wstETH",
+    "decimals": 18,
+    "chainId": 143
+  },
+  {
+    "address": "0x99ae2dc76c43979e3bcc0ae8d69f1fca077c8888",
+    "symbol": "ANAGO",
+    "decimals": 18,
+    "chainId": 143
+  },
+  {
+    "address": "0x0a332311633c0625f63cfc51ee33fc49826e0a3c",
+    "symbol": "APR",
+    "decimals": 18,
+    "chainId": 143
+  },
+  {
+    "address": "0x25ac11cb986ca6910501803af5b4e41cf3ad9999",
+    "symbol": "MonadP",
+    "decimals": 9,
+    "chainId": 143
+  },
+  {
+    "address": "0xd32e9ddd968b18e8429f2d1da7efb2cc1f01d42d",
+    "symbol": "MOLANDAK",
+    "decimals": 18,
+    "chainId": 143
+  },
+  {
+    "address": "0xea17e5a9efebf1477db45082d67010e2245217f1",
+    "symbol": "SOL",
+    "decimals": 9,
+    "chainId": 143
+  },
+  {
+    "address": "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "chainId": 143
+  },
+  {
+    "address": "0xee8c0e9f1bffb4eb878d8f15f368a02a35481242",
+    "symbol": "WETH",
+    "decimals": 18,
+    "chainId": 143
+  },
+  {
+    "address": "0x1f80c65cc2c37af84abbe1ea03183a624a6f8888",
+    "symbol": "GMONAD",
+    "decimals": 18,
+    "chainId": 143
+  }
+]

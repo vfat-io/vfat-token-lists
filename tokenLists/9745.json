@@ -1,0 +1,110 @@
+[
+  {
+    "symbol": "USDT0",
+    "address": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+    "decimal": 6,
+    "chainId": 9745
+  },
+  {
+    "symbol": "WXPL",
+    "address": "0x6100e367285b01f48d07953803a2d8dca5d19873",
+    "decimal": 18,
+    "chainId": 9745
+  },
+  {
+    "symbol": "WETH",
+    "address": "0x9895d81bb462a195b4922ed7de0e3acd007c32cb",
+    "decimal": 18,
+    "chainId": 9745
+  },
+  {
+    "symbol": "weETH",
+    "address": "0xa3d68b74bf0528fdd07263c60d6488749044914b",
+    "decimal": 18,
+    "chainId": 9745
+  },
+  {
+    "symbol": "sUSDai",
+    "address": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
+    "decimal": 18,
+    "chainId": 9745
+  },
+  {
+    "symbol": "ENA",
+    "address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+    "decimal": 18,
+    "chainId": 9745
+  },
+  {
+    "symbol": "USDe",
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "decimal": 18,
+    "chainId": 9745
+  },
+  {
+    "symbol": "XAUt0",
+    "address": "0x1b64b9025eebb9a6239575df9ea4b9ac46d4d193",
+    "decimal": 6,
+    "chainId": 9745
+  },
+  {
+    "symbol": "USDai",
+    "address": "0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef",
+    "decimal": 18,
+    "chainId": 9745
+  },
+  {
+    "symbol": "sUSDe",
+    "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+    "decimal": 18,
+    "chainId": 9745
+  },
+  {
+    "symbol": "trillions",
+    "address": "0x92a01ab7317ac318b39b00eb6704ba56f0245d7a",
+    "decimal": 18,
+    "chainId": 9745
+  },
+  {
+    "symbol": "LITH",
+    "address": "0xabb48792a3161e81b47ca084c0b7a22a50324a44",
+    "decimal": 18,
+    "chainId": 9745
+  },
+  {
+    "symbol": "splUSD",
+    "address": "0x616185600989bf8339b58ac9e539d49536598343",
+    "decimal": 18,
+    "chainId": 9745
+  },
+  {
+    "symbol": "plUSD",
+    "address": "0xf91c31299e998c5127bc5f11e4a657fc0cf358cd",
+    "decimal": 18,
+    "chainId": 9745
+  },
+  {
+    "symbol": "xUSD",
+    "address": "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c",
+    "decimal": 6,
+    "chainId": 9745
+  },
+  {
+    "symbol": "tcUSDT0",
+    "address": "0xa9c251f8304b1b3fc2b9e8fcae78d94eff82ac66",
+    "decimal": 6,
+    "chainId": 9745
+  },
+  {
+    "symbol": "msUSD",
+    "address": "0x29ad7fe4516909b9e498b5a65339e54791293234",
+    "decimal": 18,
+    "chainId": 9745
+  },
+  {
+    "symbol": "ebUSD",
+    "address": "0xef7b1a03e0897c33b63159e38d779e3970c0e2fc",
+    "decimal": 18,
+    "chainId": 9745
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "address": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+    "symbol": "vbUSDC",
+    "decimals": 6,
+    "chainId": 747474
+  },
+  {
+    "address": "0x2dca96907fde857dd3d816880a0df407eeb2d2f2",
+    "symbol": "vbUSDT",
+    "decimals": 6,
+    "chainId": 747474
+  },
+  {
+    "address": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+    "symbol": "AUSD",
+    "decimals": 6,
+    "chainId": 747474
+  },
+  {
+    "address": "0x9893989433e7a383cb313953e4c2365107dc19a7",
+    "symbol": "weETH",
+    "decimals": 18,
+    "chainId": 747474
+  },
+  {
+    "address": "0xee7d8bcfb72bc1880d0cf19822eb0a2e6577ab62",
+    "symbol": "vbETH",
+    "decimals": 18,
+    "chainId": 747474
+  },
+  {
+    "address": "0x0913da6da4b42f538b445599b46bb4622342cf52",
+    "symbol": "vbWBTC",
+    "decimals": 8,
+    "chainId": 747474
+  },
+  {
+    "address": "0xecac9c5f704e954931349da37f60e39f515c11c1",
+    "symbol": "LBTC",
+    "decimals": 8,
+    "chainId": 747474
+  },
+  {
+    "address": "0xb0f70c0bd6fd87dbeb7c10dc692a2a6106817072",
+    "symbol": "BTCK",
+    "decimals": 8,
+    "chainId": 747474
+  },
+  {
+    "address": "0xb24e3035d1fcbc0e43cf3143c3fd92e53df2009b",
+    "symbol": "POL",
+    "decimals": 18,
+    "chainId": 747474
+  },
+  {
+    "address": "0x17bff452dae47e07cea877ff0e1aba17eb62b0ab",
+    "symbol": "SUSHI",
+    "decimals": 18,
+    "chainId": 747474
+  },
+  {
+    "address": "0x7fb4d0f51544f24f385a421db6e7d4fc71ad8e5c",
+    "symbol": "wstETH",
+    "decimals": 18,
+    "chainId": 747474
+  },
+  {
+    "address": "0xb0505e5a99abd03d94a1169e638b78edfed26ea4",
+    "symbol": "uSUI",
+    "decimals": 18,
+    "chainId": 747474
+  },
+  {
+    "address": "0x6c16e26013f2431e8b2e1ba7067ecccad0db6c52",
+    "symbol": "JitoSOL",
+    "decimals": 18,
+    "chainId": 747474
+  },
+  {
+    "address": "0x9b8df6e244526ab5f6e6400d331db28c8fdddb55",
+    "symbol": "uSOL",
+    "decimals": 18,
+    "chainId": 747474
+  },
+  {
+    "address": "0x1e5efca3d0db2c6d5c67a4491845c43253eb9e4e",
+    "symbol": "MORPHO",
+    "decimals": 18,
+    "chainId": 747474
+  },
+  {
+    "address": "0x476eacd417cd65421bd34fca054377658bb5e02b",
+    "symbol": "YFI",
+    "decimals": 18,
+    "chainId": 747474
+  },
+  {
+    "address": "0x6e9c1f88a960fe63387eb4b71bc525a9313d8461",
+    "symbol": "KAT v2",
+    "decimals": 18,
+    "chainId": 747474,
+    "defaultPrice": 0.1
+  },
+  {
+    "address": "0x7f1f4b4b29f5058fa32cc7a97141b8d7e5abdc2d",
+    "symbol": "KAT",
+    "decimals": 18,
+    "chainId": 747474,
+    "defaultPrice": 0.1
+  },
+  {
+    "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+    "symbol": "frxUSD",
+    "decimals": 18,
+    "chainId": 747474
+  },
+  {
+    "address": "0x5bff88ca1442c2496f7e475e9e7786383bc070c0",
+    "symbol": "sfrxUSD",
+    "decimals": 18,
+    "chainId": 747474
+  }
+]

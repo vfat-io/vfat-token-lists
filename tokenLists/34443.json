@@ -1,0 +1,128 @@
+[
+  {
+    "chainId": 34443,
+    "address": "0xdfc7c877a950e49d2610114102175a06c2e3167a",
+    "symbol": "MODE",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0xd988097fb8612cc24eec14542bc03424c656005f",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  {
+    "chainId": 34443,
+    "address": "0xe7798f023fc62146e8aa1b36da45fb70855a77ea",
+    "symbol": "DAI",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+    "symbol": "ezETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0x18470019bf0e94611f15852f7e93cf5d65bc34ca",
+    "symbol": "ION",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0x59889b7021243db5b1e065385f918316cd90d46c",
+    "symbol": "M-BTC",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0x4186bfc76e2e237523cbc30fd220fe055156b41f",
+    "symbol": "rsETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0x80137510979822322193fc997d400d5a6c747bf7",
+    "symbol": "STONE",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0xf0f161fda2712db8b566946122a5af183995e2ed",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  {
+    "chainId": 34443,
+    "address": "0xcdd475325d6f564d27247d1dddbb0dac6fa0a5cf",
+    "symbol": "WBTC",
+    "decimals": 8
+  },
+  {
+    "chainId": 34443,
+    "address": "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a",
+    "symbol": "weETH.mode",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0x4200000000000000000000000000000000000006",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0x7f9adfbd38b669f03d1d11000bc76b9aaea28a81",
+    "symbol": "xVELO",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0x66eed5ff1701e6ed8470dc391f05e27b1d0657eb",
+    "symbol": "BMX",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0x00ea4344e90c741560f08667961a8de39ff506d7",
+    "symbol": "DOLA",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0x95177295a394f2b9b04545fff58f4af0673e839d",
+    "symbol": "ICL",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0xa70266c8f8cf33647dcfee763961aff418d9e1e4",
+    "symbol": "iUSD",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0x8b2eea0999876aab1e7955fe01a5d261b570452c",
+    "symbol": "wMLT",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0x6b2a01a5f79deb4c2f3c0eda7b01df456fbd726a",
+    "symbol": "uniBTC",
+    "decimals": 18
+  },
+  {
+    "chainId": 34443,
+    "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+    "symbol": "sUSDe",
+    "decimals": 18
+  },
+  {
+    "address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189",
+    "symbol": "oUSDT",
+    "decimals": 6,
+    "chainId": 34443
+  }
+]

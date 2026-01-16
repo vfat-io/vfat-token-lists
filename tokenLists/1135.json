@@ -1,0 +1,80 @@
+[
+  {
+    "address": "0x4200000000000000000000000000000000000006",
+    "symbol": "WETH",
+    "decimals": 18,
+    "chainId": 1135
+  },
+  {
+    "address": "0xac485391eb2d7d88253a7f1ef18c37f4242d1a24",
+    "symbol": "LSK",
+    "decimals": 18,
+    "chainId": 1135
+  },
+  {
+    "address": "0x43f2376d5d03553ae72f4a8093bbe9de4336eb08",
+    "symbol": "USD\u20ae0",
+    "decimals": 6,
+    "chainId": 1135
+  },
+  {
+    "address": "0xf242275d3a6527d877f2c927a82d9b057609cc71",
+    "symbol": "USDC.e",
+    "decimals": 6,
+    "chainId": 1135
+  },
+  {
+    "address": "0x76d8de471f54aaa87784119c60df1bbfc852c415",
+    "symbol": "wstETH",
+    "decimals": 18,
+    "chainId": 1135
+  },
+  {
+    "address": "0xe12cefaad61e551691bfa5cda36e5de051778c65",
+    "symbol": "EURC.e",
+    "decimals": 6,
+    "chainId": 1135
+  },
+  {
+    "address": "0x03c7054bcb39f7b2e5b2c7acb37583e32d70cfa3",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "chainId": 1135
+  },
+  {
+    "address": "0x18bc5bcc660cf2b9ce3cd51a404afe1a0cbd3c22",
+    "symbol": "IDRX",
+    "decimals": 2,
+    "chainId": 1135
+  },
+  {
+    "address": "0x05d032ac25d322df992303dca074ee7392c117b9",
+    "symbol": "USDT",
+    "decimals": 6,
+    "chainId": 1135
+  },
+  {
+    "address": "0x9bfa177621119e64cecbeabe184ab9993e2ef727",
+    "symbol": "M-BTC",
+    "decimals": 18,
+    "chainId": 1135
+  },
+  {
+    "address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189",
+    "symbol": "oUSDT",
+    "decimals": 6,
+    "chainId": 1135
+  },
+  {
+    "address": "0x3f608a49a3ab475da7fbb167c1be6b7a45cd7013",
+    "symbol": "ION",
+    "decimals": 18,
+    "chainId": 1135
+  },
+  {
+    "address": "0x7f9adfbd38b669f03d1d11000bc76b9aaea28a81",
+    "symbol": "XVELO",
+    "decimals": 18,
+    "chainId": 1135
+  }
+]

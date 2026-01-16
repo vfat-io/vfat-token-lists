@@ -1,0 +1,68 @@
+[
+  {
+    "address": "0x13a0c5930c028511dc02665e7285134b6d11a5f4",
+    "symbol": "BTC.BTC",
+    "decimals": 8,
+    "chainId": 7000
+  },
+  {
+    "address": "0x4bc32034caccc9b7e02536945edbc286bacba073",
+    "symbol": "SOL.SOL",
+    "decimals": 9,
+    "chainId": 7000
+  },
+  {
+    "address": "0x48f80608b672dc30dc7e3dbbd0343c5f02c738eb",
+    "symbol": "BNB.BSC",
+    "decimals": 18,
+    "chainId": 7000
+  },
+  {
+    "address": "0xd97b1de3619ed2c6beb3860147e30ca8a7dc9891",
+    "symbol": "ETH.ETH",
+    "decimals": 18,
+    "chainId": 7000
+  },
+  {
+    "address": "0x5f0b1a82749cb4e2278ec87f8bf6b618dc71a8bf",
+    "symbol": "WZETA",
+    "decimals": 18,
+    "chainId": 7000
+  },
+  {
+    "address": "0x0cbe0df132a6c6b4a2974fa1b7fb953cf0cc798a",
+    "symbol": "USDC.ETH",
+    "decimals": 6,
+    "chainId": 7000
+  },
+  {
+    "address": "0x0ca762fa958194795320635c11ff0c45c6412958",
+    "symbol": "USDT.ARB",
+    "decimals": 6,
+    "chainId": 7000
+  },
+  {
+    "address": "0x2db395976cdb9eefcc8920f4f2f0736f1d575794",
+    "symbol": "USDT.AVAX",
+    "decimals": 6,
+    "chainId": 7000
+  },
+  {
+    "address": "0xcba2aeec821b0b119857a9ab39e09b034249681a",
+    "symbol": "stZETA",
+    "decimals": 18,
+    "chainId": 7000
+  },
+  {
+    "address": "0xe102f20347d601c08e9f998475b7c9998b498dee",
+    "symbol": "LUCYAI",
+    "decimals": 18,
+    "chainId": 7000
+  },
+  {
+    "address": "0xe8d7796535f1cd63f0fe8d631e68eace6839869b",
+    "symbol": "AVAX.AVAX",
+    "decimals": 18,
+    "chainId": 7000
+  }
+]

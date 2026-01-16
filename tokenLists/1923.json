@@ -1,0 +1,86 @@
+[
+  {
+    "chainId": 1923,
+    "symbol": "VELO",
+    "decimals": 18,
+    "address": "0x7f9adfbd38b669f03d1d11000bc76b9aaea28a81"
+  },
+  {
+    "chainId": 1923,
+    "symbol": "WETH",
+    "decimals": 18,
+    "address": "0x4200000000000000000000000000000000000006"
+  },
+  {
+    "chainId": 1923,
+    "symbol": "wsETH",
+    "decimals": 18,
+    "address": "0x7c98e0779eb5924b3ba8ce3b17648539ed5b0ecc"
+  },
+  {
+    "chainId": 1923,
+    "symbol": "USDe",
+    "decimals": 18,
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
+  },
+  {
+    "chainId": 1923,
+    "symbol": "SWELL",
+    "decimals": 18,
+    "address": "0x2826d136f5630ada89c1678b64a61620aab77aea"
+  },
+  {
+    "chainId": 1923,
+    "symbol": "ezETH",
+    "decimals": 18,
+    "address": "0x2416092f143378750bb29b79ed961ab195cceea5"
+  },
+  {
+    "chainId": 1923,
+    "symbol": "ezETH",
+    "decimals": 18,
+    "address": "0xc2606aade4bdd978a4fa5a6edb3b66657acee6f8"
+  },
+  {
+    "chainId": 1923,
+    "symbol": "rsETH",
+    "decimals": 18,
+    "address": "0xc3eacf0612346366db554c991d7858716db09f58"
+  },
+  {
+    "chainId": 1923,
+    "symbol": "rswETH",
+    "decimals": 18,
+    "address": "0x18d33689ae5d02649a859a1cf16c9f0563975258"
+  },
+  {
+    "chainId": 1923,
+    "symbol": "weETH",
+    "decimals": 18,
+    "address": "0xa6cb988942610f6731e664379d15ffcfbf282b44"
+  },
+  {
+    "chainId": 1923,
+    "symbol": "BridgedMSWETH",
+    "decimals": 18,
+    "address": "0x027a9d301fb747cd972cfb29a63f3bda551dfc5c"
+  },
+  {
+    "chainId": 1923,
+    "symbol": "rUSDC",
+    "decimals": 6,
+    "address": "0x9ab96a4668456896d45c301bc3a15cee76aa7b8d"
+  },
+  {
+    "chainId": 1923,
+    "symbol": "oUSDT",
+    "decimals": 6,
+    "address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189"
+  },
+  {
+    "chainId": 1923,
+    "symbol": "USDK",
+    "decimals": 18,
+    "address": "0x0000baa0b1678229863c0a941c1056b83a1955f5"
+  }
+]

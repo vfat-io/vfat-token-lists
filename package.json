@@ -1,0 +1,16 @@
+{
+  "name": "vfat-token-lists",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "add-tokens": "node scripts/add-tokens.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "sharp": "^0.33.4"
+  }
+}

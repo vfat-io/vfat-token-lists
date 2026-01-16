@@ -1,0 +1,158 @@
+[
+  {
+    "chainId": 252,
+    "symbol": "wstETH",
+    "decimals": 18,
+    "address": "0x748e54072189ec8540cd58a078404ebfdc2aacea"
+  },
+  {
+    "chainId": 252,
+    "symbol": "XVELO",
+    "decimals": 18,
+    "address": "0x7f9adfbd38b669f03d1d11000bc76b9aaea28a81"
+  },
+  {
+    "chainId": 252,
+    "symbol": "USDC",
+    "decimals": 6,
+    "address": "0xdcc0f2d8f90fde85b10ac1c8ab57dc0ae946a543"
+  },
+  {
+    "chainId": 252,
+    "symbol": "frxETH",
+    "decimals": 18,
+    "address": "0xfc00000000000000000000000000000000000006"
+  },
+  {
+    "chainId": 252,
+    "symbol": "USDe",
+    "decimals": 18,
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
+  },
+  {
+    "chainId": 252,
+    "symbol": "sfrxETH",
+    "decimals": 18,
+    "address": "0xfc00000000000000000000000000000000000005"
+  },
+  {
+    "chainId": 252,
+    "symbol": "frxUSD",
+    "decimals": 18,
+    "address": "0xfc00000000000000000000000000000000000001"
+  },
+  {
+    "chainId": 252,
+    "symbol": "AURA",
+    "decimals": 18,
+    "address": "0x1509706a6c66ca549ff0cb464de88231ddbe213b"
+  },
+  {
+    "chainId": 252,
+    "symbol": "CRV",
+    "decimals": 18,
+    "address": "0x331b9182088e2a7d6d3fe4742aba1fb231aecc56"
+  },
+  {
+    "chainId": 252,
+    "symbol": "ezETH",
+    "decimals": 18,
+    "address": "0x2416092f143378750bb29b79ed961ab195cceea5"
+  },
+  {
+    "chainId": 252,
+    "symbol": "FXB_20261231",
+    "decimals": 18,
+    "address": "0x8e9c334afc76106f08e0383907f4fca9bb10ba3e"
+  },
+  {
+    "chainId": 252,
+    "symbol": "FXB20251231",
+    "decimals": 18,
+    "address": "0xaca9a33698cf96413a40a4eb9e87906ff40fc6ca"
+  },
+  {
+    "chainId": 252,
+    "symbol": "FXB20291231",
+    "decimals": 18,
+    "address": "0xf1e2b576af4c6a7ee966b14c810b772391e92153"
+  },
+  {
+    "chainId": 252,
+    "symbol": "FXB20551231",
+    "decimals": 18,
+    "address": "0xc38173d34afaea88bc482813b3cd267bc8a1ea83"
+  },
+  {
+    "chainId": 252,
+    "symbol": "wFRAX",
+    "decimals": 18,
+    "address": "0xfc00000000000000000000000000000000000002"
+  },
+  {
+    "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+    "symbol": "sUSDe",
+    "decimals": 18,
+    "chainId": 252
+  },
+  {
+    "address": "0xaaa9fb3a08c13ba97ae0f518b3afa5c4a81498fc",
+    "symbol": "RA",
+    "decimals": 18,
+    "chainId": 252
+  },
+  {
+    "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
+    "symbol": "axlUSDC",
+    "decimals": 6
+  },
+  {
+    "address": "0xecc68d0451e20292406967fe7c04280e5238ac7d",
+    "decimals": 18,
+    "symbol": "axlfrxETH"
+  },
+  {
+    "address": "0x4d15ea9c2573addaed814e48c148b5262694646a",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  {
+    "address": "0xcc15f0f1e81e4a90cc2faa918842e19f2ea2ee03",
+    "decimals": 18,
+    "symbol": "KFC"
+  },
+  {
+    "address": "0xc84c0f36e42d0100c6ff5e1d04e2978f0a5b63cf",
+    "decimals": 18,
+    "symbol": "RWA"
+  },
+  {
+    "address": "0x7f3a9afc827aeedb0c5dc1a66c0baa41cd7289f0",
+    "decimals": 8,
+    "symbol": "WBTC"
+  },
+  {
+    "address": "0x5bd5c0cb9e4404c63526433bcbd6d133c1d73ffe",
+    "symbol": "ION",
+    "decimals": 18,
+    "chainId": 252
+  },
+  {
+    "address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189",
+    "symbol": "oUSDT",
+    "decimals": 6,
+    "chainId": 252
+  },
+  {
+    "address": "0xdebb8a79b025b2fc2ca506f0c69497b60b91235c",
+    "symbol": "FXD",
+    "decimals": 18,
+    "chainId": 252
+  },
+  {
+    "address": "0xfc00000000000000000000000000000000000008",
+    "symbol": "sfrxUSD",
+    "decimals": 18,
+    "chainId": 252
+  }
+]

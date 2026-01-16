@@ -1,0 +1,344 @@
+[
+  {
+    "address": "0x6969696969696969696969696969696969696969",
+    "symbol": "WBERA",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0xf3530788deb3d21e8fa2c3cbbf93317fb38a0d3c",
+    "symbol": "LAIR",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0xff0a636dfc44bb0129b631cdd38d21b613290c98",
+    "symbol": "HOLD",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5",
+    "symbol": "iBERA",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912",
+    "symbol": "wgBERA",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b",
+    "symbol": "iBGT",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+    "symbol": "WETH",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce",
+    "symbol": "HONEY",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x6698ede14709a9dd8379744cc2d28f276e3d2eac",
+    "symbol": "PLUTUS",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "chainId": 80094
+  },
+  {
+    "address": "0xcaa70d2aa873ef057980844e18d9a9560bdffcc0",
+    "symbol": "eWBERA-4",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0xd2c41bf4033a83c0fc3a7f58a392bf37d6dcdb58",
+    "symbol": "osBGT",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
+    "symbol": "sWBERA",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x2cec7f1ac87f5345ced3d6c74bbb61bfae231ffb",
+    "symbol": "stBGT",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x0000382fbb422b4f593931fc6f2d25cc16600000",
+    "symbol": "ZERO",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x549943e04f40284185054145c6e4e9568c1d3241",
+    "symbol": "USDC.e",
+    "decimals": 6,
+    "chainId": 80094
+  },
+  {
+    "address": "0x927439eef2e2520afa78d8742cae7be3e3e90b11",
+    "symbol": "mBGT",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3",
+    "symbol": "NECT",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x7e768f47dfdd5dae874aac233f1bc5817137e453",
+    "symbol": "yBGT",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x982940ebfc5caa2f5b5a82aac2dfa99f18bb7da4",
+    "symbol": "yBERA",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0xbaadcc2962417c01af99fb2b7c75706b9bd6babe",
+    "symbol": "LBGT",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0xdeadf18cb9233770fe8874c78d7483b4a126b34a",
+    "symbol": "pBERA",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x009af46df68db0e76bfe9ea35663f6ed17877956",
+    "symbol": "OOGA",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x08a38caa631de329ff2dad1656ce789f31af3142",
+    "symbol": "YEET",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x225b86198ba36321a8a840291416aed62494043f",
+    "symbol": "SOL",
+    "decimals": 9,
+    "chainId": 80094
+  },
+  {
+    "address": "0xcc6a16bcfda7d0ebe168f69ef7b946e96a90e67f",
+    "symbol": "AIBERA",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x6b26f778bfae56cfb4bf9b62c678d9d40e725227",
+    "symbol": "BITCOIN",
+    "decimals": 8,
+    "chainId": 80094
+  },
+  {
+    "address": "0xb749584f9fc418cf905d54f462fdbfdc7462011b",
+    "symbol": "bm",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x1b25ca174c158440621ff96e4b1262cb5cc8942f",
+    "symbol": "SolvBTC.BNB",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
+    "symbol": "SolvBTC",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0xb8b1af593dc37b33a2c87c8db1c9051fc32858b7",
+    "symbol": "RAMEN",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0xc3827a4bc8224ee2d116637023b124ced6db6e90",
+    "symbol": "uniBTC",
+    "decimals": 8,
+    "chainId": 80094
+  },
+  {
+    "address": "0x5bad2b7a0a2eee88a4ef05d5470cdedb0ff948ea",
+    "symbol": "hOHM",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0xc99e948e9d183848a6c4f5e6c1d225f02f171d79",
+    "symbol": "POLLEN",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+    "symbol": "brBTC",
+    "decimals": 8,
+    "chainId": 80094
+  },
+  {
+    "address": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+    "symbol": "USD\u20ae0",
+    "decimals": 6,
+    "chainId": 80094
+  },
+  {
+    "address": "0x6536cead649249cae42fc9bfb1f999429b3ec755",
+    "symbol": "NAV",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x0f81001ef0a83ecce5ccebf63eb302c70a39a654",
+    "symbol": "DOLO",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x6fc6545d5cde268d5c7f1e476d444f39c995120d",
+    "symbol": "beraETH",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x7dcc39b4d1c53cb31e1abc0e358b43987fef80f7",
+    "symbol": "weETH",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x0003eedfdd020bf60d10cf684abac7c4534b7ead",
+    "symbol": "BREAD",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0xec901da9c68e90798bbbb74c11406a32a70652c3",
+    "symbol": "STONE",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x11909a68ae60903c96c35c059fcf262e54df29d5",
+    "symbol": "BONGA",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x1f7210257fa157227d09449229a9266b0d581337",
+    "symbol": "BERAMO",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x7838cec5b11298ff6a9513fa385621b765c74174",
+    "symbol": "BERO",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x18878df23e2a36f81e820e4b47b4a40576d3159c",
+    "symbol": "OHM",
+    "decimals": 9,
+    "chainId": 80094
+  },
+  {
+    "address": "0x09d4214c03d01f49544c0448dbe3a27f768f2b34",
+    "symbol": "rUSD",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x40a8d9efe6a2c6c9d193cc0a4476767748e68133",
+    "symbol": "oBERO",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0xe771779b350d2cc291e9461387d7f41765a7cb8b",
+    "symbol": "uniBTC-OT",
+    "decimals": 8,
+    "chainId": 80094
+  },
+  {
+    "address": "0x9895d81bb462a195b4922ed7de0e3acd007c32cb",
+    "symbol": "STG",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0xcac89b3f94ed6bab04113884deee2a55293c2dd7",
+    "symbol": "xfatBERA",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
+    "symbol": "xSolvBTC",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+    "symbol": "frxUSD",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x5bff88ca1442c2496f7e475e9e7786383bc070c0",
+    "symbol": "sfrxUSD",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x64445f0aecc51e94ad52d8ac56b7190e764e561a",
+    "symbol": "WFRAX",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x43edd7f3831b08fe70b7555ddd373c8bf65a9050",
+    "symbol": "frxETH",
+    "decimals": 18,
+    "chainId": 80094
+  },
+  {
+    "address": "0x3ec3849c33291a9ef4c5db86de593eb4a37fde45",
+    "symbol": "sfrxETH",
+    "decimals": 18,
+    "chainId": 80094
+  }
+]

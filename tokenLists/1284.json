@@ -1,0 +1,140 @@
+[
+  {
+    "chainId": 1284,
+    "symbol": "WBTC",
+    "decimals": 8,
+    "address": "0x1dc78acda13a8bc4408b207c9e48cdbc096d95e0"
+  },
+  {
+    "chainId": 1284,
+    "symbol": "anySUSHI",
+    "decimals": 18,
+    "address": "0x2c78f1b70ccf63cdee49f9233e9faa99d43aa07e"
+  },
+  {
+    "chainId": 1284,
+    "symbol": "FXS",
+    "decimals": 18,
+    "address": "0x2cc0a9d8047a5011defe85328a6f26968c8aaa1c"
+  },
+  {
+    "chainId": 1284,
+    "symbol": "WETH",
+    "decimals": 18,
+    "address": "0x30d2a9f5fdf90ace8c17952cbb4ee48a55d916a7"
+  },
+  {
+    "chainId": 1284,
+    "symbol": "FRAX",
+    "decimals": 18,
+    "address": "0x322e86852e492a7ee17f28a78c663da38fb33bfb"
+  },
+  {
+    "chainId": 1284,
+    "symbol": "MATIC",
+    "decimals": 18,
+    "address": "0x3405a1bd46b85c5c029483fbecf2f3e611026e45"
+  },
+  {
+    "chainId": 1284,
+    "symbol": "AVAX",
+    "decimals": 18,
+    "address": "0x4792c1ecb969b036eb51330c63bd27899a13d84e"
+  },
+  {
+    "chainId": 1284,
+    "symbol": "USDT",
+    "decimals": 6,
+    "address": "0x8e70cd5b4ff3f62659049e74b6649c6603a0e594"
+  },
+  {
+    "chainId": 1284,
+    "symbol": "USDC",
+    "decimals": 6,
+    "address": "0x8f552a71efe5eefc207bf75485b356a0b3f01ec9"
+  },
+  {
+    "chainId": 1284,
+    "symbol": "BUSD",
+    "decimals": 18,
+    "address": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f"
+  },
+  {
+    "chainId": 1284,
+    "symbol": "WGLMR",
+    "decimals": 18,
+    "address": "0xacc15dc74880c9944775448304b263d191c6077f"
+  },
+  {
+    "chainId": 1284,
+    "symbol": "DAI",
+    "decimals": 18,
+    "address": "0xc234a67a4f840e61ade794be47de455361b52413"
+  },
+  {
+    "address": "0x0e358838ce72d5e61e0018a2ffac4bec5f4c88d2",
+    "symbol": "STELLA",
+    "decimals": 18,
+    "chainId": 1284
+  },
+  {
+    "address": "0xffffffff1fcacbd218edc0eba20fc2308c778080",
+    "symbol": "xcDOT",
+    "decimals": 10,
+    "chainId": 1284
+  },
+  {
+    "address": "0xffffffffea09fb06d082fd1275cd48b191cbcd1d",
+    "symbol": "xcUSDT",
+    "decimals": 6,
+    "chainId": 1284
+  },
+  {
+    "address": "0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4",
+    "symbol": "stDOT",
+    "decimals": 10,
+    "chainId": 1284
+  },
+  {
+    "address": "0xffffffff7d3875460d4509eb8d0362c611b4e841",
+    "symbol": "xcMANTA",
+    "decimals": 18,
+    "chainId": 1284
+  },
+  {
+    "address": "0xffffffff7d2b0b761af01ca8e25242976ac0ad7d",
+    "symbol": "xcUSDC",
+    "decimals": 6,
+    "chainId": 1284
+  },
+  {
+    "address": "0xca01a1d0993565291051daff390892518acfad3a",
+    "symbol": "axlUSDC",
+    "decimals": 6,
+    "chainId": 1284
+  },
+  {
+    "address": "0xffffffff15e1b7e3df971dd813bc394deb899abf",
+    "symbol": "xcvDOT",
+    "decimals": 10,
+    "chainId": 1284
+  },
+  {
+    "address": "0xffffffffa9cfffa9834235fe53f4733f1b8b28d4",
+    "symbol": "xcLDOT",
+    "decimals": 10,
+    "chainId": 1284
+  },
+  {
+    "address": "0xffffffffaff6df83d0a1935dda2e5f1f402c0c45",
+    "symbol": "ETH.e",
+    "decimals": 18,
+    "chainId": 1284
+  },
+  {
+    "address": "0xffffffff1b4bb1ac5749f73d866ffc91a3432c47",
+    "symbol": "WBTC.e",
+    "decimals": 8,
+    "chainId": 1284
+  }
+]

@@ -1,0 +1,451 @@
+[
+  {
+    "chainId": 59144,
+    "address": "0x3aab2285ddcddad8edf438c1bab47e1a9d05a9b4",
+    "symbol": "WBTC",
+    "decimals": 8
+  },
+  {
+    "chainId": 59144,
+    "address": "0x4af15ec2a0bd43db75dd04e62faa3b8ef36b00d5",
+    "symbol": "DAI",
+    "decimals": 18
+  },
+  {
+    "chainId": 59144,
+    "address": "0xa219439258ca9da29e9cc4ce5596924745e12b93",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  {
+    "chainId": 59144,
+    "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
+    "symbol": "ELK",
+    "decimals": 18
+  },
+  {
+    "chainId": 59144,
+    "address": "0xe5d7c2a44ffddf6b295a15c148167daaaf5cf34f",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 59144,
+    "address": "0x176211869ca2b568f2a7d4ee941e073a821ee1ff",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  {
+    "chainId": 59144,
+    "address": "0x7d43aabc515c356145049227cee54b608342c0ad",
+    "symbol": "BUSD",
+    "decimals": 18
+  },
+  {
+    "address": "0x0d1e753a25ebda689453309112904807625befbe",
+    "symbol": "Cake",
+    "chainId": 59144,
+    "decimals": 18
+  },
+  {
+    "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
+    "symbol": "axlUSDC",
+    "chainId": 59144,
+    "decimals": 6
+  },
+  {
+    "address": "0xb5bedd42000b71fdde22d3ee8a79bd49a568fc8f",
+    "symbol": "wstETH",
+    "chainId": 59144,
+    "decimals": 18
+  },
+  {
+    "address": "0xaaaac83751090c6ea42379626435f805ddf54dc8",
+    "symbol": "NILE",
+    "decimals": 18
+  },
+  {
+    "address": "0xaaae58986b24e422740c8f22b3efb80bcbd68159",
+    "symbol": "xNILE",
+    "decimals": 18
+  },
+  {
+    "symbol": "LUBE",
+    "address": "0x1be3735dd0c0eb229fb11094b6c277192349ebbf",
+    "decimals": 18
+  },
+  {
+    "address": "0x63ba74893621d3d12f13cec1e86517ec3d329837",
+    "symbol": "LUSD",
+    "decimals": 18
+  },
+  {
+    "address": "0x265b25e22bcd7f10a5bd6e6410f10537cc7567e8",
+    "symbol": "MATIC",
+    "decimals": 18
+  },
+  {
+    "address": "0x43e8809ea748eff3204ee01f08872f063e44065f",
+    "symbol": "MENDI",
+    "decimals": 18
+  },
+  {
+    "address": "0x5471ea8f739dd37e9b81be9c5c77754d8aa953e4",
+    "symbol": "AVAX",
+    "decimals": 18
+  },
+  {
+    "address": "0xf5c6825015280cdfd0b56903f9f8b5a2233476f5",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  {
+    "address": "0x894134a25a5fac1c2c26f1d8fbf05111a3cb9487",
+    "symbol": "GRAI",
+    "decimals": 18
+  },
+  {
+    "address": "0x82cc61354d78b846016b559e3ccd766fa7e793d5",
+    "decimals": 18,
+    "symbol": "LINDA"
+  },
+  {
+    "address": "0xc308c807bf32bd26ee249deaaa6e04aba463962d",
+    "decimals": 18,
+    "symbol": "MCLB"
+  },
+  {
+    "address": "0x2cefbc78f01590a8961ff9d282726b64635bcb44",
+    "decimals": 18,
+    "symbol": "ITX"
+  },
+  {
+    "address": "0x21d624c846725abe1e1e7d662e9fb274999009aa",
+    "decimals": 18,
+    "symbol": "CRYSTAL"
+  },
+  {
+    "address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+    "decimals": 18,
+    "symbol": "ezETH"
+  },
+  {
+    "address": "0x0449ecb33b40555bd957190c25eccce2cdb6b631",
+    "decimals": 18,
+    "symbol": "YFX"
+  },
+  {
+    "address": "0x783d06db0a46cfd0c18411f0904833d52e9e1edc",
+    "decimals": 18,
+    "symbol": "YFX.b"
+  },
+  {
+    "address": "0x2da5767105072d111f28344e05b5cf4eb809ca5a",
+    "decimals": 18,
+    "symbol": "lzYFX"
+  },
+  {
+    "address": "0x8cf881799e3b5ab24271a9b66b6ca2b0e575b1ef",
+    "decimals": 18,
+    "symbol": "fBOMB"
+  },
+  {
+    "address": "0xecc68d0451e20292406967fe7c04280e5238ac7d",
+    "decimals": 18,
+    "symbol": "frxETH"
+  },
+  {
+    "address": "0x406cde76a3fd20e48bc1e0f60651e60ae204b040",
+    "decimals": 18,
+    "symbol": "axlFRAX"
+  },
+  {
+    "address": "0xf3b001d64c656e30a62fbaaca003b1336b4ce12a",
+    "decimals": 18,
+    "symbol": "MAI"
+  },
+  {
+    "address": "0x1a89e06b7677a4a321886a8330eec05a061c75ae",
+    "decimals": 18,
+    "symbol": "WEF"
+  },
+  {
+    "address": "0x5fbdf89403270a1846f5ae7d113a989f850d1566",
+    "decimals": 18,
+    "symbol": "FOXY"
+  },
+  {
+    "address": "0x636b22bc471c955a8db60f28d4795066a8201fa3",
+    "decimals": 18,
+    "symbol": "UNI"
+  },
+  {
+    "address": "0xd2671165570f41bbb3b0097893300b6eb6101e6c",
+    "decimals": 18,
+    "symbol": "wrsETH"
+  },
+  {
+    "address": "0xe07c2bdbb8c787962c2c6e93c11a152110e7e4d2",
+    "decimals": 18,
+    "symbol": "LINUS"
+  },
+  {
+    "address": "0x1bf74c010e6320bab11e2e5a532b5ac15e0b8aa6",
+    "decimals": 18,
+    "symbol": "weETH"
+  },
+  {
+    "address": "0x78354f8dccb269a615a7e0a24f9b0718fdc3c7a7",
+    "decimals": 18,
+    "symbol": "ZERO"
+  },
+  {
+    "address": "0x5a7a183b6b44dc4ec2e3d2ef43f98c5152b1d76d",
+    "decimals": 18,
+    "symbol": "inETH"
+  },
+  {
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "decimals": 18,
+    "symbol": "USDe"
+  },
+  {
+    "address": "0x561890f5d43e3d12b5f9c8c1e95cfbfbfef9753b",
+    "decimals": 18,
+    "symbol": "PAL"
+  },
+  {
+    "address": "0x59846bfc18fc21df6bed378748f99ea38f44d50a",
+    "decimals": 6,
+    "symbol": "lzIT"
+  },
+  {
+    "address": "0x5ffce65a40f6d3de5332766fff6a28bf491c868c",
+    "decimals": 18,
+    "symbol": "SolvBTC.m"
+  },
+  {
+    "address": "0xb20116ee399f15647bb1eef9a74f6ef3b58bc951",
+    "decimals": 18,
+    "symbol": "LYU"
+  },
+  {
+    "address": "0x1f63d0ec7193964142ef6b13d901462d0e5cbb50",
+    "decimals": 18,
+    "symbol": "ONEPUNCH"
+  },
+  {
+    "address": "0xacb54d07ca167934f57f829bee2cc665e1a5ebef",
+    "decimals": 18,
+    "symbol": "CROAK"
+  },
+  {
+    "address": "0xb55e892d38056481bb5bb361eddbc8c2c1477827",
+    "decimals": 18,
+    "symbol": "LYVE"
+  },
+  {
+    "address": "0x889400fb9bde04bfdf353cc718fed3d6ddcf735f",
+    "symbol": "WEF",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0xc608dfb90a430df79a8a1edbc8be7f1a0eb4e763",
+    "symbol": "arUSD",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0xd08c3f25862077056cb1b710937576af899a4959",
+    "symbol": "InstETH",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0xb838eb4f224c2454f2529213721500faf732bf4d",
+    "symbol": "ultraETHs",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x2a4f1dcc79b83608f9e3bc1f3f55fbefcbfae885",
+    "symbol": "agETH",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x373d04a7f3594ff9011af5084587182c0056721e",
+    "symbol": "FAITH",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x42d4eb291c00a243c7cbc2759b47892ed1852a9d",
+    "symbol": "GENESIS",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x81be2acb2e9291db6400f9f6a4d0f35f24de2e77",
+    "symbol": "LPUSS",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x092b9e25a7d143c83d44c27194f5cee7c1150f22",
+    "symbol": "CWC",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0xebde02166cf5e9ce2dbf27895aff3ffd0055b873",
+    "symbol": "TBH",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x880a3ae90f989030708a529abd841589053c1dc2",
+    "decimals": 18,
+    "symbol": "BEAVER",
+    "chainId": 59144
+  },
+  {
+    "address": "0xb3b3ca7cb0bccb6a9316764826324a312665dc53",
+    "symbol": "LINEA",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x5860a0bf37133f8461b2dede7c80e55d6bff3721",
+    "symbol": "FXS",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x45229ac791c56cb86fc1972f3082dab19385dfa2",
+    "symbol": "FOXX",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x8b9bb9c309e1838a2d9e435ebac3e8d928354215",
+    "symbol": "FROXY",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0xea3910f1c6e687b59835885904a2fd1944b51ec6",
+    "symbol": "TRUMP",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0xc59d7bd763d4b0dfe9293edae91cfe385e0e6a20",
+    "symbol": "FRENS",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x464946f3f004b37014d272d6195ac131eb54b94d",
+    "symbol": "CARROT",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0xc7346783f5e645aa998b106ef9e7f499528673d8",
+    "symbol": "frxUSD",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x5217ab28ece654aab2c68efedb6a22739df6c3d5",
+    "symbol": "FXS",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0xb1afd04774c02ae84692619448b08ba79f19b1ff",
+    "symbol": "frxETH",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x0e17934b9735d479b2388347faef0f4e58b9cc06",
+    "symbol": "alUSD",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x303241e2b3b4aed0bb0f8623e7442368fed8faf3",
+    "symbol": "alETH",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x30c8cf6b46aa4df3f9fbc2857aca92f10a6cad7f",
+    "symbol": "ELITE",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0xefd81eec32b9a8222d1842ec3d99c7532c31e348",
+    "symbol": "REX",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0xa500000000e482752f032ea387390b6025a2377b",
+    "symbol": "asUSD",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0xe4eeb461ad1e4ef8b8ef71a33694ccd84af051c4",
+    "symbol": "REX33",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0xcf0f95e34f25d1bb3d9cad3cbb2eb40dab7c3841",
+    "symbol": "IBEX",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x1789e0043623282d5dcc7f213d703c6d8bafbb04",
+    "symbol": "LINEA",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0xaca92e438df0b2401ff60da7e4337b687a2435da",
+    "symbol": "mUSD",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x56aa6d651bfefa9207b35e508716466359bae8ef",
+    "symbol": "TURTLE",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x592a48c0fb9c7f8bf1701cb0136b90dea2a5b7b6",
+    "symbol": "sfrxUSD",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x383eac7ccaa89684b8277cbabc25bca8b13b7aa2",
+    "symbol": "sfrxETH",
+    "decimals": 18,
+    "chainId": 59144
+  },
+  {
+    "address": "0x34b5c2936dae6698e54781edb8b1e69a2c2873f8",
+    "symbol": "RYZE",
+    "decimals": 18,
+    "chainId": 59144
+  }
+]

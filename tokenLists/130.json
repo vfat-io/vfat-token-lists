@@ -1,0 +1,104 @@
+[
+  {
+    "chainId": 130,
+    "address": "0x4200000000000000000000000000000000000006",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0x926dc7b96bb2f4a91c2a67e291faf482691a3001",
+    "symbol": "UNICORN",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0x078d782b760474a361dda0af3839290b0ef57ad6",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  {
+    "chainId": 130,
+    "address": "0x8f187aa05619a017077f5308904739877ce9ea21",
+    "symbol": "UNI",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0x81908bbaad3f6fc74093540ab2e9b749bb62aa0d",
+    "symbol": "XVS",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0x7f9adfbd38b669f03d1d11000bc76b9aaea28a81",
+    "symbol": "XVELO",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189",
+    "symbol": "oUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 130,
+    "address": "0x927b51f251480a681271180da4de28d44ec4afb8",
+    "symbol": "WBTC",
+    "decimals": 8
+  },
+  {
+    "chainId": 130,
+    "address": "0x20cab320a855b39f724131c69424240519573f81",
+    "symbol": "DAI",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0x9151434b16b9763660705744891fa906f660ecc5",
+    "symbol": "USD\u20ae0",
+    "decimals": 6
+  },
+  {
+    "chainId": 130,
+    "address": "0x7dcc39b4d1c53cb31e1abc0e358b43987fef80f7",
+    "symbol": "weETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0xc02fe7317d4eb8753a02c35fe019786854a92001",
+    "symbol": "wstETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0xc3eacf0612346366db554c991d7858716db09f58",
+    "symbol": "rsETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+    "symbol": "ezETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0xdf78e4f0a8279942ca68046476919a90f2288656",
+    "symbol": "COMP",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0x94025780a1ab58868d9b2dbbb775f44b32e8e6e5",
+    "symbol": "BETS",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
+    "symbol": "WBTC",
+    "decimals": 8
+  }
+]

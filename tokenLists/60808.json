@@ -1,0 +1,50 @@
+[
+  {
+    "chainId": 60808,
+    "address": "0x6c851f501a3f24e29a8e39a29591cddf09369080",
+    "symbol": "DAI",
+    "decimals": 18
+  },
+  {
+    "chainId": 60808,
+    "address": "0xb5686c4f60904ec2bda6277d6fe1f7caa8d1b41a",
+    "symbol": "rETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 60808,
+    "address": "0xbba2ef945d523c4e2608c9e1214c2cc64d4fc2e2",
+    "symbol": "tBTC",
+    "decimals": 18
+  },
+  {
+    "chainId": 60808,
+    "address": "0xe75d0fb2c24a55ca1e3f96781a2bcc7bdba058f0",
+    "symbol": "USDC.e",
+    "decimals": 6
+  },
+  {
+    "chainId": 60808,
+    "address": "0x05d032ac25d322df992303dca074ee7392c117b9",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  {
+    "chainId": 60808,
+    "address": "0x03c7054bcb39f7b2e5b2c7acb37583e32d70cfa3",
+    "symbol": "WBTC",
+    "decimals": 8
+  },
+  {
+    "chainId": 60808,
+    "address": "0x4200000000000000000000000000000000000006",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 60808,
+    "address": "0x9d36f8f62347538440a212e9162f534f797542df",
+    "symbol": "SATS",
+    "decimals": 18
+  }
+]

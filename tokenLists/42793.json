@@ -1,0 +1,93 @@
+[
+  {
+    "symbol": "WXTZ",
+    "address": "0xc9b53ab2679f573e480d01e0f49e2b5cfb7a3eab",
+    "decimal": 18,
+    "chainId": 42793
+  },
+  {
+    "symbol": "USDC",
+    "address": "0x796ea11fa2dd751ed01b53c372ffdb4aaa8f00f9",
+    "decimal": 6,
+    "chainId": 42793
+  },
+  {
+    "symbol": "WETH",
+    "address": "0xfc24f770f94edbca6d6f885e12d4317320bcb401",
+    "decimal": 18,
+    "chainId": 42793
+  },
+  {
+    "symbol": "WBTC",
+    "address": "0xbfc94cd2b1e55999cfc7347a9313e88702b83d0f",
+    "decimal": 8,
+    "chainId": 42793
+  },
+  {
+    "symbol": "LBTC",
+    "address": "0xecac9c5f704e954931349da37f60e39f515c11c1",
+    "decimal": 8,
+    "chainId": 42793
+  },
+  {
+    "symbol": "LYZI",
+    "address": "0x19418d0af0f36865cdfbb2437dfed29ba34d3190",
+    "decimal": 6,
+    "chainId": 42793
+  },
+  {
+    "symbol": "stXTZ",
+    "address": "0x01f07f4d78d47a64f4c3b2b65f513f15be6e1854",
+    "decimal": 6,
+    "chainId": 42793
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x2c03058c8afc06713be23e58d2febc8337dbfe6a",
+    "decimal": 6,
+    "chainId": 42793
+  },
+  {
+    "symbol": "mRe7YIELD",
+    "address": "0xa57d2b40ed3feb4a63eae5ff4cf2ebf4851aca15",
+    "decimal": 18,
+    "chainId": 42793
+  },
+  {
+    "symbol": "mTBILL",
+    "address": "0xdd629e5241cbc5919847783e6c96b2de4754e438",
+    "decimal": 18,
+    "chainId": 42793
+  },
+  {
+    "symbol": "mBASIS",
+    "address": "0x2247b5a46bb79421a314ab0f0b67ffd11dd37ee4",
+    "decimal": 18,
+    "chainId": 42793
+  },
+  {
+    "symbol": "mMEV",
+    "address": "0x5542f82389b76c23f5848268893234d8a63fd5c8",
+    "decimal": 18,
+    "chainId": 42793
+  },
+  {
+    "symbol": "USDSM",
+    "address": "0x6bde51212203ae5d592cc5180da2abbd41c922de",
+    "decimal": 18,
+    "chainId": 42793
+  },
+  {
+    "symbol": "applstXTZ",
+    "address": "0x0008b6c5b44305693beb4cd6e1a91b239d2a041e",
+    "decimal": 18,
+    "defaultPrice": 0.63,
+    "chainId": 42793
+  },
+  {
+    "symbol": "mRe7YIELD",
+    "address": "0x733d504435a49fc8c4e9759e756c2846c92f0160",
+    "decimal": 18,
+    "chainId": 42793
+  }
+]

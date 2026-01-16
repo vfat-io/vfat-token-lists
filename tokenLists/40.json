@@ -1,0 +1,248 @@
+[
+  {
+    "chainId": 41,
+    "address": "0xae85bf723a9e74d6c663dd226996ac1b8d075aa9",
+    "symbol": "WTLOS",
+    "decimals": 18
+  },
+  {
+    "chainId": 41,
+    "address": "0xe1afb545b5701d884a674d90b31927bbd0fca380",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  {
+    "chainId": 41,
+    "address": "0xd159c4e586421a507907fad705e067bfb350dc07",
+    "symbol": "FIAT",
+    "decimals": 4
+  },
+  {
+    "chainId": 41,
+    "address": "0xd9151f839a9d8d280c0a3a694c82b6865bbca099",
+    "symbol": "CAKE",
+    "decimals": 18
+  },
+  {
+    "chainId": 41,
+    "address": "0xa9991e4daa44922d00a78b6d986cdf628d46c4dd",
+    "symbol": "STLOS",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0x7627b27594bc71e6ab0fce755ae8931eb1e12dac",
+    "symbol": "BTC.b",
+    "decimals": 8
+  },
+  {
+    "chainId": 40,
+    "address": "0xa0fb8cd450c8fd3a11901876cd5f17eb47c6bc50",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0x975ed13fa16857e83e7c493c7741d556eaad4a3f",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  {
+    "chainId": 40,
+    "address": "0x26ed0f16e777c94a6fe798f9e20298034930bae8",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0x922d641a426dcffaef11680e5358f34d97d112e1",
+    "symbol": "SUSHI",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0x9a271e3748f59222f5581bae2540daa5806b3f77",
+    "symbol": "ZAP",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0xd2504a02fabd7e546e41ad39597c377ca8b0e1df",
+    "symbol": "CHARM",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0x730d2fa7dc7642e041bce231e85b39e9bf4a6a64",
+    "symbol": "KARMA",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0xc6bc7a8dfa0f57fe7746ac434c01cd39679b372c",
+    "symbol": "DOUGE",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0xe5de07ec385b1bd55f6bb02c01860547be9d7c0b",
+    "symbol": "PIG",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0xec0a873cdbe667e5bd68af47932c948f872032d6",
+    "symbol": "GATe",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0x11fbfdf906d32753fa2a083dbd4fb25c1094c6c4",
+    "symbol": "APISH",
+    "decimals": 9
+  },
+  {
+    "chainId": 40,
+    "address": "0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c",
+    "symbol": "ELK",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
+    "symbol": "ELK",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0xcc47eb13916a76e262b0ee48a71e3c7953091e7a",
+    "symbol": "SWAP",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0xa84df7afbcbcc1106834a5fed9453bd1219b1fb5",
+    "symbol": "Arc",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0xe56c325a68b489812081e8a7b60b4017fd2ad280",
+    "symbol": "PE",
+    "decimals": 4
+  },
+  {
+    "chainId": 40,
+    "address": "0x7e1cfe10949a6086a28c38aa4a43fdeab34f198a",
+    "symbol": "DECO",
+    "decimals": 4
+  },
+  {
+    "chainId": 40,
+    "address": "0xe35b6d08050fef8e2ba2b1ed9c8f966a2346a500",
+    "symbol": "WAG",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0xac45ede2098bc989dfe0798b4630872006e24c3f",
+    "symbol": "SLUSH",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0xaae65b3b41f7c372c729b59b08ca93d53e9b79b3",
+    "symbol": "ICE",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0xfb319ea5dded8cfe8bcf9c720ed380b98874bf63",
+    "symbol": "RBN",
+    "decimals": 6
+  },
+  {
+    "chainId": 40,
+    "address": "0x2f15f85a6c346c0a2514af70075259e503e7137b",
+    "symbol": "DMMY",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0xd0208c3be89002f62e42141d4542b15f45fb48ab",
+    "symbol": "FORT",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0x7097ee02465fb494841740b1a2b63c21eed655e7",
+    "symbol": "BANANA",
+    "decimals": 4
+  },
+  {
+    "chainId": 40,
+    "address": "0xf1815bd50389c46847f0bda824ec8da914045d14",
+    "symbol": "USDC.e",
+    "decimals": 6
+  },
+  {
+    "chainId": 40,
+    "address": "0x674843c06ff83502ddb4d37c2e09c01cda38cbc8",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  {
+    "chainId": 40,
+    "address": "0xaf89115201ae5e89e77cd21e2960546f4f82a3cf",
+    "symbol": "DEFLATION",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0xee327f30da53b42ccf80a6b86f818702365ef954",
+    "symbol": "GM",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0x568524da340579887db50ecf602cd1ba8451b243",
+    "symbol": "MST",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0xb4b01216a5bc8f1c8a33cd990a1239030e60c905",
+    "symbol": "STLOS",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0x8d97cea50351fb4329d591682b148d43a0c3611b",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  {
+    "chainId": 40,
+    "address": "0x8f7d64ea96d729ef24a0f30b4526d47b80d877b9",
+    "symbol": "USDM",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
+    "symbol": "WBTC",
+    "decimals": 8
+  },
+  {
+    "chainId": 40,
+    "address": "0xbab93b7ad7fe8692a878b95a8e689423437cc500",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 40,
+    "address": "0xd102ce6a4db07d247fcc28f366a623df0938ca9e",
+    "symbol": "WTLOS",
+    "decimals": 18
+  }
+]

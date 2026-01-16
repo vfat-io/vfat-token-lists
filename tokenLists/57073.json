@@ -1,0 +1,144 @@
+[
+  {
+    "chainId": 57073,
+    "address": "0x4200000000000000000000000000000000000006",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0xf1815bd50389c46847f0bda824ec8da914045d14",
+    "symbol": "USDC.e",
+    "decimals": 6
+  },
+  {
+    "chainId": 57073,
+    "address": "0x7f9adfbd38b669f03d1d11000bc76b9aaea28a81",
+    "symbol": "XVELO",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0x09d9420332bff75522a45fcff4855f82a0a3ff50",
+    "symbol": "DINERO",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0x11476323d8dfcbafac942588e2f38823d2dd308e",
+    "symbol": "iETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0x0200c29006150606b650577bbe7b6248f58470c1",
+    "symbol": "USDT0",
+    "decimals": 6
+  },
+  {
+    "symbol": "CAT",
+    "address": "0x20c69c12abf2b6f8d8ca33604dd25c700c7e70a5",
+    "decimals": 18
+  },
+  {
+    "symbol": "SHROOMY",
+    "address": "0x0c5e2d1c98cd265c751e02f8f3293bc5764f9111",
+    "decimals": 18
+  },
+  {
+    "symbol": "PURPLE",
+    "address": "0xd642b49d10cc6e1bc1c6945725667c35e0875f22",
+    "decimals": 18
+  },
+  {
+    "symbol": "PRL",
+    "address": "0x75e7a5316e44755ff4ad724ee45337d1eef6895e",
+    "decimals": 18
+  },
+  {
+    "symbol": "AK47",
+    "address": "0x2a1bce657f919ac3f9ab50b2584cfc77563a02ec",
+    "decimals": 18
+  },
+  {
+    "symbol": "WAGMI",
+    "address": "0xe169c0cad1f9e5884c30db1976a39ebc40f8865f",
+    "decimals": 18
+  },
+  {
+    "symbol": "Arch",
+    "address": "0xb816f5951a2e568d6eae351443c789c4f9fb55a7",
+    "decimals": 18
+  },
+  {
+    "symbol": "RCN",
+    "address": "0x78aec6f27f440eef34cd995b17f6a347f08eaab4",
+    "decimals": 18
+  },
+  {
+    "symbol": "PENK",
+    "address": "0x739ec5af87446fa8f7540cb028421139495b4e2d",
+    "decimals": 18
+  },
+  {
+    "symbol": "IAGENT",
+    "address": "0x2e1ac42aef8dc9fb4c661d017273e93ba82d3d0e",
+    "decimals": 18
+  },
+  {
+    "symbol": "Fartcoin",
+    "address": "0xbe23b5574000f9676e34308b16ab100542b2ff2e",
+    "decimals": 18
+  },
+  {
+    "symbol": "Mojo",
+    "address": "0x6b6299a7cde8b0d3e735af178b7b5a870a624408",
+    "decimals": 18
+  },
+  {
+    "symbol": "BEANS",
+    "address": "0xd6b04af9598162aad079c0e1c8bd1eb11cc5c6c8",
+    "decimals": 18
+  },
+  {
+    "symbol": "SQWARD",
+    "address": "0x145922e65ceaf0e4cf6e37e3a0e5bb57d9e1ff09",
+    "decimals": 18
+  },
+  {
+    "address": "0x73e0c0d45e048d25fc26fa3159b0aa04bfa4db98",
+    "symbol": "kBTC",
+    "decimals": 8,
+    "chainId": 57073
+  },
+  {
+    "address": "0xbbb71f183d440d6a40b6511acf79ab6c5eb111dc",
+    "symbol": "superETH",
+    "decimals": 18,
+    "chainId": 57073
+  },
+  {
+    "address": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+    "symbol": "USDG",
+    "decimals": 6,
+    "chainId": 57073
+  },
+  {
+    "address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189",
+    "symbol": "oUSDT",
+    "decimals": 6,
+    "chainId": 57073
+  },
+  {
+    "address": "0x0606fc632ee812ba970af72f8489baaa443c4b98",
+    "symbol": "ANITA",
+    "decimals": 18,
+    "chainId": 57073
+  },
+  {
+    "address": "0x2d270e6886d130d724215a266106e6832161eaed",
+    "symbol": "USDC",
+    "decimals": 6,
+    "chainId": 57073
+  }
+]

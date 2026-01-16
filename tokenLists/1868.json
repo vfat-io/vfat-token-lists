@@ -1,0 +1,116 @@
+[
+  {
+    "address": "0x4200000000000000000000000000000000000006",
+    "symbol": "WETH",
+    "decimals": 18,
+    "chainId": 1868
+  },
+  {
+    "address": "0x102d758f688a4c1c5a80b116bd945d4455460282",
+    "symbol": "USD\u20ae0",
+    "decimals": 6,
+    "chainId": 1868
+  },
+  {
+    "address": "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "chainId": 1868
+  },
+  {
+    "address": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
+    "symbol": "SolvBTC",
+    "decimals": 18,
+    "chainId": 1868
+  },
+  {
+    "address": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
+    "symbol": "xSolvBTC",
+    "decimals": 18,
+    "chainId": 1868
+  },
+  {
+    "address": "0x7f9adfbd38b669f03d1d11000bc76b9aaea28a81",
+    "symbol": "XVELO",
+    "decimals": 18,
+    "chainId": 1868
+  },
+  {
+    "address": "0x2cae934a1e84f693fbb78ca5ed3b0a6893259441",
+    "symbol": "ASTR",
+    "decimals": 18,
+    "chainId": 1868
+  },
+  {
+    "address": "0xba9986d2381edf1da03b0b9c1f8b00dc4aacc369",
+    "symbol": "USDC.e",
+    "decimals": 6,
+    "chainId": 1868
+  },
+  {
+    "address": "0x2fc9a87b1ef46dcddf4801c36d752e0d5f243e4b",
+    "symbol": "nrETH",
+    "decimals": 18,
+    "chainId": 1868
+  },
+  {
+    "address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189",
+    "symbol": "oUSDT",
+    "decimals": 6,
+    "chainId": 1868
+  },
+  {
+    "address": "0x3b0dc2dac9498a024003609031d973b1171de09e",
+    "symbol": "wstASTR",
+    "decimals": 18,
+    "chainId": 1868
+  },
+  {
+    "address": "0xaa9bd8c957d803466fa92504bdd728cc140f8941",
+    "symbol": "wstETH",
+    "decimals": 18,
+    "chainId": 1868
+  },
+  {
+    "address": "0x54e86315c03217b76a7466c302245fd10ebef25a",
+    "symbol": "yaySTONE",
+    "decimals": 18,
+    "chainId": 1868
+  },
+  {
+    "address": "0xc67476893c166c537afd9bc6bc87b3f228b44337",
+    "symbol": "nsASTR",
+    "decimals": 18,
+    "chainId": 1868
+  },
+  {
+    "address": "0xda14b3b7aef494b8c37ed9710d14e44d490316fa",
+    "symbol": "yayAgETH",
+    "decimals": 18,
+    "chainId": 1868
+  },
+  {
+    "address": "0x3a337a6ada9d885b6ad95ec48f9b75f197b5ae35",
+    "symbol": "USDT",
+    "decimals": 6,
+    "chainId": 1868
+  },
+  {
+    "address": "0x19a80f5dfe30bdf19054716e221539fc040f3b72",
+    "symbol": "yayASTR",
+    "decimals": 18,
+    "chainId": 1868
+  },
+  {
+    "address": "0xaffeb8576b927050f5a3b6fba43f360d2883a118",
+    "symbol": "SolvBTC.JUP",
+    "decimals": 18,
+    "chainId": 1868
+  },
+  {
+    "address": "0xf24e57b1cb00d98c31f04f86328e22e8fca457fb",
+    "symbol": "SONE",
+    "decimals": 18,
+    "chainId": 1868
+  }
+]
