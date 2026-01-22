@@ -2425,7 +2425,7 @@
   },
   {
     "address": "0x102d758f688a4c1c5a80b116bd945d4455460282",
-    "symbol": "USD\u20ae0",
+    "symbol": "USD₮0",
     "decimals": 6,
     "chainId": 8453
   },
@@ -2635,7 +2635,7 @@
   },
   {
     "address": "0x253902da3f9b67b693e27f46ad2717c2e7647f3d",
-    "symbol": "F\u00e9licette",
+    "symbol": "Félicette",
     "decimals": 18,
     "chainId": 8453
   },
@@ -2707,7 +2707,7 @@
   },
   {
     "address": "0x3d5e487b21e0569048c4d1a60e98c36e1b09db07",
-    "symbol": "\u20b8USD",
+    "symbol": "₸USD",
     "decimals": 18,
     "chainId": 8453
   },
@@ -3169,19 +3169,19 @@
   },
   {
     "address": "0x09aa909eea859f712f2ae3dd1872671d2363f6f4",
-    "symbol": "\u2728\u2764\ufe0f\u200d\ud83d\udd25\ud83e\uddd9\u200d\u2642\ufe0f",
+    "symbol": "✨❤️‍🔥🧙‍♂️",
     "decimals": 18,
     "chainId": 8453
   },
   {
     "address": "0x817cab331aaa4c24b4e32024fca093ad40cba208",
-    "symbol": "\u2764\ufe0f",
+    "symbol": "❤️",
     "decimals": 18,
     "chainId": 8453
   },
   {
     "address": "0xd1b771cb462a4b0e4d56bb68b4bf832994cc8820",
-    "symbol": "\ud83c\udf31",
+    "symbol": "🌱",
     "decimals": 18,
     "chainId": 8453
   },
@@ -3772,5 +3772,23 @@
     "symbol": "FUN",
     "decimals": 18,
     "chainId": 8453
+  },
+  {
+    "chainId": 8453,
+    "address": "0x0ffebc403f2d3dd9ea5501ca03916e98967acb2d",
+    "symbol": "PORTAL",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xab6363da0c80cef3ae105bd6241e30872355d021",
+    "symbol": "ROLL",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
+    "symbol": "ELSA",
+    "decimals": 18
   }
 ]
