@@ -38143,7 +38143,7 @@
   },
   {
     "address": "0x924fa68a0fc644485b8df8abfa0a41c2e7744444",
-    "symbol": "\u5e01\u5b89\u4eba\u751f",
+    "symbol": "币安人生",
     "decimals": 18,
     "chainId": 56
   },
@@ -38155,13 +38155,13 @@
   },
   {
     "address": "0xb77a1bd00d9c7ff5e15d70c7f78e4b80e18e4444",
-    "symbol": "\u8ca1\u52d9\u81ea\u7531",
+    "symbol": "財務自由",
     "decimals": 18,
     "chainId": 56
   },
   {
     "address": "0x3ac8e2c113d5d7824ac6ebe82a3c60b1b9d64444",
-    "symbol": "\u5ba2\u670d\u5c0f\u4f55",
+    "symbol": "客服小何",
     "decimals": 18,
     "chainId": 56
   },
@@ -38185,13 +38185,13 @@
   },
   {
     "address": "0x82ec31d69b3c289e541b50e30681fd1acad24444",
-    "symbol": "\u54c8\u57fa\u7c73",
+    "symbol": "哈基米",
     "decimals": 18,
     "chainId": 56
   },
   {
     "address": "0x44443dd87ec4d1bea3425acc118adb023f07f91b",
-    "symbol": "\u4fee\u4ed9",
+    "symbol": "修仙",
     "decimals": 18,
     "chainId": 56
   },
@@ -38293,7 +38293,7 @@
   },
   {
     "address": "0xe1e93e92c0c2aff2dc4d7d4a8b250d973cad4444",
-    "symbol": "\u6076\u4fd7\u4f01\u9e45",
+    "symbol": "恶俗企鹅",
     "decimals": 18,
     "chainId": 56
   },
@@ -38362,5 +38362,35 @@
     "symbol": "U",
     "decimals": 18,
     "chainId": 56
+  },
+  {
+    "chainId": 56,
+    "address": "0xf9c6e80e9a5807a1214a79449009b48104f94444",
+    "symbol": "黑马",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xc51a9250795c0186a6fb4a7d20a90330651e4444",
+    "symbol": "我踏马来了",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x086f405146ce90135750bbec9a063a8b20a8bffb",
+    "symbol": "BREV",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xff5d99a5c16cf2ffb4e7da1d7c42a791e70e4444",
+    "symbol": "1",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xf74548802f4c700315f019fde17178b392ee4444",
+    "symbol": "memes",
+    "decimals": 18
   }
 ]

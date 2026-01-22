@@ -447,5 +447,11 @@
     "symbol": "RYZE",
     "decimals": 18,
     "chainId": 59144
+  },
+  {
+    "chainId": 59144,
+    "address": "0x37c44fc08e403efc0946c0623cb1164a52ce1576",
+    "symbol": "avUSD",
+    "decimals": 18
   }
 ]
