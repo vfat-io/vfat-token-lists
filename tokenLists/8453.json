@@ -3820,5 +3820,59 @@
     "address": "0xedb6970b7be5a522cff14c8b679a2d813ff97b4d",
     "symbol": "SURGE",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x7ffbe850d2d45242efdb914d7d4dbb682d0c9b07",
+    "symbol": "EMBER",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb695559b26bb2c9703ef1935c37aeae9526bab07",
+    "symbol": "MOLT",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xde34ce6768a045929bd50fc18dec2bcf3eab2e6f",
+    "symbol": "realgarrytan",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x5b2193fdc451c1f847be09ca9d13a4bf60f8c86b",
+    "symbol": "UP",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x93918567cdd1bc845be955325a43419a7c56d66f",
+    "symbol": "MWXT",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xa1f72459dfa10bad200ac160ecd78c6b77a747be",
+    "symbol": "CLAWNCH",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x000000000d564d5be76f7f0d28fe52605afc7cf8",
+    "symbol": "flETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x50d2280441372486beecdd328c1854743ebacb07",
+    "symbol": "KellyClaude",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x81be0217e166182d35b21e7d65d2b2bb7ea4cb07",
+    "symbol": "CLAWSTR",
+    "decimals": 18
   }
 ]

@@ -453,5 +453,11 @@
     "address": "0x37c44fc08e403efc0946c0623cb1164a52ce1576",
     "symbol": "avUSD",
     "decimals": 18
+  },
+  {
+    "chainId": 59144,
+    "address": "0x5c247948fd58bb02b6c4678d9940f5e6b9af1127",
+    "symbol": "savUSD",
+    "decimals": 18
   }
 ]
