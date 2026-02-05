@@ -3874,5 +3874,11 @@
     "address": "0x81be0217e166182d35b21e7d65d2b2bb7ea4cb07",
     "symbol": "CLAWSTR",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x55380fe7a1910dff29a47b622057ab4139da42c5",
+    "symbol": "FXUSD",
+    "decimals": 18
   }
 ]
