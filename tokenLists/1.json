@@ -31492,5 +31492,11 @@
     "address": "0x9ca8530ca349c966fe9ef903df17a75b8a778927",
     "symbol": "LCAI",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x7c135549504245b5eae64fc0e99fa5ebabb8e35d",
+    "symbol": "FIDD",
+    "decimals": 18
   }
 ]
