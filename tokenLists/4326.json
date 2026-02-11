@@ -1,0 +1,86 @@
+[
+  {
+    "chainId": 4326,
+    "address": "0x4200000000000000000000000000000000000006",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0xb0f70c0bd6fd87dbeb7c10dc692a2a6106817072",
+    "symbol": "BTC.b",
+    "decimals": 8
+  },
+  {
+    "chainId": 4326,
+    "address": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+    "symbol": "USDT0",
+    "decimals": 6
+  },
+  {
+    "chainId": 4326,
+    "address": "0xfafddbb3fc7688494971a79cc65dca3ef82079e7",
+    "symbol": "USDm",
+    "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x3f927036a6c29f50e1c2dfceba572fc40cf39069",
+    "symbol": "KPI",
+    "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x3680dede2b8ff1412b0334d7ee8514ca2dec6f98",
+    "symbol": "BS",
+    "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x021ee124cf23d302a7f725ae7a01b77a8ce9782b",
+    "symbol": "DUCK",
+    "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x131350d7612f16bb8e19acd8d221d9044051146f",
+    "symbol": "MILADY",
+    "decimals": 9
+  },
+  {
+    "chainId": 4326,
+    "address": "0x462f420c7a84e48dc655ea1a519e444b995c07e4",
+    "symbol": "KUMBAYA",
+    "decimals": 9
+  },
+  {
+    "chainId": 4326,
+    "address": "0x2a3a4c92ce37abd7239fb010bc390710f4062407",
+    "symbol": "FLUFFEY",
+    "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x09a9a37e63415a95f80e810d87ca2085eb54a93f",
+    "symbol": "CUM",
+    "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x118b949f2caf55f9d75cde8d2f6c8fec98376420",
+    "symbol": "BUN",
+    "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x214b26a427df89437898dec7efd2bc4472b983ea",
+    "symbol": "MEKA",
+    "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x2efbed20c162121cb7dcd54140118371cd8edc0e",
+    "symbol": "OMEGA",
+    "decimals": 18
+  }
+]
