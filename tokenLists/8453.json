@@ -3880,5 +3880,17 @@
     "address": "0x55380fe7a1910dff29a47b622057ab4139da42c5",
     "symbol": "FXUSD",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xa53887f7e7c1bf5010b8627f1c1ba94fe7a5d6e0",
+    "symbol": "RNBW",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xe2f3fae4bc62e21826018364aa30ae45d430bb07",
+    "symbol": "AntiHunter",
+    "decimals": 18
   }
 ]
