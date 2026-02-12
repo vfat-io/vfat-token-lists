@@ -38422,5 +38422,11 @@
     "address": "0xb0b92de23baa85fb06208277e925ced53edab482",
     "symbol": "TRIA",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x4d6394bc3031f751edce368c189b0e060b527107",
+    "symbol": "wIP",
+    "decimals": 18
   }
 ]
