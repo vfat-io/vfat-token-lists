@@ -31498,5 +31498,11 @@
     "address": "0x7c135549504245b5eae64fc0e99fa5ebabb8e35d",
     "symbol": "FIDD",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x00da8466b296e382e5da2bf20962d0cb87200c78",
+    "symbol": "NOVA",
+    "decimals": 18
   }
 ]
