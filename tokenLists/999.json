@@ -187,7 +187,7 @@
   },
   {
     "address": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
-    "symbol": "USD\u20ae0",
+    "symbol": "USD₮0",
     "decimals": 6,
     "chainId": 999
   },
@@ -364,5 +364,11 @@
     "symbol": "KNTQ",
     "decimals": 18,
     "chainId": 999
+  },
+  {
+    "chainId": 999,
+    "address": "0x07c57e32a3c29d5659bda1d3efc2e7bf004e3035",
+    "symbol": "NEST",
+    "decimals": 18
   }
 ]
