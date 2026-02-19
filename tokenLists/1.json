@@ -27313,12 +27313,6 @@
   },
   {
     "chainId": 1,
-    "symbol": "SUPER",
-    "decimals": 18,
-    "address": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55"
-  },
-  {
-    "chainId": 1,
     "symbol": "BSC",
     "decimals": 18,
     "address": "0xe541504417670fb76b612b41b4392d967a1956c7"
@@ -31545,6 +31539,12 @@
     "chainId": 1,
     "address": "0xa19f5264f7d7be11c451c093d8f92592820bea86",
     "symbol": "BYTES",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+    "symbol": "SUPER",
     "decimals": 18
   }
 ]
