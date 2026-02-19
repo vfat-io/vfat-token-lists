@@ -31504,5 +31504,47 @@
     "address": "0x00da8466b296e382e5da2bf20962d0cb87200c78",
     "symbol": "NOVA",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x4af1bc87e43ddb22188bb3791ae00341586fe8fc",
+    "symbol": "CHAMP",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x6418c0dd099a9fda397c766304cdd918233e8847",
+    "symbol": "PENGU",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xa27ec0006e59f245217ff08cd52a7e8b169e62d2",
+    "symbol": "AZTEC",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xa12cc123ba206d4031d1c7f6223d1c2ec249f4f3",
+    "symbol": "ZAMA",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x8236a87084f8b84306f72007f36f2618a5634494",
+    "symbol": "LBTC",
+    "decimals": 8
+  },
+  {
+    "chainId": 1,
+    "address": "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979",
+    "symbol": "fBOMB",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xa19f5264f7d7be11c451c093d8f92592820bea86",
+    "symbol": "BYTES",
+    "decimals": 18
   }
 ]
