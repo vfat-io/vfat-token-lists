@@ -459,5 +459,11 @@
     "address": "0x5c247948fd58bb02b6c4678d9940f5e6b9af1127",
     "symbol": "savUSD",
     "decimals": 18
+  },
+  {
+    "chainId": 59144,
+    "address": "0xea9a89b0ca8a321ec04ccbcca4f680461b5bd156",
+    "symbol": "WS",
+    "decimals": 6
   }
 ]
