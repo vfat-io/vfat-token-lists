@@ -3892,5 +3892,11 @@
     "symbol": "BANDS",
     "decimals": 18,
     "chainId": 43114
+  },
+  {
+    "chainId": 43114,
+    "address": "0xef282b38d1ceab52134ca2cc653a569435744687",
+    "symbol": "WRP",
+    "decimals": 18
   }
 ]

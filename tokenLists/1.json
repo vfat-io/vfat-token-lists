@@ -31546,5 +31546,47 @@
     "address": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
     "symbol": "SUPER",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x9b2ebd63425978a1f3462e1538b497b5ba1d7180",
+    "symbol": "FANG",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x4cb85e39d5622af604405077a589c3078f3a59b2",
+    "symbol": "GFANG",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x0fd4a527a4422aca27f48cd79e4093867544a616",
+    "symbol": "GSCORE",
+    "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0xcb1592591996765ec0efc1f92599a19767ee5ffa",
+    "symbol": "BIO",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c",
+    "symbol": "SPX",
+    "decimals": 8
+  },
+  {
+    "chainId": 1,
+    "address": "0x5086bf358635b81d8c47c66d1c8b9e567db70c72",
+    "symbol": "reUSD",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xddc0f880ff6e4e22e4b74632fbb43ce4df6ccc5a",
+    "symbol": "reUSDe",
+    "decimals": 18
   }
 ]
