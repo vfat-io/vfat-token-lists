@@ -1,6 +1,6 @@
 [
   {
-    "symbol": "\ud83d\udca5",
+    "symbol": "💥",
     "address": "0x8f49efc0f5ec36fbe3ae9c21e3c352fda115f034",
     "decimals": 18
   },
@@ -325,7 +325,7 @@
     "decimals": 18
   },
   {
-    "symbol": "Sonic.Sale\u26a1",
+    "symbol": "Sonic.Sale⚡",
     "address": "0xea23c49c156ea501ce60151ad5febea52d5686b9",
     "decimals": 18
   },
@@ -1230,5 +1230,11 @@
     "symbol": "LIQ",
     "decimals": 18,
     "chainId": 146
+  },
+  {
+    "chainId": 146,
+    "address": "0x5dd1a7a369e8273371d2dbf9d83356057088082c",
+    "symbol": "FT",
+    "decimals": 18
   }
 ]
