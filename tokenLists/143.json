@@ -118,5 +118,11 @@
     "symbol": "GMONAD",
     "decimals": 18,
     "chainId": 143
+  },
+  {
+    "chainId": 143,
+    "address": "0xd18b7ec58cdf4876f6afebd3ed1730e4ce10414b",
+    "symbol": "cbBTC",
+    "decimals": 8
   }
 ]
