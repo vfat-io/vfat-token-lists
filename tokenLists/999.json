@@ -370,5 +370,11 @@
     "address": "0x07c57e32a3c29d5659bda1d3efc2e7bf004e3035",
     "symbol": "NEST",
     "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0xea9a89b0ca8a321ec04ccbcca4f680461b5bd156",
+    "symbol": "WS",
+    "decimals": 6
   }
 ]

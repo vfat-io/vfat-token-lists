@@ -3892,5 +3892,23 @@
     "address": "0xe2f3fae4bc62e21826018364aa30ae45d430bb07",
     "symbol": "AntiHunter",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x3fda9cc61b1fef8b2ffd715f0a9eef7182e48f37",
+    "symbol": "PHNM",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xf30bf00edd0c22db54c9274b90d2a4c21fc09b07",
+    "symbol": "FELIX",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x5cda0e1ca4ce2af96315f7f8963c85399c172204",
+    "symbol": "wtCOIN",
+    "decimals": 18
   }
 ]

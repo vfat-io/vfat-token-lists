@@ -3898,5 +3898,11 @@
     "address": "0xef282b38d1ceab52134ca2cc653a569435744687",
     "symbol": "WRP",
     "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0xea9a89b0ca8a321ec04ccbcca4f680461b5bd156",
+    "symbol": "WS",
+    "decimals": 6
   }
 ]

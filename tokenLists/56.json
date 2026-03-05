@@ -38428,5 +38428,11 @@
     "address": "0x4d6394bc3031f751edce368c189b0e060b527107",
     "symbol": "wIP",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x9dc44ae5be187eca9e2a67e33f27a4c91cea1223",
+    "symbol": "POWER",
+    "decimals": 18
   }
 ]
