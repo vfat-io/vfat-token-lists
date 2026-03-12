@@ -31594,5 +31594,35 @@
     "address": "0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3",
     "symbol": "OETH",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xa9e8acf069c58aec8825542845fd754e41a9489a",
+    "symbol": "pepecoin",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x50327c6c5a14dcade707abad2e27eb517df87ab5",
+    "symbol": "TRX",
+    "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0x163f8c2467924be0ae7b5347228cabf260318753",
+    "symbol": "WLD",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x58d97b57bb95320f9a05dc918aef65434969c2b2",
+    "symbol": "MORPHO",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x8ed97a637a790be1feff5e888d43629dc05408f6",
+    "symbol": "NPC",
+    "decimals": 18
   }
 ]
