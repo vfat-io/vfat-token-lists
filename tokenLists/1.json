@@ -31624,5 +31624,11 @@
     "address": "0x8ed97a637a790be1feff5e888d43629dc05408f6",
     "symbol": "NPC",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x0001a500a6b18995b03f44bb040a5ffc28e45cb0",
+    "symbol": "OLAS",
+    "decimals": 18
   }
 ]
