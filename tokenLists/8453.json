@@ -3916,5 +3916,11 @@
     "address": "0xdd468a1ddc392dcdbef6db6e34e89aa338f9f186",
     "symbol": "MUSD",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xd5390300c5db71f80d46f0fa9983fc72d4d1e3da",
+    "symbol": "KAT",
+    "decimals": 18
   }
 ]

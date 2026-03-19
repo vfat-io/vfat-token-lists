@@ -106,5 +106,11 @@
     "address": "0xef7b1a03e0897c33b63159e38d779e3970c0e2fc",
     "decimal": 18,
     "chainId": 9745
+  },
+  {
+    "chainId": 9745,
+    "address": "0x7230a9d42d622e18fdf7207041eca18465f9f1be",
+    "symbol": "msETH",
+    "decimals": 18
   }
 ]
