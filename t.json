@@ -1,0 +1,16 @@
+[
+  {
+    "chainId": 9745,
+    "address": "0x7230a9D42D622E18FDf7207041EcA18465F9F1bE",
+    "symbol": "msETH",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/67512/standard/metronome_mseth.png?1753017508"
+  },
+  {
+    "chainId": 8453,
+    "address": "0xD5390300c5DB71F80d46f0fA9983Fc72D4d1e3da",
+    "symbol": "KAT",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/SmolDapp/tokenAssets/main/tokens/8453/0xd5390300c5db71f80d46f0fa9983fc72d4d1e3da/logo.svg"
+  }
+]
