@@ -3910,5 +3910,11 @@
     "address": "0x5cda0e1ca4ce2af96315f7f8963c85399c172204",
     "symbol": "wtCOIN",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xdd468a1ddc392dcdbef6db6e34e89aa338f9f186",
+    "symbol": "MUSD",
+    "decimals": 18
   }
 ]
