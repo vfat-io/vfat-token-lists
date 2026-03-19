@@ -6,6 +6,7 @@ This repo contains chain token list definitions and normalized token logos.
 - tokenLists/<chainId>.json: JSON array of tokens for a chain
 - logos/<chainId>/<address>.png: lowercased address, 128x128 PNG
 - scripts/add-tokens.mjs: add tokens + normalize logo images
+- scripts/remove-token.mjs: remove tokens by address + delete matching logos
 
 ## Token list format
 Each token entry uses:
@@ -51,9 +52,30 @@ npm run add-tokens -- --input ./new-tokens.json
 ```
 
 Options:
+- --input tokens.json
 - --token-lists-dir tokenLists
 - --logos-dir logos
 - --size 128
 - --format png
 - --force-logo
+- --dry-run
+
+## Remove tokens (contributors)
+Remove a token by address from all chain lists, plus any matching logo files:
+
+```shell
+npm run remove-token -- --remove-address 0xabc123abc123abc123abc123abc123abc123abcd
+```
+
+To remove from one specific chain only:
+
+```shell
+npm run remove-token -- --remove-address 0xabc123abc123abc123abc123abc123abc123abcd --chain-id 1
+```
+
+Options:
+- --remove-address 0x...
+- --chain-id 1
+- --token-lists-dir tokenLists
+- --logos-dir logos
 - --dry-run

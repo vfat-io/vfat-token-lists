@@ -7,7 +7,9 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "add-tokens": "node scripts/add-tokens.mjs"
+    "add-tokens": "node scripts/add-tokens.mjs",
+    "remove-token": "node scripts/remove-token.mjs",
+    "test": "node --test"
   },
   "dependencies": {
     "dotenv": "^16.4.5",

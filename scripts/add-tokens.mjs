@@ -8,6 +8,8 @@ import sharp from 'sharp';
 
 dotenv.config({ path: path.join(process.cwd(), '.env') });
 
+const LOGO_EXTENSIONS = ['png', 'jpg', 'jpeg', 'webp'];
+
 function parseArgs(argv) {
   const out = {};
   for (let i = 0; i < argv.length; i += 1) {
@@ -53,6 +55,15 @@ function printUsage() {
 function normalizeChainId(value) {
   const num = Number.parseInt(String(value), 10);
   return Number.isFinite(num) ? num : null;
+}
+
+function normalizeAddress(value) {
+  if (typeof value !== 'string') {
+    return null;
+  }
+
+  const normalized = value.trim().toLowerCase();
+  return normalized || null;
 }
 
 async function readJsonFile(filePath) {
@@ -165,8 +176,6 @@ async function main() {
     printUsage();
     throw new Error('--input is required');
   }
-  const inputFilePath = path.resolve(inputPath);
-  const inputDir = path.dirname(inputFilePath);
 
   const tokenListsDir = args['token-lists-dir'] || 'tokenLists';
   const logosDir = args['logos-dir'] || 'logos';
@@ -178,10 +187,13 @@ async function main() {
   if (!Number.isFinite(size) || size <= 0) {
     throw new Error(`invalid --size: ${args.size}`);
   }
-  const allowedFormats = new Set(['png', 'jpg', 'jpeg', 'webp']);
+  const allowedFormats = new Set(LOGO_EXTENSIONS);
   if (!allowedFormats.has(format)) {
     throw new Error(`invalid --format: ${format}`);
   }
+
+  const inputFilePath = path.resolve(inputPath);
+  const inputDir = path.dirname(inputFilePath);
 
   const input = await readJsonFile(inputFilePath);
   if (!Array.isArray(input)) {
@@ -197,7 +209,7 @@ async function main() {
     }
 
     const chainId = normalizeChainId(entry.chainId);
-    const address = typeof entry.address === 'string' ? entry.address.toLowerCase() : null;
+    const address = normalizeAddress(entry.address);
     const symbol = typeof entry.symbol === 'string' ? entry.symbol : null;
     const logoURI = typeof entry.logoURI === 'string' ? entry.logoURI : null;
     const decimals = Number.isFinite(entry.decimals) ? entry.decimals : null;
@@ -249,16 +261,16 @@ async function main() {
       if (existingToken) {
         console.warn(`token already exists for chain ${chainId}: ${token.address}`);
         continue;
-      } else {
-        const newToken = {
-          chainId: token.chainId,
-          address: token.address,
-          symbol: token.symbol,
-        };
-        newToken.decimals = token.decimals;
-        existing.push(newToken);
-        added += 1;
       }
+
+      const newToken = {
+        chainId: token.chainId,
+        address: token.address,
+        symbol: token.symbol,
+      };
+      newToken.decimals = token.decimals;
+      existing.push(newToken);
+      added += 1;
 
       const extension = format === 'jpeg' ? 'jpg' : format;
       const targetDir = path.join(logosDir, String(token.chainId));
