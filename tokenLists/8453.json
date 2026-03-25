@@ -3922,5 +3922,17 @@
     "address": "0xd5390300c5db71f80d46f0fa9983fc72d4d1e3da",
     "symbol": "KAT",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x31c2c14134e6e3b7ef9478297f199331133fc2d8",
+    "symbol": "wtSPYM",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xff05e1bd696900dc6a52ca35ca61bb1024eda8e2",
+    "symbol": "wtMSTR",
+    "decimals": 18
   }
 ]
