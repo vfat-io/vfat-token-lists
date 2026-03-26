@@ -668,7 +668,7 @@
   {
     "chainId": 369,
     "address": "0xf8ab3393b1f5cd6184fb6800a1fc802043c4063e",
-    "symbol": "\u018e\ud809\udc70",
+    "symbol": "Ǝ𒑰",
     "decimals": 18
   },
   {
@@ -2112,7 +2112,7 @@
     "decimals": 18
   },
   {
-    "symbol": "P\u2161P",
+    "symbol": "PⅡP",
     "address": "0x962a4859b3195d5218f9d5cc85adf17a3dc66593",
     "chainId": 369,
     "decimals": 18
@@ -2559,6 +2559,12 @@
     "chainId": 369,
     "address": "0x7fb5120d2db148e91f572d2f69bc04fe454dbd9b",
     "symbol": "uPLS",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0xf6f8db0aba00007681f8faf16a0fda1c9b030b11",
+    "symbol": "PRVX",
     "decimals": 18
   }
 ]
