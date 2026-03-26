@@ -38476,5 +38476,11 @@
     "address": "0x000008d2175f9aeaddb2430c26f8a6f73c5a0000",
     "symbol": "UP",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xd20fb09a49a8e75fef536a2dbc68222900287bac",
+    "symbol": "PRL",
+    "decimals": 8
   }
 ]

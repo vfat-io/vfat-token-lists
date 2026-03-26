@@ -31636,5 +31636,11 @@
     "address": "0xe103f85c23577675f82438a2866c7ee3bbc9c8c8",
     "symbol": "RUBT",
     "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0xfccd6fbca272b4cc11069402f4123b070b7838f9",
+    "symbol": "KIMCHI",
+    "decimals": 9
   }
 ]
