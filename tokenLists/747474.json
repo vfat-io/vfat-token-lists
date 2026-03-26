@@ -119,5 +119,11 @@
     "symbol": "sfrxUSD",
     "decimals": 18,
     "chainId": 747474
+  },
+  {
+    "chainId": 747474,
+    "address": "0x7231dbacdfc968e07656d12389ab20de82fbfceb",
+    "symbol": "avKAT",
+    "decimals": 18
   }
 ]
