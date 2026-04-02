@@ -3934,5 +3934,23 @@
     "address": "0xff05e1bd696900dc6a52ca35ca61bb1024eda8e2",
     "symbol": "wtMSTR",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x989cfdc3508500d0c91f22896a0d2ee1ef675870",
+    "symbol": "TRX",
+    "decimals": 6
+  },
+  {
+    "chainId": 8453,
+    "address": "0x9c5c365e764829876243d0b289733b9d2b729685",
+    "symbol": "deSPXA",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x8e4cbbcc33db6c0a18561fde1f6ba35906d4848b",
+    "symbol": "MEZO",
+    "decimals": 18
   }
 ]

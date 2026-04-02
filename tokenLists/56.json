@@ -38482,5 +38482,29 @@
     "address": "0xd20fb09a49a8e75fef536a2dbc68222900287bac",
     "symbol": "PRL",
     "decimals": 8
+  },
+  {
+    "chainId": 56,
+    "address": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+    "symbol": "BTW",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x302dfaf2cdbe51a18d97186a7384e87cf599877d",
+    "symbol": "LYN",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x1d28d989f9e3ccb8b15d0cec601734514f958e4d",
+    "symbol": "BASED",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf",
+    "symbol": "EDGE",
+    "decimals": 18
   }
 ]
