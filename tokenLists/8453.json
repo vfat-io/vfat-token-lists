@@ -3952,5 +3952,11 @@
     "address": "0x8e4cbbcc33db6c0a18561fde1f6ba35906d4848b",
     "symbol": "MEZO",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x888a4f89af7dd0be836ca367c9ff5490c0f6e888",
+    "symbol": "WIND",
+    "decimals": 18
   }
 ]
