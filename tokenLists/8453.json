@@ -3958,5 +3958,11 @@
     "address": "0x888a4f89af7dd0be836ca367c9ff5490c0f6e888",
     "symbol": "WIND",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x853a7c99227499dba9db8c3a02aa691afdebf841",
+    "symbol": "PLAY",
+    "decimals": 18
   }
 ]
