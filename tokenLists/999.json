@@ -376,5 +376,11 @@
     "address": "0xea9a89b0ca8a321ec04ccbcca4f680461b5bd156",
     "symbol": "WS",
     "decimals": 6
+  },
+  {
+    "chainId": 999,
+    "address": "0xe1fb1bc7a6d1b067defe7f9ce01ab4b5c931803f",
+    "symbol": "fBOMB",
+    "decimals": 18
   }
 ]
