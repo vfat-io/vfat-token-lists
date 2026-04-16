@@ -3,13 +3,15 @@
     "chainId": 4217,
     "address": "0x20c0000000000000000000000000000000000000",
     "symbol": "pathUSD",
-    "decimals": 6
+    "decimals": 6,
+    "defaultPrice": 1
   },
   {
     "chainId": 4217,
     "address": "0x20c000000000000000000000b9537d11c60e8b50",
     "symbol": "USDC.e",
-    "decimals": 6
+    "decimals": 6,
+    "defaultPrice": 1
   },
   {
     "chainId": 4217,
