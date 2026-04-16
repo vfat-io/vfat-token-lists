@@ -1,0 +1,104 @@
+[
+  {
+    "chainId": 4217,
+    "address": "0x20c0000000000000000000000000000000000000",
+    "symbol": "pathUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c000000000000000000000b9537d11c60e8b50",
+    "symbol": "USDC.e",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c0000000000000000000001621e21f71cf12fb",
+    "symbol": "EURC.e",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c00000000000000000000014f22ca97301eb73",
+    "symbol": "USDT0",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c0000000000000000000003554d28269e0f3c2",
+    "symbol": "frxUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c0000000000000000000000520792dcccccccc",
+    "symbol": "cUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c0000000000000000000008ee4fcff88888888",
+    "symbol": "stcUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c0000000000000000000005c0bac7cef389a11",
+    "symbol": "GUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c0000000000000000000007f7ba549dd0251b9",
+    "symbol": "rUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c000000000000000000000aeed2ec36a54d0e5",
+    "symbol": "wsrUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c0000000000000000000009a4a4b17e0dc6651",
+    "symbol": "EURAU",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c000000000000000000000383a23bacb546ab9",
+    "symbol": "reUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c000000000000000000000ab02d39df30bd17e",
+    "symbol": "iUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c000000000000000000000048c8f36df1c9a4a",
+    "symbol": "siUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c0000000000000000000002f52d5cc21a3207b",
+    "symbol": "USDe",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c000000000000000000000bd95bfb69fbe6ce3",
+    "symbol": "sUSDe",
+    "decimals": 6
+  },
+  {
+    "chainId": 4217,
+    "address": "0x20c000000000000000000000ae247a1130450f09",
+    "symbol": "SBC",
+    "decimals": 6
+  }
+]
