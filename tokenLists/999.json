@@ -382,5 +382,11 @@
     "address": "0xe1fb1bc7a6d1b067defe7f9ce01ab4b5c931803f",
     "symbol": "fBOMB",
     "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0x4bb19336c973506b9405db586b7aee302a7cbcfc",
+    "symbol": "bbHLP",
+    "decimals": 18
   }
 ]
