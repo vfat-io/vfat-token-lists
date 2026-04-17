@@ -31642,5 +31642,11 @@
     "address": "0xfccd6fbca272b4cc11069402f4123b070b7838f9",
     "symbol": "KIMCHI",
     "decimals": 9
+  },
+  {
+    "chainId": 1,
+    "address": "0xf280b16ef293d8e534e370794ef26bf312694126",
+    "symbol": "ASTEROID",
+    "decimals": 18
   }
 ]
