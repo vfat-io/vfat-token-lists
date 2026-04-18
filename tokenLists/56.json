@@ -38512,5 +38512,11 @@
     "address": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
     "symbol": "APR",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x1f12b85aac097e43aa1555b2881e98a51090e9a6",
+    "symbol": "GENIUS",
+    "decimals": 18
   }
 ]
