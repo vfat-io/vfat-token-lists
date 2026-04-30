@@ -82,5 +82,11 @@
     "address": "0x2efbed20c162121cb7dcd54140118371cd8edc0e",
     "symbol": "OMEGA",
     "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x28b7e77f82b25b95953825f1e3ea0e36c1c29861",
+    "symbol": "MEGA",
+    "decimals": 18
   }
 ]
