@@ -3982,5 +3982,41 @@
     "address": "0x8b7dde054be9d180c1be7fae0874697374a49832",
     "symbol": "PROS",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x752c5a95d202972e124390f30a50154409d3c858",
+    "symbol": "OFC",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xcb111e6a2a3bde90856d299d61341ac302167d23",
+    "symbol": "cbMEGA",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xfbc2051ae2265686a469421b2c5a2d5462fbf5eb",
+    "symbol": "OPG",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xd993935e13851dd7517af10687ec7e5022127228",
+    "symbol": "apxUSD",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x2c271ddf484ac0386d216eb7eb9ff02d4dc0f6aa",
+    "symbol": "apyUSD",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x27f6c8289550fce67f6b50bed1f519966afe5287",
+    "symbol": "tGBP",
+    "decimals": 18
   }
 ]
