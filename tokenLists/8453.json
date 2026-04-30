@@ -4018,5 +4018,11 @@
     "address": "0x27f6c8289550fce67f6b50bed1f519966afe5287",
     "symbol": "tGBP",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x22a61fd45ebd3eded219cb279715a18cf85ebb44",
+    "symbol": "GBM",
+    "decimals": 18
   }
 ]
