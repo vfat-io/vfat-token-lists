@@ -4024,5 +4024,11 @@
     "address": "0x22a61fd45ebd3eded219cb279715a18cf85ebb44",
     "symbol": "GBM",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xd75dfa972c6136f1c594fec1945302f885e1ab29",
+    "symbol": "TGN",
+    "decimals": 18
   }
 ]
