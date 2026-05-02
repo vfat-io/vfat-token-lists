@@ -4030,5 +4030,11 @@
     "address": "0xd75dfa972c6136f1c594fec1945302f885e1ab29",
     "symbol": "TGN",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x76a9a0062ec6712b99b4f63bd2b4270185759dd5",
+    "symbol": "USDp",
+    "decimals": 18
   }
 ]
