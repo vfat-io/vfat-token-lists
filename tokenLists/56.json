@@ -38542,5 +38542,23 @@
     "address": "0x5feccd17c393caf1001d18164236a37e731fcb9d",
     "symbol": "OPG",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc",
+    "symbol": "BSB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xdf24f8c21cb404b3031a450d8e049d6e39fc1fa5",
+    "symbol": "BILL",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x7ec43cf65f1663f820427c62a5780b8f2e25593a",
+    "symbol": "LAB",
+    "decimals": 18
   }
 ]

@@ -4036,5 +4036,23 @@
     "address": "0x76a9a0062ec6712b99b4f63bd2b4270185759dd5",
     "symbol": "USDp",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x660975730059246a68521a3e2fbd4740173100f5",
+    "symbol": "syrupUSDC",
+    "decimals": 6
+  },
+  {
+    "chainId": 8453,
+    "address": "0x3722264ab15a1dfce5a5af89e6547f7949a8aba3",
+    "symbol": "LFI",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
+    "symbol": "GITLAWB",
+    "decimals": 18
   }
 ]
