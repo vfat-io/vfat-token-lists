@@ -4054,5 +4054,17 @@
     "address": "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
     "symbol": "GITLAWB",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x1d3be1cc80ca89ddbabe5b5c254af63200e708f7",
+    "symbol": "MONSTRO",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xfa68ac5ca298ab4b96bce6542ec74bb9516b0397",
+    "symbol": "mUSDC",
+    "decimals": 6
   }
 ]
