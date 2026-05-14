@@ -1,0 +1,51 @@
+[
+    {
+        "address": "0x6E84030FA86EBf585E3E18fe557e5612f7e93Bff",
+        "symbol": "AORA",
+        "decimals": 18,
+        "chainId": 8453,
+        "logoURI": "https://assets.coingecko.com/coins/images/102172572/standard/atlasora-mark-transparent-256_%281%29.png?1778220254"
+    },
+    {
+        "address": "0xd2a530170d71a9cfe1651fb468e2b98f7ed7456b",
+        "symbol": "AUDF",
+        "decimals": 6,
+        "chainId": 8453,
+        "logoURI": "https://assets.coingecko.com/coins/images/37837/standard/Logo_emblem_blue.png?1715742171"
+    },
+    {
+        "address": "0xed664536023d8e4b1640c394777d34abaff1df8f",
+        "symbol": "POD",
+        "decimals": 18,
+        "chainId": 8453,
+        "logoURI": "https://assets.coingecko.com/coins/images/70187/standard/1_to_1_Dolphin_imresizer.jpg?1760947185"
+    },
+    {
+        "address": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+        "symbol": "TSLAx",
+        "decimals": 18,
+        "chainId": 56,
+        "logoURI": "https://bscscan.com/token/images/xstocks.fi_tslax_64.png"
+    },
+    {
+        "address": "0xfebded1b0986a8ee107f5ab1a1c5a813491deceb",
+        "symbol": "CRCLx",
+        "decimals": 18,
+        "chainId": 56,
+        "logoURI": "https://bscscan.com/token/images/xstocks.fi_crclx_64.png"
+    },
+    {
+        "address": "0xae2f842ef90c0d5213259ab82639d5bbf649b08e",
+        "symbol": "MSTRx",
+        "decimals": 18,
+        "chainId": 56,
+        "logoURI": "https://bscscan.com/token/images/xstocks.fi_mstrx_64.png"
+    },
+    {
+        "address": "0x364f210f430ec2448fc68a49203040f6124096f0",
+        "symbol": "COINx",
+        "decimals": 18,
+        "chainId": 56,
+        "logoURI": "https://bscscan.com/token/images/xstocks.fi_coinx_64.png"
+    }
+]

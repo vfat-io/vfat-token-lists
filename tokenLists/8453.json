@@ -4066,5 +4066,23 @@
     "address": "0xfa68ac5ca298ab4b96bce6542ec74bb9516b0397",
     "symbol": "mUSDC",
     "decimals": 6
+  },
+  {
+    "chainId": 8453,
+    "address": "0x6e84030fa86ebf585e3e18fe557e5612f7e93bff",
+    "symbol": "AORA",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xd2a530170d71a9cfe1651fb468e2b98f7ed7456b",
+    "symbol": "AUDF",
+    "decimals": 6
+  },
+  {
+    "chainId": 8453,
+    "address": "0xed664536023d8e4b1640c394777d34abaff1df8f",
+    "symbol": "POD",
+    "decimals": 18
   }
 ]
