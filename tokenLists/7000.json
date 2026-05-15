@@ -64,5 +64,11 @@
     "symbol": "AVAX.AVAX",
     "decimals": 18,
     "chainId": 7000
+  },
+  {
+    "chainId": 7000,
+    "address": "0xeb646191fccb5bfc1e7a121d3847590aac840a53",
+    "symbol": "SUI.SUI",
+    "decimals": 9
   }
 ]

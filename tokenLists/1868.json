@@ -7,7 +7,7 @@
   },
   {
     "address": "0x102d758f688a4c1c5a80b116bd945d4455460282",
-    "symbol": "USD\u20ae0",
+    "symbol": "USD₮0",
     "decimals": 6,
     "chainId": 1868
   },
@@ -112,5 +112,35 @@
     "symbol": "SONE",
     "decimals": 18,
     "chainId": 1868
+  },
+  {
+    "chainId": 1868,
+    "address": "0x3f99231dd03a9f0e7e3421c92b7b90fbe012985a",
+    "symbol": "USDSC",
+    "decimals": 6
+  },
+  {
+    "chainId": 1868,
+    "address": "0x139450c2dcef827c9a2a0bb1cb5506260940c9fd",
+    "symbol": "sSuperUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 1868,
+    "address": "0x6c460b2c6d6719562d5da43e5152b375e79b9a8b",
+    "symbol": "pufETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 1868,
+    "address": "0xd8bf9997f46dcda1be57018ec8e7728e8f7c139a",
+    "symbol": "KYO",
+    "decimals": 18
+  },
+  {
+    "chainId": 1868,
+    "address": "0x60336f9296c79da4294a19153ec87f8e52158e5f",
+    "symbol": "vASTR",
+    "decimals": 18
   }
 ]

@@ -3916,5 +3916,95 @@
     "address": "0x741bd193b6b40f8703d2e116fd1965421f290f58",
     "symbol": "evaUSDC",
     "decimals": 6
+  },
+  {
+    "chainId": 43114,
+    "address": "0x8835a2f66a7aaccb297cb985831a616b75e2e16c",
+    "symbol": "EUROP",
+    "decimals": 6
+  },
+  {
+    "chainId": 43114,
+    "address": "0xef0cdae2ffeeefa539a244a16b3f46ba75b8c810",
+    "symbol": "MQT",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x38f9bf9dce51833ec7f03c9dc218197999999999",
+    "symbol": "NYA",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0xb168085d608d7ba4931a503d3424bc44ddb6b30d",
+    "symbol": "Sifu",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x0256b279d973c8d687264ac3eb36be09232d4474",
+    "symbol": "MYST",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x99f2bdf00acd067c65a79a0b6a3914c555196ea4",
+    "symbol": "KULA",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0xb9a98894ffbfa98c73a818b5b044e5b1c8666f56",
+    "symbol": "AVIA",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0xfc87d55bc8bf441abfc24d04b2068a8f77bcfcc0",
+    "symbol": "MON",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x0a10d108e2d81ccc793e37b56206c84bf96ddc57",
+    "symbol": "XSEED",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x1a31a8fd8bacb64b32dbcdcf5b2215f58baf70c1",
+    "symbol": "GATOR",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x79ea4e536f598dcd67c76ee3829f84ab9e72a558",
+    "symbol": "AI9000",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x380d0bb9ed2d621b256053d5f98d6c24da223adf",
+    "symbol": "XVAULT",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x22683bbadd01473969f23709879187705a253763",
+    "symbol": "LIL",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x73831e7c5577859fb0583af97c9c68f96a43fcb6",
+    "symbol": "$AIGG",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x841aef70237a88027ccb2d15c1bbaf88a669674a",
+    "symbol": "xSPACE",
+    "decimals": 18
   }
 ]

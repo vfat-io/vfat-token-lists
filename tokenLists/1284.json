@@ -136,5 +136,47 @@
     "symbol": "WBTC.e",
     "decimals": 8,
     "chainId": 1284
+  },
+  {
+    "chainId": 1284,
+    "address": "0x6021d2c27b6fbd6e7608d1f39b41398caee2f824",
+    "symbol": "CP",
+    "decimals": 18
+  },
+  {
+    "chainId": 1284,
+    "address": "0xab3f0245b83feb11d15aaffefd7ad465a59817ed",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 1284,
+    "address": "0xffffffff5ac1f9a51a93f5c527385edf7fe98a52",
+    "symbol": "xcIBTC",
+    "decimals": 8
+  },
+  {
+    "chainId": 1284,
+    "address": "0xffffffff30478fafbe935e466da114e14fb3563d",
+    "symbol": "xcPINK",
+    "decimals": 10
+  },
+  {
+    "chainId": 1284,
+    "address": "0xf6ad62cca52a5d3c5d567303347e013c2dadec92",
+    "symbol": "MST",
+    "decimals": 18
+  },
+  {
+    "chainId": 1284,
+    "address": "0x434116a99619f2b465a137199c38c1aab0353913",
+    "symbol": "DIODE",
+    "decimals": 18
+  },
+  {
+    "chainId": 1284,
+    "address": "0xffffffff8a9736b44ebf188972725bed67bf694e",
+    "symbol": "xcNCTR",
+    "decimals": 18
   }
 ]

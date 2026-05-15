@@ -136,5 +136,395 @@
     "address": "0xf59d81cd43f620e722e07f9cb3f6e41b031017a3",
     "symbol": "Cake",
     "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xad96c3dffcd6374294e2573a7fbba96097cc8d7c",
+    "symbol": "DUST",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x91b81bfbe3a747230f0529aa28d8b2bc898e6d56",
+    "symbol": "LVMON",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x1001ff13bf368aa4fa85f21043648079f00e1001",
+    "symbol": "LV",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x350035555e10d9afaf1566aaebfced5ba6c27777",
+    "symbol": "CHOG",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x1111b3ded9f1fe1801ad4ebef8e2788183a24111",
+    "symbol": "EURW",
+    "decimals": 6
+  },
+  {
+    "chainId": 143,
+    "address": "0x01bff41798a0bcf287b996046ca68b395dbc1071",
+    "symbol": "XAUt0",
+    "decimals": 6
+  },
+  {
+    "chainId": 143,
+    "address": "0x21e325b059cd83d4037c82f0f5998ba2df3d7777",
+    "symbol": "BOB",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x81a224f8a62f52bde942dbf23a56df77a10b7777",
+    "symbol": "emo",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xfd44b35139ae53fff7d8f2a9869c503d987f00d1",
+    "symbol": "LVUSD",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x7b2728c04ad436153285702e969e6efac3a97777",
+    "symbol": "MOLANDAK",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x405b6330e213ded490240cbcdd64790806827777",
+    "symbol": "moncock",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x1ad7052bb331a0529c1981c3ec2bc4663498a110",
+    "symbol": "ALLOCA",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x94cf69b5b13e621cb11f5153724afb58c7337777",
+    "symbol": "TCG",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x3ec7310937281ca4bf89d5bb11704be9b7ff7777",
+    "symbol": "ANAGO",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x5df178c7e58046bc9074782fef0009c6be167777",
+    "symbol": "Anago",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x42a4aa89864a794de135b23c6a8d2e05513d7777",
+    "symbol": "shramp",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x39b9e06f226ff6d7500c870b82333aacbd2f7777",
+    "symbol": "NADS",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xde22b2d5b92364fec7065c638ad82509949f7777",
+    "symbol": "MOYAKI",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xf383a61f1a68ee4a77a1b7f57d8f2d948b5f7777",
+    "symbol": "MMO",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x2cb31c268819ee133de378a3a2e087f0b0ec7777",
+    "symbol": "MONA",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x3842751a46d23b41a47e702473dff316e6237777",
+    "symbol": "143",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xbb97e5ec82c4febf60f881cc8f489c16dd597777",
+    "symbol": "GMONAD",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x5bea301626702c4a253d92be06d36e86bb6b58b5",
+    "symbol": "MONIKA",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x5c2513cf169530117efe219e62c91f7b72487777",
+    "symbol": "FOURNAD",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xb6842737e2a6d5a92aba03ed0cca578303e87777",
+    "symbol": "MONCHEL",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x5e1b1a14c8758104b8560514e94ab8320e587777",
+    "symbol": "CHOGI",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xb744f5cdb792d8187640214c4a1c9ace29af7777",
+    "symbol": "MONSHI",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xdb85854437030dc327100dd6942f21a27a2c7777",
+    "symbol": "Salmonad",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x23c26bd5d55e0d3c1985e23ef2a377c0e2547777",
+    "symbol": "MOUCH",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x103222f020e98bba0ad9809a011fdf8e6f067496",
+    "symbol": "earnAUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 143,
+    "address": "0x73b62ff5cfea3fb857dbe84a57f1631630247777",
+    "symbol": "MONIGGA",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x55ba9e2bdd1ecafa114b7d07f1bf92e82c9c7777",
+    "symbol": "MOFU",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x8361a59d340466211ad4ab41c09a32e4530a7777",
+    "symbol": "MonWolf",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x228c673cae7aad0f4d9f309616d6b546356b7777",
+    "symbol": "BC",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x788571e0e5067adea87e6ba22a2b738ffdf48888",
+    "symbol": "UNIT",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x6a13bfcba882fb86e5820dc4d160460ad8827777",
+    "symbol": "SHARKIE",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xc911ba7aee487f5145702c20c20a40d9e5b87777",
+    "symbol": "HOGDOG",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xc09c8242eb21b24298303799bb5af402a2957777",
+    "symbol": "PEPE",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xaca86430cccedbedb35910fc8a5afef07da37777",
+    "symbol": "Rene",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x0cc9b2e2acd7bacff79eb7db48f5662b622e7777",
+    "symbol": "MONI",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x61eed5ffbebc38be10b1565ea8f478f28cc57777",
+    "symbol": "GIGA",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x11ed3b12d99d508f926c870fb44f472001842c96",
+    "symbol": "IGN",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x7131eca3401f58371cfb4c3b27aa07837cf77777",
+    "symbol": "LISA",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xb72e6262dae53caf167f0966421a0b9782977777",
+    "symbol": "MOLLY",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xa7b3f394b9aaba67f2543a8c1a0f753cc68d7777",
+    "symbol": "GONAD",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x89557551bb30e319bef69502ca50feda29cf7777",
+    "symbol": "MONARK",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x2f2f2f74ab5db61ae8bd3c13ccd4dc8c9e8a2f2f",
+    "symbol": "ZF",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x29e8a68e6f5275c36767ae531b9f6b5953ba7777",
+    "symbol": "GROOL",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x3db619ff72d877490699276061fb0fa0618fdf47",
+    "symbol": "EARN",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x745912a153717ad7c151a6a06f2e31e420517777",
+    "symbol": "Pepe",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x87deeb3696ec069d5460c389cc78925df50d7777",
+    "symbol": "IDGAF",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x5dff3639e19d1c164aedf5affd1c049b5fe17777",
+    "symbol": "RUN",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x48223050fe5d96e55e56283de15504490d557777",
+    "symbol": "Mongo",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x9a17ad79acc180f911be1b89f6fd566597fd7777",
+    "symbol": "LBJ",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x23ae8c092566f82dd214edf1bb3fd76c6bf17777",
+    "symbol": "MOKADEL",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xe6eddc07257c3bf8939b8af87acc54be94237777",
+    "symbol": "MONKA",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x91ce820dd39a2b5639251e8c7837998530fe7777",
+    "symbol": "Motion",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x288be68cea9a5032f8d8deebc1561996d2017777",
+    "symbol": "CHOGLINA",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x28c8880ab8a0807d8aa786b353f214799bea7777",
+    "symbol": "NPC",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x62f28f9d5b5fe1befa0060c54f6d157e80617777",
+    "symbol": "MOO",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x123468b48eadbc13c65cd9c66a9913cde4e94321",
+    "symbol": "LONG",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x11ea57121082bd4377a009ead53430e44d5a7777",
+    "symbol": "PNAD",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xae611e29a8260627f492ce357883c3f4959a7777",
+    "symbol": "DANOM",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x3ff60900b70db8d0bde4d4819f028673718c5d1b",
+    "symbol": "GMONAD",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x19490ece1ecbad13602822186a573a610c537777",
+    "symbol": "Monald",
+    "decimals": 18
   }
 ]

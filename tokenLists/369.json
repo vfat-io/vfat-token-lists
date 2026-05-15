@@ -2566,5 +2566,41 @@
     "address": "0xf6f8db0aba00007681f8faf16a0fda1c9b030b11",
     "symbol": "PRVX",
     "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0xc70cf25dfcf5c5e9757002106c096ab72fab299e",
+    "symbol": "UNITY",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0x69e23263927ae53e5ff3a898d082a83b7d6fb438",
+    "symbol": "SCADA",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0xf656637cef4ad2eac3c405cc52c6b9776bfaf575",
+    "symbol": "Pittbull",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0x4de992e0c1f6e1d68e49b797af370a6be111b87f",
+    "symbol": "$WLFI",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0x6156c1f4b001bb07081cfef99757fd470a9c3a9c",
+    "symbol": "WOJAK",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3",
+    "symbol": "ELON",
+    "decimals": 18
   }
 ]

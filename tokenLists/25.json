@@ -1552,5 +1552,35 @@
     "address": "0x431469ce9d70a5879e959bf15cffad003dc7f69f",
     "decimal": 18,
     "chainId": 25
+  },
+  {
+    "chainId": 25,
+    "address": "0xe45fe733bc8617fa6dac8437fc44b5fffa949991",
+    "symbol": "$XTC",
+    "decimals": 18
+  },
+  {
+    "chainId": 25,
+    "address": "0x025f1575908d85815198390b2e5366fe754f8207",
+    "symbol": "INO",
+    "decimals": 18
+  },
+  {
+    "chainId": 25,
+    "address": "0xcb49dd81da680ed11d10809b51d5d5d8e36f9b6d",
+    "symbol": "BMN",
+    "decimals": 18
+  },
+  {
+    "chainId": 25,
+    "address": "0xdd646291d2fff52c75f27ccdadd0d4c2a24f37dd",
+    "symbol": "$XTC",
+    "decimals": 8
+  },
+  {
+    "chainId": 25,
+    "address": "0x14fb0e7640e7fb7765cfa87cec973ff5465d1c66",
+    "symbol": "SCRATCH",
+    "decimals": 18
   }
 ]
