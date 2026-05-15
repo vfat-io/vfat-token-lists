@@ -172,5 +172,17 @@
     "symbol": "aScrwstETH",
     "decimals": 18,
     "chainId": 534352
+  },
+  {
+    "chainId": 534352,
+    "address": "0x3b005fefc63ca7c8d25ee21fba3787229ba4cf03",
+    "symbol": "USX",
+    "decimals": 18
+  },
+  {
+    "chainId": 534352,
+    "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
+    "symbol": "axlUSDC",
+    "decimals": 6
   }
 ]

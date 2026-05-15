@@ -7765,7 +7765,7 @@
   },
   {
     "chainId": 137,
-    "symbol": "\u0668",
+    "symbol": "٨",
     "decimals": 0,
     "address": "0xd9e658caed24fb0486e92f0f1702f77a712790da"
   },
@@ -9219,6 +9219,84 @@
     "address": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
     "symbol": "ZRO",
     "chainId": 137,
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xbf7970d56a150cd0b60bd08388a4a75a27777777",
+    "symbol": "BET",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x38f9bf9dce51833ec7f03c9dc218197999999999",
+    "symbol": "NYA",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x7e1ae068ac4e0ffd7a84750c2fb093a0eae9aea2",
+    "symbol": "TBA",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x380df89d883776ba04f65569f1d1a6e218bfc2df",
+    "symbol": "AWK",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x2c76d946b2233f7bab414f07a7880e3c14b90657",
+    "symbol": "EFIT",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xc4a206a306f0db88f98a3591419bc14832536862",
+    "symbol": "ELE",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x53df32548214f51821cf1fe4368109ac5ddea1ff",
+    "symbol": "SPONGE",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xba777ae3a3c91fcd83ef85bfe65410592bdd0f7c",
+    "symbol": "CONE",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xa3f751662e282e83ec3cbc387d225ca56dd63d3a",
+    "symbol": "APEPE",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xdc56d958dd06d880e7791d40d9e7e311cea2e559",
+    "symbol": "EAC",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x2ab0e9e4ee70fff1fb9d67031e44f6410170d00e",
+    "symbol": "mXEN",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xd28b3fd350a14f0b1d14633e3d14db7b80406391",
+    "symbol": "TRUMP",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xe9bc9ad74cca887aff32ba09a121b1256fc9f052",
+    "symbol": "PIG",
     "decimals": 18
   }
 ]

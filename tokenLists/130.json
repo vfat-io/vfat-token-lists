@@ -56,7 +56,7 @@
   {
     "chainId": 130,
     "address": "0x9151434b16b9763660705744891fa906f660ecc5",
-    "symbol": "USD\u20ae0",
+    "symbol": "USD₮0",
     "decimals": 6
   },
   {
@@ -100,5 +100,41 @@
     "address": "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
     "symbol": "WBTC",
     "decimals": 8
+  },
+  {
+    "chainId": 130,
+    "address": "0x15d0e0c55a3e7ee67152ad7e89acf164253ff68d",
+    "symbol": "HYPE",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0xbde8a5331e8ac4831cf8ea9e42e229219eafab97",
+    "symbol": "SOL",
+    "decimals": 9
+  },
+  {
+    "chainId": 130,
+    "address": "0x588ce4f028d8e7b53b687865d6a67b3a54c75518",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  {
+    "chainId": 130,
+    "address": "0xd7c28129baf6e11e4f3516b212c50b44cf4e1d6a",
+    "symbol": "TINY",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0xabe69c550ea6ec22bed4b92614511c4f31bb0f64",
+    "symbol": "ABE",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0x756ee6857f915a2b5366f2ef56d8d13857aef8ad",
+    "symbol": "CATX",
+    "decimals": 18
   }
 ]

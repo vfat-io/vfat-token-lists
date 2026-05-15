@@ -211,7 +211,7 @@
   },
   {
     "address": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
-    "symbol": "USD\u20ae0",
+    "symbol": "USD₮0",
     "decimals": 6,
     "chainId": 80094
   },
@@ -340,5 +340,77 @@
     "symbol": "sfrxETH",
     "decimals": 18,
     "chainId": 80094
+  },
+  {
+    "chainId": 80094,
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "symbol": "USDe",
+    "decimals": 18
+  },
+  {
+    "chainId": 80094,
+    "address": "0x59a61b8d3064a51a95a5d6393c03e2152b1a2770",
+    "symbol": "SAIL.r",
+    "decimals": 18
+  },
+  {
+    "chainId": 80094,
+    "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+    "symbol": "sUSDe",
+    "decimals": 18
+  },
+  {
+    "chainId": 80094,
+    "address": "0xc0d1ac00a30fa4e30e44afc7313d6312c87e21df",
+    "symbol": "KDK",
+    "decimals": 18
+  },
+  {
+    "chainId": 80094,
+    "address": "0xa1b644aec990ad6023811ced36e6a2d6d128c7c9",
+    "symbol": "IR",
+    "decimals": 18
+  },
+  {
+    "chainId": 80094,
+    "address": "0x688e72142674041f8f6af4c808a4045ca1d6ac82",
+    "symbol": "BYUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 80094,
+    "address": "0xb2a12db2691fc05dca47b2be9a087077afaa0800",
+    "symbol": "SMILEE",
+    "decimals": 18
+  },
+  {
+    "chainId": 80094,
+    "address": "0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5",
+    "symbol": "HENLO",
+    "decimals": 18
+  },
+  {
+    "chainId": 80094,
+    "address": "0x2206182a4264bce0663681448b24fc6781fc8e40",
+    "symbol": "BULLA",
+    "decimals": 18
+  },
+  {
+    "chainId": 80094,
+    "address": "0x804cf700de1e18f2411bd05aad5fa10d60e1900f",
+    "symbol": "aSUGAR",
+    "decimals": 18
+  },
+  {
+    "chainId": 80094,
+    "address": "0x098a75baeddec78f9a8d0830d6b86eac5cc8894e",
+    "symbol": "AMY",
+    "decimals": 18
+  },
+  {
+    "chainId": 80094,
+    "address": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+    "symbol": "PEAS",
+    "decimals": 18
   }
 ]

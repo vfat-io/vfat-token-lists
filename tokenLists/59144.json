@@ -477,5 +477,47 @@
     "address": "0x741bd193b6b40f8703d2e116fd1965421f290f58",
     "symbol": "evaUSDC",
     "decimals": 6
+  },
+  {
+    "chainId": 59144,
+    "address": "0xe2a6e74118e708f7652fc4c74d2f9ee5fa210563",
+    "symbol": "NWG",
+    "decimals": 18
+  },
+  {
+    "chainId": 59144,
+    "address": "0x1a51b19ce03dbe0cb44c1528e34a7edd7771e9af",
+    "symbol": "LYNX",
+    "decimals": 18
+  },
+  {
+    "chainId": 59144,
+    "address": "0x3d4b2132ed4ea0aa93903713a4de9f98e625a5c7",
+    "symbol": "A3A",
+    "decimals": 18
+  },
+  {
+    "chainId": 59144,
+    "address": "0x3c56229dbc7dbe69908e3ad3e2ba9016b30e83c5",
+    "symbol": "PUPI",
+    "decimals": 18
+  },
+  {
+    "chainId": 59144,
+    "address": "0x93f4d0ab6a8b4271f4a28db399b5e30612d21116",
+    "symbol": "STONE",
+    "decimals": 18
+  },
+  {
+    "chainId": 59144,
+    "address": "0x12bbdc004a0e9085ff94df1717336ecbc9f9e5fe",
+    "symbol": "RUSTY",
+    "decimals": 18
+  },
+  {
+    "chainId": 59144,
+    "address": "0x3ff47c5bf409c86533fe1f4907524d304062428d",
+    "symbol": "EURe",
+    "decimals": 18
   }
 ]

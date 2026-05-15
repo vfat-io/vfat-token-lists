@@ -125,5 +125,23 @@
     "address": "0x7231dbacdfc968e07656d12389ab20de82fbfceb",
     "symbol": "avKAT",
     "decimals": 18
+  },
+  {
+    "chainId": 747474,
+    "address": "0x0ef68c1ab3c83cf11f9546faba385e8a1bd38d74",
+    "symbol": "WOOFY",
+    "decimals": 12
+  },
+  {
+    "chainId": 747474,
+    "address": "0xfba805659e5050544e185cccdf592fd77f8c7210",
+    "symbol": "KITSU",
+    "decimals": 18
+  },
+  {
+    "chainId": 747474,
+    "address": "0xca52d08737e6af8763a2bf6034b3b03868f24dda",
+    "symbol": "dUSD",
+    "decimals": 18
   }
 ]

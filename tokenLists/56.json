@@ -38584,5 +38584,83 @@
     "address": "0x364f210f430ec2448fc68a49203040f6124096f0",
     "symbol": "COINx",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x22b4fa9a13a0d303ad258ee6d62a6ac60364b0c9",
+    "symbol": "PUMP",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x20482b0b4d9d8f60d3ab432b92f4c4b901a0d10c",
+    "symbol": "REKT",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xde6e12bdb2062dc48b409f0086219464a0c317a0",
+    "symbol": "NIAO",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x38f9bf9dce51833ec7f03c9dc218197999999999",
+    "symbol": "NYA",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xfe8bf5b8f5e4eb5f9bc2be16303f7dab8cf56aa8",
+    "symbol": "BIBI",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x4f9d3adbfaf4579518b1ca7e06468a363897b997",
+    "symbol": "SMILEK",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x6c13a45101bd70561daf6186da86d7bdb018754f",
+    "symbol": "DEWAE",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xbe655f7b58d5482e09aa426e54a4d20c6f80a122",
+    "symbol": "SALAH",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x6efa75a8c3f2f233b0b42cb8dc3893073e7edd95",
+    "symbol": "CNV",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x1111111111cbdd6ee1ee4689368576c50094dcb5",
+    "symbol": "MOO DENG",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xee81ca267b8357ba30049d679027ebf65fcf7458",
+    "symbol": "VOPO",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x485f66f20f6732017345ff3437377ec84ea75039",
+    "symbol": "SNA",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x2ab0e9e4ee70fff1fb9d67031e44f6410170d00e",
+    "symbol": "bXEN",
+    "decimals": 18
   }
 ]

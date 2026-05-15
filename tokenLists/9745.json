@@ -112,5 +112,17 @@
     "address": "0x7230a9d42d622e18fdf7207041eca18465f9f1be",
     "symbol": "msETH",
     "decimals": 18
+  },
+  {
+    "chainId": 9745,
+    "address": "0xc4374775489cb9c56003bf2c9b12495fc64f0771",
+    "symbol": "syrupUSDT",
+    "decimals": 6
+  },
+  {
+    "chainId": 9745,
+    "address": "0x90729a45948c3078890bc80f2a4e7870a2ea4c5e",
+    "symbol": "TRYB",
+    "decimals": 6
   }
 ]

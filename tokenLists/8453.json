@@ -4084,5 +4084,197 @@
     "address": "0xed664536023d8e4b1640c394777d34abaff1df8f",
     "symbol": "POD",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x844c03892863b0e3e00e805e41b34527044d5c72",
+    "symbol": "PANANA",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb3e3c89b8d9c88b1fe96856e382959ee6291ebba",
+    "symbol": "REKT",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x38f9bf9dce51833ec7f03c9dc218197999999999",
+    "symbol": "NYA",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x3c281a39944a2319aa653d81cfd93ca10983d234",
+    "symbol": "BUILD",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x9999999999999d8b360c6985db1a74a0f3b75e1b",
+    "symbol": "KULT",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x4a9f3ed92892c0168dc194ec3867f8316288b32a",
+    "symbol": "ELON",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x26fb8f2f3b26c750ee34005c1930deb232940cfe",
+    "symbol": "RFND",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xd7d919ea0c33a97ad6e7bd4f510498e2ec98cb78",
+    "symbol": "PEN",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xad3eb8058e9e0ad547e2af549388df451b00d8bd",
+    "symbol": "SHRMN",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x6f35720b272bf23832852b13ae9888c706e1a379",
+    "symbol": "APU",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb5d409f6e679b0f89a669ac9714173177683eb7c",
+    "symbol": "CIK",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xe8e55a847bb446d967ef92f4580162fb8f2d3f38",
+    "symbol": "BROGE",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xbfd5206962267c7b4b4a8b3d76ac2e1b2a5c4d5e",
+    "symbol": "OSAK",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xba71cb8ef2d59de7399745793657838829e0b147",
+    "symbol": "SIAM",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x00e57ec29ef2ba7df07ad10573011647b2366f6d",
+    "symbol": "TOSHE",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x0ba5ed329d073a847ec3d54ac767f7e099c29bb2",
+    "symbol": "Mog",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x4c96a67b0577358894407af7bc3158fc1dffbeb5",
+    "symbol": "POV",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x080c169cd58122f8e1d36713bf8bcbca45176905",
+    "symbol": "MAXI",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x7e72d6410803c40e73806f2a72e3eade5d075cc0",
+    "symbol": "MOB",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x363fd3467588d4382bcc04a88540c0ff5723db69",
+    "symbol": "CHOOCH",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xd1412d909f67b8db7505ddfcf26cf2303f4b1bb4",
+    "symbol": "RIKU",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x6d22d3ed82c947be8860a86a69c4b0cb0f65589e",
+    "symbol": "CHONK",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x06bfb0b59fd7f0436135cc7c168f31826c9178db",
+    "symbol": "BIF",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x2ab14ebee61ed05a515f5775d3bc014e141c3bb0",
+    "symbol": "PENNY",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x61e2cf16c76466244049539e755a9c6b5bfa6d64",
+    "symbol": "DOOMER",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x22dc834c3ff3e45f484bf24b9b07b851b981900f",
+    "symbol": "SMUDCAT",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x4a4200947ad71ba4eb5ffeff10cc603a17af2f95",
+    "symbol": "BELL",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xa0aebd4ae5f256b72b7d43f67ed934237adb1aee",
+    "symbol": "BONSAICOIN",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x8591ebef328945bde7fc554a2839df9643d50c7c",
+    "symbol": "Penn ",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb757977bc882a14db86b048f2abb2f2a14d33184",
+    "symbol": "DOGL",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xbe83b44a6347b74980e0c55c72f3f853530f9fc0",
+    "symbol": "CORGAI",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x9aaae745cf2830fb8ddc6248b17436dc3a5e701c",
+    "symbol": "GOCHU",
+    "decimals": 18
   }
 ]

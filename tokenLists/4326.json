@@ -88,5 +88,47 @@
     "address": "0x28b7e77f82b25b95953825f1e3ea0e36c1c29861",
     "symbol": "MEGA",
     "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "symbol": "USDe",
+    "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x8f77a685bde702e6d32a103e9aeb41906317d7e5",
+    "symbol": "RBT",
+    "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0xc2f34f8849a8607fd73e06d6849bda07c2b7de38",
+    "symbol": "DIRTY",
+    "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+    "symbol": "cUSD",
+    "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x39894d0b1aa402ae565678fc47f31717ac2ae888",
+    "symbol": "RONNIE",
+    "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0xa5ce881b5c8dbfab7eae1db4ee22183453977469",
+    "symbol": "$MEGACORE",
+    "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x92ae20c79de901354de69e5723e9942670e6992f",
+    "symbol": "CENT",
+    "decimals": 18
   }
 ]

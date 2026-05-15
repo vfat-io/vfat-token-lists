@@ -140,5 +140,47 @@
     "symbol": "USDC",
     "decimals": 6,
     "chainId": 57073
+  },
+  {
+    "chainId": 57073,
+    "address": "0xae4efbc7736f963982aacb17efa37fcbab924cb3",
+    "symbol": "SolvBTC",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0xfc421ad3c883bf9e7c4f42de845c4e4405799e73",
+    "symbol": "GHO",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0xb3c4fb17a34925ca907eff851fcd176e2801fdaa",
+    "symbol": "SENTRY",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0xf50258d3c1dd88946c567920b986a12e65b50dac",
+    "symbol": "XAUt0",
+    "decimals": 6
+  },
+  {
+    "chainId": 57073,
+    "address": "0x311bbb3c225f3321f76eab80edf5301319d22587",
+    "symbol": "MOLT",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0x9fa192f485c2edbff420e068854b4d476d454fc7",
+    "symbol": "IKA",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0xa3d68b74bf0528fdd07263c60d6488749044914b",
+    "symbol": "weETH",
+    "decimals": 18
   }
 ]

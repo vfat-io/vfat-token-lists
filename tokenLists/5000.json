@@ -255,5 +255,77 @@
     "symbol": "sUSDe",
     "decimals": 18,
     "chainId": 5000
+  },
+  {
+    "chainId": 5000,
+    "address": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+    "symbol": "USDT0",
+    "decimals": 6
+  },
+  {
+    "chainId": 5000,
+    "address": "0xe5c330addf7aa9c7838da836436142c56a15aa95",
+    "symbol": "BSB",
+    "decimals": 18
+  },
+  {
+    "chainId": 5000,
+    "address": "0x45db70e1c808dae42f9c4dfea74ba5e6a113bdc1",
+    "symbol": "OPG",
+    "decimals": 18
+  },
+  {
+    "chainId": 5000,
+    "address": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
+    "symbol": "ELSA",
+    "decimals": 18
+  },
+  {
+    "chainId": 5000,
+    "address": "0x55b9f84605b30df9bb9d817a6900219f25218157",
+    "symbol": "BILL",
+    "decimals": 18
+  },
+  {
+    "chainId": 5000,
+    "address": "0xd81a4adea9932a6bdba0bdbc8c5fd4c78e5a09f1",
+    "symbol": "VOOI",
+    "decimals": 18
+  },
+  {
+    "chainId": 5000,
+    "address": "0x8ddb986b11c039a6cc1dbcabd62bae911b348f33",
+    "symbol": "SCOR",
+    "decimals": 18
+  },
+  {
+    "chainId": 5000,
+    "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
+    "symbol": "axlUSDC",
+    "decimals": 6
+  },
+  {
+    "chainId": 5000,
+    "address": "0x375450706cb79ab749ebb90001bda10341dd82bc",
+    "symbol": "BILLI",
+    "decimals": 18
+  },
+  {
+    "chainId": 5000,
+    "address": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
+    "symbol": "USD1",
+    "decimals": 18
+  },
+  {
+    "chainId": 5000,
+    "address": "0x621ed0f0053c705da4861a5af7244be04655de9b",
+    "symbol": "INTERN",
+    "decimals": 18
+  },
+  {
+    "chainId": 5000,
+    "address": "0x313b079d8e65d71b649c4f0089ae0df02b299af3",
+    "symbol": "金馒头",
+    "decimals": 18
   }
 ]

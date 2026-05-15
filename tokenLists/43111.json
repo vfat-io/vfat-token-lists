@@ -52,5 +52,17 @@
     "symbol": "XAUt",
     "decimals": 6,
     "chainId": 43111
+  },
+  {
+    "chainId": 43111,
+    "address": "0x71881974e96152643c74a8e0214b877cfb2a0aa1",
+    "symbol": "VCRED",
+    "decimals": 6
+  },
+  {
+    "chainId": 43111,
+    "address": "0x5b774f563c902fa7b203fb7029ed6ed4ce274705",
+    "symbol": "HAIR",
+    "decimals": 18
   }
 ]
