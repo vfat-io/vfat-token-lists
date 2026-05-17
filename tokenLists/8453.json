@@ -4276,5 +4276,11 @@
     "address": "0x9aaae745cf2830fb8ddc6248b17436dc3a5e701c",
     "symbol": "GOCHU",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x6e0090dbecf3b4f0f9429637756cadd8fc468c54",
+    "symbol": "MILK",
+    "decimals": 18
   }
 ]
