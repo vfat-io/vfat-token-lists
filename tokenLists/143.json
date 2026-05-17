@@ -526,5 +526,11 @@
     "address": "0x19490ece1ecbad13602822186a573a610c537777",
     "symbol": "Monald",
     "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xb9ac937d8f915b0b73948551caae92232ed87777",
+    "symbol": "MONAD",
+    "decimals": 18
   }
 ]

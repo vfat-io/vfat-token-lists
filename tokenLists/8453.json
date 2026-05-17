@@ -4282,5 +4282,11 @@
     "address": "0x6e0090dbecf3b4f0f9429637756cadd8fc468c54",
     "symbol": "MILK",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x2228363213e6e16e8ccc556aa270a05f1f1a4e02",
+    "symbol": "MOCHITOSHI",
+    "decimals": 18
   }
 ]

@@ -32128,5 +32128,23 @@
     "address": "0x5be6e0e0bbe7711dd118b9dc3c68ccf9bb9754ea",
     "symbol": "$VLN",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xb32844f2260ce6c05ef6227ae8824dc90f6e9e9e",
+    "symbol": "E",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x5a2e5c892c08c0ba6814def6afa23c1f259a5ae1",
+    "symbol": "DICKBUTT",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x502ed02100ea8b10f8d7fc14e0f86633ec2ddada",
+    "symbol": "🐼",
+    "decimals": 18
   }
 ]

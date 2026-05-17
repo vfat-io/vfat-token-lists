@@ -1302,5 +1302,17 @@
     "address": "0x6fdaf5571d1f7d2e12281b349634c21abf6b4c38",
     "symbol": "MEGGY",
     "decimals": 18
+  },
+  {
+    "chainId": 146,
+    "address": "0x8bb21b10f32a10bed94041746ffd32003bad6534",
+    "symbol": "STRIKE",
+    "decimals": 18
+  },
+  {
+    "chainId": 146,
+    "address": "0x70e7f1d907e30efb18fe1dd8a1d75c09a98177d3",
+    "symbol": "JEFE",
+    "decimals": 9
   }
 ]
