@@ -49,6 +49,7 @@ function printUsage() {
   console.log('  --size 128');
   console.log('  --format png');
   console.log('  --force-logo');
+  console.log('  --allow-missing-logo');
   console.log('  --dry-run');
 }
 
@@ -164,6 +165,28 @@ async function writeLogo(buffer, targetDir, targetPath, size, format) {
   await fs.writeFile(targetPath, output);
 }
 
+function shouldRemoveSourceLogo(localPath, targetPath) {
+  if (!localPath) {
+    return false;
+  }
+
+  const repoRoot = process.cwd();
+  const resolvedLocal = path.resolve(localPath);
+  const resolvedTarget = path.resolve(targetPath);
+  const repoPrefix = repoRoot.endsWith(path.sep) ? repoRoot : `${repoRoot}${path.sep}`;
+  const isInRepo = resolvedLocal === repoRoot || resolvedLocal.startsWith(repoPrefix);
+  return isInRepo && resolvedLocal !== resolvedTarget;
+}
+
+async function removeSourceLogo(localPath) {
+  try {
+    await fs.unlink(localPath);
+    console.log(`Removed source logo: ${localPath}`);
+  } catch (error) {
+    console.warn(`failed to remove source logo ${localPath}: ${error.message}`);
+  }
+}
+
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   if (args.help) {
@@ -182,6 +205,7 @@ async function main() {
   const size = Number.parseInt(args.size || '128', 10);
   const format = String(args.format || 'png').toLowerCase();
   const forceLogo = Boolean(args['force-logo']);
+  const allowMissingLogo = Boolean(args['allow-missing-logo']);
   const dryRun = Boolean(args['dry-run']);
 
   if (!Number.isFinite(size) || size <= 0) {
@@ -256,10 +280,52 @@ async function main() {
       }
     }
 
+    let chainChanged = false;
+
     for (const token of tokens) {
       const existingToken = existingByAddress.get(token.address);
       if (existingToken) {
         console.warn(`token already exists for chain ${chainId}: ${token.address}`);
+        continue;
+      }
+
+      const extension = format === 'jpeg' ? 'jpg' : format;
+      const targetDir = path.join(logosDir, String(token.chainId));
+      const targetPath = path.join(targetDir, `${token.address}.${extension}`);
+      let logoReady = false;
+
+      if (!forceLogo) {
+        try {
+          await fs.access(targetPath);
+          logosSkipped += 1;
+          logoReady = true;
+        } catch (error) {
+          // continue
+        }
+      }
+
+      if (!logoReady && dryRun) {
+        logosSkipped += 1;
+        logoReady = true;
+      }
+
+      if (!logoReady) {
+        try {
+          const { buffer, localPath } = await readLogoBuffer(token.logoURI, inputDir);
+          await writeLogo(buffer, targetDir, targetPath, size, format);
+          logosWritten += 1;
+          logoReady = true;
+
+          if (shouldRemoveSourceLogo(localPath, targetPath)) {
+            await removeSourceLogo(localPath);
+          }
+        } catch (error) {
+          logosFailed += 1;
+          console.warn(`logo failed for ${token.address} on ${token.chainId}: ${error.message}`);
+        }
+      }
+
+      if (!logoReady && !allowMissingLogo) {
         continue;
       }
 
@@ -270,54 +336,12 @@ async function main() {
       };
       newToken.decimals = token.decimals;
       existing.push(newToken);
+      existingByAddress.set(token.address, newToken);
+      chainChanged = true;
       added += 1;
-
-      const extension = format === 'jpeg' ? 'jpg' : format;
-      const targetDir = path.join(logosDir, String(token.chainId));
-      const targetPath = path.join(targetDir, `${token.address}.${extension}`);
-
-      if (!forceLogo) {
-        try {
-          await fs.access(targetPath);
-          logosSkipped += 1;
-          continue;
-        } catch (error) {
-          // continue
-        }
-      }
-
-      if (dryRun) {
-        logosSkipped += 1;
-        continue;
-      }
-
-      try {
-        const { buffer, localPath } = await readLogoBuffer(token.logoURI, inputDir);
-        await writeLogo(buffer, targetDir, targetPath, size, format);
-        logosWritten += 1;
-
-        if (localPath && !dryRun) {
-          const repoRoot = process.cwd();
-          const resolvedLocal = path.resolve(localPath);
-          const resolvedTarget = path.resolve(targetPath);
-          const repoPrefix = repoRoot.endsWith(path.sep) ? repoRoot : `${repoRoot}${path.sep}`;
-          const isInRepo = resolvedLocal === repoRoot || resolvedLocal.startsWith(repoPrefix);
-          if (isInRepo && resolvedLocal !== resolvedTarget) {
-            try {
-              await fs.unlink(resolvedLocal);
-              console.log(`Removed source logo: ${localPath}`);
-            } catch (error) {
-              console.warn(`failed to remove source logo ${localPath}: ${error.message}`);
-            }
-          }
-        }
-      } catch (error) {
-        logosFailed += 1;
-        console.warn(`logo failed for ${token.address} on ${token.chainId}: ${error.message}`);
-      }
     }
 
-    if (!dryRun) {
+    if (!dryRun && chainChanged) {
       await writeJsonFile(tokenListPath, existing);
     }
   }
@@ -327,6 +351,10 @@ async function main() {
   console.log(`Logos written: ${logosWritten}`);
   console.log(`Logos skipped: ${logosSkipped}`);
   console.log(`Logos failed: ${logosFailed}`);
+
+  if (logosFailed > 0 && !allowMissingLogo) {
+    throw new Error(`failed to add ${logosFailed} token logo(s)`);
+  }
 }
 
 main().catch((error) => {
