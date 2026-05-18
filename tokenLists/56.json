@@ -38662,5 +38662,77 @@
     "address": "0x2ab0e9e4ee70fff1fb9d67031e44f6410170d00e",
     "symbol": "bXEN",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xdf002282c1474c9592780618adda7eaa99998abd",
+    "symbol": "TOPAZ",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x158ff17474d7acd29c13f26c5d27b293ef0a1410",
+    "symbol": "gBLUE",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xc9ad421f96579ace066ec188a7bba472fb83017f",
+    "symbol": "BOOK",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xa90298e5b1203a2dd0006a75eabe158989c406fb",
+    "symbol": "BLUE",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xfc35bf79270bcad22ce7dd5651aa2435fce9b7c5",
+    "symbol": "BUSS",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x65aea108c21439693468fcd542d81c29e8df4444",
+    "symbol": "Trusty",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x9212cf1f9f4a9c69bb010146ba5b0725169d4444",
+    "symbol": "bibi",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x9c27c4072738cf4b7b0b7071af0ad5666bddc096",
+    "symbol": "NianNian",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xc269d59a0d608ea0bd672f2f4616c372d8554444",
+    "symbol": "ClipX",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x2ac895feba458b42884dcbcb47d57e44c3a303c8",
+    "symbol": "EARN",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x64fdd8a6c19d66a5b917a015868c5611261c4444",
+    "symbol": "$RISE",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xc28957e946ac244612bcb205c899844cbbcb093d",
+    "symbol": "BUD",
+    "decimals": 18
   }
 ]
