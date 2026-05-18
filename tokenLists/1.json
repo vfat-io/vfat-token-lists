@@ -32146,5 +32146,11 @@
     "address": "0x502ed02100ea8b10f8d7fc14e0f86633ec2ddada",
     "symbol": "🐼",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x9a78e6385f0136b797bc17dfcace04988d30fa37",
+    "symbol": "FLAME",
+    "decimals": 18
   }
 ]

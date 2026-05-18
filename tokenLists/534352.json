@@ -184,5 +184,11 @@
     "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
     "symbol": "axlUSDC",
     "decimals": 6
+  },
+  {
+    "chainId": 534352,
+    "address": "0x44f96348916c0769ff738d916eb481f71ccfd18b",
+    "symbol": "RLC",
+    "decimals": 18
   }
 ]

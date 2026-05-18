@@ -622,5 +622,11 @@
     "address": "0x391121d817da42ed3434d281aedbbcc416a2af18",
     "symbol": "HAR",
     "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0x1822bd335489d84abdd0779a7dcaeda0625e83c8",
+    "symbol": "limUSD",
+    "decimals": 18
   }
 ]

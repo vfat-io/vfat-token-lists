@@ -188,5 +188,11 @@
     "address": "0xae85c305034b9f11fbbc772172415f25ff30dab8",
     "symbol": "$CARPET",
     "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0x5beec68913604d60d7bf1a5701e3921984633b83",
+    "symbol": "CRIME",
+    "decimals": 18
   }
 ]

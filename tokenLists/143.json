@@ -532,5 +532,11 @@
     "address": "0xb9ac937d8f915b0b73948551caae92232ed87777",
     "symbol": "MONAD",
     "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xcf21e1acac3b0ab7f0cc9cb846238863a8ba7777",
+    "symbol": "0x0000000000000000",
+    "decimals": 18
   }
 ]

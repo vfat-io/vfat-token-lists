@@ -2608,5 +2608,11 @@
     "address": "0x4e357e4e972fa0d4e2cb2a363c8226c383c43c75",
     "symbol": "RHPEPE",
     "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0x6bf1db778514ec1fb6689289b74c8390f055efb0",
+    "symbol": "GUB",
+    "decimals": 18
   }
 ]
