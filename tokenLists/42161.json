@@ -2762,5 +2762,11 @@
     "address": "0x83a32f2818b6754f7d58af0e559fa9d3fa99ce13",
     "symbol": "LYK",
     "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x54f983f1407d6ec30c6b7633f2bf05a672a7f216",
+    "symbol": "ORB",
+    "decimals": 18
   }
 ]

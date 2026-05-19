@@ -9298,5 +9298,11 @@
     "address": "0xe9bc9ad74cca887aff32ba09a121b1256fc9f052",
     "symbol": "PIG",
     "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x5714b76b3d69f797bede08409e027e1a280c2530",
+    "symbol": "CHECK",
+    "decimals": 18
   }
 ]

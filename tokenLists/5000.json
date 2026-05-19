@@ -393,5 +393,17 @@
     "address": "0x6199ccd9273a1e0e41e2cc18d9dacd1e9382f58e",
     "symbol": "XAUt",
     "decimals": 6
+  },
+  {
+    "chainId": 5000,
+    "address": "0x6e25f88171c71abc3f89494896d89cc028d1e27b",
+    "symbol": "MoMNTum",
+    "decimals": 18
+  },
+  {
+    "chainId": 5000,
+    "address": "0x8edec258d566c5610c2bc5cd1f3db6027bf5854c",
+    "symbol": "Zoey",
+    "decimals": 18
   }
 ]

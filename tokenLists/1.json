@@ -32152,5 +32152,17 @@
     "address": "0x9a78e6385f0136b797bc17dfcace04988d30fa37",
     "symbol": "FLAME",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xe9abaa9d6f65a08f07aed9cb978001c88b9f4151",
+    "symbol": "DOGE",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xdccf3968b667e515c9fc952aa6bf834eb9d8476c",
+    "symbol": "VINCE",
+    "decimals": 18
   }
 ]
