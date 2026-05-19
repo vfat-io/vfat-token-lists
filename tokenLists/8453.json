@@ -4288,5 +4288,11 @@
     "address": "0x2228363213e6e16e8ccc556aa270a05f1f1a4e02",
     "symbol": "MOCHITOSHI",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x16332535e2c27da578bc2e82beb09ce9d3c8eb07",
+    "symbol": "ClawBank",
+    "decimals": 18
   }
 ]
