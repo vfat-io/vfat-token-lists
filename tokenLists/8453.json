@@ -4294,5 +4294,11 @@
     "address": "0x16332535e2c27da578bc2e82beb09ce9d3c8eb07",
     "symbol": "ClawBank",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x7094c27f342dbadfbbed005b219431595e33b305",
+    "symbol": "QUICK",
+    "decimals": 18
   }
 ]
