@@ -2768,5 +2768,17 @@
     "address": "0x54f983f1407d6ec30c6b7633f2bf05a672a7f216",
     "symbol": "ORB",
     "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x8b0e6f19ee57089f7649a455d89d7bc6314d04e8",
+    "symbol": "DMT",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x274c72d739fe18f9e08ccbed587858279c9f2fe7",
+    "symbol": "KITSU",
+    "decimals": 18
   }
 ]

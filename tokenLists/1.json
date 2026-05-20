@@ -32164,5 +32164,11 @@
     "address": "0xdccf3968b667e515c9fc952aa6bf834eb9d8476c",
     "symbol": "VINCE",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x7c0ab59c422ed8ad154f21c254bc47fd12eba7f7",
+    "symbol": "RIPDOGE",
+    "decimals": 18
   }
 ]

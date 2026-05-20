@@ -38734,5 +38734,11 @@
     "address": "0xc28957e946ac244612bcb205c899844cbbcb093d",
     "symbol": "BUD",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x8e1abad7693feef38b878465f30332831f38a95d",
+    "symbol": "JOGE",
+    "decimals": 18
   }
 ]

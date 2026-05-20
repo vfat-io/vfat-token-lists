@@ -142,5 +142,11 @@
     "address": "0x9ec6ad45ae0f8203d0b31c88e3a00b35c20ee2f3",
     "symbol": "UNISOCKS",
     "decimals": 9
+  },
+  {
+    "chainId": 130,
+    "address": "0x69adc02fa9e19ef29b5e2f543763dad2fc1ffb34",
+    "symbol": "UNIPEG",
+    "decimals": 18
   }
 ]
