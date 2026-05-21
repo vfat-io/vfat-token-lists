@@ -4306,5 +4306,29 @@
     "address": "0x06cd849a3f232800b2f5ab791cf75cb7b24f556c",
     "symbol": "MOA",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xf197ffc28c23e0309b5559e7a166f2c6164c80aa",
+    "symbol": "MXNB",
+    "decimals": 6
+  },
+  {
+    "chainId": 8453,
+    "address": "0xbf8e8f0e8866a7052f948c16508644347c57aba3",
+    "symbol": "aeon",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x95ccfd2b81a9667b0cc979992632f98fc853eba3",
+    "symbol": "HermesOS",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xd7bc6a05a56655fb2052f742b012d1dfd66e1ba3",
+    "symbol": "MiroShark",
+    "decimals": 18
   }
 ]
