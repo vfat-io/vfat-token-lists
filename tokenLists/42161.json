@@ -2780,5 +2780,11 @@
     "address": "0x274c72d739fe18f9e08ccbed587858279c9f2fe7",
     "symbol": "KITSU",
     "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0xc93303ac97ce114c190bf4901109323ae5ebc726",
+    "symbol": "TWTS",
+    "decimals": 18
   }
 ]

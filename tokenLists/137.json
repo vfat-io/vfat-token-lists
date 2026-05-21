@@ -9304,5 +9304,11 @@
     "address": "0x5714b76b3d69f797bede08409e027e1a280c2530",
     "symbol": "CHECK",
     "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x667a36584de1d725373e07a6aa3eadb72fbd3224",
+    "symbol": "CC",
+    "decimals": 18
   }
 ]

@@ -4300,5 +4300,11 @@
     "address": "0x7094c27f342dbadfbbed005b219431595e33b305",
     "symbol": "QUICK",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x06cd849a3f232800b2f5ab791cf75cb7b24f556c",
+    "symbol": "MOA",
+    "decimals": 18
   }
 ]
