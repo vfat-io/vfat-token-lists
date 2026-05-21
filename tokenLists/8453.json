@@ -4330,5 +4330,11 @@
     "address": "0xd7bc6a05a56655fb2052f742b012d1dfd66e1ba3",
     "symbol": "MiroShark",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x823ff7bbde2869aae73a6cd53e7f614442836757",
+    "symbol": "wtQQQM",
+    "decimals": 18
   }
 ]
