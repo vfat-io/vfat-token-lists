@@ -2786,5 +2786,77 @@
     "address": "0xc93303ac97ce114c190bf4901109323ae5ebc726",
     "symbol": "TWTS",
     "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x330bd769382cfc6d50175903434ccc8d206dcae5",
+    "symbol": "PNK",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x7424f00845777a06e21f0bd8873f814a8a814b2d",
+    "symbol": "WXTZ",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0xb59c8912c83157a955f9d715e556257f432c35d7",
+    "symbol": "TRUF",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef",
+    "symbol": "USDai",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x60137fca8149ffae539d0eee96aa217e91865e41",
+    "symbol": "SPACEL",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x56659245931cb6920e39c189d2a0e7dd0da2d57b",
+    "symbol": "IBEX",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x1a6b3a62391eccaaa992ade44cd4afe6bec8cff1",
+    "symbol": "UXLINK",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0xe061aa40be525a13296cb4bf69f513242349d708",
+    "symbol": "XVGARB",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x46777c76dbbe40fabb2aab99e33ce20058e76c59",
+    "symbol": "L3",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0xa891b374942cde9061e044c1d19c5b5de06a68e1",
+    "symbol": "KAI",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x9134283afaf6e1b45689ec0b0c82ff2b232bcb30",
+    "symbol": "KIT",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8",
+    "symbol": "DOT",
+    "decimals": 18
   }
 ]

@@ -118,5 +118,11 @@
     "address": "0xab09a728e53d3d6bc438be95eed46da0bbe7fb38",
     "symbol": "SUSHI",
     "decimals": 18
+  },
+  {
+    "chainId": 480,
+    "address": "0xdbb7be091f5adddb22ebc7117de52bcc4c93ffb0",
+    "symbol": "FRUIT",
+    "decimals": 18
   }
 ]

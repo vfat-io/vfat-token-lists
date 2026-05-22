@@ -4006,5 +4006,17 @@
     "address": "0x841aef70237a88027ccb2d15c1bbaf88a669674a",
     "symbol": "xSPACE",
     "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0xe061aa40be525a13296cb4bf69f513242349d708",
+    "symbol": "XVGAVA",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x7cc9c624efa62c2decf0a2a028f7885ecea95a17",
+    "symbol": "SPCM",
+    "decimals": 18
   }
 ]

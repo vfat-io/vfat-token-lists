@@ -130,5 +130,11 @@
     "address": "0x92ae20c79de901354de69e5723e9942670e6992f",
     "symbol": "CENT",
     "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x15b271d9012b5820fc42b1c495b4c1e206547de5",
+    "symbol": "wiTRY",
+    "decimals": 18
   }
 ]

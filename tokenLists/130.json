@@ -148,5 +148,35 @@
     "address": "0x69adc02fa9e19ef29b5e2f543763dad2fc1ffb34",
     "symbol": "UNIPEG",
     "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0x984ae4c68fb3ec037fac36d48622f30eb5ae1361",
+    "symbol": "vyUSD",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0xec4a56061d86955d0df883efb2e5791d99ea71f2",
+    "symbol": "HOONI",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0xfdca15bd55f350a36e63c47661914d80411d2c22",
+    "symbol": "uTAO",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+    "symbol": "frxUSD",
+    "decimals": 18
+  },
+  {
+    "chainId": 130,
+    "address": "0x94cac393f3444cef63a651ffc18497e7e8bd036a",
+    "symbol": "rETH",
+    "decimals": 18
   }
 ]

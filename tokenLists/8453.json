@@ -4336,5 +4336,11 @@
     "address": "0x823ff7bbde2869aae73a6cd53e7f614442836757",
     "symbol": "wtQQQM",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x88a5d9732ba2650468c81731c8abdaf55e89d088",
+    "symbol": "FREG",
+    "decimals": 18
   }
 ]

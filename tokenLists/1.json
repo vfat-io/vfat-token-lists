@@ -32170,5 +32170,53 @@
     "address": "0x7c0ab59c422ed8ad154f21c254bc47fd12eba7f7",
     "symbol": "RIPDOGE",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xaf1e52927d724fd34773bd53ada57f4c2b742069",
+    "symbol": "SHIT",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xd4419c2d3daa986dc30444fa333a846be44fd1eb",
+    "symbol": "ZIK",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x4200000623d0242cccd4e907008583dcb4af6472",
+    "symbol": "ESTEE",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x3e800a1999d9c03f0deaf1deddc16ad5415bddd6",
+    "symbol": "GOBLIN",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x8786336fbe367eb4548a1ee3e4543355ecab5fc4",
+    "symbol": "HANC",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x31b3df65f73589fc0cab2d7ee0287ce9c67f19b5",
+    "symbol": "BABYHANC",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xaee8fab061013ff358330055454cfeef6299f7b6",
+    "symbol": "KANRO",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xcf8e055f9179b3949cf6509151a3b3be1c0a86a2",
+    "symbol": "QEQE",
+    "decimals": 18
   }
 ]

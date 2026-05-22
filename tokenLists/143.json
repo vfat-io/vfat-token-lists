@@ -538,5 +538,47 @@
     "address": "0xcf21e1acac3b0ab7f0cc9cb846238863a8ba7777",
     "symbol": "0x0000000000000000",
     "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xd10cf12099f5fb424bc77401df49f0c785657777",
+    "symbol": "EGG",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x25d5934ce90228b9b7ce03999b81069ab6297777",
+    "symbol": "SPIDERMON",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xd691b0afed67f96cec28ab6308cbe5b2c103b7e9",
+    "symbol": "eBTC",
+    "decimals": 10
+  },
+  {
+    "chainId": 143,
+    "address": "0x84e6d67e36618fb07ed78227743fd6c044927777",
+    "symbol": "AMALGAM",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x57e83c6d6ba9db46884231d34ed025047af5ac8a",
+    "symbol": "Zlurpee",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x9f93da6f9202ff6566b35d4d1da6e1bb4a64eb56",
+    "symbol": "SNADS",
+    "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xaca92e438df0b2401ff60da7e4337b687a2435da",
+    "symbol": "mUSD",
+    "decimals": 6
   }
 ]
