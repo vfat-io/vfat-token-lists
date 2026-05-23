@@ -32218,5 +32218,23 @@
     "address": "0xcf8e055f9179b3949cf6509151a3b3be1c0a86a2",
     "symbol": "QEQE",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x23d17de53aae4a767499a9d8b8c33b5b1c3ebdb0",
+    "symbol": "BLUR",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x42c7cbc9839866d069da47430110addb92ae9ad3",
+    "symbol": "MR",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xc74c6a0b1a7f6a41eca76659016155eae34fc5fa",
+    "symbol": "BABYGIRL",
+    "decimals": 18
   }
 ]

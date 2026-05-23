@@ -2858,5 +2858,11 @@
     "address": "0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8",
     "symbol": "DOT",
     "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0xb6093b61544572ab42a0e43af08abafd41bf25a6",
+    "symbol": "WXM",
+    "decimals": 18
   }
 ]

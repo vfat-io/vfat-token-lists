@@ -580,5 +580,11 @@
     "address": "0xaca92e438df0b2401ff60da7e4337b687a2435da",
     "symbol": "mUSD",
     "decimals": 6
+  },
+  {
+    "chainId": 143,
+    "address": "0xfe171c7be5bf3bcc9d7253452934ae3a582d7777",
+    "symbol": "WIT",
+    "decimals": 18
   }
 ]
