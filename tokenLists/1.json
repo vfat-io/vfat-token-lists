@@ -32236,5 +32236,11 @@
     "address": "0xc74c6a0b1a7f6a41eca76659016155eae34fc5fa",
     "symbol": "BABYGIRL",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xc720efc91be02c2ecb5a6f74776d408f54275366",
+    "symbol": "MUDBONE",
+    "decimals": 18
   }
 ]

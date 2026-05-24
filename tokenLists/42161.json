@@ -2864,5 +2864,11 @@
     "address": "0xb6093b61544572ab42a0e43af08abafd41bf25a6",
     "symbol": "WXM",
     "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0xd3af44bde72976c8e930b73c0228609434536037",
+    "symbol": "NOLA",
+    "decimals": 18
   }
 ]

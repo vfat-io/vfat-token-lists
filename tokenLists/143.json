@@ -586,5 +586,11 @@
     "address": "0xfe171c7be5bf3bcc9d7253452934ae3a582d7777",
     "symbol": "WIT",
     "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xec7d95c52d02b78eff320677b9389b3a92da8888",
+    "symbol": "GMONAD",
+    "decimals": 18
   }
 ]

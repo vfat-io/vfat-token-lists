@@ -1582,5 +1582,11 @@
     "address": "0x14fb0e7640e7fb7765cfa87cec973ff5465d1c66",
     "symbol": "SCRATCH",
     "decimals": 18
+  },
+  {
+    "chainId": 25,
+    "address": "0x0d0b4a6fc6e7f5635c2ff38de75af2e96d6d6804",
+    "symbol": "PACK",
+    "decimals": 18
   }
 ]
