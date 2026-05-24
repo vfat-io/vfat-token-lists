@@ -4342,5 +4342,11 @@
     "address": "0x88a5d9732ba2650468c81731c8abdaf55e89d088",
     "symbol": "FREG",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x4e6c9f48f73e54ee5f3ab7e2992b2d733d0d0b07",
+    "symbol": "JUNO",
+    "decimals": 18
   }
 ]
