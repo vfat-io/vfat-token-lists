@@ -2614,5 +2614,11 @@
     "address": "0x6bf1db778514ec1fb6689289b74c8390f055efb0",
     "symbol": "GUB",
     "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0x357d80ea5dc53999da7da747e7afebc02fe276fb",
+    "symbol": "SWITCH",
+    "decimals": 18
   }
 ]

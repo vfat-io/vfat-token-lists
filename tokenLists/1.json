@@ -32242,5 +32242,11 @@
     "address": "0xc720efc91be02c2ecb5a6f74776d408f54275366",
     "symbol": "MUDBONE",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xa75ad62a1b6b78eea6c54c22eb697ca0b125f97a",
+    "symbol": "MEOW",
+    "decimals": 18
   }
 ]
