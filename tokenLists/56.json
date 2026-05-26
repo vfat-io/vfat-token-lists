@@ -38758,5 +38758,11 @@
     "address": "0x9f9f093bbc604916e38247a32c14147e565990da",
     "symbol": "BSCAT",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x2e451f17dff116e9c528f7dd4397a2b0c74da20e",
+    "symbol": "BNBSNAKE",
+    "decimals": 18
   }
 ]

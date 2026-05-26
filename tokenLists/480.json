@@ -124,5 +124,11 @@
     "address": "0xdbb7be091f5adddb22ebc7117de52bcc4c93ffb0",
     "symbol": "FRUIT",
     "decimals": 18
+  },
+  {
+    "chainId": 480,
+    "address": "0x5fd95419576265f51832cd0c052973f2bbbaba44",
+    "symbol": "FUTX",
+    "decimals": 18
   }
 ]

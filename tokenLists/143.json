@@ -592,5 +592,11 @@
     "address": "0xec7d95c52d02b78eff320677b9389b3a92da8888",
     "symbol": "GMONAD",
     "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x9c44d09dc4a4a73132a62ce86919874e8d6fda07",
+    "symbol": "JAMES_TEST",
+    "decimals": 18
   }
 ]

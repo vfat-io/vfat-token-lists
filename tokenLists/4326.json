@@ -136,5 +136,11 @@
     "address": "0x15b271d9012b5820fc42b1c495b4c1e206547de5",
     "symbol": "wiTRY",
     "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x141cf6bfe9d5057883b9becb39fee8a62982dc93",
+    "symbol": "Σ:",
+    "decimals": 18
   }
 ]
