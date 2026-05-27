@@ -130,5 +130,11 @@
     "address": "0x5fd95419576265f51832cd0c052973f2bbbaba44",
     "symbol": "FUTX",
     "decimals": 18
+  },
+  {
+    "chainId": 480,
+    "address": "0x30974f73a4ac9e606ed80da928e454977ac486d2",
+    "symbol": "oXAUT",
+    "decimals": 6
   }
 ]

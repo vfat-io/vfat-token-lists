@@ -32248,5 +32248,11 @@
     "address": "0xa75ad62a1b6b78eea6c54c22eb697ca0b125f97a",
     "symbol": "MEOW",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x461a1934b730ed15742885456d1d6b2943fa6d33",
+    "symbol": "APED",
+    "decimals": 18
   }
 ]
