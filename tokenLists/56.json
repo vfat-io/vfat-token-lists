@@ -38764,5 +38764,11 @@
     "address": "0x2e451f17dff116e9c528f7dd4397a2b0c74da20e",
     "symbol": "BNBSNAKE",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x6dc200b21894af4660b549b678ea8df22bf7cfac",
+    "symbol": "WARD",
+    "decimals": 18
   }
 ]

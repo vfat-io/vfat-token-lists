@@ -4348,5 +4348,47 @@
     "address": "0x4e6c9f48f73e54ee5f3ab7e2992b2d733d0d0b07",
     "symbol": "JUNO",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x940a319b75861014a220d9c6c144d108552b089b",
+    "symbol": "DEUS",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x70c8392de9b39a1e48d12a70af6ff4be25d6d0a2",
+    "symbol": "CHZ",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xdd15623d107c639af0c5127affa26d3f20327ec8",
+    "symbol": "PSG",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x580eda966a8129c3c01d149871b47fefcc599d28",
+    "symbol": "AFC",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x11030f79109269d796fd0fb956d6244e502757f7",
+    "symbol": "CTR",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x7afe438411ee3959c7de6f7fb76bf9c769320ba3",
+    "symbol": "BLOCKTRONICS",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x97be14dd8f994a5364573bc035d85309e7cb34de",
+    "symbol": "JitoSOL",
+    "decimals": 9
   }
 ]
