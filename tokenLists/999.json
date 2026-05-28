@@ -640,5 +640,11 @@
     "address": "0x266a2491f782eb03b369760889fff8785efb3e46",
     "symbol": "TIME",
     "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0x1d5d9e73f8219fb4396a9060c49c155da0d65066",
+    "symbol": "haUSDC",
+    "decimals": 18
   }
 ]

@@ -2870,5 +2870,11 @@
     "address": "0xd3af44bde72976c8e930b73c0228609434536037",
     "symbol": "NOLA",
     "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0xb688ba096b7bb75d7841e47163cd12d18b36a5bf",
+    "symbol": "mPendle",
+    "decimals": 18
   }
 ]
