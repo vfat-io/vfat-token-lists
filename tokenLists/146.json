@@ -1314,5 +1314,11 @@
     "address": "0x70e7f1d907e30efb18fe1dd8a1d75c09a98177d3",
     "symbol": "JEFE",
     "decimals": 9
+  },
+  {
+    "chainId": 146,
+    "address": "0x501ebf66d76a96d4fb26ccead42957653e16b8b8",
+    "symbol": "evaUSDT",
+    "decimals": 6
   }
 ]
