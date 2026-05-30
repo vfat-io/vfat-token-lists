@@ -4396,5 +4396,11 @@
     "address": "0x5e985e4bca4664e985f3faf8140eba25b10e28c2",
     "symbol": "PEPPER",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x65f8152809dd1fc0d5d8a345c9008d37b95f9ba3",
+    "symbol": "CAPACITR",
+    "decimals": 18
   }
 ]

@@ -38770,5 +38770,23 @@
     "address": "0x6dc200b21894af4660b549b678ea8df22bf7cfac",
     "symbol": "WARD",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x1d547f9d0890ee5abfb49d7d53ca19df85da4444",
+    "symbol": "B4",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x40b8129b786d766267a7a118cf8c07e31cdb6fde",
+    "symbol": "UB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x6bdcce4a559076e37755a78ce0c06214e59e4444",
+    "symbol": "B",
+    "decimals": 18
   }
 ]
