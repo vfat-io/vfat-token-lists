@@ -32254,5 +32254,167 @@
     "address": "0x461a1934b730ed15742885456d1d6b2943fa6d33",
     "symbol": "APED",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x07c0d6327090091442bedffc8580bdcbe8cdb700",
+    "symbol": "Cali",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x2c8e04d13799a1fb0d6566560fa229d4d22b00c4",
+    "symbol": "BUBO",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x460db1baec5495740eb0d85021e0e052604e07d2",
+    "symbol": "PUMPERS",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x478b7c349b7158483c62200dfd125837a0045114",
+    "symbol": "Token",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x4c2a1e9899e3320ed87a039fcafef6e4f7fac360",
+    "symbol": "CUM",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x532585dbb6a74419548523978ca9c71ab385368f",
+    "symbol": "DATAHOUSE",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x5bee1e9e0e2e3df4dbe6d737d71290eebd1bf1d0",
+    "symbol": "Coin",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x5fb44a9609d148ed3ed694c1292e8af923dfaea4",
+    "symbol": "Commutitty",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x5fc5869f421ce842bf01a39cef559686652abb82",
+    "symbol": "CUM",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x65d9d44a94e400d294724a56b09ee8d1f847cdb8",
+    "symbol": "Roblox",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x68bdeeb080dd34a3d22d7e0b382700735fe6acc6",
+    "symbol": "ballish",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x68cedf9162f88d74f8487d3413dd237343ec1690",
+    "symbol": "CUM",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x7d2d1125db8d5fb40710bc73fe32aaa8b271894f",
+    "symbol": "CUM",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x81dc5567ef98c80153e65ce3ecb573c356b755bb",
+    "symbol": "LEET",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x8a9ef63d357e4b926fc294d4d1b2af38af9fe351",
+    "symbol": "Nietzsche",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x8ef79b61518940c114ef7dc42d306e06a7c25558",
+    "symbol": "era",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xa2a0b0cffdc2e9a5895fdf6be5eb79c6063be973",
+    "symbol": "CUM",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xb32cbee51ebc2c7f8268a1e2ded8f30b68f42381",
+    "symbol": "S&P500",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xb8c8a121c026ada1881679c8ef24e1248d47218a",
+    "symbol": "SPERM",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xb9a3e5cf8c4abf6fce8a7def4a995cd7f6740b37",
+    "symbol": "LEET",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xbff88d391b2297711482e77bb7c0c17064ea5c62",
+    "symbol": "sheldn",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xc123fd15ce0a4a0740d7928eeb0af2987e13cd49",
+    "symbol": "GOONER",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xd7d4c13f310990d2ee8e4cd009d2d0c3785f085b",
+    "symbol": "CTO",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xe9fb7d40b6addea93cbe61a3e0916f830a1d51c4",
+    "symbol": "SHEEP",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xee08674bcf1b41e7a4ce4cf0a0111fd7633c680b",
+    "symbol": "PTARDIO",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xf5beb2262780cc3b1464139a6f77fdb59f050907",
+    "symbol": "drooling",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xff9637a519d272df09778fa13350f88fade43081",
+    "symbol": "PUMPERS",
+    "decimals": 18
   }
 ]
