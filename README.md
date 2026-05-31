@@ -4,6 +4,7 @@ This repo contains chain token list definitions and normalized token logos.
 
 ## Layout
 - tokenLists/<chainId>.json: JSON array of tokens for a chain
+- feeOnTransferTokens/<chainId>.json: JSON array of tokens that take a fee on transfer (rebase / tax / reflection tokens). Consumers like vfat-router exclude these from routing paths because UniswapV2/Aerodrome-style swap math assumes `amountReceived == amountSent` and reverts (`K()` invariant) when the destination pool's transferred-in balance is less than expected.
 - logos/<chainId>/<address>.png: lowercased address, 128x128 PNG
 - scripts/add-tokens.mjs: add tokens + normalize logo images
 - scripts/remove-token.mjs: remove tokens by address + delete matching logos
@@ -14,6 +15,14 @@ Each token entry uses:
 - address (hex string)
 - symbol (string)
 - decimals (number)
+
+## Fee-on-transfer token list format
+Same shape as the standard token list, plus optional fields:
+- `feeBps` — measured tax in bps
+- `evidence` — structured object documenting the on-chain proof. Recommended keys: `txHash`, `blockNumber`, `explorer` (URL to the tx on a block explorer), `sender`, `recipient`, the actual amounts split between recipient and tax destination, and a one-line `computation` showing the bps derivation
+- `note` — free-form summary
+
+Consumers should treat presence in the list as opaque: any token here is excluded from routing regardless of `feeBps`. Including reproducible `evidence` lets future contributors verify the classification without needing to re-run an audit from scratch.
 
 ## Add tokens (contributors)
 Contributions must use the `add-tokens` script. Manual edits to `tokenLists/` or `logos/` should be avoided.
