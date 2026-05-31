@@ -32416,5 +32416,239 @@
     "address": "0xff9637a519d272df09778fa13350f88fade43081",
     "symbol": "PUMPERS",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x0f166fa456a991eea0e2cc428841835204a651e0",
+    "symbol": "末日辞",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x1d19eaa57019cb1b455c16deae9c84e516096e71",
+    "symbol": "TUNGHOUSE",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x24cff5d0dbc46b858aec7c59aa0d683b48b62d58",
+    "symbol": "DÉJÀVU",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x3a1abcecd999fe8745c5d4bad817abb15e8fbcc4",
+    "symbol": "IBM",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x438d34d65488257caa0443a486b64123c60c72b1",
+    "symbol": "PACKS",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x46ec45565952a3f3ad7c2ded264da60de3378be6",
+    "symbol": "PACKS",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x4a1ea4ea0c1c10eaef8db28f92b75a35bb4b4f4a",
+    "symbol": "Casino",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x4d2c056c631e9a3e76bc71af2d9a3df86dcde0bd",
+    "symbol": "beebee",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x61c9e48ade97a6d53cc55a5669dcc498730b1dd3",
+    "symbol": "dih",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x68a3f2ec2dc0427425f7abfaa0a4374ef2432c78",
+    "symbol": "chadnald",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x79a35e2abdd496b20f14f0636488e06d20de61c5",
+    "symbol": "XCAT",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x7cb208b47af42886eea0320191290495022aa72a",
+    "symbol": "TS",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x7cb75b64d39c735b4f3e2014cf02eb62c166d464",
+    "symbol": "equivalenc",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x82a32c144b702bc9526afbd22f0ca1620f83d648",
+    "symbol": "IBM",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x8da851ac8bff8338e11c50b9bce65a1334009e9e",
+    "symbol": "Cult",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x8e6dcf725183efc9a5403394281d100e3a36769a",
+    "symbol": "PACKS",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x8f7d5f7e1825566926ff2ffa9e8fa300cea39ed6",
+    "symbol": "TrumpsTrad",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x9a153cdfeb2573fdc5ce091098f9a5c85c0fd08a",
+    "symbol": "Gen-Z",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x9b617dc243cd42b4d64fc23fb36afb92940c262b",
+    "symbol": "dahbihgah",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x9eb94bef17fd824a684b9075588a3738010bc529",
+    "symbol": "PACKS",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xa36ed623449d77be24b5fd835fe0f19226803320",
+    "symbol": "Curo",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xa39e50fd277a89e2f20483388ff15a39159a4309",
+    "symbol": "AIR",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xa589e8a018958bce9f87375317f346fb7460d1ea",
+    "symbol": "Laika",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xa7a6da98ed1824b4cf8058ab9a5e30b580b729d5",
+    "symbol": "buttish",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xb05cf6be425e01b28a5f98d2544682c64039aef2",
+    "symbol": "S&P500",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xb274ba8c565d45f0a6994b83573dd81646e01a89",
+    "symbol": "BONG",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xb31a532210983239d54925f4afd6e21eab2bc8d9",
+    "symbol": "XCAT",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xb4ff920800257186f4b1fe55cd7c84060d516d54",
+    "symbol": "genny",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xbb080e6a373d1b265ff01068db84f78e6bbd15b7",
+    "symbol": "Bagworkers",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xbe587e2c55b27126cfb09723cf3e798b4d3accdd",
+    "symbol": "Motion",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xc58b5eb5e5d6899c9214f609a59dd550a13ae079",
+    "symbol": "Epiphany",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xcc9e5b9f98f961b0147d5c9b81f0a28c6f2f29e3",
+    "symbol": "wCAT",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xd1d2a7bfdbcaa46c093c753ea25e6502ce73b1e1",
+    "symbol": "Toylor",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xd5955c77071d43edb063ebd41309a7fc50231774",
+    "symbol": "DIHVAL",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xe455a53f8cf733cb413f089ef302cf2e63860263",
+    "symbol": "garage",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xf44d0e89343095ae1895e4ef9b8eee956919c495",
+    "symbol": "Polecat",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xf99fc81f6b10d3fc4c041ad076e93c2dcd279615",
+    "symbol": "BUBBLE",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xfb4d8a62d9f3a321792be26b0d44787b56a6b245",
+    "symbol": "Garvis",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xfce9cec50b2cfb1647578a17db96b06ecae9507e",
+    "symbol": "FORT",
+    "decimals": 18
   }
 ]
