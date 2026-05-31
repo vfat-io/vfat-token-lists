@@ -17,6 +17,6 @@
       "computedTaxBps": 100,
       "computation": "246321239022074125289 / (246321239022074125289 + 24385802663185338403543) == 0.0100000... (100 bps)"
     },
-    "note": "Single user-initiated fBOMB transfer emits two Transfer events: amount*0.99 to recipient + amount*0.01 burned to 0x0. Verified deterministically by replaying eth_getLogs at block 46702256. Any router path that touches fBOMB as input/intermediate/output reverts K() at the next pool because amountReceived == amountSent * 0.99 instead of the demanded amountOut."
+    "note": "Single user-initiated fBOMB transfer emits two Transfer events: amount*0.99 to recipient + amount*0.01 burned to 0x0. Verified deterministically by replaying eth_getLogs at block 46702256. Failure modes by position in a router path: (1) fBOMB as INPUT or INTERMEDIATE — the destination pool receives only 99% of amountSent, so pool.swap(amount0Out, ...) reverts K() because the demanded output assumed full amountSent; (2) fBOMB as TERMINAL OUTPUT — no next pool, no K() revert, but the user receives 99% of the quoted amountOut, silently violating the minAmountOut slippage promise (delivered < quoted). Both modes are unsafe; the router blocks all three positions equally."
   }
 ]
