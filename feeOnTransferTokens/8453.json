@@ -1,0 +1,10 @@
+[
+  {
+    "address": "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979",
+    "symbol": "fBOMB",
+    "chainId": 8453,
+    "decimals": 18,
+    "feeBps": 100,
+    "note": "Confirmed via on-chain trace 2026-05-31: pool->wallet transfer delivers 99% of stated amount. Any router path that touches fBOMB as input or intermediate trips the destination pool's K() invariant on Aerodrome V2."
+  }
+]
