@@ -5,6 +5,18 @@
     "chainId": 8453,
     "decimals": 18,
     "feeBps": 100,
-    "note": "Confirmed via on-chain trace 2026-05-31: pool->wallet transfer delivers 99% of stated amount. Any router path that touches fBOMB as input or intermediate trips the destination pool's K() invariant on Aerodrome V2."
+    "evidence": {
+      "txHash": "0x83ef34bbbf0cb196754af37dc7519e4277efd13c5500b8ef9046ca115669a26a",
+      "blockNumber": 46702256,
+      "explorer": "https://basescan.org/tx/0x83ef34bbbf0cb196754af37dc7519e4277efd13c5500b8ef9046ca115669a26a",
+      "sender": "0xff8e0bd2d8f02904e7e18dd00ea50aec68f37a10",
+      "recipient": "0x5b9c81390200463344249fff5a60d5e9f4d63a39",
+      "transferToRecipient": "24385802663185338403543",
+      "transferToBurnAddress": "246321239022074125289",
+      "burnAddress": "0x0000000000000000000000000000000000000000",
+      "computedTaxBps": 100,
+      "computation": "246321239022074125289 / (246321239022074125289 + 24385802663185338403543) == 0.0100000... (100 bps)"
+    },
+    "note": "Single user-initiated fBOMB transfer emits two Transfer events: amount*0.99 to recipient + amount*0.01 burned to 0x0. Verified deterministically by replaying eth_getLogs at block 46702256. Any router path that touches fBOMB as input/intermediate/output reverts K() at the next pool because amountReceived == amountSent * 0.99 instead of the demanded amountOut."
   }
 ]

@@ -17,7 +17,12 @@ Each token entry uses:
 - decimals (number)
 
 ## Fee-on-transfer token list format
-Same shape as the standard token list, plus optional `feeBps` (measured tax in bps) and free-form `note` documenting the evidence (block height, tx hash, observed delta). Consumers should treat presence in the list as opaque: any token here is excluded from routing regardless of `feeBps`.
+Same shape as the standard token list, plus optional fields:
+- `feeBps` — measured tax in bps
+- `evidence` — structured object documenting the on-chain proof. Recommended keys: `txHash`, `blockNumber`, `explorer` (URL to the tx on a block explorer), `sender`, `recipient`, the actual amounts split between recipient and tax destination, and a one-line `computation` showing the bps derivation
+- `note` — free-form summary
+
+Consumers should treat presence in the list as opaque: any token here is excluded from routing regardless of `feeBps`. Including reproducible `evidence` lets future contributors verify the classification without needing to re-run an audit from scratch.
 
 ## Add tokens (contributors)
 Contributions must use the `add-tokens` script. Manual edits to `tokenLists/` or `logos/` should be avoided.
