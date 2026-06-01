@@ -32650,5 +32650,257 @@
     "address": "0xfce9cec50b2cfb1647578a17db96b06ecae9507e",
     "symbol": "FORT",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x94da2256a89398c3d0849fb5924bcb8a871ec68c",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x00337d16fe7ca0a0ed16461ced9514cbea192355",
+    "symbol": "DATBIHGAH",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x04047ab54118fd978a466c06e2241e8ec39361d2",
+    "symbol": "HOMO",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x08c31e0f8cfd313e85e7b79af4dab9c9a4ae2ab0",
+    "symbol": "GAYMAN",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x0a6e82692eb88b17ba9b9964b875851d2fe64784",
+    "symbol": "CMD",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x0b8021c93d7c9449b54528a639a518ca3fe3fd6a",
+    "symbol": "PRONOIA",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x0ebe3b4ae55d0e751e8eacb875b52fa6c1462cd1",
+    "symbol": "longcoin",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x1e38b9070d8f4ff26da415e05339a156653bb9ac",
+    "symbol": "Margaret",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x20e718fdf39325215e3c91411a9b0abc53ad7179",
+    "symbol": "SNP500",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x2783ee687dbf1665e8a867c6874445313d9d4aeb",
+    "symbol": "LGBTQ",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x2856e00a4bf179647629c2fbf952a9f887191e45",
+    "symbol": "JTVO",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x2f6c858f3a3ba068030327891815f6381c39adae",
+    "symbol": "Frog",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x37249930a5959ff6b9db07dfe8f4557e31a996fa",
+    "symbol": "ber",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x40ca9a60f8be7ed1c30938699e2ce54ac07dc979",
+    "symbol": "gae",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x410175caae9f46fd4c0add3d0b0c51489a6bdd71",
+    "symbol": "tolytown",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x439b299ec1e1416545e5ed854bfc6297fb46e1ce",
+    "symbol": "DATBIHGAH",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x4560ae01fc5745d44cdbfe24adfd7c8d4606dc05",
+    "symbol": "DiddyButt",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x4c2693bb978b7563ada45b8fe514319e964c2a62",
+    "symbol": "10m",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x54c5fc2962d9c28aedf83e9c6229c4693997b578",
+    "symbol": "HOMO",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x5fb380131bed23474b3173eb0282e07cbdea1ee3",
+    "symbol": "Cryptosexu",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x62a68bf5c4a08d27b59ba706a32d8c1ecf818f40",
+    "symbol": "10m",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x70f4a02d517f0bc73b12d0fa8ea4105c891512bb",
+    "symbol": "FLOCKY",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x7390cd60c05621fb5fad41fc9bbcab74a69bd328",
+    "symbol": "GLP1",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x7721889ce95cd654690913b468261e8cbef59d28",
+    "symbol": "Bubba",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x7e9f65af3146d3a2a7d45fa47203a2b8ac0f1cdf",
+    "symbol": "ORGY",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x80459b28a35bd2b3a536168bf6f28af48e31f061",
+    "symbol": "1b",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x86b7fc67aea3ed71b64b01b624eb20230443520d",
+    "symbol": "GAYHOUSE",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x92ce51d6f47b22f7a0bbf503eafb64a0f9b1179c",
+    "symbol": "LGBT",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x96cd3b30ecb3d140f8c79a4229a91af6d5904800",
+    "symbol": "HIV",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xa1e0c73cf44afe1c63ed37f0ce9d3abc5a9f3d1d",
+    "symbol": "Odysseus",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xaf3d4a4236a1571403606accc9bf70365b5cad70",
+    "symbol": "10m",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xafcef3a62dfb907b21c3c91b671a143b42d5e743",
+    "symbol": "DiddyButt",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xbde5bc6fea5f90213b3e3618be9bcbee9a61ba21",
+    "symbol": "FINALS",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xc1b708fcbf03e28c89bb4d06ad65c1096a03586e",
+    "symbol": "COOKED",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xcc5f94e92c43938290837e5d54e440de88fed845",
+    "symbol": "PF",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xe03cf3bf2bfdba5273a590547644774f3ee708b4",
+    "symbol": "GAY",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xe207b7e7eb7008f6290585afd450e905867de7e9",
+    "symbol": "DAI",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xe5d49554198c7f81ca3c9a5124c62894916af8b0",
+    "symbol": "Hormuz",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xe737259dca0d81e8c11e08be9a6e33326e2e2181",
+    "symbol": "FAGFIND",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xef8107892fc40a9d7072e3a1084ca1c6d42127b0",
+    "symbol": "VOLTAIRE",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xfd8ebdc17baf0b0d2989966974a4f63cad51107e",
+    "symbol": "DATBIHGAH",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xfe57b8095250598e5edee55af45070fef5455f3d",
+    "symbol": "COIN",
+    "decimals": 18
   }
 ]

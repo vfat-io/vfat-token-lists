@@ -646,5 +646,23 @@
     "address": "0x1d5d9e73f8219fb4396a9060c49c155da0d65066",
     "symbol": "haUSDC",
     "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0x62d5dd0190376c444a4b2e2e860aa392ec83ed80",
+    "symbol": "JOFF",
+    "decimals": 8
+  },
+  {
+    "chainId": 999,
+    "address": "0x4917afd9f67e314c97b413cc77f325e7f64ee33a",
+    "symbol": "YOSO",
+    "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0x27249fc563e0308f7a9e27b23379527b06357d72",
+    "symbol": "0x0000000000000000",
+    "decimals": 18
   }
 ]

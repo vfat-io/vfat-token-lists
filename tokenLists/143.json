@@ -604,5 +604,11 @@
     "address": "0x7a481e5565d7e05d13a0c6edf1c134e56a237777",
     "symbol": "RAYJ",
     "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x2c957534413f97d5b2a3e83a58df60e550317777",
+    "symbol": "LEMON",
+    "decimals": 18
   }
 ]
