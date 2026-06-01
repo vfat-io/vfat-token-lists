@@ -9316,5 +9316,11 @@
     "address": "0x11cd72f7a4b699c67f225ca8abb20bc9f8db90c7",
     "symbol": "OSAK",
     "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xac0f66379a6d7801d7726d5a943356a172549adb",
+    "symbol": "GEOD",
+    "decimals": 18
   }
 ]
