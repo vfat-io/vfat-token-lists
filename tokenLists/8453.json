@@ -4402,5 +4402,11 @@
     "address": "0x65f8152809dd1fc0d5d8a345c9008d37b95f9ba3",
     "symbol": "CAPACITR",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x9b56b112bbd6343a8961a093315a9a60b8cb1f36",
+    "symbol": "PEAQ",
+    "decimals": 18
   }
 ]
