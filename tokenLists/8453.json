@@ -4408,5 +4408,11 @@
     "address": "0x9b56b112bbd6343a8961a093315a9a60b8cb1f36",
     "symbol": "PEAQ",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xa1a0b2e02b0e6830ad5a4a7211691200945d8919",
+    "symbol": "hTEA",
+    "decimals": 18
   }
 ]
