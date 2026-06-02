@@ -38788,5 +38788,17 @@
     "address": "0x6bdcce4a559076e37755a78ce0c06214e59e4444",
     "symbol": "B",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x73b84f7e3901f39fc29f3704a03126d317ab4444",
+    "symbol": "PUP",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x5f6fd60ad6cd8751b4c521bc00fa02abfeca4444",
+    "symbol": "背手负鼠",
+    "decimals": 18
   }
 ]
