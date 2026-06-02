@@ -2620,5 +2620,11 @@
     "address": "0x357d80ea5dc53999da7da747e7afebc02fe276fb",
     "symbol": "SWITCH",
     "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0x9b334c49821d36d435e684e7cb9b564b328126e5",
+    "symbol": "OOF",
+    "decimals": 18
   }
 ]

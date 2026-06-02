@@ -2876,5 +2876,11 @@
     "address": "0xb688ba096b7bb75d7841e47163cd12d18b36a5bf",
     "symbol": "mPendle",
     "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x83e60b9f7f4db5cdb0877659b1740e73c662c55b",
+    "symbol": "PINGU",
+    "decimals": 18
   }
 ]

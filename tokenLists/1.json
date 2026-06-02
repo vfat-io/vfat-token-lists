@@ -32902,5 +32902,17 @@
     "address": "0xfe57b8095250598e5edee55af45070fef5455f3d",
     "symbol": "COIN",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x151ff584ab52e27777101c151f7576147026063d",
+    "symbol": "KEKIUS",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xd52b7364c616c3e5bf3548c86f454f51be2c7de2",
+    "symbol": "DATBIHGAH",
+    "decimals": 18
   }
 ]

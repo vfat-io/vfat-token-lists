@@ -664,5 +664,11 @@
     "address": "0x27249fc563e0308f7a9e27b23379527b06357d72",
     "symbol": "0x0000000000000000",
     "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0x3c8807120a07c5075f624efc12a48f2c8a920bfd",
+    "symbol": "squirtcoin",
+    "decimals": 6
   }
 ]
