@@ -670,5 +670,11 @@
     "address": "0x3c8807120a07c5075f624efc12a48f2c8a920bfd",
     "symbol": "squirtcoin",
     "decimals": 6
+  },
+  {
+    "chainId": 999,
+    "address": "0x7f5ab8f7974fccd857163e5da649eb2588201df1",
+    "symbol": "HGUN",
+    "decimals": 18
   }
 ]

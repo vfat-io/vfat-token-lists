@@ -4018,5 +4018,11 @@
     "address": "0x7cc9c624efa62c2decf0a2a028f7885ecea95a17",
     "symbol": "SPCM",
     "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0xeb55fab1c23ec0aa5024ee593a12edcd031ecd9b",
+    "symbol": "WHEREMALEK",
+    "decimals": 18
   }
 ]
