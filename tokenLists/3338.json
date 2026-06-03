@@ -1,0 +1,86 @@
+[
+  {
+    "chainId": 3338,
+    "address": "0x3cd66d2e1fac1751b0a20bebf6ca4c9699bb12d7",
+    "symbol": "WPEAQ",
+    "decimals": 18
+  },
+  {
+    "chainId": 3338,
+    "address": "0xf4d9235269a96aadafc9adae454a0618ebe37949",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  {
+    "chainId": 3338,
+    "address": "0xe5330a9fba99504c534127d39727729899c9a506",
+    "symbol": "wstPEAQ",
+    "decimals": 18
+  },
+  {
+    "chainId": 3338,
+    "address": "0xf67db9d00401d9e883208882f5c100d7482b083d",
+    "symbol": "AUKI",
+    "decimals": 18
+  },
+  {
+    "chainId": 3338,
+    "address": "0x940a319b75861014a220d9c6c144d108552b089b",
+    "symbol": "DEUS",
+    "decimals": 18
+  },
+  {
+    "chainId": 3338,
+    "address": "0xbba60da06c2c5424f03f7434542280fcad453d10",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  {
+    "chainId": 3338,
+    "address": "0x08e6d50169863fd9beb88687ce1573cf9d6d1484",
+    "symbol": "OVR",
+    "decimals": 18
+  },
+  {
+    "chainId": 3338,
+    "address": "0x5c3126bfb9a68a7021d461230127470b3824886b",
+    "symbol": "SLC",
+    "decimals": 18
+  },
+  {
+    "chainId": 3338,
+    "address": "0x1190fb50226b54958e284bd674eff346936af885",
+    "symbol": "RICE",
+    "decimals": 18
+  },
+  {
+    "chainId": 3338,
+    "address": "0xe67f39fbe8c24ef8b3542efed1ee9963cefc1f2a",
+    "symbol": "ANYONE",
+    "decimals": 18
+  },
+  {
+    "chainId": 3338,
+    "address": "0xee311e67825c22e5c7238546431651686ce91421",
+    "symbol": "CODEC",
+    "decimals": 18
+  },
+  {
+    "chainId": 3338,
+    "address": "0xfd9d1b4a0384396a595345886d1e1d8abf439cef",
+    "symbol": "ROBOT",
+    "decimals": 18
+  },
+  {
+    "chainId": 3338,
+    "address": "0x165bcb970836f83c15b22c3c1622279d97a20446",
+    "symbol": "ACU",
+    "decimals": 12
+  },
+  {
+    "chainId": 3338,
+    "address": "0x7f6c37d043d4c56371ab72f2f7c64d29e5793cdc",
+    "symbol": "BREW",
+    "decimals": 18
+  }
+]
