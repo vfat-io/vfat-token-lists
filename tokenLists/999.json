@@ -682,5 +682,11 @@
     "address": "0x28201aa111250948c940df71cdc58d3a976e30cd",
     "symbol": "HYPPO",
     "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0x501ebf66d76a96d4fb26ccead42957653e16b8b8",
+    "symbol": "evaUSDT",
+    "decimals": 6
   }
 ]
