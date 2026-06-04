@@ -676,5 +676,11 @@
     "address": "0x7f5ab8f7974fccd857163e5da649eb2588201df1",
     "symbol": "HGUN",
     "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0x28201aa111250948c940df71cdc58d3a976e30cd",
+    "symbol": "HYPPO",
+    "decimals": 18
   }
 ]
