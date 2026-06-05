@@ -610,5 +610,11 @@
     "address": "0x2c957534413f97d5b2a3e83a58df60e550317777",
     "symbol": "LEMON",
     "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x9c82eb49b51f7dc61e22ff347931ca32adc6cd90",
+    "symbol": "loAZND",
+    "decimals": 18
   }
 ]

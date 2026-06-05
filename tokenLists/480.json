@@ -142,5 +142,11 @@
     "address": "0x306cb44390b77410fcc414d9457e946cc0c053d0",
     "symbol": "MODO",
     "decimals": 18
+  },
+  {
+    "chainId": 480,
+    "address": "0xac794b2a7f81e5778f3733af00901d4c6ee2a740",
+    "symbol": "WGEM",
+    "decimals": 18
   }
 ]

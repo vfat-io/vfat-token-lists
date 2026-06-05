@@ -688,5 +688,11 @@
     "address": "0x501ebf66d76a96d4fb26ccead42957653e16b8b8",
     "symbol": "evaUSDT",
     "decimals": 6
+  },
+  {
+    "chainId": 999,
+    "address": "0x093d672e382f149568f2fac65ca29eca55ecd5b1",
+    "symbol": "DRIPPY",
+    "decimals": 18
   }
 ]
