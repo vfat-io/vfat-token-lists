@@ -4414,5 +4414,29 @@
     "address": "0xa1a0b2e02b0e6830ad5a4a7211691200945d8919",
     "symbol": "hTEA",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x8281833536a41337e2c9450a0277416049514088",
+    "symbol": "BASEAI",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x16edb4dfc1d3368d051370699edfb280e9a1b474",
+    "symbol": "40ACRES-HYDREX-USDC",
+    "decimals": 12
+  },
+  {
+    "chainId": 8453,
+    "address": "0xa69256ea019648815b1a3ce1c83c0d00a288dfc7",
+    "symbol": "VAULT",
+    "decimals": 6
+  },
+  {
+    "chainId": 8453,
+    "address": "0x8c0d3adcf8ce094e1ae437557ec90a6374dc9bdd",
+    "symbol": "OVPP",
+    "decimals": 18
   }
 ]
