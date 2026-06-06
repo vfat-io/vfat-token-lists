@@ -32914,5 +32914,23 @@
     "address": "0xd52b7364c616c3e5bf3548c86f454f51be2c7de2",
     "symbol": "DATBIHGAH",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x81d9eccb02a88b725e67e6777f4693059bb90b7a",
+    "symbol": "LIBTARD",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xa5b70b0690e7a625c6249edc40ab859e0726d43e",
+    "symbol": "NEIRO",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x20b4be7df8e79d75207339dbd4d8498b6ea93e69",
+    "symbol": "M69",
+    "decimals": 18
   }
 ]

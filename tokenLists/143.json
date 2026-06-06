@@ -616,5 +616,11 @@
     "address": "0x9c82eb49b51f7dc61e22ff347931ca32adc6cd90",
     "symbol": "loAZND",
     "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x504656c837fa9f919ed0caa7f7a98d4280752f1b",
+    "symbol": "GNAD",
+    "decimals": 18
   }
 ]
