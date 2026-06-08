@@ -32932,5 +32932,11 @@
     "address": "0x20b4be7df8e79d75207339dbd4d8498b6ea93e69",
     "symbol": "M69",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x30b60ba2cd26dcf355745ba52dfac2fddefe8072",
+    "symbol": "ASTEROID",
+    "decimals": 18
   }
 ]
