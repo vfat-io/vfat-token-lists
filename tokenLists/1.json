@@ -32938,5 +32938,41 @@
     "address": "0x30b60ba2cd26dcf355745ba52dfac2fddefe8072",
     "symbol": "ASTEROID",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xf2cb631de783704b73bb177de68f532c624f0b07",
+    "symbol": "ACT",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xd700a3648d6fd57701faca571ca180329d012b07",
+    "symbol": "Billy",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xdfe9627092b854eae34f963eef92f2ff23309b07",
+    "symbol": "PUMP",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xe8b921bac5ead212a15f90eff199c342f8039b07",
+    "symbol": "SCF",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xf493f13d420a4a94edd23e53ee79c542f9b92b07",
+    "symbol": "Bluechip",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xfde6ecd000827555693ae7c2c405ed72b6079b07",
+    "symbol": "DEGENMON",
+    "decimals": 18
   }
 ]
