@@ -1,0 +1,16 @@
+[
+  {
+    "chainId": 43114,
+    "address": "0x32f0c28be6a6ac5d3b471278b77f6971a3141348",
+    "symbol": "FATE",
+    "decimals": 18,
+    "note": "Transfer-restricted token: contractBlacklist(address) returns true for TraderJoe FATE/WAVAX pair 0x8e7803a120efbfe0980b520ed8b6f4f085e858a9, causing routes through that pair to revert.",
+    "evidence": {
+      "method": "contractBlacklist(address)",
+      "blockedAddress": "0x8e7803a120efbfe0980b520ed8b6f4f085e858a9",
+      "blockedAddressRole": "TraderJoe FATE/WAVAX pair",
+      "result": true,
+      "observedRevert": "Blacklisted contract tried to send or receive tokens"
+    }
+  }
+]
