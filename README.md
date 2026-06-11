@@ -4,7 +4,7 @@ This repo contains chain token list definitions and normalized token logos.
 
 ## Layout
 - tokenLists/<chainId>.json: JSON array of tokens for a chain
-- feeOnTransferTokens/<chainId>.json: JSON array of tokens that take a fee on transfer (rebase / tax / reflection tokens). Consumers like vfat-router exclude these from routing paths because UniswapV2/Aerodrome-style swap math assumes `amountReceived == amountSent` and reverts (`K()` invariant) when the destination pool's transferred-in balance is less than expected.
+- feeOnTransferTokens/<chainId>.json: JSON array of tokens that take a fee on transfer or otherwise restrict transfers. Consumers like vfat-router exclude these from routing paths because AMM swap execution assumes token transfers into and out of pools are unrestricted and match the quoted amount.
 - logos/<chainId>/<address>.png: lowercased address, 128x128 PNG
 - scripts/add-tokens.mjs: add tokens + normalize logo images
 - scripts/remove-token.mjs: remove tokens by address + delete matching logos
