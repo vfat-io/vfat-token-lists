@@ -2626,5 +2626,17 @@
     "address": "0x9b334c49821d36d435e684e7cb9b564b328126e5",
     "symbol": "OOF",
     "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0xc10a4ed9b4042222d69ff0b374eddd47ed90fc1f",
+    "symbol": "PCOCK",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0xb709276c0e8d3a5372a13d4fea886496f396fea1",
+    "symbol": "pNAS",
+    "decimals": 18
   }
 ]
