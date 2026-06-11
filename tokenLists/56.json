@@ -38800,5 +38800,17 @@
     "address": "0x5f6fd60ad6cd8751b4c521bc00fa02abfeca4444",
     "symbol": "背手负鼠",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x02bcc4c181b83a8c0a342bc003389cbecb4bc54d",
+    "symbol": "SLX",
+    "decimals": 6
+  },
+  {
+    "chainId": 56,
+    "address": "0xf43ac1e44bcb375d318d4fa265eff191a229c8db",
+    "symbol": "GRASS",
+    "decimals": 18
   }
 ]

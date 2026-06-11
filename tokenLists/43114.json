@@ -4024,5 +4024,11 @@
     "address": "0xeb55fab1c23ec0aa5024ee593a12edcd031ecd9b",
     "symbol": "WHEREMALEK",
     "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0xb6314518b61b4864162c7ae7fdc36261e0a14c4b",
+    "symbol": "YOM",
+    "decimals": 18
   }
 ]
