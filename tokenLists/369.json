@@ -2638,5 +2638,11 @@
     "address": "0xb709276c0e8d3a5372a13d4fea886496f396fea1",
     "symbol": "pNAS",
     "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0x043860275e792025de09353f4fa5b789b40e3539",
+    "symbol": "EVDR",
+    "decimals": 18
   }
 ]
