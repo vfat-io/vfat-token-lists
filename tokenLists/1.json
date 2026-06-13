@@ -32974,5 +32974,17 @@
     "address": "0xfde6ecd000827555693ae7c2c405ed72b6079b07",
     "symbol": "DEGENMON",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x26aa1344744ad0103740db2a27f267cf783f2e7a",
+    "symbol": "Ecat",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x4035bd6d3bb9dedc5eb95e2b05e2d58c3f87bf72",
+    "symbol": "BEPE",
+    "decimals": 18
   }
 ]
