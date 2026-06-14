@@ -32986,5 +32986,11 @@
     "address": "0x4035bd6d3bb9dedc5eb95e2b05e2d58c3f87bf72",
     "symbol": "BEPE",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x8683a9ba7d86c1dd29ae0155a39b9afcc34ae548",
+    "symbol": "KEPLER",
+    "decimals": 18
   }
 ]
