@@ -4438,5 +4438,11 @@
     "address": "0x8c0d3adcf8ce094e1ae437557ec90a6374dc9bdd",
     "symbol": "OVPP",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x65021a79aeef22b17cdc1b768f5e79a8618beba3",
+    "symbol": "ROBOTMONEY",
+    "decimals": 18
   }
 ]
