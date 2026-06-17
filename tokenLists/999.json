@@ -694,5 +694,11 @@
     "address": "0x093d672e382f149568f2fac65ca29eca55ecd5b1",
     "symbol": "DRIPPY",
     "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0x1145d266ad5a9411fd47ec4d4d48bc265682a1f6",
+    "symbol": "MRCY",
+    "decimals": 18
   }
 ]

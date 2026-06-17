@@ -2882,5 +2882,11 @@
     "address": "0x83e60b9f7f4db5cdb0877659b1740e73c662c55b",
     "symbol": "PINGU",
     "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x94fcd9c18f99538c0f7c61c5500ca79f0d5c4dab",
+    "symbol": "KIMA",
+    "decimals": 18
   }
 ]
