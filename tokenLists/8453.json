@@ -4444,5 +4444,11 @@
     "address": "0x65021a79aeef22b17cdc1b768f5e79a8618beba3",
     "symbol": "ROBOTMONEY",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x182fa643e5f29d5eca75e7b9cf9336a3fe4620b2",
+    "symbol": "O",
+    "decimals": 18
   }
 ]
