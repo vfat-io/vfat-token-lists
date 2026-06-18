@@ -4456,5 +4456,11 @@
     "address": "0x78c31580c97101694c70022c83d570150c11e935",
     "symbol": "wtSGOV",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb99b6df96d4d5448cc0a5b3e0ef7896df9507cf5",
+    "symbol": "40A AERO",
+    "decimals": 6
   }
 ]
