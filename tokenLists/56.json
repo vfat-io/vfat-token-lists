@@ -38812,5 +38812,29 @@
     "address": "0xf43ac1e44bcb375d318d4fa265eff191a229c8db",
     "symbol": "GRASS",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x21caef8a43163eea865baee23b9c2e327696a3bf",
+    "symbol": "XAUt",
+    "decimals": 6
+  },
+  {
+    "chainId": 56,
+    "address": "0xe60106a5cab7e7c64830919d36ab20caaf50ac91",
+    "symbol": "XGLD",
+    "decimals": 6
+  },
+  {
+    "chainId": 56,
+    "address": "0xd0a58bc9d88d3ff48c0294cb7e45937d0e41a928",
+    "symbol": "SPCXon",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xbb87dc5daac59d6e11ea2461ca69543f4b844444",
+    "symbol": "Korico",
+    "decimals": 18
   }
 ]
