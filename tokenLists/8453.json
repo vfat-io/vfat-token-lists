@@ -4450,5 +4450,11 @@
     "address": "0x182fa643e5f29d5eca75e7b9cf9336a3fe4620b2",
     "symbol": "O",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x78c31580c97101694c70022c83d570150c11e935",
+    "symbol": "wtSGOV",
+    "decimals": 18
   }
 ]
