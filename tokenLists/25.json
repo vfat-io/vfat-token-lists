@@ -1588,5 +1588,11 @@
     "address": "0x0d0b4a6fc6e7f5635c2ff38de75af2e96d6d6804",
     "symbol": "PACK",
     "decimals": 18
+  },
+  {
+    "chainId": 25,
+    "address": "0x73f049a1ea56427a78639e22376d576608788bbc",
+    "symbol": "BLOK",
+    "decimals": 18
   }
 ]
