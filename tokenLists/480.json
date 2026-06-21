@@ -148,5 +148,11 @@
     "address": "0xac794b2a7f81e5778f3733af00901d4c6ee2a740",
     "symbol": "WGEM",
     "decimals": 18
+  },
+  {
+    "chainId": 480,
+    "address": "0x0458965c6a85b14e022c1920276197c972f0fd2f",
+    "symbol": "SEED",
+    "decimals": 18
   }
 ]
