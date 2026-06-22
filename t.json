@@ -1,0 +1,9 @@
+[
+    {
+        "chainId": 137,
+        "address": "0x63DE49A3c952ca35957d03741EC62E7A19af67a3",
+        "symbol": "PAX",
+        "decimals": 18,
+        "logoURI": "https://polygonscan.com/token/images/predictxasia_pax_64.png"
+    }
+]
