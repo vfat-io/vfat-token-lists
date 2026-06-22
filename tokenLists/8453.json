@@ -4462,5 +4462,11 @@
     "address": "0xb99b6df96d4d5448cc0a5b3e0ef7896df9507cf5",
     "symbol": "40A AERO",
     "decimals": 6
+  },
+  {
+    "chainId": 8453,
+    "address": "0x9eead3f715e9988f6700cd608689a97d0330a08c",
+    "symbol": "FETAAI",
+    "decimals": 18
   }
 ]
