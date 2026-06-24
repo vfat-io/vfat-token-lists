@@ -124,5 +124,11 @@
     "address": "0x90729a45948c3078890bc80f2a4e7870a2ea4c5e",
     "symbol": "TRYB",
     "decimals": 6
+  },
+  {
+    "chainId": 9745,
+    "address": "0xe13e223116b9f53238a228d7dc9159786fff502a",
+    "symbol": "SPARK",
+    "decimals": 18
   }
 ]
