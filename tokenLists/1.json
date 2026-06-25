@@ -32992,5 +32992,11 @@
     "address": "0x8683a9ba7d86c1dd29ae0155a39b9afcc34ae548",
     "symbol": "KEPLER",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x620aa20875ec1144126ea47fb27ecfe6e10d0c56",
+    "symbol": "MOYA",
+    "decimals": 18
   }
 ]
