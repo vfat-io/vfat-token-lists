@@ -38836,5 +38836,23 @@
     "address": "0xbb87dc5daac59d6e11ea2461ca69543f4b844444",
     "symbol": "Korico",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1",
+    "symbol": "SPCXB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xd5f6ef5deabe61e6d5cdb49bfb6f156f2c1ca715",
+    "symbol": "ARX",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xcdf2f3e0fa43c47a6662a91c9e4a7c5f69762699",
+    "symbol": "MUB",
+    "decimals": 18
   }
 ]

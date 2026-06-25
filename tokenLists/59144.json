@@ -519,5 +519,11 @@
     "address": "0x3ff47c5bf409c86533fe1f4907524d304062428d",
     "symbol": "EURe",
     "decimals": 18
+  },
+  {
+    "chainId": 59144,
+    "address": "0xa3c26a308ac52520320ebcafdba0bb0aaa105ee8",
+    "symbol": "SNT",
+    "decimals": 18
   }
 ]
