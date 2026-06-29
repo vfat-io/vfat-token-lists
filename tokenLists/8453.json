@@ -4468,5 +4468,11 @@
     "address": "0x9eead3f715e9988f6700cd608689a97d0330a08c",
     "symbol": "FETAAI",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x19f89aaef8a93f38a974beca9776f09ab844887f",
+    "symbol": "wtSPCX",
+    "decimals": 18
   }
 ]
