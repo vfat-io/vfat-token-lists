@@ -2888,5 +2888,53 @@
     "address": "0x94fcd9c18f99538c0f7c61c5500ca79f0d5c4dab",
     "symbol": "KIMA",
     "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x41ca7586cc1311807b4605fbb748a3b8862b42b5",
+    "symbol": "syrupUSDC",
+    "decimals": 6
+  },
+  {
+    "chainId": 42161,
+    "address": "0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
+    "symbol": "LAVA",
+    "decimals": 6
+  },
+  {
+    "chainId": 42161,
+    "address": "0xfdd22ce6d1f66bc0ec89b20bf16ccb6670f55a5a",
+    "symbol": "thBILL",
+    "decimals": 6
+  },
+  {
+    "chainId": 42161,
+    "address": "0xf197ffc28c23e0309b5559e7a166f2c6164c80aa",
+    "symbol": "MXNB",
+    "decimals": 6
+  },
+  {
+    "chainId": 42161,
+    "address": "0x441fcb23dfe8289cf572126fedcf450974adc891",
+    "symbol": "RBTC",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x40461291347e1ecbb09499f3371d3f17f10d7159",
+    "symbol": "XAUt0",
+    "decimals": 6
+  },
+  {
+    "chainId": 42161,
+    "address": "0x46850ad61c2b7d64d08c9c754f45254596696984",
+    "symbol": "FLX",
+    "decimals": 6
+  },
+  {
+    "chainId": 42161,
+    "address": "0x764a726d9ced0433a8d7643335919deb03a9a935",
+    "symbol": "POKT",
+    "decimals": 6
   }
 ]

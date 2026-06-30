@@ -700,5 +700,11 @@
     "address": "0x1145d266ad5a9411fd47ec4d4d48bc265682a1f6",
     "symbol": "MRCY",
     "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0xe2d2959f89b6389deb624bf076fe7d9e5401f377",
+    "symbol": "USDM",
+    "decimals": 6
   }
 ]

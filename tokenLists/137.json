@@ -9334,5 +9334,125 @@
     "address": "0xfbbbf749c3df8c166335e933548103b9b51d416a",
     "symbol": "BTX",
     "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x1bdf71ede1a4777db1eebe7232bcda20d6fc1610",
+    "symbol": "CES",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x14913815bcfde78baead2111f463d038ac9c2949",
+    "symbol": "eUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 137,
+    "address": "0xb4e876f6c9d5ba104112d222083527b1dad17103",
+    "symbol": "VOLLAR",
+    "decimals": 8
+  },
+  {
+    "chainId": 137,
+    "address": "0xee997788f625809332baabb3110bcf1ba7400824",
+    "symbol": "FELY",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x6966fec28ae7f598bd29c788def80f56ffa12de9",
+    "symbol": "UVM",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x1bf6634969eb3877759d31eefe60b974e57a8b28",
+    "symbol": "NODAL",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x6ab4e20f36ca48b61ecd66c0450fdf665fa130be",
+    "symbol": "DOLZ",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x3bf668fe1ec79a84ca8481cead5dbb30d61cc685",
+    "symbol": "TELEBTC",
+    "decimals": 8
+  },
+  {
+    "chainId": 137,
+    "address": "0xdc3326e71d45186f113a2f448984ca0e8d201995",
+    "symbol": "XSGD",
+    "decimals": 6
+  },
+  {
+    "chainId": 137,
+    "address": "0xd2e57e7019a8faea8b3e4a3738ee5b269975008a",
+    "symbol": "THAT",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xe6a537a407488807f0bbeb0038b79004f19dddfb",
+    "symbol": "BRLA",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x5c067c80c00ecd2345b05e83a3e758ef799c40b5",
+    "symbol": "BRL1",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x87bdfbe98ba55104701b2f2e999982a317905637",
+    "symbol": "CNKT+",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xd1cd49a08aef3af93457aec17c786c2b7f48ecd7",
+    "symbol": "sPOL",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x954a082de9f404b60edb7c4bef8afc289a5d8866",
+    "symbol": "NAVA",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x4ed141110f6eeeaba9a1df36d8c26f684d2475dc",
+    "symbol": "BRZ",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
+    "symbol": "wstETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xcc44674022a792794d219847362bb95c661937a9",
+    "symbol": "ROU",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x43c73b90e0c2a355784dcf0da12f477729b31e77",
+    "symbol": "SOIL",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xd2a530170d71a9cfe1651fb468e2b98f7ed7456b",
+    "symbol": "AUDF",
+    "decimals": 6
   }
 ]

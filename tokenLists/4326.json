@@ -142,5 +142,11 @@
     "address": "0x141cf6bfe9d5057883b9becb39fee8a62982dc93",
     "symbol": "Σ:",
     "decimals": 18
+  },
+  {
+    "chainId": 4326,
+    "address": "0x601ac63637933d88285a025c685ac4e9a92a98da",
+    "symbol": "wstETH",
+    "decimals": 18
   }
 ]
