@@ -1,0 +1,38 @@
+[
+  {
+    "chainId": 677,
+    "address": "0xababc7ddc03e501d190c676bf3d92ef0e6e87a3c",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  {
+    "chainId": 677,
+    "address": "0xd5452816194a3784dba983426cce7c122f4abd30",
+    "symbol": "WBOT",
+    "decimals": 18
+  },
+  {
+    "chainId": 677,
+    "address": "0x0e7541ef49ba75a5ac5d56a417eb4256b40b01dd",
+    "symbol": "AITOK",
+    "decimals": 18
+  },
+  {
+    "chainId": 677,
+    "address": "0x0cebaf61076fab460012fb9d81346fb76595ee26",
+    "symbol": "M",
+    "decimals": 18
+  },
+  {
+    "chainId": 677,
+    "address": "0x546307af427902a75771434df831d88219784e19",
+    "symbol": "CA",
+    "decimals": 18
+  },
+  {
+    "chainId": 677,
+    "address": "0x9841194c1f6f8359d0ff1a98fb2c3a6a17357ce0",
+    "symbol": "USDT0",
+    "decimals": 18
+  }
+]
