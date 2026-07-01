@@ -4828,5 +4828,17 @@
     "address": "0xfdcc3dd6671eab0709a4c0f3f53de9a333d80798",
     "symbol": "SBC",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xff7f8f301f7a706e3cfd3d2275f5dc0b9ee8009b",
+    "symbol": "FOLKS",
+    "decimals": 6
+  },
+  {
+    "chainId": 8453,
+    "address": "0x9ccd163a68e56d1079d16b25fbd69d464f657b07",
+    "symbol": "OpenClaw",
+    "decimals": 18
   }
 ]

@@ -33604,5 +33604,17 @@
     "address": "0x08efcc2f3e61185d0ea7f8830b3fec9bfa2ee313",
     "symbol": "sNUSD",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x817162975186d4d53dbf5a7377dd45376e2d2fc5",
+    "symbol": "REACT",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xf3d6b714dc93bc6c44bc766cc92f4a0d99344932",
+    "symbol": "ARGN",
+    "decimals": 18
   }
 ]
