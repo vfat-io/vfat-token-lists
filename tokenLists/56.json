@@ -39196,5 +39196,17 @@
     "address": "0x503fa24b7972677f00c4618e5fbe237780c1df53",
     "symbol": "KILO",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xe614e2fc6c787035ff51f452e8e826bfd32d5283",
+    "symbol": "INTCB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x99991c6aabba5a096f24f250b73580f5179b9999",
+    "symbol": "CAP",
+    "decimals": 18
   }
 ]

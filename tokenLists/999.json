@@ -706,5 +706,11 @@
     "address": "0xe2d2959f89b6389deb624bf076fe7d9e5401f377",
     "symbol": "USDM",
     "decimals": 6
+  },
+  {
+    "chainId": 999,
+    "address": "0x741bd193b6b40f8703d2e116fd1965421f290f58",
+    "symbol": "evaUSDC",
+    "decimals": 6
   }
 ]
