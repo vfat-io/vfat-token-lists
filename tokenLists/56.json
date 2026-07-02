@@ -39178,5 +39178,23 @@
     "address": "0xf3b3f0971f4c7a06740b653557566446919a4098",
     "symbol": "ltMNER",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x80106cb3ead06659a5ad19df39d9b4733863b9b0",
+    "symbol": "MSFTB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xec69f1351b66902cd5e79f0924a5ad049f682540",
+    "symbol": "VFX",
+    "decimals": 3
+  },
+  {
+    "chainId": 56,
+    "address": "0x503fa24b7972677f00c4618e5fbe237780c1df53",
+    "symbol": "KILO",
+    "decimals": 18
   }
 ]

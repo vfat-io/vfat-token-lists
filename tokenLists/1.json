@@ -33616,5 +33616,191 @@
     "address": "0xf3d6b714dc93bc6c44bc766cc92f4a0d99344932",
     "symbol": "ARGN",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xbbaec992fc2d637151daf40451f160bf85f3c8c1",
+    "symbol": "USDM",
+    "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0x972a7a92d92796a98801a8818bcf91f1648f2f68",
+    "symbol": "WGNK",
+    "decimals": 9
+  },
+  {
+    "chainId": 1,
+    "address": "0x468586fb630619df6865b62e9e4f6ecba738bbbd",
+    "symbol": "STK",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xda67b4284609d2d48e5d10cfac411572727dc1ed",
+    "symbol": "USN",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xc84782858b7bef5d25182dbac956a6aa463aefe5",
+    "symbol": "PRD",
+    "decimals": 10
+  },
+  {
+    "chainId": 1,
+    "address": "0x3e76dd57e649a263a532cc9bcc58b32a065fb2a4",
+    "symbol": "ACN",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x772358ef6ed3e18bde1263f7d229601c5fa81875",
+    "symbol": "SNPAD",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xf1a7000000950c7ad8aff13118bb7ab561a448ee",
+    "symbol": "FLAY",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xf326c8c9a691319f6330e27aa4a39f2d22c88dc5",
+    "symbol": "ZEST",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x07696dcab55e62cfef953666b29fe1970518cb00",
+    "symbol": "WPRL",
+    "decimals": 8
+  },
+  {
+    "chainId": 1,
+    "address": "0x17205fab260a7a6383a81452ce6315a39370db97",
+    "symbol": "RAVE",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xf442ff10b8def89514560a66c0ad28777094636a",
+    "symbol": "wA7A5",
+    "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0x4933a85b5b5466fbaf179f72d3de273c287ec2c2",
+    "symbol": "EURAU",
+    "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0x9d70bae2944ffa477f37bae227fd981e6eb31982",
+    "symbol": "AYNI",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x228bec415ade4b61d7caf0adf8c91eac587ba369",
+    "symbol": "TRIA",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x2a79324c19ef2b89ea98b23bc669b7e7c9f8a517",
+    "symbol": "WAXP",
+    "decimals": 8
+  },
+  {
+    "chainId": 1,
+    "address": "0x6ee2f71049dde9a93b7c0ee1091b72acf9b46810",
+    "symbol": "MERC",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x7e2ac793f3e692f388e66c7dc28f739d13b0b71a",
+    "symbol": "GGBR",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xbdb37597c7e84d898a5536fbb6e4a5c2bcac640b",
+    "symbol": "BLOTIX",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x1b379a79c91a540b2bcd612b4d713f31de1b80cc",
+    "symbol": "NAORIS",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x9cf12ccd6020b6888e4d4c4e4c7aca33c1eb91f8",
+    "symbol": "USDaf",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x96f6ef951840721adbf46ac996b59e0235cb985c",
+    "symbol": "USDY",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x1aad217b8f78dba5e6693460e8470f8b1a3977f3",
+    "symbol": "STRCx",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xe820c06321e60d36257c666643fa5436643445e3",
+    "symbol": "USDKG",
+    "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28",
+    "symbol": "SPCXx",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x657e8c867d8b37dcc18fa4caead9c45eb088c642",
+    "symbol": "eBTC",
+    "decimals": 8
+  },
+  {
+    "chainId": 1,
+    "address": "0x4cce605ed955295432958d8951d0b176c10720d5",
+    "symbol": "AUDD",
+    "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0x9ff7b37b84c05dfb08b4f50adb17a80a3fefd6ed",
+    "symbol": "MAKA",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xd2a530170d71a9cfe1651fb468e2b98f7ed7456b",
+    "symbol": "AUDF",
+    "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0xca468554e5c0423ee858fe3942c9568c51fcaa79",
+    "symbol": "HIMSon",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x104e363ac6521e55a24ae724855362acec3febe6",
+    "symbol": "ACP",
+    "decimals": 18
   }
 ]

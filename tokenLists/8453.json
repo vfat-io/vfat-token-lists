@@ -4840,5 +4840,11 @@
     "address": "0x9ccd163a68e56d1079d16b25fbd69d464f657b07",
     "symbol": "OpenClaw",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x7c797da3704b6f682917005b01c89710ec17db07",
+    "symbol": "OpenAI",
+    "decimals": 18
   }
 ]
