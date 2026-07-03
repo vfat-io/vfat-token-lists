@@ -4858,5 +4858,11 @@
     "address": "0xea953ea6634d55dac6697c436b1e81a679db5882",
     "symbol": "XGLD",
     "decimals": 6
+  },
+  {
+    "chainId": 8453,
+    "address": "0x52c2b317eb0bb61e650683d2f287f56c413e4cf6",
+    "symbol": "TREE",
+    "decimals": 18
   }
 ]
