@@ -9460,5 +9460,11 @@
     "address": "0xeb51d9a39ad5eef215dc0bf39a8821ff804a0f01",
     "symbol": "LGNS",
     "decimals": 9
+  },
+  {
+    "chainId": 137,
+    "address": "0x2278485e81b735e0f79fdca936f901d0727e6603",
+    "symbol": "ARSe",
+    "decimals": 6
   }
 ]

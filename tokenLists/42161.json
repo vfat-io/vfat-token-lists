@@ -2936,5 +2936,11 @@
     "address": "0x764a726d9ced0433a8d7643335919deb03a9a935",
     "symbol": "POKT",
     "decimals": 6
+  },
+  {
+    "chainId": 42161,
+    "address": "0x2297aebd383787a160dd0d9f71508148769342e3",
+    "symbol": "BTC.b",
+    "decimals": 8
   }
 ]

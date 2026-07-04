@@ -4864,5 +4864,29 @@
     "address": "0x52c2b317eb0bb61e650683d2f287f56c413e4cf6",
     "symbol": "TREE",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xbc7755a153e852cf76cccddb4c2e7c368f6259d8",
+    "symbol": "HESTIA",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x00309d634d11541b857f927be91ad2f0bd78894c",
+    "symbol": "TEVA",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x5a7a2bf9ffae199f088b25837dcd7e115cf8e1bb",
+    "symbol": "IMO",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x4b12507e171970b3acd48edfeb5bd1c676e61280",
+    "symbol": "IVT",
+    "decimals": 18
   }
 ]

@@ -39208,5 +39208,23 @@
     "address": "0x99991c6aabba5a096f24f250b73580f5179b9999",
     "symbol": "CAP",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x80f3d493ebce97e343c53d29a137942416b4ffc0",
+    "symbol": "CRCLB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x77734e70b6e88b4d82fe632a168edf6e700912b6",
+    "symbol": "asBNB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x41df31ff0a7c35eb9b12752f2a5c87c3a9c109f8",
+    "symbol": "CPEN",
+    "decimals": 18
   }
 ]

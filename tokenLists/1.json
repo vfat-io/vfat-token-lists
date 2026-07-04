@@ -33814,5 +33814,53 @@
     "address": "0x976bcd7e2689322473688f543f2a072059704b2f",
     "symbol": "WC2026",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xd166337499e176bbc38a1fbd113ab144e5bd2df7",
+    "symbol": "sUSDat",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xb788144df611029c60b859df47e79b7726c4deba",
+    "symbol": "VULT",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x236eb848c95b231299b4aa9f56c73d6893462720",
+    "symbol": "YELLOW",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xf72ae3e0da743033abd7a407557d684c1ae66aed",
+    "symbol": "XL1",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x07041776f5007aca2a54844f50503a18a72a8b68",
+    "symbol": "USAT",
+    "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0x8e729198d1c59b82bd6bba579310c40d740a11c2",
+    "symbol": "ALVA",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xeeb4d8400aeefafc1b2953e0094134a887c76bd8",
+    "symbol": "AVAIL",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xe6829d9a7ee3040e1276fa75293bde931859e8fa",
+    "symbol": "cmETH",
+    "decimals": 18
   }
 ]
