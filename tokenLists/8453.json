@@ -4888,5 +4888,11 @@
     "address": "0x4b12507e171970b3acd48edfeb5bd1c676e61280",
     "symbol": "IVT",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x060cb087a9730e13aa191f31a6d86bff8dfcdcc0",
+    "symbol": "OHM",
+    "decimals": 9
   }
 ]
