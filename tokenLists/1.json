@@ -33868,5 +33868,11 @@
     "address": "0x1151cb3d861920e07a38e03eead12c32178567f6",
     "symbol": "Bonk",
     "decimals": 5
+  },
+  {
+    "chainId": 1,
+    "address": "0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9",
+    "symbol": "AVA",
+    "decimals": 18
   }
 ]

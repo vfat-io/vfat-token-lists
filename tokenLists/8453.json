@@ -4894,5 +4894,11 @@
     "address": "0x060cb087a9730e13aa191f31a6d86bff8dfcdcc0",
     "symbol": "OHM",
     "decimals": 9
+  },
+  {
+    "chainId": 8453,
+    "address": "0xfb8d6faecacbe6c39906019ec468f2e084dbc526",
+    "symbol": "MXP",
+    "decimals": 18
   }
 ]
