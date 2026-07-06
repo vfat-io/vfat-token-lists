@@ -1,0 +1,68 @@
+[
+  {
+    "chainId": 4663,
+    "address": "0x40858070814a57fdf33a613ae84fe0a8b4a874f7",
+    "symbol": "syrupUSDG",
+    "decimals": 6
+  },
+  {
+    "chainId": 4663,
+    "address": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+    "symbol": "USDG",
+    "decimals": 6
+  },
+  {
+    "chainId": 4663,
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "symbol": "USDe",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xc6911796042b15d7fa4f6cde69e245ddcd3d9c31",
+    "symbol": "VIRTUAL",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+    "symbol": "CASHCAT",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x17bb0c898254406b1ea2e8e99b0c263e26c9e4a4",
+    "symbol": "DIH",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x01637b14b7378b99de75a64d50656d98488d9a4d",
+    "symbol": "MARIAN",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x8d4dfaaa4198b6486e0293fec914c2b6a821d4dc",
+    "symbol": "KITSU",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x322f0929c4625ed5bad873c95208d54e1c003b2d",
+    "symbol": "TSLA",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x79d2234ed4ee24880835f261df9a98fcefc7600e",
+    "symbol": "HOOD",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xa4bd8def4b887fd1851defe10acdcf7a84437a88",
+    "symbol": "PEPE",
+    "decimals": 18
+  }
+]
