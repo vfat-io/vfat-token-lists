@@ -39232,5 +39232,11 @@
     "address": "0x24fcfc492c1393274b6bcd568ac9e225bec93584",
     "symbol": "MAVIA",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x8b872732b07be325a8803cdb480d9d20b6f8d11b",
+    "symbol": "SLVon",
+    "decimals": 18
   }
 ]
