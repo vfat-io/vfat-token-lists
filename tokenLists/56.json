@@ -39238,5 +39238,29 @@
     "address": "0x8b872732b07be325a8803cdb480d9d20b6f8d11b",
     "symbol": "SLVon",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x3ee4df61bd4f867e349beae8bfe07bc31b4850fb",
+    "symbol": "SNDKB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x205812cdbed920aff76c6580abd681a46d11efc7",
+    "symbol": "QQQB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x019078cae01e065acb4189c0a82d0eadf6a1def1",
+    "symbol": "Airo",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x444446d6c6d1a4777d26b7746ea240ed0cc44444",
+    "symbol": "44",
+    "decimals": 18
   }
 ]
