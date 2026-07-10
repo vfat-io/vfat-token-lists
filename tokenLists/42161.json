@@ -2942,5 +2942,11 @@
     "address": "0x2297aebd383787a160dd0d9f71508148769342e3",
     "symbol": "BTC.b",
     "decimals": 8
+  },
+  {
+    "chainId": 42161,
+    "address": "0xff7f8f301f7a706e3cfd3d2275f5dc0b9ee8009b",
+    "symbol": "FOLKS",
+    "decimals": 6
   }
 ]

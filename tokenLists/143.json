@@ -622,5 +622,11 @@
     "address": "0x504656c837fa9f919ed0caa7f7a98d4280752f1b",
     "symbol": "GNAD",
     "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xfc421ad3c883bf9e7c4f42de845c4e4405799e73",
+    "symbol": "GHO",
+    "decimals": 18
   }
 ]

@@ -33874,5 +33874,29 @@
     "address": "0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9",
     "symbol": "AVA",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+    "symbol": "PEAS",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x78d11e37e890af4589fc9d0f6f884fd165c5aa0a",
+    "symbol": "crypto",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x0bc37bea9068a86c221b8bd71ea6228260dad5a2",
+    "symbol": "SPARKLET",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x2a92525fda8d3ab481f8e2a913b64b64bd1c9fdd",
+    "symbol": "$WELF",
+    "decimals": 18
   }
 ]
