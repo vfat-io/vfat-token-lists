@@ -64,5 +64,11 @@
     "address": "0xa4bd8def4b887fd1851defe10acdcf7a84437a88",
     "symbol": "PEPE",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+    "symbol": "WETH",
+    "decimals": 18
   }
 ]
