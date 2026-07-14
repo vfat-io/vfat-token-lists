@@ -33898,5 +33898,23 @@
     "address": "0x2a92525fda8d3ab481f8e2a913b64b64bd1c9fdd",
     "symbol": "$WELF",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x7a56e1c57c7475ccf742a1832b028f0456652f97",
+    "symbol": "SolvBTC",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x356b8d89c1e1239cbbb9de4815c39a1474d5ba7d",
+    "symbol": "syrupUSDT",
+    "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568",
+    "symbol": "uniBTC",
+    "decimals": 8
   }
 ]

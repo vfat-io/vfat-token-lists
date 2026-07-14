@@ -70,5 +70,47 @@
     "address": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
     "symbol": "WETH",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xd7321801caae694090694ff55a9323139f043b88",
+    "symbol": "JUGGERNAUT",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xd4052415613b34af236024b895574c467f65b6dd",
+    "symbol": "4663",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x77581054581b9c525e7dd7a0155de43867532d03",
+    "symbol": "WISHBONE",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x0339f5459fc690ac85f1782e15782a151b4a9e1b",
+    "symbol": "WALLET",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x7817c85e4390bc83a58a47a71f0a5fa83a4e16d4",
+    "symbol": "YORK",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xa80eb66b3e0cf66ccb46f8b8c9e7ff5803eeb820",
+    "symbol": "WEN",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xb9fe2adf7c25ebe4081a2e228b02be05ebdf7410",
+    "symbol": "HOODIO",
+    "decimals": 18
   }
 ]
