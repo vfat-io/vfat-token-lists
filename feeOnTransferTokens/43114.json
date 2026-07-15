@@ -12,5 +12,20 @@
       "result": true,
       "observedRevert": "Blacklisted contract tried to send or receive tokens"
     }
+  },
+  {
+    "chainId": 43114,
+    "address": "0x340990358ae38008181b6db6156d9021a2d425da",
+    "symbol": "ORBIT",
+    "decimals": 18,
+    "note": "Unbacked/stale-reserve token (Europa Token, upgradeable proxy). getReserves for the ORBIT/WAVAX pair 0x5b159312efe6953a52a8ff3bb351c6afc26e667d reports ~5.19e33 ORBIT, but the pair's real balanceOf is ~5.78e23 and ORBIT totalSupply is only 2e24 (reserve exceeds total supply by ~2.6e9x; supply collapsed after the pair's last Sync in 2023). Any WAVAX->ORBIT swap reverts (constant-product k-check cannot be satisfied against the real balance), so zap/quote routes sized through ORBIT are unfillable and leave ~99% dust. Excluded from routing. See support report c97b1e2f.",
+    "evidence": {
+      "method": "getReserves() vs balanceOf() vs totalSupply()",
+      "pair": "0x5b159312efe6953a52a8ff3bb351c6afc26e667d",
+      "reserveOrbit": "5192296858534827628530496329220095",
+      "realBalanceOfOrbit": "577973173118190119587750",
+      "totalSupply": "2000000000000000000000000",
+      "observedRevert": "UniswapV2 k-invariant / insufficient output on WAVAX->ORBIT swap"
+    }
   }
 ]
