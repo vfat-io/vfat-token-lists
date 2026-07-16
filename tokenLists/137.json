@@ -9472,5 +9472,11 @@
     "address": "0xb39ec11468f689c7984bc35171ed50247131e809",
     "symbol": "Q",
     "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x811997f9de4da23e622fdbd6072c08e8cac47815",
+    "symbol": "RICO",
+    "decimals": 18
   }
 ]

@@ -33916,5 +33916,11 @@
     "address": "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568",
     "symbol": "uniBTC",
     "decimals": 8
+  },
+  {
+    "chainId": 1,
+    "address": "0x0c5d9fae8670cfa0aa5f57b42ccd630c46bbe498",
+    "symbol": "PRN",
+    "decimals": 18
   }
 ]

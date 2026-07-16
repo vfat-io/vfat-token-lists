@@ -112,5 +112,35 @@
     "address": "0xb9fe2adf7c25ebe4081a2e228b02be05ebdf7410",
     "symbol": "HOODIO",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+    "symbol": "PONS",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+    "symbol": "NVDA",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x45242320dbb855eea8fd36804c6487e10e97fcf9",
+    "symbol": "TENDIES",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+    "symbol": "SPCX",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x8ff92566f2e81bdd68edfaa8cde73942a723796b",
+    "symbol": "VEX",
+    "decimals": 18
   }
 ]
