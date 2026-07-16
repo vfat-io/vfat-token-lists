@@ -39268,5 +39268,11 @@
     "address": "0xa1832f7f4e534ae557f9b5ab76de54b1873e498b",
     "symbol": "BID",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
+    "symbol": "SPYB",
+    "decimals": 18
   }
 ]

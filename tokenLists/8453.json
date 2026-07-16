@@ -4906,5 +4906,11 @@
     "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
     "symbol": "USDe",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xf4d7fd100b5b03e51261a2e6a673632ef2c68896",
+    "symbol": "coinage",
+    "decimals": 18
   }
 ]
