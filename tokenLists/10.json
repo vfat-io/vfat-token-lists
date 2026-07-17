@@ -619,12 +619,6 @@
   },
   {
     "chainId": 10,
-    "symbol": "sETH",
-    "decimals": 18,
-    "address": "0xe405de8f52ba7559f9df3c368500b6e6ae6cee49"
-  },
-  {
-    "chainId": 10,
     "symbol": "ZRX",
     "decimals": 18,
     "address": "0xe41d2489571d322189246dafa5ebde1f4699f498"
@@ -854,12 +848,6 @@
   {
     "address": "0x970d50d09f3a656b43e11b0d45241a84e3a6e011",
     "symbol": "DAI+",
-    "chainId": 10,
-    "decimals": 18
-  },
-  {
-    "address": "0xfbc4198702e81ae77c06d58f81b629bdf36f0a71",
-    "symbol": "sEUR",
     "chainId": 10,
     "decimals": 18
   },

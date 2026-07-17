@@ -2250,12 +2250,6 @@
     "chainId": 8453
   },
   {
-    "address": "0xc63529297de076eb15fcbe873ae9136e446cfbb9",
-    "symbol": "GYFI",
-    "decimals": 18,
-    "chainId": 8453
-  },
-  {
     "address": "0x83db73ef5192de4b6a4c92bd0141ba1a0dc87c65",
     "symbol": "cUSDO",
     "decimals": 18,
@@ -3744,12 +3738,6 @@
     "chainId": 8453
   },
   {
-    "address": "0xd02f50e1017f493ffffa70c8fcf09e349e11d6c9",
-    "symbol": "DGLD",
-    "decimals": 18,
-    "chainId": 8453
-  },
-  {
     "address": "0x194f360d130f2393a5e9f3117a6a1b78abea1624",
     "symbol": "SUMR",
     "decimals": 18,
@@ -4167,12 +4155,6 @@
     "chainId": 8453,
     "address": "0xba71cb8ef2d59de7399745793657838829e0b147",
     "symbol": "SIAM",
-    "decimals": 18
-  },
-  {
-    "chainId": 8453,
-    "address": "0x00e57ec29ef2ba7df07ad10573011647b2366f6d",
-    "symbol": "TOSHE",
     "decimals": 18
   },
   {
@@ -4603,12 +4585,6 @@
   },
   {
     "chainId": 8453,
-    "address": "0x5c72992b83e74c4d5200a8e8920fb946214a5a5d",
-    "symbol": "BEAN",
-    "decimals": 18
-  },
-  {
-    "chainId": 8453,
     "address": "0x60a646e3fd75cde4c5b604b22d4fcd04639913c8",
     "symbol": "QUILL",
     "decimals": 18
@@ -4705,12 +4681,6 @@
   },
   {
     "chainId": 8453,
-    "address": "0xb10c3e60d22a316ddfcb6d1d0128166943000b50",
-    "symbol": "BCP",
-    "decimals": 18
-  },
-  {
-    "chainId": 8453,
     "address": "0xb20a4bd059f5914a2f8b9c18881c637f79efb7df",
     "symbol": "ADS",
     "decimals": 11
@@ -4725,12 +4695,6 @@
     "chainId": 8453,
     "address": "0xb99fbe68c8a0cc14be8c1af73dd4dfea8a76add7",
     "symbol": "xTAO",
-    "decimals": 18
-  },
-  {
-    "chainId": 8453,
-    "address": "0xc1a36ca099c37ded68f0d6be608fb00767238aa4",
-    "symbol": "WBC",
     "decimals": 18
   },
   {
@@ -4761,12 +4725,6 @@
     "chainId": 8453,
     "address": "0xd4dd9e2f021bb459d5a5f6c24c12fe09c5d45553",
     "symbol": "ZCHF",
-    "decimals": 18
-  },
-  {
-    "chainId": 8453,
-    "address": "0xdcf5130274753c8050ab061b1a1dcbf583f5bfd0",
-    "symbol": "VCNT",
     "decimals": 18
   },
   {

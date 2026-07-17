@@ -283,12 +283,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "USHIBA",
-    "decimals": 18,
-    "address": "0x01e04c6e0b2c93bb4f8ee4b71072b861f9352660"
-  },
-  {
-    "chainId": 56,
     "symbol": "RPG",
     "decimals": 18,
     "address": "0x01e0d17a533e5930a349c2bb71304f04f20ab12b"
@@ -8806,12 +8800,6 @@
     "symbol": "2CRZ",
     "decimals": 18,
     "address": "0x3a6e8b36645d6c252714daddd28ec0673535a109"
-  },
-  {
-    "chainId": 56,
-    "symbol": "LIBERA",
-    "decimals": 18,
-    "address": "0x3a806a3315e35b3f5f46111adb6e2baf4b14a70d"
   },
   {
     "chainId": 56,
@@ -25369,12 +25357,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "PAID",
-    "decimals": 18,
-    "address": "0xad86d0e9764ba90ddd68747d64bffbd79879a238"
-  },
-  {
-    "chainId": 56,
     "symbol": "BFK",
     "decimals": 9,
     "address": "0xad982b80c16816252a1c0cb0f66f0fac91a0d7aa"
@@ -25936,12 +25918,6 @@
     "symbol": "HAPPY",
     "decimals": 9,
     "address": "0xb0b924c4a31b7d4581a7f78f57cee1e65736be1d"
-  },
-  {
-    "chainId": 56,
-    "symbol": "STBU",
-    "decimals": 18,
-    "address": "0xb0c4080a8fa7afa11a09473f3be14d44af3f8743"
   },
   {
     "chainId": 56,
