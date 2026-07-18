@@ -142,5 +142,17 @@
     "address": "0x8ff92566f2e81bdd68edfaa8cde73942a723796b",
     "symbol": "VEX",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x8cc5e7e1eff4e60587f54f38eade84444727400d",
+    "symbol": "VLAD",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xa7036c8c28f96e8ce242d0af45d1b395b69daf38",
+    "symbol": "h33",
+    "decimals": 18
   }
 ]
