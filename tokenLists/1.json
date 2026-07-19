@@ -33922,5 +33922,17 @@
     "address": "0x0c5d9fae8670cfa0aa5f57b42ccd630c46bbe498",
     "symbol": "PRN",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x709ab533d18e652ecd56423d71c0241a0ee56a3b",
+    "symbol": "WTIC",
+    "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0",
+    "symbol": "VANA",
+    "decimals": 18
   }
 ]

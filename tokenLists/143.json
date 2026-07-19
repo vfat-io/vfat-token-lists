@@ -628,5 +628,11 @@
     "address": "0xfc421ad3c883bf9e7c4f42de845c4e4405799e73",
     "symbol": "GHO",
     "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0xab6e5a0c3799d020c790d34f7b2c02639e238af7",
+    "symbol": "syrupUSDC",
+    "decimals": 6
   }
 ]
