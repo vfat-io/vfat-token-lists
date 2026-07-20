@@ -2305,12 +2305,6 @@
   },
   {
     "chainId": 1,
-    "symbol": "ARCX",
-    "decimals": 18,
-    "address": "0x1321f1f1aa541a56c31682c57b80ecfccd9bb288"
-  },
-  {
-    "chainId": 1,
     "symbol": "ARMOR",
     "decimals": 18,
     "address": "0x1337def16f9b486faed0293eb623dc8395dfe46a"
@@ -2470,12 +2464,6 @@
     "symbol": "BETHER",
     "decimals": 18,
     "address": "0x14c926f2290044b647e1bf2072e67b495eff1905"
-  },
-  {
-    "chainId": 1,
-    "symbol": "KTT",
-    "decimals": 18,
-    "address": "0x14cc8dfaf2258e1b8b2869300dba1b734dc0fe43"
   },
   {
     "chainId": 1,
@@ -2902,12 +2890,6 @@
     "symbol": "ISK",
     "decimals": 18,
     "address": "0x17d2628d30f8e9e966c9ba831c9b9b01ea8ea75c"
-  },
-  {
-    "chainId": 1,
-    "symbol": "RVP",
-    "decimals": 18,
-    "address": "0x17ef75aa22dd5f6c2763b8304ab24f40ee54d48a"
   },
   {
     "chainId": 1,
@@ -12871,12 +12853,6 @@
   },
   {
     "chainId": 1,
-    "symbol": "NRCH",
-    "decimals": 9,
-    "address": "0x69fa8e7f6bf1ca1fb0de61e1366f7412b827cc51"
-  },
-  {
-    "chainId": 1,
     "symbol": "BKBT",
     "decimals": 18,
     "address": "0x6a27348483d59150ae76ef4c0f3622a78b0ca698"
@@ -17146,12 +17122,6 @@
     "symbol": "POCHI",
     "decimals": 18,
     "address": "0x8eb1779a32678452eb273a22d413207299904d90"
-  },
-  {
-    "chainId": 1,
-    "symbol": "AGI",
-    "decimals": 8,
-    "address": "0x8eb24319393716668d768dcec29356ae9cffe285"
   },
   {
     "chainId": 1,
@@ -21634,12 +21604,6 @@
     "symbol": "LTG",
     "decimals": 8,
     "address": "0xb4c9abc8a74bd2e0e0b7ac5ece30792e65d86c59"
-  },
-  {
-    "chainId": 1,
-    "symbol": "MAHA",
-    "decimals": 18,
-    "address": "0xb4d930279552397bba2ee473229f89ec245bc365"
   },
   {
     "chainId": 1,
@@ -26425,12 +26389,6 @@
   },
   {
     "chainId": 1,
-    "symbol": "SG",
-    "decimals": 18,
-    "address": "0xddf7fd345d54ff4b40079579d4c4670415dbfd0a"
-  },
-  {
-    "chainId": 1,
     "symbol": "BBF",
     "decimals": 18,
     "address": "0xde075d9adbd0240b4462f124af926452ad0bac91"
@@ -29422,12 +29380,6 @@
     "symbol": "IBEX",
     "decimals": 18,
     "address": "0xf655c8567e0f213e6c634cd2a68d992152161dc6"
-  },
-  {
-    "chainId": 1,
-    "symbol": "TRU_TRUEBIT",
-    "decimals": 18,
-    "address": "0xf65b5c5104c4fafd4b709d9d60a185eae063276c"
   },
   {
     "chainId": 1,

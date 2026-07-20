@@ -1438,12 +1438,6 @@
     "chainId": 42161
   },
   {
-    "address": "0xde1e704dae0b4051e80dabb26ab6ad6c12262da0",
-    "symbol": "DEI",
-    "decimals": 18,
-    "chainId": 42161
-  },
-  {
     "address": "0xb261104a83887ae92392fb5ce5899fcfe5481456",
     "symbol": "NFTE",
     "decimals": 18,
@@ -2255,12 +2249,6 @@
   },
   {
     "chainId": 42161,
-    "address": "0x60bf4e7cf16ff34513514b968483b54beff42a81",
-    "symbol": "VCNT",
-    "decimals": 18
-  },
-  {
-    "chainId": 42161,
     "address": "0x3419875b4d3bca7f3fdda2db7a476a79fd31b4fe",
     "symbol": "DZHV",
     "decimals": 18
@@ -2419,12 +2407,6 @@
     "chainId": 42161,
     "address": "0x1b7ad346b6ff2d196daa8e78aed86baa6d7e3b02",
     "symbol": "VITAI",
-    "decimals": 18
-  },
-  {
-    "chainId": 42161,
-    "address": "0xc84fae1141b92fa5bf847276828f69caf651cb7f",
-    "symbol": "XNF",
     "decimals": 18
   },
   {

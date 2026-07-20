@@ -103,12 +103,6 @@
   },
   {
     "chainId": 4326,
-    "address": "0xc2f34f8849a8607fd73e06d6849bda07c2b7de38",
-    "symbol": "DIRTY",
-    "decimals": 18
-  },
-  {
-    "chainId": 4326,
     "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
     "symbol": "cUSD",
     "decimals": 18
