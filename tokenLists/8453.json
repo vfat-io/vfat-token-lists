@@ -4870,5 +4870,29 @@
     "address": "0xf4d7fd100b5b03e51261a2e6a673632ef2c68896",
     "symbol": "coinage",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xfcd17ac4c4bf6a72c93018096f3fc09e66573ff9",
+    "symbol": "wtSKHY",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xfb5b41acdba20a3230f84be995173cfb98b8d6e7",
+    "symbol": "wtNVDA",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x3af952888cd89dad3e8af67cf4b7e740b36829c3",
+    "symbol": "wtCEG",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x1a91df4a970ebab1bb4af32eb6d10509028ee4b8",
+    "symbol": "wtDRAM",
+    "decimals": 18
   }
 ]
