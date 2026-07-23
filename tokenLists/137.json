@@ -9478,5 +9478,11 @@
     "address": "0x811997f9de4da23e622fdbd6072c08e8cac47815",
     "symbol": "RICO",
     "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xf197ffc28c23e0309b5559e7a166f2c6164c80aa",
+    "symbol": "MXNB",
+    "decimals": 6
   }
 ]

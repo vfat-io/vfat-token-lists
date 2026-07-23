@@ -154,5 +154,77 @@
     "address": "0xa7036c8c28f96e8ce242d0af45d1b395b69daf38",
     "symbol": "h33",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x57c0e45cb534413d1c20a4240955d6bb250bb4f1",
+    "symbol": "UP",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x3b9b713a3bba6c3388371cfdb072cd70118bb727",
+    "symbol": "RH67",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x7331991062f3b1e4eb0fd0506bf1ff0779e08b91",
+    "symbol": "DOHO",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x62c71cd34a52c30d894419cbcc55db2afa8032ea",
+    "symbol": "YOLO",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x232cdfc415d10b673845d83dc02ba2eabe7e30d1",
+    "symbol": "IF",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x56910d4409f3a0c78c64dd8d0545ff0705389870",
+    "symbol": "Index",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x0830a9dd26a04e959657ab6788d45f5725590c32",
+    "symbol": "DEGEN",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x8ecea3d0e648db646d824aa51eedeb16ac3d6878",
+    "symbol": "wire",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xc7a8af2e5e5e2cf6c5257218cc93ad2debe17579",
+    "symbol": "QUIVER",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x51b57d1157975756c156ee28e3e167718792b665",
+    "symbol": "Guy",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x39e0d9057bd9039cd14590f54de20b9d3457c56e",
+    "symbol": "NOXA",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xfe177128df8d336caf99f787b72183d1e68ff9c2",
+    "symbol": "PEA",
+    "decimals": 18
   }
 ]

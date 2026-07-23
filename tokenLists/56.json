@@ -39250,5 +39250,11 @@
     "address": "0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
     "symbol": "SPYB",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x6386adc4bc9c21984e34fd916bb349dd861742af",
+    "symbol": "BOX",
+    "decimals": 18
   }
 ]
