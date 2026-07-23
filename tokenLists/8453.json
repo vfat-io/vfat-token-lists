@@ -4894,5 +4894,11 @@
     "address": "0x1a91df4a970ebab1bb4af32eb6d10509028ee4b8",
     "symbol": "wtDRAM",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xdcf5130274753c8050ab061b1a1dcbf583f5bfd0",
+    "symbol": "VCNT",
+    "decimals": 18
   }
 ]
