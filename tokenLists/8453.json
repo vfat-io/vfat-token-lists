@@ -4900,5 +4900,59 @@
     "address": "0xdcf5130274753c8050ab061b1a1dcbf583f5bfd0",
     "symbol": "VCNT",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x7f2f00e54dcaa8b248bdfd75da2ae859d4d8ff3e",
+    "symbol": "TAOT",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0",
+    "symbol": "VANA",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+    "symbol": "PEAS",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x53cb59d32a8d08fc6d3f81454f150946a028a44d",
+    "symbol": "gDEX",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x44551ca46fa5592bb572e20043f7c3d54c85cad7",
+    "symbol": "CLX",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x97c806e7665d3afd84a8fe1837921403d59f3dcc",
+    "symbol": "ALI",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x8c81b4c816d66d36c4bf348bdec01dbcbc70e987",
+    "symbol": "BRIUN",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xe9d139df6212fde346ec650e83039f322018f60d",
+    "symbol": "TKFG",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xeded6ae915b129b67a4ad49901518f2736427063",
+    "symbol": "AUDM",
+    "decimals": 18
   }
 ]

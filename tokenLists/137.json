@@ -9484,5 +9484,11 @@
     "address": "0xf197ffc28c23e0309b5559e7a166f2c6164c80aa",
     "symbol": "MXNB",
     "decimals": 6
+  },
+  {
+    "chainId": 137,
+    "address": "0xffffff9936bd58a008855b0812b44d2c8dffe2aa",
+    "symbol": "GGUSD",
+    "decimals": 6
   }
 ]

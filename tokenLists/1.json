@@ -33892,5 +33892,41 @@
     "address": "0x881ba05de1e78f549cc63a8f6cabb1d4ad32250d",
     "symbol": "00",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x7fd4d7737597e7b4ee22acbf8d94362343ae0a79",
+    "symbol": "WMC",
+    "decimals": 2
+  },
+  {
+    "chainId": 1,
+    "address": "0x82a605d6d9114f4ad6d5ee461027477eeed31e34",
+    "symbol": "SNSY",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xc28eb2250d1ae32c7e74cfb6d6b86afc9beb6509",
+    "symbol": "OPN",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x38e382f74dfb84608f3c1f10187f6bef5951de93",
+    "symbol": "MUBI",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xaeeaa594e7dc112d67b8547fe9767a02c15b5597",
+    "symbol": "ANVL",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xbc920c7fa25d3cd5606394aa4c6751d71dcb7930",
+    "symbol": "K9",
+    "decimals": 18
   }
 ]

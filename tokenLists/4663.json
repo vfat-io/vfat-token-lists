@@ -226,5 +226,71 @@
     "address": "0xfe177128df8d336caf99f787b72183d1e68ff9c2",
     "symbol": "PEA",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xe934e36a439c94017b64a3fece66af12099abf50",
+    "symbol": "STONKBROKER",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x1b0e319c6a659f002271b69db8a7df2f911c153e",
+    "symbol": "GME",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x2e0847e8910a9732eb3fb1bb4b70a580adad4fe3",
+    "symbol": "GOOGL",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x117cc2133c37b721f49de2a7a74833232b3b4c0c",
+    "symbol": "SPY",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xaf3d76f1834a1d425780943c99ea8a608f8a93f9",
+    "symbol": "AAPL",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xff080c8ce2e5feadaca0da81314ae59d232d4afd",
+    "symbol": "MU",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x45f82ac5d507e988f7406935da8eefe495a360e0",
+    "symbol": "BRODIE",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x411efb0e7f985935daec3d4c3ebaea0d0ad7d89f",
+    "symbol": "SLV",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xa30fa36db767ad9ed3f7a60fc79526fb4d56d344",
+    "symbol": "USO",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x894e1ec2d74ffe5aef8dc8a9e84686accb964f2a",
+    "symbol": "PLTR",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x6330d8c3178a418788df01a47479c0ce7ccf450b",
+    "symbol": "COIN",
+    "decimals": 18
   }
 ]
