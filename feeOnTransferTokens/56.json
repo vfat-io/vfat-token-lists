@@ -1,0 +1,26 @@
+[
+  {
+    "chainId": 56,
+    "address": "0x57c56665b2bcdf3cb86e40a9d3dc21f5b0aed7ad",
+    "symbol": "EVM",
+    "decimals": 9,
+    "feeBps": 1100,
+    "evidence": {
+      "txHash": "0x542bcff7ee728940deb80a62cba6f044d4e4ecf9a74fdd3bc1c14c7254ae30c2",
+      "blockNumber": 110654661,
+      "explorer": "https://bscscan.com/tx/0x542bcff7ee728940deb80a62cba6f044d4e4ecf9a74fdd3bc1c14c7254ae30c2",
+      "sender": "0xad1f8a76499e67315be4dd687867533c6d062f52",
+      "recipient": "0xc3ed4db5a8346f5572e7e6856c74184f283aee2b",
+      "requestedAmount": "11641878643155528325",
+      "transferToRecipient": "10361404478232866674",
+      "computedTaxBps": 1100,
+      "computation": "10361404478232866674 / 11641878643155528325 == 0.890011, so 1 - 0.890011 == 0.109989 == 1100 bps. Requested amount is calldata word 1 of transfer(address,uint256); delivered amount is the single emitted Transfer event.",
+      "onChainGetters": {
+        "_taxFee()": 2,
+        "_liquidityFee()": 9,
+        "note": "2% reflection + 9% liquidity/marketing == 11% == the measured 1100 bps"
+      }
+    },
+    "note": "EverMars (EVM) is a SafeMoon-style reflection token taking an 11% cut on every transfer (_taxFee=2 reflection + _liquidityFee=9 liquidity/marketing, both live on-chain). IMPORTANT: unlike fBOMB on 8453, the tax is INVISIBLE in Transfer events — the 9% liquidity fee is credited to _rOwned[address(this)] with no event and the 2% reflection is a rate change, so a taxed transfer emits exactly ONE Transfer event carrying the already-net amount. To verify, compare the requested amount in the transfer() calldata against the emitted Transfer value (see evidence.computation); do not look for a second Transfer event. Failure modes by position in a router path: (1) EVM as INPUT or INTERMEDIATE — the destination pool receives only 89% of amountSent, so pool.swap(amount0Out, ...) reverts K() because the demanded output assumed the full amountSent; (2) EVM as TERMINAL OUTPUT — no K() revert, but the user receives 89% of the quoted amountOut, silently violating minAmountOut. Real production impact: vfat support report 1bbe7c95 (2026-07-28), a BSC FIL/WBNB zap-in deposit. The router's zap engine picked USDC -> EVM -> WBNB (PancakeV2 pairs 0xe0daefbd4fbcb6dc6700a954121df2b72dff619b and 0xa32f1e8f55eced305414a8bd7a16d2fe42761382) for the WBNB balancing leg. Those two pairs price EVM 4916x apart and the gap has stood for 10+ days precisely because the tax makes it unarbitrable, so constant-product math on their reserves over-quoted WBNB by 4891x. That drove the zap to allocate 99.979% of the input to FIL and 0.021% to WBNB, and the deposit was rejected with 99.96% dust."
+  }
+]
