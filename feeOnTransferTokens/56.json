@@ -15,7 +15,8 @@
       "transferToRecipient": "10361271992408420210",
       "transferLogData": "0x0000000000000000000000000000000000000000000000008fcaa1fb10b52f72",
       "computedTaxBps": 1100,
-      "computation": "10361271992408420210 / 11641878643155528325 == 0.890000000000, so 1 - 0.89 == 0.11 == 1100 bps exactly. requestedAmount is calldata word 1 of transfer(address,uint256); transferToRecipient is transferLogData decoded, the single emitted Transfer event.",
+      "computedTaxBpsExact": "1099.9999999999999993557740782318336505",
+      "computation": "10361271992408420210 / 11641878643155528325 == 0.89000000000000000006442259217681663495, so the measured tax is 1099.99999999999999935577... bps, which rounds to the nominal 1100 bps (_taxFee 2 + _liquidityFee 9 == 11%). NOT exactly 89%: floor(requested * 89 / 100) == 10361271992408420209, one unit BELOW the emitted amount, because the cut is applied through SafeMoon reflection-rate integer arithmetic (_getRate) rather than as a direct percentage. requestedAmount is calldata word 1 of transfer(address,uint256); transferToRecipient is transferLogData decoded, the single emitted Transfer event.",
       "onChainGetters": {
         "_taxFee()": 2,
         "_liquidityFee()": 9,
