@@ -15,8 +15,18 @@
       "transferToRecipient": "10361271992408420210",
       "transferLogData": "0x0000000000000000000000000000000000000000000000008fcaa1fb10b52f72",
       "computedTaxBps": 1100,
-      "computedTaxBpsExact": "1099.9999999999999993557740782318336505",
-      "computation": "10361271992408420210 / 11641878643155528325 == 0.89000000000000000006442259217681663495, so the measured tax is 1099.99999999999999935577... bps, which rounds to the nominal 1100 bps (_taxFee 2 + _liquidityFee 9 == 11%). NOT exactly 89%: floor(requested * 89 / 100) == 10361271992408420209, one unit BELOW the emitted amount, because the cut is applied through SafeMoon reflection-rate integer arithmetic (_getRate) rather than as a direct percentage. requestedAmount is calldata word 1 of transfer(address,uint256); transferToRecipient is transferLogData decoded, the single emitted Transfer event.",
+      "taxBpsExactRational": "512242660298843246000/465675145726221133",
+      "taxBpsApproxDecimal": "1099.99999999999999935577407823183365050",
+      "derivation": {
+        "formula": "tTransferAmount = tAmount - floor(tAmount * _taxFee / 100) - floor(tAmount * _liquidityFee / 100)",
+        "source": "_getTValues + calculateTaxFee + calculateLiquidityFee; _transferStandard emits tTransferAmount directly",
+        "tAmount": "11641878643155528325",
+        "taxFee": "232837572863110566",
+        "liquidityFee": "1047769077883997549",
+        "tTransferAmount": "10361271992408420210",
+        "reproducesEmittedAmount": true
+      },
+      "computation": "The two fee calculators are independent integer divisions (amount * fee / 100), and tTransferAmount subtracts both from tAmount, which reproduces the emitted 10361271992408420210 EXACTLY -- see derivation. The measured tax is therefore 1280606650747108115 / 11641878643155528325 of the requested amount, i.e. the exact rational 512242660298843246000/465675145726221133 bps; taxBpsApproxDecimal is a truncated APPROXIMATION of that non-terminating decimal, and computedTaxBps is the rounded nominal 1100 (_taxFee 2 + _liquidityFee 9 == 11%). Note it is NOT exactly 89% of the requested amount: floor(tAmount * 89 / 100) == 10361271992408420209, one unit BELOW the emitted value, because flooring the 2% and 9% fees separately discards only 1/2 + 1/4 unit rather than the 3/4 unit a single floor(89%) would keep. requestedAmount is calldata word 1 of transfer(address,uint256); transferToRecipient is transferLogData decoded, the single emitted Transfer event.",
       "onChainGetters": {
         "_taxFee()": 2,
         "_liquidityFee()": 9,
