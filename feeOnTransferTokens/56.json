@@ -33,7 +33,7 @@
         "note": "2% reflection + 9% liquidity/marketing == 11% == the measured 1100 bps"
       }
     },
-    "note": "EverMars (EVM) is a SafeMoon-style reflection token taking an 11% cut on every transfer (_taxFee=2 reflection + _liquidityFee=9 liquidity/marketing, both live on-chain). IMPORTANT: unlike fBOMB on 8453, the tax is INVISIBLE in Transfer events — the 9% liquidity fee is credited to _rOwned[address(this)] with no event and the 2% reflection is a rate change, so a taxed transfer emits exactly ONE Transfer event carrying the already-net amount. To verify, compare the requested amount in the transfer() calldata against the emitted Transfer value (see evidence.computation); do not look for a second Transfer event. Failure modes by position in a router path: (1) EVM as INPUT or INTERMEDIATE — the destination pool receives only 89% of amountSent, so pool.swap(amount0Out, ...) reverts K() because the demanded output assumed the full amountSent; (2) EVM as TERMINAL OUTPUT — no K() revert, but the user receives 89% of the quoted amountOut, silently violating minAmountOut. Real production impact: vfat support report 1bbe7c95 (2026-07-28), a BSC FIL/WBNB zap-in deposit. The router's zap engine picked USDC -> EVM -> WBNB (PancakeV2 pairs 0xe0daefbd4fbcb6dc6700a954121df2b72dff619b and 0xa32f1e8f55eced305414a8bd7a16d2fe42761382) for the WBNB balancing leg. Those two pairs price EVM 4916x apart and the gap has stood for 10+ days precisely because the tax makes it unarbitrable, so constant-product math on their reserves over-quoted WBNB by 4891x. That drove the zap to allocate 99.979% of the input to FIL and 0.021% to WBNB, and the deposit was rejected with 99.96% dust."
+    "note": "EverMars (EVM) is a SafeMoon-style reflection token taking an 11% cut on every transfer (_taxFee=2 reflection + _liquidityFee=9 liquidity/marketing, both live on-chain). IMPORTANT: unlike fBOMB on 8453, the tax is INVISIBLE in Transfer events — the 9% liquidity fee is credited to _rOwned[address(this)] with no event and the 2% reflection is a rate change, so a taxed transfer emits exactly ONE Transfer event carrying the already-net amount. To verify, compare the requested amount in the transfer() calldata against the emitted Transfer value (see evidence.computation); do not look for a second Transfer event. Failure modes by position in a router path: (1) EVM as INPUT or INTERMEDIATE — the destination pool receives only 89% of amountSent, so pool.swap(amount0Out, ...) reverts K() because the demanded output assumed the full amountSent; (2) EVM as TERMINAL OUTPUT — no K() revert, but the user receives 89% of the quoted amountOut, silently violating minAmountOut. Real production impact: vfat support report 1bbe7c95 (2026-07-28), a BSC FIL/WBNB zap-in deposit. The router's zap engine picked USDC -> EVM -> WBNB (PancakeV2 pairs 0xe0daefbd4fbcb6dc6700a954121df2b72dff619b and 0xa32f1e8f55eced305414a8bd7a16d2fe42761382) for the WBNB balancing leg. Those two pairs price EVM 4916x apart and the gap has stood unclosed for 10+ days, so constant-product math on their reserves over-quoted WBNB by 4891x. (What is established is that the tax invalidates the router's constant-product assumption. Why the spread itself persists is NOT established here and should not be attributed to the tax alone: two taxed transfers still retain ~0.89^2 == 79% of the token, which against a 4916x spread leaves a large gross margin, so something other than the tax must also be preventing the arbitrage.) That drove the zap to allocate 99.979% of the input to FIL and 0.021% to WBNB, and the deposit was rejected with 99.96% dust."
   },
   {
     "chainId": 56,
@@ -42,33 +42,42 @@
     "decimals": 18,
     "feeBps": 2000,
     "evidence": {
-      "method": "debug_traceCall simulation at latest state (callTracer withLog). The token has had no on-chain transfers in recent history, so no fresh historical tx exists to cite; the simulation is exactly reproducible and a historical tx is given below as corroboration.",
-      "simulatedCall": "transfer(0x000000000000000000000000000000000000dEaD, 12345678901234567891)",
-      "simulatedFrom": "0xe859b6a32d953a0ece0027c0fc8575571862c0bb",
-      "simulatedFromNote": "THOREUM/WBNB PancakeV2 pair; holds 1515381493340780451352629675 THOREUM and isExcludedFromFee(addr) == false, so the transfer is taxed",
-      "requestedAmount": "12345678901234567891",
-      "transferToRecipient": "9876543120987654313",
-      "transferLogData": "0x000000000000000000000000000000000000000000000000891087a3ef4c08a9",
+      "method": "Primary evidence is a real on-chain transaction, recovered with debug_traceTransaction (callTracer withLog). The taxed transfer is an INTERNAL transferFrom, so the requested amount is not in the outer tx calldata; the trace supplies it deterministically. A block-pinned debug_traceCall is given below only to show the fee is still live at recent state, since the primary tx is old.",
+      "txHash": "0xba1e2fa87e85ebd33848bd4b3d8d15f162b4b2f72d3f8475d2e17144dd928bb5",
+      "blockNumber": 99997979,
+      "explorer": "https://bscscan.com/tx/0xba1e2fa87e85ebd33848bd4b3d8d15f162b4b2f72d3f8475d2e17144dd928bb5",
+      "sender": "0x9721fee1245e0ba9b1a225849e6cf715620a6875",
+      "recipient": "0xe859b6a32d953a0ece0027c0fc8575571862c0bb",
+      "tracedInnerCall": "transferFrom(0x9721fee1245e0ba9b1a225849e6cf715620a6875, 0xe859b6a32d953a0ece0027c0fc8575571862c0bb, 408702229867229)",
+      "tracedInnerCallSelector": "0x23b872dd",
+      "tracedInnerCallAmountWord": "0x000000000000000000000000000000000000000000000000000173b6673aeadd",
+      "requestedAmount": "408702229867229",
+      "transferToRecipient": "326961783893785",
+      "transferLogData": "0x0000000000000000000000000000000000000000000000000001295eb8fbef19",
       "computedTaxBps": 2000,
-      "taxBpsExactRational": "24691357802469135780000/12345678901234567891",
-      "taxBpsApproxDecimal": "1999.99999999999999983799999854199998674370",
+      "taxBpsExactRational": "817404459734440000/408702229867229",
+      "taxBpsApproxDecimal": "1999.99999999995595815563363214407132785500",
       "derivation": {
         "formula": "tTransferAmount = tAmount - floor(tAmount * _taxFee / 10000) - floor(tAmount * _liquidityFee / 10000)",
         "source": "_getTValues + calculateTaxFee + calculateLiquidityFee; _transferStandard emits tTransferAmount directly. NOTE the divisor is 10000 here, NOT the 100 used by the EverMars entry above -- _taxFee=1000 and _liquidityFee=1000 are 10% each, not 1000%.",
-        "tAmount": "12345678901234567891",
-        "taxFee": "1234567890123456789",
-        "liquidityFee": "1234567890123456789",
-        "tTransferAmount": "9876543120987654313",
+        "tAmount": "408702229867229",
+        "taxFee": "40870222986722",
+        "liquidityFee": "40870222986722",
+        "tTransferAmount": "326961783893785",
         "reproducesEmittedAmount": true
       },
-      "corroboratingHistoricalTx": {
-        "txHash": "0xba1e2fa87e85ebd33848bd4b3d8d15f162b4b2f72d3f8475d2e17144dd928bb5",
-        "blockNumber": 99997979,
-        "explorer": "https://bscscan.com/tx/0xba1e2fa87e85ebd33848bd4b3d8d15f162b4b2f72d3f8475d2e17144dd928bb5",
-        "emittedTransferValue": "326961783893785",
-        "note": "Not a plain transfer() call (selector 0xedad400c), so the requested amount is not readable from calldata word 1 and CANNOT be uniquely recovered -- both 408702229867229 and 408702229867231 reproduce the emitted value under the same rule. Cited only as consistency evidence that the two-floor 20% rule holds on a real transaction, not as an independent bps measurement."
+      "livenessCheckPinned": {
+        "note": "Confirms the 20% fee is still applied at recent state, because the primary tx is ~13M blocks old and _taxFee/_liquidityFee are owner-mutable. Pinned to a specific block so it is reproducible; do NOT re-run this against mutable 'latest'.",
+        "method": "debug_traceCall (callTracer withLog)",
+        "blockNumber": 113157830,
+        "blockHash": "0x5c8f12e54bf03bfd7eae38170e2a5788e3e896f6290441170cf713cdb01c643a",
+        "call": "transfer(0x000000000000000000000000000000000000dEaD, 12345678901234567891)",
+        "from": "0xe859b6a32d953a0ece0027c0fc8575571862c0bb",
+        "fromNote": "THOREUM/WBNB PancakeV2 pair; holds 1515381493340780451352629675 THOREUM and isExcludedFromFee(addr) == false, so the transfer is taxed",
+        "emittedTransferValue": "9876543120987654313",
+        "checkAtThatBlock": "12345678901234567891 - floor(*1000/10000) - floor(*1000/10000) == 9876543120987654313, i.e. still 20%"
       },
-      "computation": "The two fee calculators are independent integer divisions (amount * fee / 10000) and tTransferAmount subtracts both from tAmount, which reproduces the emitted 9876543120987654313 EXACTLY -- see derivation. The measured tax is 2469135780246913578 / 12345678901234567891 of the requested amount, i.e. the exact rational 24691357802469135780000/12345678901234567891 bps; taxBpsApproxDecimal is a truncated APPROXIMATION of that non-terminating decimal, and computedTaxBps is the rounded nominal 2000 (_taxFee 1000 + _liquidityFee 1000 over a 10000 divisor == 20%). As with EverMars, it is NOT exactly 80% of the requested amount: flooring the two 10% fees SEPARATELY under-collects up to 2 base units of fee, so the recipient lands one unit ABOVE floor(tAmount * 8000 / 10000) == 9876543120987654312 for this amount.",
+      "computation": "The two fee calculators are independent integer divisions (amount * fee / 10000) and tTransferAmount subtracts both from tAmount, which reproduces the emitted 326961783893785 EXACTLY from the traced requested amount 408702229867229 -- see derivation. The measured tax is 81740445973444 / 408702229867229 of the requested amount, i.e. the exact rational 817404459734440000/408702229867229 bps; taxBpsApproxDecimal is a truncated APPROXIMATION of that non-terminating decimal, and computedTaxBps is the rounded nominal 2000 (_taxFee 1000 + _liquidityFee 1000 over a 10000 divisor == 20%). As with EverMars, the result is NOT exactly 80% of the requested amount: exact 80% is 326961783893783.2, and flooring the two 10% fees SEPARATELY under-collects frac(tAmount/10) twice == 0.9 + 0.9 == 1.8 base units of fee, leaving the recipient 1.8 above exact-80% and landing on the integer 326961783893785, which is 2 above floor(tAmount * 8000 / 10000) == 326961783893783. The size of that offset is amount-dependent (it is +1 for the pinned liveness amount above, not +2), so it is stated per amount rather than as a general rule.",
       "onChainGetters": {
         "_taxFee()": 1000,
         "_liquidityFee()": 1000,
@@ -76,6 +85,6 @@
         "note": "10% reflection + 10% liquidity/marketing == 20% == the measured 2000 bps"
       }
     },
-    "note": "Thoreum (THOREUM) is a SafeMoon-style reflection token taking a 20% cut on every transfer. Same invisible-tax structure as EverMars above: _takeLiquidity credits _rOwned[address(this)] with no event and _reflectFee only adjusts _rTotal/_tFeeTotal, so a taxed transfer emits exactly ONE Transfer event carrying the already-net amount. Verify by comparing a requested amount against the emitted Transfer value, not by looking for a second Transfer. WATCH THE DIVISOR: this contract divides by 10000 while the EverMars contract divides by 100, so raw _taxFee/_liquidityFee values are not comparable between the two. Failure modes by position in a router path: (1) THOREUM as INPUT or INTERMEDIATE — the destination pool receives only 80% of amountSent, so pool.swap(amount0Out, ...) reverts K() because the demanded output assumed the full amountSent; (2) THOREUM as TERMINAL OUTPUT — no K() revert, but the user receives 80% of the quoted amountOut, silently violating minAmountOut. Why it matters for routing: all four of its BSC pools are dead — PancakeV2 THOREUM/WBNB 0xe859b6a32d953a0ece0027c0fc8575571862c0bb (last swap block 99997979), USDT/THOREUM 0x1edde65bbde8a7d88d0d563b8d6b5378b38e4432 (53388353), THOREUM/BUSD 0x6594a90d41ae84fc5615d376ec59838744737bd7 (50282222) and THOREUM/USDC 0x811229adf04be156138a8cdb069f330766b71117 (47490337) — and they price THOREUM 7.38x apart (from $1.91e-05 in the WBNB pool to $1.41e-04 in the USDT pool). That spread persists precisely because the 20% tax makes it unarbitrable, so constant-product math over those stale reserves produces attractive-looking but unexecutable quotes. A 24h audit of vfat-router native zap-in legs (2026-07-30) found THOREUM used as a two-hop routing intermediate 105 times on BSC, the second most frequent unlisted intermediate on that chain, and it accounted for the largest quoted-versus-restricted output gaps observed in that sample (-78% to -85%). Found while auditing the fallout from support report 1bbe7c95."
+    "note": "Thoreum (THOREUM) is a SafeMoon-style reflection token taking a 20% cut on every transfer. Same invisible-tax structure as EverMars above: _takeLiquidity credits _rOwned[address(this)] with no event and _reflectFee only adjusts _rTotal/_tFeeTotal, so a taxed transfer emits exactly ONE Transfer event carrying the already-net amount. Verify by comparing a requested amount against the emitted Transfer value, not by looking for a second Transfer. WATCH THE DIVISOR: this contract divides by 10000 while the EverMars contract divides by 100, so raw _taxFee/_liquidityFee values are not comparable between the two. Failure modes by position in a router path: (1) THOREUM as INPUT or INTERMEDIATE — the destination pool receives only 80% of amountSent, so pool.swap(amount0Out, ...) reverts K() because the demanded output assumed the full amountSent; (2) THOREUM as TERMINAL OUTPUT — no K() revert, but the user receives 80% of the quoted amountOut, silently violating minAmountOut. Why it matters for routing: all four of its BSC pools are dead — PancakeV2 THOREUM/WBNB 0xe859b6a32d953a0ece0027c0fc8575571862c0bb (last swap block 99997979), USDT/THOREUM 0x1edde65bbde8a7d88d0d563b8d6b5378b38e4432 (53388353), THOREUM/BUSD 0x6594a90d41ae84fc5615d376ec59838744737bd7 (50282222) and THOREUM/USDC 0x811229adf04be156138a8cdb069f330766b71117 (47490337) — and they price THOREUM 7.38x apart (from $1.91e-05 in the WBNB pool to $1.41e-04 in the USDT pool). What matters for routing is that the 20% tax invalidates the constant-product assumption the router simulates with, so quotes over those stale reserves look attractive but are not executable as quoted. No claim is made that the tax is what keeps the 7.38x spread open: two taxed transfers still retain 0.8 * 0.8 == 64% of the token, which leaves ~4.7x of the spread intact, so the tax alone does not explain why nobody has closed it. A 24h audit of vfat-router native zap-in legs (2026-07-30) found THOREUM used as a two-hop routing intermediate 105 times on BSC, the second most frequent unlisted intermediate on that chain, and it accounted for the largest quoted-versus-restricted output gaps observed in that sample (-78% to -85%). Found while auditing the fallout from support report 1bbe7c95."
   }
 ]
