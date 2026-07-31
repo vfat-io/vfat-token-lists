@@ -1768,5 +1768,11 @@
     "address": "0xe061aa40be525a13296cb4bf69f513242349d708",
     "symbol": "XVGOPT",
     "decimals": 18
+  },
+  {
+    "chainId": 10,
+    "address": "0xae0c7d4be1f07c5cf2994da2884a6d698f516286",
+    "symbol": "FNX",
+    "decimals": 18
   }
 ]
