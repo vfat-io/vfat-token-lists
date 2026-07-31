@@ -292,5 +292,11 @@
     "address": "0x6330d8c3178a418788df01a47479c0ce7ccf450b",
     "symbol": "COIN",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x1fcbc77a759e502e36836b7787c9a8b4f5da666c",
+    "symbol": "HOOD",
+    "decimals": 18
   }
 ]
