@@ -33928,5 +33928,11 @@
     "address": "0xbc920c7fa25d3cd5606394aa4c6751d71dcb7930",
     "symbol": "K9",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xc96de26018a54d51c097160568752c4e3bd6c364",
+    "symbol": "FBTC",
+    "decimals": 8
   }
 ]
