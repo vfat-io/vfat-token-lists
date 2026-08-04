@@ -39262,5 +39262,11 @@
     "address": "0xca750ef65f295bbecd685abf54e82caf297bdb61",
     "symbol": "SKHYB",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x73b895da1197403b8fbbb179633ec3fd526b2fd5",
+    "symbol": "EVT",
+    "decimals": 18
   }
 ]

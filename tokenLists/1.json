@@ -33934,5 +33934,47 @@
     "address": "0xc96de26018a54d51c097160568752c4e3bd6c364",
     "symbol": "FBTC",
     "decimals": 8
+  },
+  {
+    "chainId": 1,
+    "address": "0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
+    "symbol": "LMWR",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xca5e50710f656f2e537ce2fc8504db6e24ed3515",
+    "symbol": "XCL",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x6b7774cb12ed7573a7586e7d0e62a2a563ddd3f0",
+    "symbol": "SOPH",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+    "symbol": "WCT",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x2d1f7226bd1f780af6b9a49dcc0ae00e8df4bdee",
+    "symbol": "NVDAon",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xf6b1117ec07684d3958cad8beb1b302bfd21103f",
+    "symbol": "TSLAon",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xfedc5f4a6c38211c1338aa411018dfaf26612c08",
+    "symbol": "SPYon",
+    "decimals": 18
   }
 ]

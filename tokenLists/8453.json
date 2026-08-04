@@ -4954,5 +4954,23 @@
     "address": "0xeded6ae915b129b67a4ad49901518f2736427063",
     "symbol": "AUDM",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x937a1cfaf0a3d9f5dc4d0927f72ee5e3e5f82a00",
+    "symbol": "Cocoro",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x441fcb23dfe8289cf572126fedcf450974adc891",
+    "symbol": "RBTC",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xe6522a891702cd2e8cc2a5182638c9da1dd44b22",
+    "symbol": "wL1",
+    "decimals": 18
   }
 ]

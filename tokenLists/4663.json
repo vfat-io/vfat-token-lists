@@ -298,5 +298,47 @@
     "address": "0x1fcbc77a759e502e36836b7787c9a8b4f5da666c",
     "symbol": "HOOD",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x5cb6f181081301b44905f3ae15419112ecabd8a6",
+    "symbol": "PIPEDOG",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x6245e67affa44a23077f0ea7f981a8dc743a0c47",
+    "symbol": "FRONG",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xc1a0c3929f5e12b5cfd6ae36f197a45bedf79417",
+    "symbol": "SESTRI",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xc72b96e0e48ecd4dc75e1e45396e26300bc39681",
+    "symbol": "INTC",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xb358766827d7c704d3c52a57b5cf181d1b0ffc6c",
+    "symbol": "CHWDR",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xb90a19ff0af67f7779aff50a882a9cff42446400",
+    "symbol": "SNDK",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xe93237c50d904957cf27e7b1133b510c669c2e74",
+    "symbol": "MSFT",
+    "decimals": 18
   }
 ]

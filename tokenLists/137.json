@@ -9490,5 +9490,11 @@
     "address": "0xffffff9936bd58a008855b0812b44d2c8dffe2aa",
     "symbol": "GGUSD",
     "decimals": 6
+  },
+  {
+    "chainId": 137,
+    "address": "0xdd875635231e68e846ce190b1396ac0295d9e577",
+    "symbol": "uWatt",
+    "decimals": 18
   }
 ]
