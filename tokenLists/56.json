@@ -39268,5 +39268,17 @@
     "address": "0x73b895da1197403b8fbbb179633ec3fd526b2fd5",
     "symbol": "EVT",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x3f3129511bc7dadeb1bd19166e9df9dcad238888",
+    "symbol": "TQB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
+    "symbol": "NVDAB",
+    "decimals": 18
   }
 ]

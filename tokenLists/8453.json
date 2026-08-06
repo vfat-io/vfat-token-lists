@@ -4972,5 +4972,11 @@
     "address": "0xe6522a891702cd2e8cc2a5182638c9da1dd44b22",
     "symbol": "wL1",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x1a44233fae8d50f1aeb3a5d58dd426ff4814cb53",
+    "symbol": "QUID",
+    "decimals": 18
   }
 ]
