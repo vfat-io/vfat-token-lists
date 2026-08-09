@@ -33976,5 +33976,11 @@
     "address": "0xfedc5f4a6c38211c1338aa411018dfaf26612c08",
     "symbol": "SPYon",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x90a1717e0dabe37693f79afe43ae236dc3b65957",
+    "symbol": "USDM1",
+    "decimals": 18
   }
 ]
