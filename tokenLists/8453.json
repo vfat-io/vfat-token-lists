@@ -4978,5 +4978,11 @@
     "address": "0x1a44233fae8d50f1aeb3a5d58dd426ff4814cb53",
     "symbol": "QUID",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x6c417845facc97ebce84fbfee9a7460b0e5cfcf3",
+    "symbol": "BTN",
+    "decimals": 6
   }
 ]
