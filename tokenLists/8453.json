@@ -4984,5 +4984,29 @@
     "address": "0x6c417845facc97ebce84fbfee9a7460b0e5cfcf3",
     "symbol": "BTN",
     "decimals": 6
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000008bc8786b856e61707c",
+    "symbol": "METAc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb20000000000000000000078ee7ce2fe4908108c",
+    "symbol": "NVDAc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000002d0ba3164cc74f58b7",
+    "symbol": "GOOGLc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000c2e324d24d7eecd1fb",
+    "symbol": "AAPLc",
+    "decimals": 8
   }
 ]
