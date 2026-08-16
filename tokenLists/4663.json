@@ -340,5 +340,41 @@
     "address": "0xe93237c50d904957cf27e7b1133b510c669c2e74",
     "symbol": "MSFT",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xe3fa12da7fa026b21817f16622e8ae48fa785166",
+    "symbol": "YARD",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xb03058b8a39f3967df08d833682c1c99b29821b1",
+    "symbol": "WALL",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x5aed379a72bd2533371d153135c47d5eb61babc8",
+    "symbol": "STRIKE",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x8d6ff05c40899bfbc618e203052a8cd02d0e9581",
+    "symbol": "RESERVE",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xc2362aff2a2a4cc1f48cf3dab2c4e2605eb94ba3",
+    "symbol": "GME",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x49bac47750f3dcdba49350b5d74fd399e90f97c6",
+    "symbol": "BULL",
+    "decimals": 18
   }
 ]
