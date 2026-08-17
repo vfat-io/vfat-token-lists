@@ -724,5 +724,35 @@
     "address": "0x9628bba16db41ea7fe1fd84f9ce53bc27c63f59b",
     "symbol": "DRV",
     "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0x6215a58ed045d71f2561aaabe54f4c885c522998",
+    "symbol": "wSKHYx",
+    "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0xe2047ee3bddb5c99ae428ab83df63f8730698e30",
+    "symbol": "wMUx",
+    "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0xa8ddb5cd96b5222afe198316e9a57caa642850d5",
+    "symbol": "wNVDAx",
+    "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0xe7e553cd128f0011777323a0b44a7b96ea1cb540",
+    "symbol": "wSPYx",
+    "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0x4c1ae29c159838fc1b224636e28e086eb69101f7",
+    "symbol": "wQQQx",
+    "decimals": 18
   }
 ]
