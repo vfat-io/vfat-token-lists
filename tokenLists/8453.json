@@ -5014,5 +5014,11 @@
     "address": "0x252d36f435582ecb01686448d21e8c9ea0b2ca65",
     "symbol": "BD",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x53f39e5c53ee40bbc3da97c3b47bd2968d110a8d",
+    "symbol": "ALIGN",
+    "decimals": 18
   }
 ]
