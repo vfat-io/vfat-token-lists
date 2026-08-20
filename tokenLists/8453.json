@@ -5020,5 +5020,11 @@
     "address": "0x53f39e5c53ee40bbc3da97c3b47bd2968d110a8d",
     "symbol": "ALIGN",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xe014d2a4da6e450f21b5050120d291e63c8940fd",
+    "symbol": "SOGNI",
+    "decimals": 18
   }
 ]
