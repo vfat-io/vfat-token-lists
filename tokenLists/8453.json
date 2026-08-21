@@ -5026,5 +5026,11 @@
     "address": "0xe014d2a4da6e450f21b5050120d291e63c8940fd",
     "symbol": "SOGNI",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xf3081494b87e8d5fb7960f066e931d1d0e6e3d67",
+    "symbol": "TAO",
+    "decimals": 18
   }
 ]
