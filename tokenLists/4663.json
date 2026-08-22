@@ -382,5 +382,11 @@
     "address": "0xc9a981fee1f9dec688bb123ccdecc63d0debfc4e",
     "symbol": "GLD",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x96765066f6a040a21eb027167d2315b707c82633",
+    "symbol": "RVH",
+    "decimals": 18
   }
 ]

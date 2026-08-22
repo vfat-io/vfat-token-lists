@@ -39280,5 +39280,11 @@
     "address": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
     "symbol": "NVDAB",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+    "symbol": "AI",
+    "decimals": 18
   }
 ]
