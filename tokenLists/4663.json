@@ -376,5 +376,11 @@
     "address": "0x49bac47750f3dcdba49350b5d74fd399e90f97c6",
     "symbol": "BULL",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xc9a981fee1f9dec688bb123ccdecc63d0debfc4e",
+    "symbol": "GLD",
+    "decimals": 18
   }
 ]
