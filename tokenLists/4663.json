@@ -388,5 +388,11 @@
     "address": "0x96765066f6a040a21eb027167d2315b707c82633",
     "symbol": "RVH",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+    "symbol": "AI",
+    "decimals": 18
   }
 ]
