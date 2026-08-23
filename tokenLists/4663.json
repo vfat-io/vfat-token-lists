@@ -394,5 +394,11 @@
     "address": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
     "symbol": "AI",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xec262a75e413fafd0df80480274532c79d42da09",
+    "symbol": "MSTR",
+    "decimals": 18
   }
 ]
