@@ -44,34 +44,39 @@
         "note": "Fee getters are whole percent, not bps: sellTotalFees() == 6 means 6%, confirmed by the exact replay above."
       }
     },
-    "note": "6% tax on both buys and sells, charged only against registered automatedMarketMakerPairs entries. The WETH/SHIELD pair 0xba22211b… is registered; the USDC/SHIELD pool 0xf7dc64ad… is not. That asymmetry makes SHIELD quote as a persistently mispriced routing intermediate: a router can price USDC->SHIELD untaxed and SHIELD->WETH untaxed, but execution charges 6% on the WETH leg, so the delivered amount falls below the quoted minimum. No arbitrageur can close the gap either, because closing it costs the same 6%. Failure modes by position in a router path: (1) SHIELD as INPUT or INTERMEDIATE — the destination pair receives only 94% of amountSent, so the pool's constant-product check reverts or the next leg under-delivers; (2) SHIELD as TERMINAL OUTPUT — the user receives 94% of the quoted amountOut, silently violating minAmountOut. Both are unsafe; the router blocks all positions equally."
+    "note": "6% tax on both buys and sells, charged only against registered automatedMarketMakerPairs entries. The WETH/SHIELD pair 0xba22211b\u2026 is registered; the USDC/SHIELD pool 0xf7dc64ad\u2026 is not. That asymmetry makes SHIELD quote as a persistently mispriced routing intermediate: a router can price USDC->SHIELD untaxed and SHIELD->WETH untaxed, but execution charges 6% on the WETH leg, so the delivered amount falls below the quoted minimum. No arbitrageur can close the gap either, because closing it costs the same 6%. Failure modes by position in a router path: (1) SHIELD as INPUT or INTERMEDIATE \u2014 the destination pair receives only 94% of amountSent, so the pool's constant-product check reverts or the next leg under-delivers; (2) SHIELD as TERMINAL OUTPUT \u2014 the user receives 94% of the quoted amountOut, silently violating minAmountOut. Both are unsafe; the router blocks all positions equally."
   },
   {
     "chainId": 1,
     "address": "0x0f7b3f5a8fed821c5eb60049538a548db2d479ce",
     "symbol": "ATOR",
     "decimals": 18,
-    "feeBps": 200,
+    "note": "Transfer-restricted token: boughtEarly(0xa7480aafa8ad2af3ce24ac6853f960ae6ac7f0c4) returns true for the Uniswap V2 ATOR/WETH pair, and _transfer rejects any transfer in or out of a boughtEarly address except to the owner or the dead address. An ordinary buy out of that pair therefore REVERTS outright rather than delivering a reduced amount, so every route through the pair fails. This is the same routing hazard the list exists for, but by restriction rather than by tax.",
     "evidence": {
-      "method": "buyTotalFees() / automatedMarketMakerPairs(address)",
-      "evidenceType": "on-chain getters, not a transfer replay — see limitations below",
-      "onChainGetters": {
+      "method": "boughtEarly(address) + block-pinned eth_call of transfer(address,uint256) from the pair",
+      "blockNumber": 25834000,
+      "blockedAddress": "0xa7480aafa8ad2af3ce24ac6853f960ae6ac7f0c4",
+      "blockedAddressRole": "Uniswap V2 ATOR/WETH pair, the only registered automatedMarketMakerPairs entry",
+      "boughtEarly": true,
+      "observedRevert": "Bots cannot transfer tokens in or out except to owner or dead address.",
+      "revertData": "0x08c379a0...426f74732063616e6e6f74207472616e7366657220746f6b656e7320696e206f72206f75742065786365707420746f206f776e6572206f72206465616420616464726573732e",
+      "reproduce": "eth_call {from: 0xa7480aafa8ad2af3ce24ac6853f960ae6ac7f0c4, to: 0x0f7b3f5a8fed821c5eb60049538a548db2d479ce, data: transfer(0x00000000000000000000000000000000000000d1, 1e18)} at block 25834000 reverts with the message above.",
+      "computation": "No feeBps is recorded. README defines feeBps as a measured tax, and no executable taxed transfer exists to measure: the fee branch in _transfer is only reached for a sender that is not boughtEarly, and the sole registered pair is boughtEarly, so the 2% buy fee below is unreachable configuration rather than an observed tax.",
+      "feeConfigurationSecondaryContext": {
+        "note": "Recorded only as context for why the token was examined. Not reachable through the registered pair while it stays bot-locked.",
         "buyTotalFees()": 2,
         "buyOperationsFee()": 1,
+        "buyTreasuryFee()": 1,
         "buyLiquidityFee()": 0,
         "sellTotalFees()": 0,
         "sellOperationsFee()": 0,
+        "sellTreasuryFee()": 0,
         "sellLiquidityFee()": 0,
+        "treasuryAddress()": "0x7cca2562ff85bdd45ed4bb99ccf32148ad45ea35",
         "tradingActive()": true,
-        "swapEnabled()": true,
+        "tradingActiveBlock()": 16695293,
         "automatedMarketMakerPairs(0xa7480aafa8ad2af3ce24ac6853f960ae6ac7f0c4)": true
-      },
-      "taxedPair": "0xa7480aafa8ad2af3ce24ac6853f960ae6ac7f0c4",
-      "taxedPairRole": "Uniswap V2 ATOR/WETH pair",
-      "feeUnits": "whole percent, same contract family and getter set as SHIELD above, where the percent denominator is confirmed by exact transfer replay",
-      "limitations": "No taxed transfer is available to replay. Every ATOR transfer touching the pair in the 900k blocks scanned back from 25833852 is a SELL, and sellTotalFees() is currently 0, so none of them are taxed. The 2% applies to the buy direction only, and no buy occurred in the scanned window. This entry therefore rests on the contract's current configuration, in the style of the FATE entry in feeOnTransferTokens/43114.json. Replace with a transfer replay if a taxed buy appears.",
-      "computation": "buyTotalFees() == 2 whole percent == 200 bps, charged when tokens leave a registered automatedMarketMakerPairs entry. The only registered pair is the ATOR/WETH pair above."
-    },
-    "note": "2% tax on buys, 0% on sells, charged only against the registered automatedMarketMakerPairs entry 0xa7480aaf… (ATOR/WETH). One-sided taxes are still unsafe for routing: as an INTERMEDIATE the router buys ATOR (taxed 2%) and immediately sells it, so it receives 2% less than quoted and the second leg under-delivers; as TERMINAL OUTPUT the user receives 98% of the quoted amountOut, violating minAmountOut. Quoting engines that model only fees and curve impact cannot see this, so the token reads as persistently underpriced."
+      }
+    }
   }
 ]
