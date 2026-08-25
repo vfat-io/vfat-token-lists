@@ -490,5 +490,35 @@
     "address": "0x47f93d52cbec7c6d2cfc080e154002370a60daea",
     "symbol": "ASML",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x7fe995a80075df3dc8ae11a9b82c7fe4202cd87f",
+    "symbol": "HMM",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xca9c78dd337a67f6e0077f65f5e9218719d30edf",
+    "symbol": "NET",
+    "decimals": 9
+  },
+  {
+    "chainId": 4663,
+    "address": "0xfe242d1da8fd04f6a1f80b6d3d807b02e062ad4e",
+    "symbol": "OBS",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x6b12ec435f15f823ee3c550e9013123e4187429b",
+    "symbol": "🚀",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x822cc93ffd030293e9842c30bbd678f530701867",
+    "symbol": "BE",
+    "decimals": 18
   }
 ]
