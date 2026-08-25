@@ -1,0 +1,77 @@
+[
+  {
+    "chainId": 1,
+    "address": "0xcf4c68db4c2fa0bf58df07b14f45ce7709a716ac",
+    "symbol": "SHIELD",
+    "decimals": 18,
+    "feeBps": 600,
+    "evidence": {
+      "txHash": "0x4926613c9eab4b8145810d6293d7ac04393da29067e9642070da110d4d6cc727",
+      "blockNumber": 25806702,
+      "explorer": "https://etherscan.io/tx/0x4926613c9eab4b8145810d6293d7ac04393da29067e9642070da110d4d6cc727",
+      "sender": "0xf7dc64ad5f0ad094acd3fd98e3ae3cb36d84c569",
+      "senderRole": "Uniswap V2 USDC/SHIELD pool (NOT a registered automatedMarketMakerPairs entry)",
+      "recipient": "0xba22211b73d239308f5af6e4f0dbd7112f652472",
+      "recipientRole": "Uniswap V2 WETH/SHIELD pair (registered automatedMarketMakerPairs entry)",
+      "requestedAmount": "244827287308804937041677",
+      "transferToRecipient": "230137650070276640819177",
+      "transferToTaxDestination": "14689637238528296222500",
+      "taxDestination": "0xcf4c68db4c2fa0bf58df07b14f45ce7709a716ac",
+      "taxDestinationRole": "the SHIELD token contract itself, which accumulates fees for later swap-back",
+      "computedTaxBps": 600,
+      "derivation": {
+        "formula": "fees = floor(amount * sellTotalFees / 100); transferToRecipient = amount - fees",
+        "amount": "244827287308804937041677",
+        "sellTotalFees": 6,
+        "fees": "14689637238528296222500",
+        "transferToRecipient": "230137650070276640819177",
+        "reproducesEmittedAmounts": true
+      },
+      "computation": "One transfer of 244827287308804937041677 SHIELD out of the USDC/SHIELD pool emits two Transfer events with the same sender: 230137650070276640819177 to the WETH/SHIELD pair and 14689637238528296222500 to the token contract. floor(244827287308804937041677 * 6 / 100) == 14689637238528296222500 EXACTLY, and amount - fees == 230137650070276640819177 EXACTLY, so the measured tax is exactly 600 bps with no rounding residue. This is the sell side; buyTotalFees is also 6.",
+      "onChainGetters": {
+        "buyTotalFees()": 6,
+        "buyMarketingFee()": 4,
+        "buyDevFee()": 2,
+        "buyLiquidityFee()": 0,
+        "sellTotalFees()": 6,
+        "sellMarketingFee()": 4,
+        "sellDevFee()": 2,
+        "sellLiquidityFee()": 0,
+        "tradingActive()": true,
+        "swapEnabled()": true,
+        "automatedMarketMakerPairs(0xba22211b73d239308f5af6e4f0dbd7112f652472)": true,
+        "automatedMarketMakerPairs(0xf7dc64ad5f0ad094acd3fd98e3ae3cb36d84c569)": false,
+        "note": "Fee getters are whole percent, not bps: sellTotalFees() == 6 means 6%, confirmed by the exact replay above."
+      }
+    },
+    "note": "6% tax on both buys and sells, charged only against registered automatedMarketMakerPairs entries. The WETH/SHIELD pair 0xba22211b… is registered; the USDC/SHIELD pool 0xf7dc64ad… is not. That asymmetry makes SHIELD quote as a persistently mispriced routing intermediate: a router can price USDC->SHIELD untaxed and SHIELD->WETH untaxed, but execution charges 6% on the WETH leg, so the delivered amount falls below the quoted minimum. No arbitrageur can close the gap either, because closing it costs the same 6%. Failure modes by position in a router path: (1) SHIELD as INPUT or INTERMEDIATE — the destination pair receives only 94% of amountSent, so the pool's constant-product check reverts or the next leg under-delivers; (2) SHIELD as TERMINAL OUTPUT — the user receives 94% of the quoted amountOut, silently violating minAmountOut. Both are unsafe; the router blocks all positions equally."
+  },
+  {
+    "chainId": 1,
+    "address": "0x0f7b3f5a8fed821c5eb60049538a548db2d479ce",
+    "symbol": "ATOR",
+    "decimals": 18,
+    "feeBps": 200,
+    "evidence": {
+      "method": "buyTotalFees() / automatedMarketMakerPairs(address)",
+      "evidenceType": "on-chain getters, not a transfer replay — see limitations below",
+      "onChainGetters": {
+        "buyTotalFees()": 2,
+        "buyOperationsFee()": 1,
+        "buyLiquidityFee()": 0,
+        "sellTotalFees()": 0,
+        "sellOperationsFee()": 0,
+        "sellLiquidityFee()": 0,
+        "tradingActive()": true,
+        "swapEnabled()": true,
+        "automatedMarketMakerPairs(0xa7480aafa8ad2af3ce24ac6853f960ae6ac7f0c4)": true
+      },
+      "taxedPair": "0xa7480aafa8ad2af3ce24ac6853f960ae6ac7f0c4",
+      "taxedPairRole": "Uniswap V2 ATOR/WETH pair",
+      "feeUnits": "whole percent, same contract family and getter set as SHIELD above, where the percent denominator is confirmed by exact transfer replay",
+      "limitations": "No taxed transfer is available to replay. Every ATOR transfer touching the pair in the 900k blocks scanned back from 25833852 is a SELL, and sellTotalFees() is currently 0, so none of them are taxed. The 2% applies to the buy direction only, and no buy occurred in the scanned window. This entry therefore rests on the contract's current configuration, in the style of the FATE entry in feeOnTransferTokens/43114.json. Replace with a transfer replay if a taxed buy appears.",
+      "computation": "buyTotalFees() == 2 whole percent == 200 bps, charged when tokens leave a registered automatedMarketMakerPairs entry. The only registered pair is the ATOR/WETH pair above."
+    },
+    "note": "2% tax on buys, 0% on sells, charged only against the registered automatedMarketMakerPairs entry 0xa7480aaf… (ATOR/WETH). One-sided taxes are still unsafe for routing: as an INTERMEDIATE the router buys ATOR (taxed 2%) and immediately sells it, so it receives 2% less than quoted and the second leg under-delivers; as TERMINAL OUTPUT the user receives 98% of the quoted amountOut, violating minAmountOut. Quoting engines that model only fees and curve impact cannot see this, so the token reads as persistently underpriced."
+  }
+]
