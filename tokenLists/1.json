@@ -33982,5 +33982,23 @@
     "address": "0x90a1717e0dabe37693f79afe43ae236dc3b65957",
     "symbol": "USDM1",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x97ad75064b20fb2b2447fed4fa953bf7f007a706",
+    "symbol": "beraSTONE",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x7122985656e38bdc0302db86685bb972b145bd3c",
+    "symbol": "STONE",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x57f5e098cad7a3d1eed53991d4d66c45c9af7812",
+    "symbol": "wUSDM",
+    "decimals": 18
   }
 ]
