@@ -1,0 +1,82 @@
+[
+  {
+    "chainId": 1,
+    "address": "0xcf4c68db4c2fa0bf58df07b14f45ce7709a716ac",
+    "symbol": "SHIELD",
+    "decimals": 18,
+    "feeBps": 600,
+    "evidence": {
+      "txHash": "0x4926613c9eab4b8145810d6293d7ac04393da29067e9642070da110d4d6cc727",
+      "blockNumber": 25806702,
+      "explorer": "https://etherscan.io/tx/0x4926613c9eab4b8145810d6293d7ac04393da29067e9642070da110d4d6cc727",
+      "sender": "0xf7dc64ad5f0ad094acd3fd98e3ae3cb36d84c569",
+      "senderRole": "Uniswap V2 USDC/SHIELD pool (NOT a registered automatedMarketMakerPairs entry)",
+      "recipient": "0xba22211b73d239308f5af6e4f0dbd7112f652472",
+      "recipientRole": "Uniswap V2 WETH/SHIELD pair (registered automatedMarketMakerPairs entry)",
+      "requestedAmount": "244827287308804937041677",
+      "transferToRecipient": "230137650070276640819177",
+      "transferToTaxDestination": "14689637238528296222500",
+      "taxDestination": "0xcf4c68db4c2fa0bf58df07b14f45ce7709a716ac",
+      "taxDestinationRole": "the SHIELD token contract itself, which accumulates fees for later swap-back",
+      "computedTaxBps": 600,
+      "derivation": {
+        "formula": "fees = floor(amount * sellTotalFees / 100); transferToRecipient = amount - fees",
+        "amount": "244827287308804937041677",
+        "sellTotalFees": 6,
+        "fees": "14689637238528296222500",
+        "transferToRecipient": "230137650070276640819177",
+        "reproducesEmittedAmounts": true
+      },
+      "computation": "One transfer of 244827287308804937041677 SHIELD out of the USDC/SHIELD pool emits two Transfer events with the same sender: 230137650070276640819177 to the WETH/SHIELD pair and 14689637238528296222500 to the token contract. floor(244827287308804937041677 * 6 / 100) == 14689637238528296222500 EXACTLY, and amount - fees == 230137650070276640819177 EXACTLY, so the measured tax is exactly 600 bps with no rounding residue. This is the sell side; buyTotalFees is also 6.",
+      "onChainGetters": {
+        "buyTotalFees()": 6,
+        "buyMarketingFee()": 4,
+        "buyDevFee()": 2,
+        "buyLiquidityFee()": 0,
+        "sellTotalFees()": 6,
+        "sellMarketingFee()": 4,
+        "sellDevFee()": 2,
+        "sellLiquidityFee()": 0,
+        "tradingActive()": true,
+        "swapEnabled()": true,
+        "automatedMarketMakerPairs(0xba22211b73d239308f5af6e4f0dbd7112f652472)": true,
+        "automatedMarketMakerPairs(0xf7dc64ad5f0ad094acd3fd98e3ae3cb36d84c569)": false,
+        "note": "Fee getters are whole percent, not bps: sellTotalFees() == 6 means 6%, confirmed by the exact replay above."
+      }
+    },
+    "note": "6% tax on both buys and sells, charged only against registered automatedMarketMakerPairs entries. The WETH/SHIELD pair 0xba22211b\u2026 is registered; the USDC/SHIELD pool 0xf7dc64ad\u2026 is not. That asymmetry makes SHIELD quote as a persistently mispriced routing intermediate: a router can price USDC->SHIELD untaxed and SHIELD->WETH untaxed, but execution charges 6% on the WETH leg, so the delivered amount falls below the quoted minimum. No arbitrageur can close the gap either, because closing it costs the same 6%. Failure modes by position in a router path: (1) SHIELD as INPUT or INTERMEDIATE \u2014 the destination pair receives only 94% of amountSent, so the pool's constant-product check reverts or the next leg under-delivers; (2) SHIELD as TERMINAL OUTPUT \u2014 the user receives 94% of the quoted amountOut, silently violating minAmountOut. Both are unsafe; the router blocks all positions equally."
+  },
+  {
+    "chainId": 1,
+    "address": "0x0f7b3f5a8fed821c5eb60049538a548db2d479ce",
+    "symbol": "ATOR",
+    "decimals": 18,
+    "note": "Transfer-restricted token: boughtEarly(0xa7480aafa8ad2af3ce24ac6853f960ae6ac7f0c4) returns true for the Uniswap V2 ATOR/WETH pair, and _transfer rejects any transfer in or out of a boughtEarly address except to the owner or the dead address. An ordinary buy out of that pair therefore REVERTS outright rather than delivering a reduced amount, so every route through the pair fails. This is the same routing hazard the list exists for, but by restriction rather than by tax.",
+    "evidence": {
+      "method": "boughtEarly(address) + block-pinned eth_call of transfer(address,uint256) from the pair",
+      "blockNumber": 25834000,
+      "blockedAddress": "0xa7480aafa8ad2af3ce24ac6853f960ae6ac7f0c4",
+      "blockedAddressRole": "Uniswap V2 ATOR/WETH pair, the only registered automatedMarketMakerPairs entry",
+      "boughtEarly": true,
+      "observedRevert": "Bots cannot transfer tokens in or out except to owner or dead address.",
+      "revertData": "0x08c379a0...426f74732063616e6e6f74207472616e7366657220746f6b656e7320696e206f72206f75742065786365707420746f206f776e6572206f72206465616420616464726573732e",
+      "reproduce": "eth_call {from: 0xa7480aafa8ad2af3ce24ac6853f960ae6ac7f0c4, to: 0x0f7b3f5a8fed821c5eb60049538a548db2d479ce, data: transfer(0x00000000000000000000000000000000000000d1, 1e18)} at block 25834000 reverts with the message above.",
+      "computation": "No feeBps is recorded. README defines feeBps as a measured tax, and no executable taxed transfer exists to measure: the fee branch in _transfer is only reached for a sender that is not boughtEarly, and the sole registered pair is boughtEarly, so the 2% buy fee below is unreachable configuration rather than an observed tax.",
+      "feeConfigurationSecondaryContext": {
+        "note": "Recorded only as context for why the token was examined. Not reachable through the registered pair while it stays bot-locked.",
+        "buyTotalFees()": 2,
+        "buyOperationsFee()": 1,
+        "buyTreasuryFee()": 1,
+        "buyLiquidityFee()": 0,
+        "sellTotalFees()": 0,
+        "sellOperationsFee()": 0,
+        "sellTreasuryFee()": 0,
+        "sellLiquidityFee()": 0,
+        "treasuryAddress()": "0x7cca2562ff85bdd45ed4bb99ccf32148ad45ea35",
+        "tradingActive()": true,
+        "tradingActiveBlock()": 16695293,
+        "automatedMarketMakerPairs(0xa7480aafa8ad2af3ce24ac6853f960ae6ac7f0c4)": true
+      }
+    }
+  }
+]
