@@ -405,5 +405,11 @@
     "address": "0x8edec258d566c5610c2bc5cd1f3db6027bf5854c",
     "symbol": "Zoey",
     "decimals": 18
+  },
+  {
+    "chainId": 5000,
+    "address": "0xeec6574eabba52bac3f0277f2cd5ac7e67197886",
+    "symbol": "KII",
+    "decimals": 18
   }
 ]

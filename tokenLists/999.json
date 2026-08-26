@@ -754,5 +754,23 @@
     "address": "0x4c1ae29c159838fc1b224636e28e086eb69101f7",
     "symbol": "wQQQx",
     "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0xb75d5ee14708e7efbea939311090061d72265608",
+    "symbol": "EGG",
+    "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0xddfed493a114d610c5709fefd22baef40dc23428",
+    "symbol": "CHAMELEON",
+    "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0xd6317538fd2ffb481db073a6ccee301180064ad6",
+    "symbol": "HYPURR",
+    "decimals": 18
   }
 ]

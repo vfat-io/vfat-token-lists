@@ -5044,5 +5044,17 @@
     "address": "0xebe516a20238f79dc20b07ead6768e08891ed309",
     "symbol": "THEO",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000004c27f6523082f41d01",
+    "symbol": "Basecat",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xf5f11bc9be9d6690f795d04d2fc9bdd097008a2b",
+    "symbol": "BPAD",
+    "decimals": 18
   }
 ]

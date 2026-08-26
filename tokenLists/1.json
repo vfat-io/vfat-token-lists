@@ -34000,5 +34000,77 @@
     "address": "0x57f5e098cad7a3d1eed53991d4d66c45c9af7812",
     "symbol": "wUSDM",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x1db1591540d7a6062be0837ca3c808add28844f6",
+    "symbol": "hOHM",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x3b50805453023a91a8bf641e279401a0b23fa6f9",
+    "symbol": "REZ",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xc83e27f270cce0a3a3a29521173a83f402c1768b",
+    "symbol": "USDQ",
+    "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0xc08e7e23c235073c6807c2efe7021304cb7c2815",
+    "symbol": "XUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0x123ffe0a3c62878dcbee2742227dc8990058d9e1",
+    "symbol": "XAGM",
+    "decimals": 9
+  },
+  {
+    "chainId": 1,
+    "address": "0xc5d6a7b61d18afa11435a889557b068bb9f29930",
+    "symbol": "sUSDD",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x8df723295214ea6f21026eeeb4382d475f146f9f",
+    "symbol": "EURQ",
+    "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0x259338656198ec7a76c729514d3cb45dfbf768a1",
+    "symbol": "RESOLV",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x9d1a7a3191102e9f900faa10540837ba84dcbae7",
+    "symbol": "EURI",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xa35b1b31ce002fbf2058d22f30f95d405200a15b",
+    "symbol": "ETHx",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x80ea38d56e262457d73c0d8dfe027ae8925821e2",
+    "symbol": "ONYX",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x9fdbde76236998dc2836fe67a9954ede456a1d63",
+    "symbol": "B",
+    "decimals": 18
   }
 ]

@@ -39286,5 +39286,11 @@
     "address": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
     "symbol": "AI",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x8b9ee39195ea99d6ddd68030f44131116bc218f6",
+    "symbol": "PEAQ",
+    "decimals": 18
   }
 ]

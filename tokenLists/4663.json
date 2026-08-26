@@ -520,5 +520,89 @@
     "address": "0x822cc93ffd030293e9842c30bbd678f530701867",
     "symbol": "BE",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xe8ffd7e24187f72afb08d75b1bb13088a989a791",
+    "symbol": "DELTA",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
+    "symbol": "HOOKR",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x5f62c57e5c537887117eef828b7e3ad41c009feb",
+    "symbol": "GOOD",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x0e0d2c89a5a019fe1cf762e5e33187631dacc21b",
+    "symbol": "CHUMP",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xa5be0eeb82a013dc7867b9e020c36a69da666666",
+    "symbol": "CLOCKIN",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x24d8657e10af588b12de3e102a116f77b9e35ee8",
+    "symbol": "GWOOD",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xb9972ca7188e511174947e3936a5315ac7073277",
+    "symbol": "PROLOGUE",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c",
+    "symbol": "Anon",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x2103faa9d1762e27a716c61718b3acf3ec1f9bf1",
+    "symbol": "FOX",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xe15db7c8547a0add11eb26a700246cca08aefce5",
+    "symbol": "WOOF",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x298348d5b2e45c774e3ee4f1a0924071dfbdc8c7",
+    "symbol": "swappy",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x420393b70a34d6aef855ef56e87d4d4161f27c27",
+    "symbol": "LIGER",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x77936b133ea2007e9b57620011eb62bf72050826",
+    "symbol": "MOONCOW",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x742fa2694712b96caa0244ebabff2300955d9d2e",
+    "symbol": "ROBIN",
+    "decimals": 18
   }
 ]
