@@ -610,5 +610,11 @@
     "address": "0x9715e0a0a5f60dca2a3f69d81fb7f975de5870ed",
     "symbol": "yBTC",
     "decimals": 8
+  },
+  {
+    "chainId": 4663,
+    "address": "0x69420eaf0ebf43e08f621b014f25cefdfa7e2ddc",
+    "symbol": "PLANK",
+    "decimals": 18
   }
 ]
