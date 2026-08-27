@@ -5056,5 +5056,11 @@
     "address": "0xf5f11bc9be9d6690f795d04d2fc9bdd097008a2b",
     "symbol": "BPAD",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000cfbdf64a8706a94a01",
+    "symbol": "BLUECHIP",
+    "decimals": 18
   }
 ]

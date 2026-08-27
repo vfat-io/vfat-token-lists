@@ -604,5 +604,11 @@
     "address": "0x742fa2694712b96caa0244ebabff2300955d9d2e",
     "symbol": "ROBIN",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x9715e0a0a5f60dca2a3f69d81fb7f975de5870ed",
+    "symbol": "yBTC",
+    "decimals": 8
   }
 ]

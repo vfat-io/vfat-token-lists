@@ -39292,5 +39292,59 @@
     "address": "0x8b9ee39195ea99d6ddd68030f44131116bc218f6",
     "symbol": "PEAQ",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xe87afb3076aeb0f9b14e368de8145ae6a2826a14",
+    "symbol": "MSTRB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x7425889fe94f9d693e8daefe88bcced6acfef4c0",
+    "symbol": "METAB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a",
+    "symbol": "AAPLB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x5b1910eaad6450e50f816082aa078c41f10c292f",
+    "symbol": "TSLAB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x10d4183389e99233db3cc981c43443ebd28ebd5e",
+    "symbol": "DGAI",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x3f53de71c126bdabae20f9cd64848d317f6c3238",
+    "symbol": "GOOGLB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec",
+    "symbol": "BABAB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xa394dcea3fd3847fd793afbfd163e2e3858b7c65",
+    "symbol": "HOODB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x1a4b499833a79a09ad7cf1d42d7dacf71e92eb00",
+    "symbol": "AMZNB",
+    "decimals": 18
   }
 ]
