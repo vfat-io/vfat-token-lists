@@ -34072,5 +34072,17 @@
     "address": "0x9fdbde76236998dc2836fe67a9954ede456a1d63",
     "symbol": "B",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xf7d85ec4e7710f71992752eac2111312e73e9c9c",
+    "symbol": "ftUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 1,
+    "address": "0x5dd1a7a369e8273371d2dbf9d83356057088082c",
+    "symbol": "FT",
+    "decimals": 18
   }
 ]
