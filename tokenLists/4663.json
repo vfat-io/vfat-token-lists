@@ -616,5 +616,11 @@
     "address": "0x69420eaf0ebf43e08f621b014f25cefdfa7e2ddc",
     "symbol": "PLANK",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x2cc0fac44b8252f6b10208b091aff2c94b4da77d",
+    "symbol": "INJOH",
+    "decimals": 18
   }
 ]
