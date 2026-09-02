@@ -5062,5 +5062,17 @@
     "address": "0xb200000000000000000000cfbdf64a8706a94a01",
     "symbol": "BLUECHIP",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000451d033a5000cb479e",
+    "symbol": "cbHYPE",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000008501b13360000cb2ec",
+    "symbol": "cbZEC",
+    "decimals": 8
   }
 ]

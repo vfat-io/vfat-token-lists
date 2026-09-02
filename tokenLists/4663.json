@@ -622,5 +622,29 @@
     "address": "0x2cc0fac44b8252f6b10208b091aff2c94b4da77d",
     "symbol": "INJOH",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x5baaec1b70864f01dbdb747358ff59f2e2ccf7d5",
+    "symbol": "GIGA",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x5b4cd530e132b6650c40c382a7b0f8e78bcb8d5d",
+    "symbol": "ROOT",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x84d6bb25d3b013c784be60dc598c920588f452bc",
+    "symbol": "fBOMB on Robinhood💥",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xcec185eb182c47d1ba1efc84e6959e18cd620be4",
+    "symbol": "cbBTC",
+    "decimals": 8
   }
 ]
