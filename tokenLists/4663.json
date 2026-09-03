@@ -928,5 +928,11 @@
     "address": "0xb9f89a5a075cc280362c5167c5e95723bb2c8cad",
     "symbol": "inu",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xd917b029c761d264c6a312bbbcda868658ef86a6",
+    "symbol": "USAR",
+    "decimals": 18
   }
 ]
