@@ -130,5 +130,11 @@
     "address": "0xe13e223116b9f53238a228d7dc9159786fff502a",
     "symbol": "SPARK",
     "decimals": 18
+  },
+  {
+    "chainId": 9745,
+    "address": "0x2d661c89d812261039af9764eceaaee884f5f67f",
+    "symbol": "USDC",
+    "decimals": 6
   }
 ]

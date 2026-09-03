@@ -39346,5 +39346,11 @@
     "address": "0x1a4b499833a79a09ad7cf1d42d7dacf71e92eb00",
     "symbol": "AMZNB",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x46ceefda28dd7207059ed19b0acdc026955bb15c",
+    "symbol": "GMEB",
+    "decimals": 18
   }
 ]
