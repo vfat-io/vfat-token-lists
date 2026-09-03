@@ -934,5 +934,23 @@
     "address": "0xd917b029c761d264c6a312bbbcda868658ef86a6",
     "symbol": "USAR",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x4f11d7603d1b0d0f021db552d8a6d88d7fa38ecf",
+    "symbol": "aUSD",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xd5f1afea47b1a9eab414d2ee740cf1d6d039e725",
+    "symbol": "microduck",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x98096d17e191b3da1d5f99a6d7b3584351b11e18",
+    "symbol": "BONER",
+    "decimals": 18
   }
 ]
