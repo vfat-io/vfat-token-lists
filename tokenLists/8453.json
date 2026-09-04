@@ -5074,5 +5074,11 @@
     "address": "0xb2000000000000000000008501b13360000cb2ec",
     "symbol": "cbZEC",
     "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xcef8db49e456f872e288e1c042f916e9ced7c781",
+    "symbol": "MAG7",
+    "decimals": 18
   }
 ]
