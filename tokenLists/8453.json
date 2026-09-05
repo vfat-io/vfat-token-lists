@@ -5011,6 +5011,12 @@
   },
   {
     "chainId": 8453,
+    "address": "0xb200000000000000000000397293cb8cda9a10c5",
+    "symbol": "SNDKc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
     "address": "0x252d36f435582ecb01686448d21e8c9ea0b2ca65",
     "symbol": "BD",
     "decimals": 18
