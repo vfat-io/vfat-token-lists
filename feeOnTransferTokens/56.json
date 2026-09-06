@@ -86,5 +86,43 @@
       }
     },
     "note": "Thoreum (THOREUM) is a SafeMoon-style reflection token taking a 20% cut on TAXED transfers, i.e. whenever neither endpoint is fee-exempt. Not literally every transfer: _tokenTransfer calls removeAllFee() when either party is excluded, and at the pinned block 113157830 isExcludedFromFee() is true for the token contract itself and for the owner 0x6a963573b9a7aaef9cb9eee747e1b6b2c21b0520. That does not weaken the routing classification, because the pair a route would touch (0xe859b6a32d953a0ece0027c0fc8575571862c0bb) returns isExcludedFromFee() == false at that same block, which is exactly why the pinned liveness call below is taxed. Same invisible-tax structure as EverMars above: _takeLiquidity credits _rOwned[address(this)] with no event and _reflectFee only adjusts _rTotal/_tFeeTotal, so a taxed transfer emits exactly ONE Transfer event carrying the already-net amount. Verify by comparing a requested amount against the emitted Transfer value, not by looking for a second Transfer. WATCH THE DIVISOR: this contract divides by 10000 while the EverMars contract divides by 100, so raw _taxFee/_liquidityFee values are not comparable between the two. Failure modes by position in a router path: (1) THOREUM as INPUT or INTERMEDIATE — the destination pool receives only 80% of amountSent, so pool.swap(amount0Out, ...) reverts K() because the demanded output assumed the full amountSent; (2) THOREUM as TERMINAL OUTPUT — no K() revert, but the user receives 80% of the quoted amountOut, silently violating minAmountOut. Why it matters for routing: all four of its BSC pools are dead — PancakeV2 THOREUM/WBNB 0xe859b6a32d953a0ece0027c0fc8575571862c0bb (last swap block 99997979), USDT/THOREUM 0x1edde65bbde8a7d88d0d563b8d6b5378b38e4432 (53388353), THOREUM/BUSD 0x6594a90d41ae84fc5615d376ec59838744737bd7 (50282222) and THOREUM/USDC 0x811229adf04be156138a8cdb069f330766b71117 (47490337) — and they price THOREUM 7.38x apart (from $1.91e-05 in the WBNB pool to $1.41e-04 in the USDT pool). What matters for routing is that the 20% tax invalidates the constant-product assumption the router simulates with, so quotes over those stale reserves look attractive but are not executable as quoted. No claim is made that the tax is what keeps the 7.38x spread open: two taxed transfers still retain 0.8 * 0.8 == 64% of the token, which leaves ~4.7x of the spread intact, so the tax alone does not explain why nobody has closed it. A 24h audit of vfat-router native zap-in legs (2026-07-30) found THOREUM used as a two-hop routing intermediate 105 times on BSC, the second most frequent unlisted intermediate on that chain, and it accounted for the largest quoted-versus-restricted output gaps observed in that sample (-78% to -85%). Found while auditing the fallout from support report 1bbe7c95."
+  },
+  {
+    "address": "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979",
+    "symbol": "fBOMB",
+    "chainId": 56,
+    "decimals": 18,
+    "feeBps": 100,
+    "evidence": {
+      "txHash": "0x51dd94a03f476b8c2fa648cee91deed51668fe30571ed5c7258b802f54c9ee9c",
+      "blockNumber": 120267362,
+      "explorer": "https://bscscan.com/tx/0x51dd94a03f476b8c2fa648cee91deed51668fe30571ed5c7258b802f54c9ee9c",
+      "sender": "0xccdedac1973b6d2542fb1b7ece843b81a9ee7070",
+      "senderRole": "the vAMM-fBOMB/WBNB pool paying fBOMB out to a buyer (a volatile Solidly-style pair; stable() == false)",
+      "recipient": "0x8adccfc9bf28a75ffeaf7a0ccc02e0e7f1f73774",
+      "recipientRole": "the buyer receiving the swap output",
+      "requestedAmount": "656175789990438142008",
+      "requestedAmountDerivation": "amount is not in the outer tx calldata (the transfer is internal to a swap), so it is reconstructed as the sum of the two emitted legs: transferToRecipient + transferToBurnAddress. The floor identity below confirms the reconstruction is correct.",
+      "transferToRecipient": "649614032090533760587",
+      "transferToBurnAddress": "6561757899904381421",
+      "burnAddress": "0x0000000000000000000000000000000000000000",
+      "transferToRecipientLogData": "0x0000000000000000000000000000000000000000000000233734a86239788e4b",
+      "transferToBurnAddressLogData": "0x0000000000000000000000000000000000000000000000005b100c0b55e9f1ed",
+      "computedTaxBps": 100,
+      "taxBpsExactRational": "8202197374880476776250/82021973748804767751",
+      "derivation": {
+        "formula": "transferToRecipient = floor(amount * 99 / 100); burned = amount - transferToRecipient",
+        "amount": "656175789990438142008",
+        "floor(amount*99/100)": "649614032090533760587",
+        "transferToRecipient": "649614032090533760587",
+        "amount - transferToRecipient": "6561757899904381421",
+        "transferToBurnAddress": "6561757899904381421",
+        "ceil(amount/100)": "6561757899904381421",
+        "reproducesEmittedAmounts": true
+      },
+      "computation": "One fBOMB transfer of 656175789990438142008 out of the vAMM-fBOMB/WBNB pool emits two Transfer events with the same sender: 649614032090533760587 to 0x8adccfc9bf28a75ffeaf7a0ccc02e0e7f1f73774 and 6561757899904381421 to the zero address. floor(656175789990438142008 * 99 / 100) == 649614032090533760587 EXACTLY and 656175789990438142008 - 649614032090533760587 == 6561757899904381421 EXACTLY, so the burn is exactly ceil(amount/100) and the measured tax is 8202197374880476776250/82021973748804767751 bps == 100 bps up to the one-base-unit floor residue.",
+      "reproduce": "eth_getLogs on address 0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979 at block 120267362 for topic0 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, then group by (transactionHash, topics[1]) and look for the two legs sharing this sender."
+    },
+    "note": "fBOMB burns 1% of the transferred amount on a taxed transfer. A single taxed transfer emits TWO Transfer events with the SAME sender: floor(amount * 99 / 100) to the intended recipient and the remaining amount - floor(amount * 99 / 100) == ceil(amount / 100) to the zero address. Both legs are visible in the receipt, so the split can be replayed from eth_getLogs alone without tracing. Verified across 178 burn-leg transfers in blocks 120135881..120275880: the identity transferToRecipient == floor(amount*99/100) held on EVERY sample with no exceptions. Because the fee is a floored integer division rather than an exact percentage, the realised rate is 100 bps only up to a rounding residue of at most one base unit -- for the cited transaction the exact ratio is 8202197374880476776250/82021973748804767751 bps, which exceeds 100 by ~1.40e-17 bps. feeBps carries the nominal 100. NOT every transfer is taxed: the exemption is on the RECIPIENT side, and some addresses receive fBOMB with a single untaxed Transfer event. That does not weaken the routing classification, because transfers in and out of the vAMM-fBOMB/WBNB pool cited above ARE taxed -- the cited transaction is the pool itself paying out, and the counterparty receives only 99%. IMPORTANT: this is a SEPARATE deployment from the fBOMB already listed on chain 8453. The address is the same but the contracts are independent (totalSupply here is 36955658155059510369200161, different from every other chain), so the tax had to be evidenced on this chain in its own right and a listing on one chain says nothing about another. Failure modes by position in a router path: (1) fBOMB as INPUT or INTERMEDIATE -- the destination pool receives only 99% of amountSent, so pool.swap(amount0Out, ...) reverts K() because the demanded output assumed the full amountSent; (2) fBOMB as TERMINAL OUTPUT -- no next pool and no K() revert, but the user receives 99% of the quoted amountOut, silently violating the minAmountOut slippage promise (delivered < quoted). Both modes are unsafe."
   }
 ]

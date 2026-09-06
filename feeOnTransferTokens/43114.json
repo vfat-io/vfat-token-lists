@@ -27,5 +27,43 @@
       "totalSupply": "2000000000000000000000000",
       "observedRevert": "UniswapV2 k-invariant / insufficient output on WAVAX->ORBIT swap"
     }
+  },
+  {
+    "address": "0x5c09a9ce08c4b332ef1cc5f7cadb1158c32767ce",
+    "symbol": "fBOMB",
+    "chainId": 43114,
+    "decimals": 18,
+    "feeBps": 100,
+    "evidence": {
+      "txHash": "0x563b33c33947a262fe5001fa624f77a955d1d0607a6e3fae4f8df0eb76b09b5b",
+      "blockNumber": 94594963,
+      "explorer": "https://snowscan.xyz/tx/0x563b33c33947a262fe5001fa624f77a955d1d0607a6e3fae4f8df0eb76b09b5b",
+      "sender": "0x0e5aad7522acf208c5f691d3f20af0c26d1d669a",
+      "senderRole": "the pool paying the token out to a buyer",
+      "recipient": "0x73b68ae30e830bd7c902cad210a004df742a9ac4",
+      "recipientRole": "the counterparty of the taxed transfer",
+      "pool": "0x0e5aad7522acf208c5f691d3f20af0c26d1d669a",
+      "poolRole": "a constant-product pool holding this token, used here to show that pool-side transfers are taxed",
+      "requestedAmount": "315288741103674696670",
+      "requestedAmountDerivation": "the transfer is internal to a swap, so amount is reconstructed as transferToRecipient + transferToTaxDestination; the exact floor identity below confirms the reconstruction.",
+      "transferToRecipient": "312135853692637949703",
+      "transferToTaxDestination": "3152887411036746967",
+      "taxDestination": "0x0000000000000000000000000000000000000000",
+      "transferToRecipientLogData": "0x000000000000000000000000000000000000000000000010ebc1512ab4fc2f07",
+      "transferToTaxDestinationLogData": "0x0000000000000000000000000000000000000000000000002bc14e6547a574d7",
+      "computedTaxBps": 100,
+      "taxBpsExactRational": "3152887411036746967000/31528874110367469667",
+      "derivation": {
+        "formula": "transferToRecipient = floor(amount * 99000 / 100000); fee = amount - transferToRecipient",
+        "amount": "315288741103674696670",
+        "transferToRecipient": "312135853692637949703",
+        "transferToTaxDestination": "3152887411036746967",
+        "reproducesEmittedAmounts": true
+      },
+      "computation": "One transfer of 315288741103674696670 emits two Transfer events with the same sender: 312135853692637949703 to 0x73b68ae30e830bd7c902cad210a004df742a9ac4 and 3152887411036746967 to 0x0000000000000000000000000000000000000000. transferToRecipient = floor(amount * 99000 / 100000); fee = amount - transferToRecipient reproduces BOTH emitted amounts EXACTLY, so the measured tax is 3152887411036746967000/31528874110367469667 bps == 100 bps up to the one-base-unit floor residue.",
+      "corroboration": "the same floor identity at 100 bps holds on 50 independent two-leg transfers of this token found by replaying eth_getLogs, 8 of which have the pool 0x0e5aad7522acf208c5f691d3f20af0c26d1d669a as an endpoint (7 pool->user, 1 user->pool).",
+      "reproduce": "eth_getLogs on address 0x5c09a9ce08c4b332ef1cc5f7cadb1158c32767ce at block 94594963 for topic0 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, then group by (transactionHash, topics[1]) and look for the two legs sharing this sender."
+    },
+    "note": "Fee-on-transfer token: a taxed transfer emits TWO Transfer events with the SAME sender -- 99% of the amount to the intended recipient and 1% burned to the zero address. Both legs are in the receipt, so the split is reproducible from eth_getLogs alone with no tracing. The fee is a floored integer division, so the realised rate equals 100 bps up to a rounding residue of at most one base unit; the exact rational for the cited transaction is in evidence.taxBpsExactRational. Confirmed on 50 independent two-leg transfers, 8 of them with the pool 0x0e5aad7522acf208c5f691d3f20af0c26d1d669a as an endpoint, so pool-side transfers ARE taxed -- which is what makes the token unsafe as a routing hop rather than merely unusual. Failure modes by position in a router path: (1) as INPUT or INTERMEDIATE -- the destination pool receives only 99% of amountSent, so pool.swap(amount0Out, ...) reverts K() because the demanded output assumed the full amountSent; (2) as TERMINAL OUTPUT -- no next pool and no K() revert, but the user receives 99% of the quoted amountOut, silently violating the minAmountOut slippage promise (delivered < quoted). Both modes are unsafe."
   }
 ]
