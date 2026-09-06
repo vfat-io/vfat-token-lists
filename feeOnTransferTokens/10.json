@@ -1,0 +1,78 @@
+[
+  {
+    "address": "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979",
+    "symbol": "fBOMB",
+    "chainId": 10,
+    "decimals": 18,
+    "feeBps": 100,
+    "evidence": {
+      "txHash": "0xeb553743fed256fd4362c4d896f19f0883d60543f3a8bb54c72025efca645e05",
+      "blockNumber": 156528031,
+      "explorer": "https://optimistic.etherscan.io/tx/0xeb553743fed256fd4362c4d896f19f0883d60543f3a8bb54c72025efca645e05",
+      "sender": "0x814e2d6e8f7477329bb6c196111a08464abe11dd",
+      "senderRole": "the vAMMV2-WETH/fBOMB pool paying fBOMB out to a buyer (a volatile Solidly-style pair; stable() == false)",
+      "recipient": "0xc2d0d7b1d50b07a14a4b0edcb39af283cd9e9781",
+      "recipientRole": "the buyer receiving the swap output",
+      "requestedAmount": "6905745138670226935902",
+      "requestedAmountDerivation": "amount is not in the outer tx calldata (the transfer is internal to a swap), so it is reconstructed as the sum of the two emitted legs: transferToRecipient + transferToBurnAddress. The floor identity below confirms the reconstruction is correct.",
+      "transferToRecipient": "6836687687283524666542",
+      "transferToBurnAddress": "69057451386702269360",
+      "burnAddress": "0x0000000000000000000000000000000000000000",
+      "transferToRecipientLogData": "0x0000000000000000000000000000000000000000000001729e19dd42b55a84ae",
+      "transferToBurnAddressLogData": "0x000000000000000000000000000000000000000000000003be5d5a2776320bb0",
+      "computedTaxBps": 100,
+      "taxBpsExactRational": "345287256933511346800000/3452872569335113467951",
+      "derivation": {
+        "formula": "transferToRecipient = floor(amount * 99 / 100); burned = amount - transferToRecipient",
+        "amount": "6905745138670226935902",
+        "floor(amount*99/100)": "6836687687283524666542",
+        "transferToRecipient": "6836687687283524666542",
+        "amount - transferToRecipient": "69057451386702269360",
+        "transferToBurnAddress": "69057451386702269360",
+        "ceil(amount/100)": "69057451386702269360",
+        "reproducesEmittedAmounts": true
+      },
+      "computation": "One fBOMB transfer of 6905745138670226935902 out of the vAMMV2-WETH/fBOMB pool emits two Transfer events with the same sender: 6836687687283524666542 to 0xc2d0d7b1d50b07a14a4b0edcb39af283cd9e9781 and 69057451386702269360 to the zero address. floor(6905745138670226935902 * 99 / 100) == 6836687687283524666542 EXACTLY and 6905745138670226935902 - 6836687687283524666542 == 69057451386702269360 EXACTLY, so the burn is exactly ceil(amount/100) and the measured tax is 345287256933511346800000/3452872569335113467951 bps == 100 bps up to the one-base-unit floor residue.",
+      "reproduce": "eth_getLogs on address 0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979 at block 156528031 for topic0 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, then group by (transactionHash, topics[1]) and look for the two legs sharing this sender."
+    },
+    "note": "fBOMB burns 1% of the transferred amount on a taxed transfer. A single taxed transfer emits TWO Transfer events with the SAME sender: floor(amount * 99 / 100) to the intended recipient and the remaining amount - floor(amount * 99 / 100) == ceil(amount / 100) to the zero address. Both legs are visible in the receipt, so the split can be replayed from eth_getLogs alone without tracing. Verified across 175 burn-leg transfers in blocks 156473462..156543461: the identity transferToRecipient == floor(amount*99/100) held on EVERY sample with no exceptions. Because the fee is a floored integer division rather than an exact percentage, the realised rate is 100 bps only up to a rounding residue of at most one base unit -- for the cited transaction the exact ratio is 345287256933511346800000/3452872569335113467951 bps, which exceeds 100 by ~1.42e-18 bps. feeBps carries the nominal 100. NOT every transfer is taxed: the exemption is on the RECIPIENT side, and some addresses receive fBOMB with a single untaxed Transfer event. That does not weaken the routing classification, because transfers in and out of the vAMMV2-WETH/fBOMB pool cited above ARE taxed -- the cited transaction is the pool itself paying out, and the counterparty receives only 99%. IMPORTANT: this is a SEPARATE deployment from the fBOMB already listed on chain 8453. The address is the same but the contracts are independent (totalSupply here is 31175049384858695125103073, different from every other chain), so the tax had to be evidenced on this chain in its own right and a listing on one chain says nothing about another. Failure modes by position in a router path: (1) fBOMB as INPUT or INTERMEDIATE -- the destination pool receives only 99% of amountSent, so pool.swap(amount0Out, ...) reverts K() because the demanded output assumed the full amountSent; (2) fBOMB as TERMINAL OUTPUT -- no next pool and no K() revert, but the user receives 99% of the quoted amountOut, silently violating the minAmountOut slippage promise (delivered < quoted). Both modes are unsafe."
+  },
+  {
+    "address": "0x88a89866439f4c2830986b79cbe6f69d1bd548bb",
+    "symbol": "Bike",
+    "chainId": 10,
+    "decimals": 18,
+    "feeBps": 75,
+    "evidence": {
+      "txHash": "0x295a33ccc86a179d40bbab59307069e7172dc8661948fb280f411c2e471e64bd",
+      "blockNumber": 156430958,
+      "explorer": "https://optimistic.etherscan.io/tx/0x295a33ccc86a179d40bbab59307069e7172dc8661948fb280f411c2e471e64bd",
+      "sender": "0xa4fe3a91244e782ab9ea689b19a2f3526ed84357",
+      "senderRole": "the pool paying the token out to a buyer",
+      "recipient": "0x2ee67c42b247d18e283840a40448667326688130",
+      "recipientRole": "the counterparty of the taxed transfer",
+      "pool": "0xa4fe3a91244e782ab9ea689b19a2f3526ed84357",
+      "poolRole": "a constant-product pool holding this token, used here to show that pool-side transfers are taxed",
+      "requestedAmount": "565069648448095494114",
+      "requestedAmountDerivation": "the transfer is internal to a swap, so amount is reconstructed as transferToRecipient + transferToTaxDestination; the exact floor identity below confirms the reconstruction.",
+      "transferToRecipient": "560831626084734777909",
+      "transferToTaxDestination": "4238022363360716205",
+      "taxDestination": "0x66a2b8bd2d7881cb9d95ede41e90b57a7aa69e0a",
+      "transferToRecipientLogData": "0x00000000000000000000000000000000000000000000001e671a3082c150ba35",
+      "transferToTaxDestinationLogData": "0x0000000000000000000000000000000000000000000000003ad07ae2ae46e5ad",
+      "computedTaxBps": 75,
+      "taxBpsExactRational": "7063370605601193675000/94178274741349249019",
+      "derivation": {
+        "formula": "fee = floor(amount * 750 / 100000); transferToRecipient = amount - fee",
+        "amount": "565069648448095494114",
+        "transferToRecipient": "560831626084734777909",
+        "transferToTaxDestination": "4238022363360716205",
+        "reproducesEmittedAmounts": true
+      },
+      "computation": "One transfer of 565069648448095494114 emits two Transfer events with the same sender: 560831626084734777909 to 0x2ee67c42b247d18e283840a40448667326688130 and 4238022363360716205 to 0x66a2b8bd2d7881cb9d95ede41e90b57a7aa69e0a. fee = floor(amount * 750 / 100000); transferToRecipient = amount - fee reproduces BOTH emitted amounts EXACTLY, so the measured tax is 7063370605601193675000/94178274741349249019 bps == 75 bps up to the one-base-unit floor residue.",
+      "corroboration": "the same floor identity at 75 bps holds on 57 independent two-leg transfers of this token found by replaying eth_getLogs, 57 of which have the pool 0xa4fe3a91244e782ab9ea689b19a2f3526ed84357 as an endpoint (41 pool->user, 16 user->pool).",
+      "reproduce": "eth_getLogs on address 0x88a89866439f4c2830986b79cbe6f69d1bd548bb at block 156430958 for topic0 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, then group by (transactionHash, topics[1]) and look for the two legs sharing this sender."
+    },
+    "note": "Fee-on-transfer token: a taxed transfer emits TWO Transfer events with the SAME sender -- 99.25% of the amount to the intended recipient and 0.75% sent to the fee collector 0x66a2b8bd2d7881cb9d95ede41e90b57a7aa69e0a. Both legs are in the receipt, so the split is reproducible from eth_getLogs alone with no tracing. The fee is a floored integer division, so the realised rate equals 75 bps up to a rounding residue of at most one base unit; the exact rational for the cited transaction is in evidence.taxBpsExactRational. Confirmed on 57 independent two-leg transfers, 57 of them with the pool 0xa4fe3a91244e782ab9ea689b19a2f3526ed84357 as an endpoint, so pool-side transfers ARE taxed -- which is what makes the token unsafe as a routing hop rather than merely unusual. Failure modes by position in a router path: (1) as INPUT or INTERMEDIATE -- the destination pool receives only 99.25% of amountSent, so pool.swap(amount0Out, ...) reverts K() because the demanded output assumed the full amountSent; (2) as TERMINAL OUTPUT -- no next pool and no K() revert, but the user receives 99.25% of the quoted amountOut, silently violating the minAmountOut slippage promise (delivered < quoted). Both modes are unsafe."
+  }
+]
