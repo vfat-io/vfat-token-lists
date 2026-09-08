@@ -5098,5 +5098,23 @@
     "address": "0xb200000000000000000000ab99cfa739e253872b",
     "symbol": "MSFTc",
     "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000d9192b6b456483c2e8",
+    "symbol": "AMZNc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000004884b426556b92883d",
+    "symbol": "MSTRc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000007b9fcbd005511acbd5",
+    "symbol": "SPCXc",
+    "decimals": 8
   }
 ]
