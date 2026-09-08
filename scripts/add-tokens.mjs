@@ -284,11 +284,6 @@ async function main() {
 
     for (const token of tokens) {
       const existingToken = existingByAddress.get(token.address);
-      if (existingToken) {
-        console.warn(`token already exists for chain ${chainId}: ${token.address}`);
-        continue;
-      }
-
       const extension = format === 'jpeg' ? 'jpg' : format;
       const targetDir = path.join(logosDir, String(token.chainId));
       const targetPath = path.join(targetDir, `${token.address}.${extension}`);
@@ -325,7 +320,7 @@ async function main() {
         }
       }
 
-      if (!logoReady && !allowMissingLogo) {
+      if (existingToken || (!logoReady && !allowMissingLogo)) {
         continue;
       }
 

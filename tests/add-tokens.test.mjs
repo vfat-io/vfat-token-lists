@@ -6,6 +6,7 @@ import path from 'node:path';
 import test from 'node:test';
 import { fileURLToPath } from 'node:url';
 import { promisify } from 'node:util';
+import sharp from 'sharp';
 
 const execFileAsync = promisify(execFile);
 const scriptPath = fileURLToPath(new URL('../scripts/add-tokens.mjs', import.meta.url));
@@ -131,4 +132,75 @@ test('adds token when the target logo already exists', async (t) => {
       decimals: 18,
     },
   ]);
+});
+
+test('repairs logos of listed tokens without changing their metadata', async (t) => {
+  const cases = [
+    { name: 'fills a missing logo' },
+    { name: 'preserves an existing logo by default', existingLogo: true, invalidSource: true },
+    { name: 'replaces an existing logo when forced', existingLogo: true, force: true },
+    { name: 'preserves an existing logo when replacement fails', existingLogo: true, force: true, invalidSource: true },
+    { name: 'reports a failed backfill', invalidSource: true },
+    { name: 'does not backfill during a dry run', dryRun: true },
+    { name: 'does not replace during a dry run', existingLogo: true, force: true, dryRun: true },
+  ];
+
+  for (const scenario of cases) {
+    await t.test(scenario.name, async (t) => {
+      const rootDir = await createFixture();
+      t.after(() => fs.rm(rootDir, { recursive: true, force: true }));
+
+      const address = '0xabcdefabcdefabcdefabcdefabcdefabcdefabcd';
+      const tokenListPath = path.join(rootDir, 'tokenLists', '1.json');
+      const originalList = JSON.stringify([
+        { chainId: 1, address: address.toUpperCase(), symbol: 'ORIGINAL', decimals: 6 },
+      ]);
+      await fs.writeFile(tokenListPath, originalList);
+
+      const targetPath = path.join(rootDir, 'logos', '1', `${address}.png`);
+      const originalLogo = await sharp({
+        create: { width: 128, height: 128, channels: 4, background: '#000' },
+      }).png().toBuffer();
+      if (scenario.existingLogo) {
+        await fs.writeFile(targetPath, originalLogo);
+      }
+
+      const sourcePath = path.join(rootDir, 'source.svg');
+      await fs.writeFile(sourcePath, scenario.invalidSource ? 'invalid image' : SVG_LOGO);
+      const inputPath = await writeInput(rootDir, [makeToken(1, address, 'CHANGED', sourcePath)]);
+      const args = [scriptPath, '--input', inputPath];
+      if (scenario.force) args.push('--force-logo');
+      if (scenario.dryRun) args.push('--dry-run');
+
+      const shouldWrite = (!scenario.existingLogo || scenario.force) && !scenario.dryRun;
+      const shouldFail = shouldWrite && scenario.invalidSource;
+      if (shouldFail) {
+        await assert.rejects(execFileAsync(process.execPath, args, { cwd: rootDir }), (error) => {
+          assert.match(error.stderr, /logo failed/);
+          assert.match(error.stdout, /Added: 0/);
+          assert.match(error.stdout, /Logos failed: 1/);
+          return true;
+        });
+      } else {
+        const { stdout } = await execFileAsync(process.execPath, args, { cwd: rootDir });
+        assert.match(stdout, /Added: 0/);
+        assert.match(stdout, new RegExp(`Logos written: ${shouldWrite ? 1 : 0}`));
+      }
+
+      assert.equal(await fs.readFile(tokenListPath, 'utf8'), originalList);
+      if (shouldWrite && !shouldFail) {
+        const { data, info } = await sharp(targetPath).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+        assert.equal(info.width, 128);
+        assert.equal(info.height, 128);
+        assert.equal(data.every((value) => value === 255), true);
+      } else if (scenario.existingLogo) {
+        assert.deepEqual(await fs.readFile(targetPath), originalLogo);
+      } else {
+        assert.equal(await pathExists(targetPath), false);
+      }
+      if (!shouldWrite || shouldFail) {
+        assert.equal(await pathExists(sourcePath), true);
+      }
+    });
+  }
 });
