@@ -5122,5 +5122,17 @@
     "address": "0xc3de830ea07524a0761646a6a4e4be0e114a3c83",
     "symbol": "UNI",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb008bdcf9cdff9da684a190941dc3dca8c2cdd44",
+    "symbol": "FLUX",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0x46c85152bfe9f96829aa94755d9f915f9b10ef5f",
+    "symbol": "cNGN",
+    "decimals": 6
   }
 ]

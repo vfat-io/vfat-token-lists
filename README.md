@@ -60,6 +60,10 @@ Run:
 npm run add-tokens -- --input ./new-tokens.json
 ```
 
+The script also fills missing logos for tokens already in the list, preserving their
+existing metadata. Existing logo files are kept unless `--force-logo` is supplied.
+Use `--force-logo` to replace an incorrect logo with the input's `logoURI`.
+
 Options:
 - --input tokens.json
 - --token-lists-dir tokenLists
