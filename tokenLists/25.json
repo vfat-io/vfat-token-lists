@@ -1266,7 +1266,7 @@
     "chainId": 25
   },
   {
-    "symbol": "USDC",
+    "symbol": "USDC.e",
     "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
     "decimal": 6,
     "chainId": 25
