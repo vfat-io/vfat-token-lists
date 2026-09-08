@@ -5116,5 +5116,11 @@
     "address": "0xb2000000000000000000007b9fcbd005511acbd5",
     "symbol": "SPCXc",
     "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xc3de830ea07524a0761646a6a4e4be0e114a3c83",
+    "symbol": "UNI",
+    "decimals": 18
   }
 ]

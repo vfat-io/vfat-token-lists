@@ -34084,5 +34084,11 @@
     "address": "0x5dd1a7a369e8273371d2dbf9d83356057088082c",
     "symbol": "FT",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xb0f70c0bd6fd87dbeb7c10dc692a2a6106817072",
+    "symbol": "BTC.b",
+    "decimals": 8
   }
 ]
