@@ -71,7 +71,47 @@ Options:
 - --size 128
 - --format png
 - --force-logo
+- --logos-only (write images without changing whitelist membership)
 - --dry-run
+
+## Compare and align logos across chains
+
+Generate a self-contained HTML review, JSON report and CSV of tokens sharing an
+exact symbol across multiple chains:
+
+```shell
+npm run audit-logos -- --output /tmp/logo-audit --symbols ETH,WETH,WBTC,cbBTC,USDC,USDT,AAVE --live
+```
+
+By default, the audit reads this repo's token lists. To include native currencies
+and automatically listed tokens visible in the app, pass `--input tokens.json`
+with an array of `chainId`, `address`, `symbol`, `decimals`, and optional `name`.
+Use `--chains chains.json` for chain labels, with entries containing `chainId` and
+`name`. `--live` reads the current public Cloudflare images and requires Node 18+;
+omit it for an offline GitHub-only report. The audit does not modify logos or
+whitelists.
+
+Open `/tmp/logo-audit/index.html`. It shows GitHub and live images side by side,
+approximate visual variants, missing images, and visible GitHub/CDN differences.
+Images are compared after resizing to 32×32 on white, using a mean channel
+difference threshold of 3/255. This groups small encoding/resolution differences;
+padding, backgrounds and artwork changes can still form separate variants.
+Identical symbols are review candidates, not proof of shared token identity.
+Wrappers such as WBTC/cbBTC and ETH/WETH remain separate groups.
+
+After verifying the contracts in a group, choose its GitHub source image and
+select the targets to align. Export `logo-alignment.json`, then run:
+
+```shell
+npm run add-tokens -- --input logo-alignment.json --logos-only --force-logo
+```
+
+The export pins each source to this repo's audited commit. Only committed,
+unchanged source PNGs can be selected. `--logos-only` preserves whitelist
+membership, including for native currency images. Review and commit the PNG diff,
+then use the API repo's `manage-token-logo` CLI to replace the selected Cloudflare
+images from that commit. The regular logo batch skips existing Cloudflare images,
+so a GitHub correction alone will not replace a stale live image.
 
 ## Remove tokens (contributors)
 Remove a token by address from all chain lists, plus any matching logo files:

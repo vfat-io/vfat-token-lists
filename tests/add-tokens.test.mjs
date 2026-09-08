@@ -204,3 +204,20 @@ test('repairs logos of listed tokens without changing their metadata', async (t)
     });
   }
 });
+
+test('logos-only writes an unlisted native logo without adding whitelist entries', async (t) => {
+  const rootDir = await createFixture();
+  t.after(() => fs.rm(rootDir, { recursive: true, force: true }));
+  const address = '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee';
+  await writeTokenList(rootDir, 1, []);
+  const sourcePath = path.join(rootDir, 'source.svg');
+  await fs.writeFile(sourcePath, SVG_LOGO);
+  const inputPath = await writeInput(rootDir, [makeToken(1, address, 'ETH', sourcePath)]);
+  const { stdout } = await execFileAsync(process.execPath, [scriptPath, '--input', inputPath, '--logos-only'], { cwd: rootDir });
+  assert.match(stdout, /Added: 0/);
+  assert.match(stdout, /Logos written: 1/);
+  assert.deepEqual(await readTokenList(rootDir, 1), []);
+  const metadata = await sharp(path.join(rootDir, 'logos', '1', `${address}.png`)).metadata();
+  assert.equal(metadata.width, 128);
+  assert.equal(metadata.height, 128);
+});

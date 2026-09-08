@@ -8,6 +8,7 @@
   },
   "scripts": {
     "add-tokens": "node scripts/add-tokens.mjs",
+    "audit-logos": "node scripts/audit-token-logos.mjs",
     "remove-token": "node scripts/remove-token.mjs",
     "test": "node --test"
   },
