@@ -49,6 +49,7 @@ function printUsage() {
   console.log('  --size 128');
   console.log('  --format png');
   console.log('  --force-logo');
+  console.log('  --logos-only');
   console.log('  --allow-missing-logo');
   console.log('  --dry-run');
 }
@@ -205,6 +206,7 @@ async function main() {
   const size = Number.parseInt(args.size || '128', 10);
   const format = String(args.format || 'png').toLowerCase();
   const forceLogo = Boolean(args['force-logo']);
+  const logosOnly = Boolean(args['logos-only']);
   const allowMissingLogo = Boolean(args['allow-missing-logo']);
   const dryRun = Boolean(args['dry-run']);
 
@@ -320,7 +322,7 @@ async function main() {
         }
       }
 
-      if (existingToken || (!logoReady && !allowMissingLogo)) {
+      if (logosOnly || existingToken || (!logoReady && !allowMissingLogo)) {
         continue;
       }
 

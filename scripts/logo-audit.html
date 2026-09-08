@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VFAT · Cross-chain logo review</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #f5f6f7; color: #17252b; font: 14px/1.5 system-ui, sans-serif; }
+  header, main { max-width: 1440px; margin: auto; padding: 26px 32px; }
+  header { padding-bottom: 10px; }
+  h1 { font-size: 30px; letter-spacing: -1px; margin: 6px 0; }
+  h2 { font-size: 21px; margin: 0; }
+  p { margin: 8px 0; }
+  a { color: #176b56; }
+  .muted, small { color: #5c6b72; }
+  .eyebrow { font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: #176b56; }
+  .stats { display: flex; flex-wrap: wrap; gap: 28px; margin: 24px 0; }
+  .stat strong { display: block; font-size: 27px; }
+  .toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; }
+  input[type=search] { min-width: 270px; flex: 1; }
+  input[type=search], select, button { font: inherit; border: 1px solid #c6ced1; background: white; padding: 9px 12px; border-radius: 7px; }
+  button { cursor: pointer; }
+  button.primary { color: white; background: #176b56; border-color: #176b56; }
+  button:disabled { opacity: .5; cursor: default; }
+  details { background: white; border: 1px solid #dce2e4; border-radius: 12px; margin: 14px 0; }
+  summary { cursor: pointer; padding: 18px 22px; }
+  .count { margin-left: 12px; color: #5c6b72; font-size: 13px; }
+  .group-body { padding: 0 22px 22px; }
+  .group-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding: 10px 0 16px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(245px, 1fr)); gap: 12px; }
+  article { border: 1px solid #dce2e4; border-radius: 9px; padding: 14px; overflow: hidden; }
+  article.selected { border-color: #176b56; background: #f4faf8; }
+  .card-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .images { display: flex; gap: 12px; margin: 14px 0; }
+  figure { margin: 0; flex: 1; text-align: center; }
+  .image-box { min-height: 92px; display: grid; place-items: center; border: 1px solid #eee; border-radius: 6px; background: repeating-conic-gradient(#fff 0% 25%, #f0f0f0 0% 50%) 0 0 / 16px 16px; }
+  img { width: 72px; height: 72px; object-fit: contain; }
+  figcaption { font-size: 12px; margin: 4px 0; color: #5c6b72; }
+  code.address { display: block; overflow-wrap: anywhere; font-size: 11px; padding: 8px 0; }
+  .badge { display: inline-block; font-size: 11px; padding: 3px 6px; border-radius: 4px; background: #eef1f3; }
+  .warning { color: #885113; background: #fff2dc; }
+  .source { color: #176b56; background: #e3f5ee; }
+  .help { max-width: 1000px; }
+  #selection { margin: 10px 0; }
+  #empty { padding: 30px 0; }
+  @media (max-width: 600px) { header, main { padding: 18px; } .grid { grid-template-columns: 1fr; } }
+</style>
+<header>
+  <div class="eyebrow">VFAT / Token imagery</div>
+  <h1>Cross-chain logo review</h1>
+  <p class="muted">Compare the images users see, choose a consistent source, and export exact contracts for alignment.</p>
+  <div class="stats" id="stats"></div>
+  <p class="help">Groups match exact symbols, so they are candidates for review. Check token names and contracts before selecting targets. Wrappers and bridged assets may have distinct branding.</p>
+  <p class="muted help">Visual variants are approximate: small pixel differences are grouped together. A variant can indicate different artwork, padding, background, or image quality. It does not establish token identity.</p>
+  <div class="toolbar">
+    <input type="search" id="search" placeholder="Search symbol, project, chain or address" aria-label="Search tokens">
+    <label><input type="checkbox" id="differences" checked> Multiple visual variants</label>
+    <label><input type="checkbox" id="drift"> GitHub / CDN mismatch</label>
+    <button class="primary" id="export" disabled>Export logo alignment</button>
+  </div>
+  <p id="selection" aria-live="polite" class="muted">No targets selected.</p>
+  <p class="muted help">Apply the exported file with <code>npm run add-tokens -- --input logo-alignment.json --logos-only --force-logo</code>. Review the resulting PNG diff, commit it, then use the logo CLI to replace the selected Cloudflare images. Exporting makes no changes.</p>
+  <small id="snapshot"></small>
+</header>
+<main id="groups"></main>
+<script>
+  const report = /* REPORT_DATA */null;
+  const choices = new Map();
+  const key = (token) => `${token.chainId}:${token.address}`;
+  function element(tag, text, className) {
+    const node = document.createElement(tag);
+    if (text !== undefined) node.textContent = text;
+    if (className) node.className = className;
+    return node;
+  }
+  function exportRows() {
+    const rows = [];
+    for (const group of report.groups) {
+      const choice = choices.get(group.symbol);
+      if (!choice?.source) continue;
+      const source = group.tokens.find((token) => key(token) === choice.source);
+      if (!source?.sourceUrl) continue;
+      for (const token of group.tokens) {
+        if (!choice.targets.has(key(token))) continue;
+        rows.push({ chainId: token.chainId, address: token.address, symbol: token.symbol, decimals: token.decimals, logoURI: source.sourceUrl });
+      }
+    }
+    return rows;
+  }
+  function updateSelection() {
+    const rows = exportRows();
+    document.querySelector('#export').disabled = rows.length === 0;
+    document.querySelector('#selection').textContent = `${rows.length} selected target${rows.length === 1 ? '' : 's'} ready to export. Select a GitHub source and target contracts within each group.`;
+  }
+  function imageFigure(label, image) {
+    const figure = element('figure');
+    const box = element('div', undefined, 'image-box');
+    if (image?.preview) {
+      const img = element('img');
+      img.src = image.preview;
+      img.alt = label;
+      img.loading = 'lazy';
+      box.append(img);
+    } else box.append(element('small', image?.error || 'Not checked'));
+    figure.append(box, element('figcaption', label));
+    return figure;
+  }
+  function render() {
+    const query = document.querySelector('#search').value.trim().toLowerCase();
+    const differences = document.querySelector('#differences').checked;
+    const drift = document.querySelector('#drift').checked;
+    const container = document.querySelector('#groups');
+    container.replaceChildren();
+    const filtered = report.groups.filter((group) =>
+      (!differences || group.variantCount > 1) && (!drift || group.tokens.some((token) => token.cdnDrift)) &&
+      (!query || group.tokens.some((token) => `${token.symbol} ${token.name} ${token.chain} ${token.chainId} ${token.address}`.toLowerCase().includes(query))));
+    for (const [index, group] of filtered.entries()) {
+      const choice = choices.get(group.symbol) || { source: '', targets: new Set() };
+      choices.set(group.symbol, choice);
+      const details = element('details');
+      details.open = Boolean(query) || filtered.length <= 3 || index === 0;
+      const summary = element('summary');
+      summary.append(element('strong', group.symbol), element('span', `${group.tokens.length} tokens · ${group.chainCount} chains · ${group.variantCount} visual variants`, 'count'));
+      const body = element('div', undefined, 'group-body');
+      const controls = element('div', undefined, 'group-tools');
+      const sourceSelect = element('select');
+      sourceSelect.setAttribute('aria-label', `Canonical GitHub logo for ${group.symbol}`);
+      const placeholder = element('option', 'Choose the GitHub logo to use');
+      placeholder.value = '';
+      sourceSelect.append(placeholder);
+      for (const token of group.tokens.filter((token) => token.sourceUrl)) {
+        const option = element('option', `${token.chain} · ${token.name || token.symbol} · ${token.address.slice(0, 10)}`);
+        option.value = key(token);
+        sourceSelect.append(option);
+      }
+      sourceSelect.value = choice.source;
+      sourceSelect.onchange = () => { choice.source = sourceSelect.value; updateSelection(); };
+      const clear = element('button', 'Clear targets');
+      clear.onclick = () => { choice.targets.clear(); render(); updateSelection(); };
+      controls.append(sourceSelect, clear);
+      const grid = element('div', undefined, 'grid');
+      for (const token of group.tokens) {
+        const card = element('article', undefined, choice.targets.has(key(token)) ? 'selected' : '');
+        const heading = element('div', undefined, 'card-head');
+        const label = element('label');
+        const checkbox = element('input');
+        checkbox.type = 'checkbox';
+        checkbox.checked = choice.targets.has(key(token));
+        checkbox.onchange = () => {
+          if (checkbox.checked) choice.targets.add(key(token)); else choice.targets.delete(key(token));
+          card.classList.toggle('selected', checkbox.checked);
+          updateSelection();
+        };
+        label.append(checkbox, document.createTextNode(` ${token.chain}`));
+        heading.append(label, element('small', `Chain ${token.chainId}`));
+        const images = element('div', undefined, 'images');
+        images.append(imageFigure('GitHub', token.repo), imageFigure('Live app', token.live));
+        card.append(heading, images, element('strong', token.name || token.symbol), element('code', token.address, 'address'));
+        card.append(element('span', `Variant ${token.variant || '?'} · ${token.decimals} decimals`, 'badge'));
+        if (token.cdnDrift) card.append(document.createTextNode(' '), element('span', 'CDN differs', 'badge warning'));
+        if (!token.listed) card.append(document.createTextNode(' '), element('span', 'Not in GitHub whitelist', 'badge warning'));
+        if (token.sourceUrl) {
+          const link = element('a', 'View pinned source');
+          link.href = token.sourceUrl;
+          link.target = '_blank';
+          link.rel = 'noreferrer';
+          card.append(element('br'), link);
+        }
+        grid.append(card);
+      }
+      body.append(controls, grid);
+      details.append(summary, body);
+      container.append(details);
+    }
+    if (!filtered.length) container.append(element('p', 'No groups match these filters.', 'muted'));
+  }
+  const metrics = [
+    [report.summary.comparedTokens, 'tokens compared'],
+    [report.summary.groupsWithVisualDifferences, 'groups with visual differences'],
+    [report.summary.cdnDrift ?? '—', 'GitHub / CDN mismatches'],
+    [report.summary.repoMissing, 'missing GitHub images'],
+  ];
+  for (const [value, label] of metrics) {
+    const stat = element('div', undefined, 'stat');
+    stat.append(element('strong', String(value)), element('span', label, 'muted'));
+    document.querySelector('#stats').append(stat);
+  }
+  document.querySelector('#snapshot').textContent = `Snapshot ${report.generatedAt} · GitHub commit ${report.commit.slice(0, 12)} · ${report.live ? 'Live images checked' : 'GitHub images only'} · ${report.summary.skippedInvalidTokens} entries with incomplete metadata omitted (listed in report.json)`;
+  for (const id of ['search', 'differences', 'drift']) document.getElementById(id).addEventListener('input', render);
+  document.querySelector('#export').onclick = () => {
+    const url = URL.createObjectURL(new Blob([JSON.stringify(exportRows(), null, 2) + '\n'], { type: 'application/json' }));
+    const link = element('a');
+    link.href = url;
+    link.download = 'logo-alignment.json';
+    link.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
+  render();
+</script>
+</html>
