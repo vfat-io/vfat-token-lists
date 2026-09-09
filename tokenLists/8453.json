@@ -5134,5 +5134,11 @@
     "address": "0x46c85152bfe9f96829aa94755d9f915f9b10ef5f",
     "symbol": "cNGN",
     "decimals": 6
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb095274743941e953c746f9c228da9c18bb6ec29",
+    "symbol": "LAPTOP",
+    "decimals": 18
   }
 ]
