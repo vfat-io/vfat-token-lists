@@ -952,5 +952,89 @@
     "address": "0x98096d17e191b3da1d5f99a6d7b3584351b11e18",
     "symbol": "BONER",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x385f4f8ae47651ce5f58f5265395a669f8281e18",
+    "symbol": "MEME",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xab093def657f15df31b33922a95e047add645b29",
+    "symbol": "SHROOM",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x812486eaea648819853f8e372dc9f1516c7868bd",
+    "symbol": "UBIK",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x980dcf6766fa79f5cf0c4aadb3ab477ff15a9619",
+    "symbol": "IBM",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xb1bf26c1d20ff267a4f93550d1e0d06ac40a114b",
+    "symbol": "RIVN",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xad25ac6c84d497db898fa1e8387bf6af3532a1c4",
+    "symbol": "BABA",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xa3602804e096cb73bd8344afc1ff3f3390b899c5",
+    "symbol": "PEZ",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x9b23573b156b52565012f5ce02cdf60afbaa70be",
+    "symbol": "PENG",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xc35968c7f5475bb03a43c7382526f4118e01c0de",
+    "symbol": "VISTA",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xf23250dac154d05bb671cb0d0ebef3c635c79ce2",
+    "symbol": "UPS",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xba0cab75495255d0cb58e22b648bfed4ecd1f47e",
+    "symbol": "SNOW",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x16391c40e85fb2246a2c8c17bfa2594c5d3ef84b",
+    "symbol": "GRASS",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xefab538cf3c29237a47c6afb145d50ddf204a0a3",
+    "symbol": "UFG",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xe2dae1c072b9f66bed999873b94798b2152af7e1",
+    "symbol": "AA",
+    "decimals": 18
   }
 ]
