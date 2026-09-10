@@ -64,5 +64,29 @@
     "address": "0x5b774f563c902fa7b203fb7029ed6ed4ce274705",
     "symbol": "HAIR",
     "decimals": 18
+  },
+  {
+    "chainId": 43111,
+    "address": "0xd3599ae62ee280709a22268a46d23164214e345b",
+    "symbol": "VUSD",
+    "decimals": 18
+  },
+  {
+    "chainId": 43111,
+    "address": "0xfe875cc86cc6bc2e93ab330d6b2c408c3cd79710",
+    "symbol": "sVUSD",
+    "decimals": 18
+  },
+  {
+    "chainId": 43111,
+    "address": "0xff16e26b7ffcf24c378d57df536dc5ec104a7de4",
+    "symbol": "vetBTC",
+    "decimals": 18
+  },
+  {
+    "chainId": 43111,
+    "address": "0xd8d63de3b64bd06d99f8f5ad8b78ed2fe7525ec0",
+    "symbol": "svetBTC",
+    "decimals": 18
   }
 ]
