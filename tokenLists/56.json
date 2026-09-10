@@ -39352,5 +39352,11 @@
     "address": "0x46ceefda28dd7207059ed19b0acdc026955bb15c",
     "symbol": "GMEB",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xfe189e97832da1573e4e4ff034f4ffc3a15c7777",
+    "symbol": "MarsCoin",
+    "decimals": 18
   }
 ]
