@@ -1036,5 +1036,137 @@
     "address": "0xe2dae1c072b9f66bed999873b94798b2152af7e1",
     "symbol": "AA",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xce24439f2d9c6a2289f741120fe202248b666666",
+    "symbol": "U",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x7dbf38976f6d3b9c529e7d9484a71898b409ee6a",
+    "symbol": "ZZZ",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xf3081494b87e8d5fb7960f066e931d1d0e6e3d67",
+    "symbol": "TAO",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xd9db30bb0d2b8d2eae3826a1372117e058791e18",
+    "symbol": "MOO",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x4eb990547bce4a982432ca88cf5fae7eed1a2d35",
+    "symbol": "FLYBRAIN",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xeeca2e7dc194a320d349122d88259bb9595a4cb0",
+    "symbol": "LIT",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x0000000005aca17e8bd5779fc87e13cb433aed24",
+    "symbol": "NUKE",
+    "decimals": 9
+  },
+  {
+    "chainId": 4663,
+    "address": "0x6b1d42927b1a84ec28fa88d4fc6fa7af404966be",
+    "symbol": "PAIR",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x7066a64c24e4206cd62e83bf198c1e7eb361f51e",
+    "symbol": "PFE",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xf53f66751b1eff985311b693531e3290f600c410",
+    "symbol": "SHOP",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x3dc751e0da01812e6d9143cc696e7f07ea94da48",
+    "symbol": "THEO",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xe2324ff2a59f8ecba8c321c6466e59121c00e795",
+    "symbol": "CME",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x4a72b9702f991b790788f8afa9e7112541f4e8f8",
+    "symbol": "ROUTE",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x59818904ab4ce163b3ce4ffb64f2d6ca02c434b4",
+    "symbol": "QUBT",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x329fcaceb9ad6f9580dd5f643fed0646900d043c",
+    "symbol": "LMT",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x25c288e6d899b9bc30160965ad9644c67e73be0c",
+    "symbol": "F",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x5e49e1f85813f2b65858860a3fa231b4186f2e0e",
+    "symbol": "PENDLE",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xfde6b5d9bb419b10c23268c74e369abff39c0460",
+    "symbol": "RCAT",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x3b14c39e89d60d627b42a1a4ca45b5bb45fc12e2",
+    "symbol": "RKLB",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xacef2e09adb47ad6abebad9ff06689e60615c2b6",
+    "symbol": "INDA",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x12d5ee7917ca430073c3a638ee1e6f0648a98a01",
+    "symbol": "FATCOIN",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x42afa2124ca5a2b83898e46b2da9a190995b1e18",
+    "symbol": "SCHIFFY",
+    "decimals": 18
   }
 ]

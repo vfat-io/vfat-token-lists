@@ -34114,5 +34114,17 @@
     "address": "0x0cb9d84d4bcec8d3d5b2d99a6f07f4605325987e",
     "symbol": "svetBTC",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xfd36fa88bb3fea8d1264fc89d70723b6a2b56958",
+    "symbol": "wXTM",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xc9eef266834730340a55b6cc24621b31baf55581",
+    "symbol": "SPCXon",
+    "decimals": 18
   }
 ]

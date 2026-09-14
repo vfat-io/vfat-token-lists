@@ -5140,5 +5140,11 @@
     "address": "0xb095274743941e953c746f9c228da9c18bb6ec29",
     "symbol": "LAPTOP",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x001aad84c21a5cd4d696c56d44866e9703c43f77",
+    "symbol": "CP",
+    "decimals": 18
   }
 ]
