@@ -214,5 +214,11 @@
     "address": "0x19209e55049bc613c5cc8b66b7df7824096e78cf",
     "symbol": "EVE",
     "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x128cc466b61f542da60c70e3aa11c10e19b84edb",
+    "symbol": "WETH",
+    "decimals": 18
   }
 ]
