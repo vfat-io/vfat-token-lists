@@ -39358,5 +39358,11 @@
     "address": "0xfe189e97832da1573e4e4ff034f4ffc3a15c7777",
     "symbol": "MarsCoin",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x3548da95a9effe481e8604664d75e95821e557f5",
+    "symbol": "BMNRB",
+    "decimals": 18
   }
 ]
