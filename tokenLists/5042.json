@@ -106,5 +106,113 @@
     "address": "0xbbe6aab0ed76e90aea0d1cd978ec231c8adcdf8b",
     "symbol": "GBPA",
     "decimals": 6
+  },
+  {
+    "chainId": 5042,
+    "address": "0x2ba0f44bdfc17fba30eda9cdbecb908ca45b043b",
+    "symbol": "CRCL",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0xd02d2b38d9ccf08044f0a493350a2339fe8d708b",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x6505506540dc99f7366316b10e9cf1a584cbd42a",
+    "symbol": "NVDA",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x0c3282e55885bb1e8341f8c36da7b16e4f559993",
+    "symbol": "SPY",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x3b26421eb41f42119b021eadfbe3ff687ff7ebd8",
+    "symbol": "HIMS",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x41b386e03928c70d635606c210717c19dcfc984d",
+    "symbol": "GME",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0xe0e0f32b188198dd6bc49f7091fe6b52aef9f20f",
+    "symbol": "SPCX",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x0056ed10ea5a504a2cc9bec93aa5fa8258bba0c7",
+    "symbol": "AMC",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0xac7896a01a4efd2a647fb1c94a6f1ffef8901488",
+    "symbol": "AAPL",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x4d1efa7f5629f89fbdd7950b5ef73403a350ad59",
+    "symbol": "TSLA",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x58e3e461d32ef2ea48270bd8d9ac80c3062428f5",
+    "symbol": "SNAP",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x1d1bca89b79a2d6a7757e86f8a39ae0f51bb652b",
+    "symbol": "bGLD",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0xc55a4468a3e1c2dfe58dddad0188c71d5dffd740",
+    "symbol": "BANCOR",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x1ea1e4f9a9975f1f6e9c0a9f6e8ada7a66e6de52",
+    "symbol": "ARCT",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x5fef42634ac7e13c12ed9d0894ef58d52a5fc581",
+    "symbol": "PEGD",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x07704b06981ea962b87296362a1281484d160000",
+    "symbol": "ARCAT",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0xe6a2476f33ec1566288aa32ec3319a6b77dd1e3b",
+    "symbol": "DUKE",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x19209e55049bc613c5cc8b66b7df7824096e78cf",
+    "symbol": "EVE",
+    "decimals": 18
   }
 ]
