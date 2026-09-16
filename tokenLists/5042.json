@@ -1,0 +1,110 @@
+[
+  {
+    "chainId": 5042,
+    "address": "0x3600000000000000000000000000000000000000",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  {
+    "chainId": 5042,
+    "address": "0xece5ca8bf9220718e5727754026757512212cb3c",
+    "symbol": "ARGUS",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0xbc43ce8dec648ea298c4275559b81d6261c90b67",
+    "symbol": "TOLLY",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x2164bb17a2d38c1b5170e987b2c0416df1efc752",
+    "symbol": "LONG",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x8bcb94279fc2c984ec34e0c1f2192df8c69ea4f0",
+    "symbol": "Architects",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0xeb64987643db71c76b2a2be7e723decc995e5b37",
+    "symbol": "COOL",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x41c8a71f630c636294009fa4fb0cc4c3bbe674fe",
+    "symbol": "BEANCAT",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x171a4217b86a807a64eb94757db6849fb4bdbaa0",
+    "symbol": "cirBTC",
+    "decimals": 8
+  },
+  {
+    "chainId": 5042,
+    "address": "0x4c2800b81d66f2a4e2da6de00d45b9d64f1ca51e",
+    "symbol": "PEG",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0xbef5f6d51cb62b58e6a8f77868681825c6fe21c1",
+    "symbol": "EURC",
+    "decimals": 6
+  },
+  {
+    "chainId": 5042,
+    "address": "0xf3715bf5c2de299f08b81180ffb739a8372a175f",
+    "symbol": "ARCANINE",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0xbe0cad585ea2d13de2f4e36376be755c0afd8b97",
+    "symbol": "ARCBAT",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x5042419b1f2498959787bc23be1f484ed1306650",
+    "symbol": "ARCH",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x0bffa97f774824e9da843699aedd2835cb1b8022",
+    "symbol": "ARCASH",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0xeb5294495134c29d40b38a51986ab98144ab8a52",
+    "symbol": "ARGEN",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x3ead4e80e9e5bc0e01682d7ee74c4881b040d3ea",
+    "symbol": "KAIRO",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x4cb8382b9daf7992d3b27d32f7db650c57881daa",
+    "symbol": "BUILDOG",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0xbbe6aab0ed76e90aea0d1cd978ec231c8adcdf8b",
+    "symbol": "GBPA",
+    "decimals": 6
+  }
+]
