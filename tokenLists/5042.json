@@ -121,6 +121,12 @@
   },
   {
     "chainId": 5042,
+    "address": "0x128cc466b61f542da60c70e3aa11c10e19b84edb",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
     "address": "0x6505506540dc99f7366316b10e9cf1a584cbd42a",
     "symbol": "NVDA",
     "decimals": 18
