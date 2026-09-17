@@ -39364,5 +39364,29 @@
     "address": "0x3548da95a9effe481e8604664d75e95821e557f5",
     "symbol": "BMNRB",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xab78b89b5bb00236be0b4b20704cbfa04efc711c",
+    "symbol": "TSMB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xd6829ea836b6fa224d099d40e54b31262f874631",
+    "symbol": "NFLXB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x4af1d41cd9dd950dca43984b43aaa2a8702714ac",
+    "symbol": "FLNCB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x5fd86da9b05abe396fe9d02a4a213a7c00556503",
+    "symbol": "MRNAB",
+    "decimals": 18
   }
 ]

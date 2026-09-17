@@ -1168,5 +1168,11 @@
     "address": "0x42afa2124ca5a2b83898e46b2da9a190995b1e18",
     "symbol": "SCHIFFY",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x2d427692e928fa156ec22acfabafa0447c5805b7",
+    "symbol": "GLXY",
+    "decimals": 18
   }
 ]

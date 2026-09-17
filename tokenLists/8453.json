@@ -5146,5 +5146,11 @@
     "address": "0x001aad84c21a5cd4d696c56d44866e9703c43f77",
     "symbol": "CP",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
+    "symbol": "STONKEX",
+    "decimals": 18
   }
 ]
