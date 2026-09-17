@@ -1,42 +1,5 @@
 [
   {
-    "address": "0x0bffa97f774824e9da843699aedd2835cb1b8022",
-    "symbol": "ARCASH",
-    "chainId": 5042,
-    "decimals": 18,
-    "feeBps": 300,
-    "evidence": {
-      "txHash": "0xf7006757d1f7df44b9234c9840ebc714b6b1e1a5f59b37208ea633eb93e922e6",
-      "blockNumber": 21256661,
-      "explorer": "https://explorer.arc.io/tx/0xf7006757d1f7df44b9234c9840ebc714b6b1e1a5f59b37208ea633eb93e922e6",
-      "sender": "0x7dbcec05f12b14e21a79a0dc15ea9859322a4ab2",
-      "senderRole": "the pool paying the token out to a buyer",
-      "recipient": "0x7e2f37e06e6c0a326ffba6c9e737ddbb51c27de9",
-      "recipientRole": "the counterparty of the taxed transfer",
-      "pool": "0x7dbcec05f12b14e21a79a0dc15ea9859322a4ab2",
-      "poolRole": "the Uniswap V3 fee-10000 ARCASH/USDC pool, whose payouts are taxed",
-      "requestedAmount": "1650112843555566829745531",
-      "requestedAmountDerivation": "the transfer is internal to a swap, so amount is reconstructed as transferToRecipient + transferToTaxDestination; the exact floor identity below confirms the reconstruction.",
-      "transferToRecipient": "1600609458248899824853166",
-      "transferToTaxDestination": "49503385306667004892365",
-      "taxDestination": "0x0bffa97f774824e9da843699aedd2835cb1b8022",
-      "transferToRecipientLogData": "0x0000000000000000000000000000000000000000000152f1366cbd02e9aa20ae",
-      "transferToTaxDestinationLogData": "0x000000000000000000000000000000000000000000000a7b957a203cca8694cd",
-      "computedTaxBps": 300,
-      "derivation": {
-        "formula": "fee = floor(amount * 300 / 10000); transferToRecipient = amount - fee",
-        "amount": "1650112843555566829745531",
-        "transferToRecipient": "1600609458248899824853166",
-        "transferToTaxDestination": "49503385306667004892365",
-        "reproducesEmittedAmounts": true
-      },
-      "computation": "One transfer of 1650112843555566829745531 emits two Transfer events with the SAME sender: 1600609458248899824853166 to 0x7e2f37e06e6c0a326ffba6c9e737ddbb51c27de9 and 49503385306667004892365 to 0x0bffa97f774824e9da843699aedd2835cb1b8022 (the token contract itself). fee = floor(amount * 300 / 10000); transferToRecipient = amount - fee reproduces BOTH emitted amounts EXACTLY, so the measured tax is 300 bps with no rounding residue.",
-      "corroboration": "18 of 25 two-leg transfers found while replaying eth_getLogs over ~6000 recent Arc blocks reproduce the same 300 bps floor identity; the remainder are untaxed transfers and one 291.26 bps outlier consistent with a partial fill.",
-      "reproduce": "eth_getLogs on address 0x0bffa97f774824e9da843699aedd2835cb1b8022 over any recent Arc range for topic0 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, then group by (transactionHash, topics[1]) and look for the two legs sharing a sender where one recipient is the token contract itself. rpc.vf.at/5042 serves eth_getLogs; the dRPC endpoint in ARC_RPC is required for debug_traceCall."
-    },
-    "note": "Fee-on-transfer token, same two-leg shape as ARGUS on this chain: 97% to the recipient and 3% credited to the token contract itself. POOL-SCOPED: transfers out of the USDC fee-10000 pool 0x7dbceC05f12b14E21a79a0DC15EA9859322A4ab2 are taxed; both ARCASH/BANK pools (0x37c8ce27ed13e81f084be0349dcc977d918f8bd6, 0x0f2281c2d899daea3282964276e7767388221c3a) probe clean. At 300 bps this is outside any ordinary slippage setting, so every swap or zap through the taxed pool fails rather than failing intermittently the way ARGUS did. Found by sweeping recent Arc blocks for the two-leg Transfer signature, not by a user report -- no incident has been filed for it yet. Same failure modes by path position as ARGUS."
-  },
-  {
     "address": "0xcb92a075db3d4e965f37936da2100902344650e3",
     "symbol": "ARCADE",
     "chainId": 5042,
@@ -71,43 +34,6 @@
       "corroboration": "6 of 7 two-leg transfers found while replaying eth_getLogs reproduce the 400 bps floor identity on the into-pool leg; the out-of-pool leg measures 100 bps by debug_traceCall at head against the same pool, so the token is taxed asymmetrically in both directions.",
       "reproduce": "eth_getLogs on address 0xcb92a075db3d4e965f37936da2100902344650e3 over any recent Arc range for topic0 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, then group by (transactionHash, topics[1]) and look for the two legs sharing a sender where one recipient is the token contract itself. rpc.vf.at/5042 serves eth_getLogs; the dRPC endpoint in ARC_RPC is required for debug_traceCall."
     },
-    "note": "Fee-on-transfer token, and the most dangerous of the three on this chain because it is taxed in BOTH directions at DIFFERENT rates: 400 bps on transfers INTO its USDC pool 0x183fff18ccbdda0b5aa1c9d9ddeef00d3803b8c0 (the cited transaction) and 100 bps on transfers OUT of it (measured by debug_traceCall at head against the same pool). feeBps carries the higher, conservative 400. That pool is NOT a Uniswap V3 pool -- its factory is 0x942Bd5BFdc5317C5507e326f8EB4BB6058AB5C10 and it exposes neither fee() nor tickSpacing() -- which is why it does not appear in vfat-db's uniswap_v3_pools and why ARCADE deliberately has NO curated per-pool tax row: a rate cannot be keyed against a venue the indexer does not carry. Blocklisting is therefore the ONLY protection for this token today. Its taxed transfers were found while sweeping for the signature; the venue was identified afterwards from the transfer's recipient."
-  },
-  {
-    "address": "0xece5ca8bf9220718e5727754026757512212cb3c",
-    "symbol": "ARGUS",
-    "chainId": 5042,
-    "decimals": 18,
-    "feeBps": 100,
-    "evidence": {
-      "txHash": "0x875e1d4d5c9d52f3319f07980d7c9f4d829d6ab521c2f5163152bf787e55fb26",
-      "blockNumber": 21258999,
-      "explorer": "https://explorer.arc.io/tx/0x875e1d4d5c9d52f3319f07980d7c9f4d829d6ab521c2f5163152bf787e55fb26",
-      "sender": "0x6a3bacaa6493734c1ac221ebf42cf530a96c1e02",
-      "senderRole": "the pool paying the token out to a buyer",
-      "recipient": "0x1e2d2cbfb3c5d1098a5eaa2e054b117faa1c0501",
-      "recipientRole": "the counterparty of the taxed transfer",
-      "pool": "0x6a3bacaa6493734c1ac221ebf42cf530a96c1e02",
-      "poolRole": "the Uniswap V3 fee-10000 ARGUS/USDC pool, whose payouts are taxed",
-      "requestedAmount": "1278306287968218277800546",
-      "requestedAmountDerivation": "the transfer is internal to a swap, so amount is reconstructed as transferToRecipient + transferToTaxDestination; the exact floor identity below confirms the reconstruction.",
-      "transferToRecipient": "1265523225088536095022541",
-      "transferToTaxDestination": "12783062879682182778005",
-      "taxDestination": "0xece5ca8bf9220718e5727754026757512212cb3c",
-      "transferToRecipientLogData": "0x000000000000000000000000000000000000000000010bfc26c89c9ccae0ddcd",
-      "transferToTaxDestinationLogData": "0x0000000000000000000000000000000000000000000002b4f8a259804a740c95",
-      "computedTaxBps": 100,
-      "derivation": {
-        "formula": "fee = floor(amount * 100 / 10000); transferToRecipient = amount - fee",
-        "amount": "1278306287968218277800546",
-        "transferToRecipient": "1265523225088536095022541",
-        "transferToTaxDestination": "12783062879682182778005",
-        "reproducesEmittedAmounts": true
-      },
-      "computation": "One transfer of 1278306287968218277800546 emits two Transfer events with the SAME sender: 1265523225088536095022541 to 0x1e2d2cbfb3c5d1098a5eaa2e054b117faa1c0501 and 12783062879682182778005 to 0xece5ca8bf9220718e5727754026757512212cb3c (the token contract itself). fee = floor(amount * 100 / 10000); transferToRecipient = amount - fee reproduces BOTH emitted amounts EXACTLY, so the measured tax is 100 bps with no rounding residue.",
-      "corroboration": "823 of 936 two-leg transfers found while replaying eth_getLogs over ~6000 recent Arc blocks reproduce the same 100 bps floor identity; the remainder are sub-1 bps residues from unrelated transfers of the same token.",
-      "reproduce": "eth_getLogs on address 0xece5ca8bf9220718e5727754026757512212cb3c over any recent Arc range for topic0 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, then group by (transactionHash, topics[1]) and look for the two legs sharing a sender where one recipient is the token contract itself. rpc.vf.at/5042 serves eth_getLogs; the dRPC endpoint in ARC_RPC is required for debug_traceCall."
-    },
-    "note": "Fee-on-transfer token: a taxed transfer emits TWO Transfer events with the SAME sender -- 99% to the intended recipient and 1% credited to the token contract itself. Both legs are in the receipt, so the split is reproducible from eth_getLogs alone with no tracing. The tax is POOL-SCOPED, not token-wide: transfers out of the USDC fee-10000 pool 0x6a3bacaa6493734c1ac221ebf42cf530a96c1e02 are taxed, while ordinary holder-to-holder transfers and transfers out of every other ARGUS pool probed (USDC at fee 0/100/500/3000, a second USDC fee-10000 pool on a different factory, SMKA, TEST, TOLLY) are NOT. Smaller populations at other rates appear when replaying logs (sub-1 bps residues from unrelated transfers); feeBps carries the dominant rate the cited pool exhibits. This token caused a live incident: vfat-router quoted the pool's GROSS output while SwapRouter received 99%, so /v4/zap-in returned 400 InsufficientOutputAmount for any user at 0.5% slippage -- intermittently, because it cleared whenever price drifted the user's way by more than their slippage. Failure modes by position in a router path: (1) as INPUT or INTERMEDIATE on a constant-product venue -- the destination pool is credited only 99% of amountSent, so pool.swap reverts K(); (2) as TERMINAL OUTPUT -- the user receives 99% of the quoted amountOut, violating the minAmountOut promise. On a concentrated-liquidity venue the pool is paid in full and the PAYER is surcharged instead, so the sell leg is a silent extra cost rather than a revert."
+    "note": "Fee-on-transfer token, taxed in BOTH directions at DIFFERENT rates: 400 bps on transfers INTO its USDC pool 0x183fff18ccbdda0b5aa1c9d9ddeef00d3803b8c0 (the cited transaction) and 100 bps on transfers OUT of it, measured against the same pool at head. feeBps carries the higher, conservative 400. A taxed transfer emits TWO Transfer events with the same sender -- the recipient's share and a cut credited to the token contract itself -- so the split is reproducible from eth_getLogs alone. That pool is a constant-product pair on factory 0x942Bd5BFdc5317C5507e326f8EB4BB6058AB5C10; it exposes neither fee() nor tickSpacing(), so it is not a concentrated-liquidity pool and per-pool rate data keyed on a concentrated-liquidity venue cannot describe it. Listing the token is therefore the only way to express its behaviour here. Failure modes by position in a swap path: (1) as INPUT or INTERMEDIATE, the destination pair is credited less than was sent, so a constant-product swap reverts its invariant check; (2) as TERMINAL OUTPUT, the recipient receives less than the quoted amount, breaking the quoted minimum. Found by sweeping recent blocks for the two-leg Transfer signature; the venue was identified afterwards from the transfer's recipient."
   }
 ]
