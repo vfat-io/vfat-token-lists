@@ -34126,5 +34126,11 @@
     "address": "0xc9eef266834730340a55b6cc24621b31baf55581",
     "symbol": "SPCXon",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x72dfb2e44f59c5ad2bafe84314e5b99a7cd5075e",
+    "symbol": "cirBTC",
+    "decimals": 8
   }
 ]

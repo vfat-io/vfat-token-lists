@@ -1174,5 +1174,23 @@
     "address": "0x2d427692e928fa156ec22acfabafa0447c5805b7",
     "symbol": "GLXY",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x27c99fbde9d0d2aa4f4bfb4943f237843ddf6958",
+    "symbol": "DDOG",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x9d9c6684f596f66a64c030b93a886d51fd4d7931",
+    "symbol": "NBIS",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xb0992820e760d836549ba69bc7598b4af75dee03",
+    "symbol": "ORCL",
+    "decimals": 18
   }
 ]
