@@ -39388,5 +39388,11 @@
     "address": "0x5fd86da9b05abe396fe9d02a4a213a7c00556503",
     "symbol": "MRNAB",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xcafdbce93477261db8250e42bdae6e66733f9e20",
+    "symbol": "GSTOCK",
+    "decimals": 18
   }
 ]
