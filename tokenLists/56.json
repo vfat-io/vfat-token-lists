@@ -39394,5 +39394,47 @@
     "address": "0xcafdbce93477261db8250e42bdae6e66733f9e20",
     "symbol": "GSTOCK",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x9123400446a56176eb1b6be9ee5cf703e409f492",
+    "symbol": "TRADOOR",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x0e4f6209ed984b21edea43ace6e09559ed051d48",
+    "symbol": "ON",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
+    "symbol": "ARIA",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xc61eb549acf4a05ed6e3fe0966f5e213b23541ce",
+    "symbol": "NUMI",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x8c321c2e323bc26c01df0dc62311482a1256fdf5",
+    "symbol": "ZENT",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x539ae81a166e5e80aed211731563e549c411b140",
+    "symbol": "TA",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x795a3a4e90f837ae137ed2c92509f5f59c474547",
+    "symbol": "KNOT",
+    "decimals": 18
   }
 ]
