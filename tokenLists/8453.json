@@ -5152,5 +5152,17 @@
     "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
     "symbol": "STONKEX",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x877014e21c32fea108b6a1f45f367efc9a2d9b9f",
+    "symbol": "alUSDb",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x16f93ebc5320c89efc8701577efe49d14a276a06",
+    "symbol": "CADD",
+    "decimals": 18
   }
 ]

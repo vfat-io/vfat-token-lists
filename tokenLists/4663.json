@@ -1192,5 +1192,17 @@
     "address": "0xb0992820e760d836549ba69bc7598b4af75dee03",
     "symbol": "ORCL",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xaa07a0e9209e16ac99708c3ec70159c6ef3128a3",
+    "symbol": "ORBIO",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x91a2dae9699f0b82540b5886b0d8759c22820ba3",
+    "symbol": "musebook",
+    "decimals": 18
   }
 ]
