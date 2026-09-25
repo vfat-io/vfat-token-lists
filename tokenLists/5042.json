@@ -220,5 +220,11 @@
     "address": "0x128cc466b61f542da60c70e3aa11c10e19b84edb",
     "symbol": "WETH",
     "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x178b01f61cbea1d2a5581fe1621be607835ec349",
+    "symbol": "XAUM",
+    "decimals": 18
   }
 ]
