@@ -1594,5 +1594,23 @@
     "address": "0x73f049a1ea56427a78639e22376d576608788bbc",
     "symbol": "BLOK",
     "decimals": 18
+  },
+  {
+    "chainId": 25,
+    "address": "0x3d7f2c478aafdb65542bcb44bceec05849999d2d",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  {
+    "chainId": 25,
+    "address": "0x0aeba21655185583367f19d0c882dfc654c6dd54",
+    "symbol": "OBS",
+    "decimals": 18
+  },
+  {
+    "chainId": 25,
+    "address": "0x8c9e2bef2962ce302ef578113eebec62920b7e57",
+    "symbol": "Turtle",
+    "decimals": 18
   }
 ]

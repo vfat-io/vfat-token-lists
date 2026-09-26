@@ -2644,5 +2644,71 @@
     "address": "0x043860275e792025de09353f4fa5b789b40e3539",
     "symbol": "EVDR",
     "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0x562866b6483894240739211049e109312e9a9a67",
+    "symbol": "MAFIA",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0xff640cbd35a618df1348d861b5e47f7eab05b422",
+    "symbol": "pMINT",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0xc2acde27428d292c4e8e5a4a38148d6b7a2215f5",
+    "symbol": "PTIGER",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0xf6703dbff070f231eed966d33b1b6d7ef5207d26",
+    "symbol": "ZERØ",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0x83c8b596b0825326707f5bc88e2bd2a052d3ffba",
+    "symbol": "CV",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0x1e2b066d068eb087ccf85620b8306a283ea70816",
+    "symbol": "SWRM",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0x32fb5663619a657839a80133994e45c5e5cdf427",
+    "symbol": "EMIT",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0x6c6d7de6c5f366a1995ed5f1e273c5b3760c6043",
+    "symbol": "RHINO",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0xf2da3942616880e52e841e5c504b5a9fba23fff0",
+    "symbol": "NEON",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0x67922d590ba6c784f468b6b562d201113a8fbd2d",
+    "symbol": "PULSEGUY",
+    "decimals": 18
+  },
+  {
+    "chainId": 369,
+    "address": "0xe43b3cee3554e120213b8b69caf690b6c04a7ec0",
+    "symbol": "urmom",
+    "decimals": 18
   }
 ]

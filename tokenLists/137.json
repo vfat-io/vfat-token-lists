@@ -9496,5 +9496,167 @@
     "address": "0xdd875635231e68e846ce190b1396ac0295d9e577",
     "symbol": "uWatt",
     "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x6a92b1e99de09f71cd96bc91f934826d96b8b26e",
+    "symbol": "AS",
+    "decimals": 9
+  },
+  {
+    "chainId": 137,
+    "address": "0x2c72d25530191ebd244eb6325e1892480b0e6e28",
+    "symbol": "AIPF",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x27ab6e82f3458edbc0703db2756391b899ce6324",
+    "symbol": "RNT",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x714db550b574b3e927af3d93e26127d15721d4c2",
+    "symbol": "GMT",
+    "decimals": 8
+  },
+  {
+    "chainId": 137,
+    "address": "0xe7c3d8c9a439fede00d2600032d5db0be71c3c29",
+    "symbol": "JPYC",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xae840deab9916d80fadf42e218119a6051468169",
+    "symbol": "EFI",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x7e13b43065380acdec1c2d138c579cbbbafa0731",
+    "symbol": "TEL",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x98965474ecbec2f532f1f780ee37b0b05f77ca55",
+    "symbol": "SUT",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xeb7eab87837f4dad1bb80856db9e4506fc441f3d",
+    "symbol": "MEE",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x8a16d4bf8a0a716017e8d2262c4ac32927797a2f",
+    "symbol": "VCNT",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x784665471bb8b945b57a76a9200b109ee214e789",
+    "symbol": "KC",
+    "decimals": 6
+  },
+  {
+    "chainId": 137,
+    "address": "0x95f9b9beceb273815f7f22a5729924acf88050a6",
+    "symbol": "TPT",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x1ff2a62dd802d74d0b0ca6d36d43d2a13ab43a55",
+    "symbol": "USDX",
+    "decimals": 6
+  },
+  {
+    "chainId": 137,
+    "address": "0xf4c3fac9c98aa62474998e299495b699dfdb00eb",
+    "symbol": "HANDL",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x0566c506477cd2d8df4e0123512dbc344bd9d111",
+    "symbol": "MLC",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xc91953e110ebb0039859304a0d1b64f8450763fc",
+    "symbol": "DCI",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xc157ee77518769b8009642f68a8d6a500ff59d53",
+    "symbol": "NLC",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xf0949dd87d2531d665010d6274f06a357669457a",
+    "symbol": "RMV",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x162539172b53e9a93b7d98fb6c41682de558a320",
+    "symbol": "GONE",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xfe302b8666539d5046cd9aa0707bb327f5f94c22",
+    "symbol": "SEN",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x7abe9edf5c544a04da83e9110cf46dbc4759170c",
+    "symbol": "WPAY",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xe261d618a959afffd53168cd07d12e37b26761db",
+    "symbol": "DIMO",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xe0aea583266584dafbb3f9c3211d5588c73fea8d",
+    "symbol": "EURe",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x9ff62d1fc52a907b6dcba8077c2ddca6e6a9d3e1",
+    "symbol": "FORT",
+    "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0xc011a7e12a19f7b1f670d46f03b03f3342e82dfb",
+    "symbol": "pUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 137,
+    "address": "0xe5b49820e5a1063f6f4ddf851327b5e8b2301048",
+    "symbol": "Bonk",
+    "decimals": 5
+  },
+  {
+    "chainId": 137,
+    "address": "0xd9a1070f832cc02ff9d839500eef6e8c64983726",
+    "symbol": "BAT",
+    "decimals": 18
   }
 ]

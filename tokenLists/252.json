@@ -154,5 +154,11 @@
     "symbol": "sfrxUSD",
     "decimals": 18,
     "chainId": 252
+  },
+  {
+    "chainId": 252,
+    "address": "0x788d96f655735f52c676a133f4dfc53cec614d4a",
+    "symbol": "dUSD",
+    "decimals": 6
   }
 ]

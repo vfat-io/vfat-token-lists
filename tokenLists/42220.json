@@ -334,5 +334,23 @@
     "address": "0x2e6c05f1f7d1f4eb9a088bf12257f1647682b754",
     "symbol": "axlREGEN",
     "decimals": 6
+  },
+  {
+    "chainId": 42220,
+    "address": "0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d",
+    "symbol": "wARS",
+    "decimals": 18
+  },
+  {
+    "chainId": 42220,
+    "address": "0xd2ab3c9a02dbbab236bfec45d1d755df4267f771",
+    "symbol": "USAT",
+    "decimals": 6
+  },
+  {
+    "chainId": 42220,
+    "address": "0xe273ad7ee11dcfaa87383ad5977ee1504ac07568",
+    "symbol": "mCEUR",
+    "decimals": 18
   }
 ]

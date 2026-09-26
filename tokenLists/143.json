@@ -646,5 +646,17 @@
     "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
     "symbol": "sUSDe",
     "decimals": 18
+  },
+  {
+    "chainId": 143,
+    "address": "0x0bb150dfa86ea5d7742f07fefcd8e8eda81d64ef",
+    "symbol": "USDat",
+    "decimals": 6
+  },
+  {
+    "chainId": 143,
+    "address": "0xa9da3c77ec7cdc4dfaa1fe142af583543d1c540f",
+    "symbol": "FLING",
+    "decimals": 18
   }
 ]

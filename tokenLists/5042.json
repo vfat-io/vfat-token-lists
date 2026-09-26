@@ -232,5 +232,41 @@
     "address": "0x4f7dc89dc44ad08c20d9680d2ee9cfad69bfda55",
     "symbol": "MALA",
     "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x8c4252c87081c88c6ad57d6dd97e1cafebf842b7",
+    "symbol": "VIRTUAL",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0xf76b1d00bd3d63a37246b5f512074e864010e33d",
+    "symbol": "POLL",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x4c9b47dbd5933aa4574b2c27f82419e4dbbd0222",
+    "symbol": "ASTOCK",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x41358defd0dedc90528b3f1835715e907b686e6a",
+    "symbol": "DUKE",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x258bbb25fb1bc34c87212f8dab34838854ef2d5d",
+    "symbol": "BCAT",
+    "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0xb7c934ff18730c24e6113bb4bc5a68feef16fd29",
+    "symbol": "ARCUS",
+    "decimals": 18
   }
 ]

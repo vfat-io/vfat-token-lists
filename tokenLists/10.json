@@ -1774,5 +1774,11 @@
     "address": "0xae0c7d4be1f07c5cf2994da2884a6d698f516286",
     "symbol": "FNX",
     "decimals": 18
+  },
+  {
+    "chainId": 10,
+    "address": "0xc52d7f23a2e460248db6ee192cb23dd12bddcbf6",
+    "symbol": "crvUSD",
+    "decimals": 18
   }
 ]
