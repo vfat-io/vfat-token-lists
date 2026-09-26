@@ -1390,5 +1390,11 @@
     "address": "0xedbf91223639800bcd5756815caf908df3b890be",
     "symbol": "PRIORS",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x63ee32ac3077d1fbd8a77ebba2a6ed4b8e9c1e18",
+    "symbol": "INU",
+    "decimals": 18
   }
 ]
