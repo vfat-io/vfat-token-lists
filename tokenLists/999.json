@@ -772,5 +772,17 @@
     "address": "0xd6317538fd2ffb481db073a6ccee301180064ad6",
     "symbol": "HYPURR",
     "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0xf09703969cf55aa8a05ee9c76ab3013477283666",
+    "symbol": "SIGNAL",
+    "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0xcc643a9b6cb14e7d5ff9bd81abcd5103eceb0999",
+    "symbol": "PERPME",
+    "decimals": 18
   }
 ]

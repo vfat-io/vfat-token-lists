@@ -226,5 +226,11 @@
     "address": "0x178b01f61cbea1d2a5581fe1621be607835ec349",
     "symbol": "XAUM",
     "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x4f7dc89dc44ad08c20d9680d2ee9cfad69bfda55",
+    "symbol": "MALA",
+    "decimals": 18
   }
 ]

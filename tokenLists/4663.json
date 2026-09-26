@@ -1204,5 +1204,191 @@
     "address": "0x91a2dae9699f0b82540b5886b0d8759c22820ba3",
     "symbol": "musebook",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xa156048aa84d13b1de40dfa8288d28b2593fc35c",
+    "symbol": "XBOW",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xc4f730335fb9e439ca5552f7b52b8e638c4245b0",
+    "symbol": "NOTE",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x83a49b808f8d5e02cb2931cd2352988f498e5ba3",
+    "symbol": "Agrippa",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x15d36b6a28d8327abc7afabf0f106ae2c9af5c4d",
+    "symbol": "PARE",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xbf3e53713a53e9c3d5d1ddc25dd2c65669244663",
+    "symbol": "PCC",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xa92768863a55d8a0591709f7f5e594a249d36ea3",
+    "symbol": "ASKR",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x459476869af797eb9061b41fa04de46a60fbedbd",
+    "symbol": "BV7X",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x07ebb29a38fbcb41563817e5e19f2cec619c90d2",
+    "symbol": "BUN",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x507b6f349a80114097a67b8b4677367acc15b220",
+    "symbol": "par",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xceebf25b318201f1f949be2fabbfcee231737139",
+    "symbol": "富贵",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x88c4c42ed68584ff02f5a00d5d3d985108a3961c",
+    "symbol": "EDEL",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x7581ec9347669477711d146e0e43bddda474f415",
+    "symbol": "MAXI",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xedaee44320107caa714baaec486261a87f27022d",
+    "symbol": "PONGO",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x178e54df3d091ee4d0b2534742ef9e3692b76526",
+    "symbol": "BNKR",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x4b3a3ff4ec9d289727e24a8152f406bada44264d",
+    "symbol": "FIH",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xe02c53d448a62067b2ac10ed70f5bc6c29471386",
+    "symbol": "NOSH",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x743acf789e0f5419f550323a2349732a61c15439",
+    "symbol": "WHEN",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x27495511b8a2e163efc75d788706a40dd100bc27",
+    "symbol": "PACK",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xd5bf43f29bf7aa5bb42ae9e217b84b86eb7a4b94",
+    "symbol": "LOCK",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xfa31d04462746aaa24bc7e5626403e09e4b106ec",
+    "symbol": "AGI",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xa934ba4f59070149d37a93f8a002af79bae35563",
+    "symbol": "PFWA",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xa26992c4268a8a78a4d872fe4bdad2ed03ac287d",
+    "symbol": "MANY",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x3ba500f1ababbcf0f0247d06d1c56fd7e6c4c09d",
+    "symbol": "WORM",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xe0cd4e72769e7317891d1e49905878b7b14c67ac",
+    "symbol": "SI",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xd17c81cb01d44cc6e822936e8f098960001b47d2",
+    "symbol": "HOODCATS",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xf24f8f6b08fe87cf062e833a732ad7f636064bc8",
+    "symbol": "PRM",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x5f10a1c971b69e47e059e1dc91901b59b3fb49c3",
+    "symbol": "CRWV",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xded852de9fe9ba9b6f27f39e8e81cf851a5c79cc",
+    "symbol": "ROBINCAT",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x0f17206447090e464c277571124dd2688e48aea9",
+    "symbol": "QCOM",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xeb24a2663af4ee979dcbfe39cb95b5f12d369c4b",
+    "symbol": "CEREBRO",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xedbf91223639800bcd5756815caf908df3b890be",
+    "symbol": "PRIORS",
+    "decimals": 18
   }
 ]

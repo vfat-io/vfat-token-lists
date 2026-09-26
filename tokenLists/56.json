@@ -39436,5 +39436,233 @@
     "address": "0x795a3a4e90f837ae137ed2c92509f5f59c474547",
     "symbol": "KNOT",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
+    "symbol": "BNCB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x7c8d5502b544ddaf8852fc46d1174e34876d545c",
+    "symbol": "BNC4",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+    "symbol": "牛来",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1",
+    "symbol": "FXIon",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x9d2144328e1d618f54cd38540f5ee50671f6a208",
+    "symbol": "BTCLE",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x6ced5c6d3f913b48d59fa07abbfe9060c409087c",
+    "symbol": "ANTFUN",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
+    "symbol": "JCT",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xbdeae1ca48894a1759a8374d63925f21f2ee2639",
+    "symbol": "EDU",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xd270d4e1ec6e6e0d28c0ecb8be966ec75997ffff",
+    "symbol": "4Stock",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x6261963ebe9ff014aad10ecc3b0238d4d04e8353",
+    "symbol": "HANA",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xb3b02e4a9fb2bd28cc2ff97b0ab3f6b3ec1ee9d2",
+    "symbol": "USDf",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
+    "symbol": "Q",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xea953ea6634d55dac6697c436b1e81a679db5882",
+    "symbol": "USDu",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x500a02a20b0b0a3f3efccfc0559543f5743bd1c4",
+    "symbol": "O",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xf40592daacb3e5abf358789f5688c0b4f64d7777",
+    "symbol": "FLORK",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x91152b4ef635403efbae860edd0f8c321d7c035d",
+    "symbol": "IRYS",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xa7440029eca41deabd8775ef1d6086b37d4df8d6",
+    "symbol": "BRETT",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x5ab3d4c385b400f3abb49e80de2faf6a88a7b691",
+    "symbol": "FLOCK",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xff7f8f301f7a706e3cfd3d2275f5dc0b9ee8009b",
+    "symbol": "FOLKS",
+    "decimals": 6
+  },
+  {
+    "chainId": 56,
+    "address": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
+    "symbol": "EVAA",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x223a20e1b83aa3832e78d4b7b132df022e739222",
+    "symbol": "R2",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x6a2608dabe09bc1128eec7275b92dfb939d5db3f",
+    "symbol": "TOSHI",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x90c48855bb69f9d2c261efd0d8c7f35990f2dd6f",
+    "symbol": "WFI",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xcf3232b85b43bca90e51d38cc06cc8bb8c8a3e36",
+    "symbol": "Beat",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xc23db46993f643f1fa0494cd30f9f43505885d84",
+    "symbol": "TCOM",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xca56094722450016f280c4fd6a333e5c36903827",
+    "symbol": "SPX",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x92516e0ddf1ddbf7fab1b79cac26689fdc5ba8e6",
+    "symbol": "HUMA",
+    "decimals": 6
+  },
+  {
+    "chainId": 56,
+    "address": "0x3f160760535eb715d5809a26cf55408a2d9844c1",
+    "symbol": "OL",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xd9483ea7214fcfd89b4fb8f513b544920e315a52",
+    "symbol": "AVA",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x5a110fc00474038f6c02e89c707d638602ea44b5",
+    "symbol": "USDF",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xe7e569417d315ef260778c09d289d7966213c452",
+    "symbol": "67",
+    "decimals": 9
+  },
+  {
+    "chainId": 56,
+    "address": "0x39702843a6733932ec7ce0dde404e5a6dbd8c989",
+    "symbol": "AVAIL",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x6418c0dd099a9fda397c766304cdd918233e8847",
+    "symbol": "PENGU",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xc008c5f579ec1450f20099c39f587547e27c7523",
+    "symbol": "SGOVon",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xd97d097a89113fa59b76c572e5b2eb647e8eefaf",
+    "symbol": "SOXLB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x13cdb5f7f398f6af2cc3b34eb04476af3488853f",
+    "symbol": "rsFIRO",
+    "decimals": 8
+  },
+  {
+    "chainId": 56,
+    "address": "0x6458d4844ccaad06dbf566d1df93d8815f89d9b0",
+    "symbol": "aWDH",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x9e82e3da8f1115b73d24bb24113ab836ffdab6b6",
+    "symbol": "SNXXB",
+    "decimals": 18
   }
 ]
