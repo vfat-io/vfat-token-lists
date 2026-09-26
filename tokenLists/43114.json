@@ -4036,5 +4036,65 @@
     "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
     "symbol": "USDe",
     "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0xa77e70d0af1ac7ff86726740db1bd065c3566937",
+    "symbol": "w3ULL",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce",
+    "symbol": "BEAM",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0xad4cb79293322c07973ee83aed5df66a53214dc6",
+    "symbol": "SHELL",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x6c14c1898c843ff66ca51e87244690bbc28df215",
+    "symbol": "ORNG",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x694200a68b18232916353250955be220e88c5cbb",
+    "symbol": "KOVIN",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x7979871595b80433183950ab6c6457752b585805",
+    "symbol": "SECOND",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x08c4b51e6ca9eb89c255f0a5ab8afd721420e447",
+    "symbol": "PEARL",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x2598c30330d5771ae9f983979209486ae26de875",
+    "symbol": "AI",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0x997ddaa07d716995de90577c123db411584e5e46",
+    "symbol": "JEWEL",
+    "decimals": 18
+  },
+  {
+    "chainId": 43114,
+    "address": "0xd402298a793948698b9a63311404fbbee944eafd",
+    "symbol": "SHRAP",
+    "decimals": 18
   }
 ]

@@ -136,5 +136,17 @@
     "address": "0x2d661c89d812261039af9764eceaaee884f5f67f",
     "symbol": "USDC",
     "decimals": 6
+  },
+  {
+    "chainId": 9745,
+    "address": "0x133a09dd6169f6f0509658a911f2a82fc8ab6a0d",
+    "symbol": "INX",
+    "decimals": 18
+  },
+  {
+    "chainId": 9745,
+    "address": "0xdfad3b638fb77ccbd0712516877541cf7fa3341e",
+    "symbol": "FUS",
+    "decimals": 18
   }
 ]

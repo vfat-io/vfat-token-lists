@@ -194,5 +194,29 @@
     "address": "0x5beec68913604d60d7bf1a5701e3921984633b83",
     "symbol": "CRIME",
     "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0x0e04ca25b5cd15047946d89e21cbcdbae43a323b",
+    "symbol": "OTO",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0xad09cd20e513e4d8cb78036f77ab9afde8555929",
+    "symbol": "kHYPE",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0xd95b9a5fa7c2708fd4fe0e07e59bde1ef35b194a",
+    "symbol": "BEAST",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0x32bcb803f696c99eb263d60a05cafd8689026575",
+    "symbol": "KRAKMASK",
+    "decimals": 18
   }
 ]

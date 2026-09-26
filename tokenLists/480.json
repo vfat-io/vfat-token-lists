@@ -154,5 +154,47 @@
     "address": "0x0458965c6a85b14e022c1920276197c972f0fd2f",
     "symbol": "SEED",
     "decimals": 18
+  },
+  {
+    "chainId": 480,
+    "address": "0xd76f5faf6888e24d9f04bf92a0c8b921fe4390e0",
+    "symbol": "wBRL",
+    "decimals": 18
+  },
+  {
+    "chainId": 480,
+    "address": "0x337e7456b420bd3481e7fa61fa9850343d610d34",
+    "symbol": "wMXN",
+    "decimals": 18
+  },
+  {
+    "chainId": 480,
+    "address": "0x4f34c8b3b5fb6d98da888f0fea543d4d9c9f2ebe",
+    "symbol": "wPEN",
+    "decimals": 18
+  },
+  {
+    "chainId": 480,
+    "address": "0xed49fe44fd4249a09843c2ba4bba7e50beca7113",
+    "symbol": "DNA",
+    "decimals": 18
+  },
+  {
+    "chainId": 480,
+    "address": "0x8a1d45e102e886510e891d2ec656a708991e2d76",
+    "symbol": "wCOP",
+    "decimals": 18
+  },
+  {
+    "chainId": 480,
+    "address": "0x0dc4f92879b7670e5f4e4e6e3c801d229129d90d",
+    "symbol": "wARS",
+    "decimals": 18
+  },
+  {
+    "chainId": 480,
+    "address": "0x61d450a098b6a7f69fc4b98ce68198fe59768651",
+    "symbol": "wCLP",
+    "decimals": 18
   }
 ]
