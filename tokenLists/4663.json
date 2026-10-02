@@ -2404,5 +2404,11 @@
     "address": "0x968be0c1a394bf1ce239e3b40909ec0f9d4f5583",
     "symbol": "NYMA",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x4db7374e966097be94c6680d49156d580f097bbf",
+    "symbol": "TIBBIR",
+    "decimals": 18
   }
 ]

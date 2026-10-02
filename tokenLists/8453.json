@@ -5524,5 +5524,23 @@
     "address": "0x0bbbead62f7647ae8323d2cb243a0db74b7c2b80",
     "symbol": "WALLET",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000fd2f87532b90095211",
+    "symbol": "MUc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000007d16372840df4dabbe",
+    "symbol": "PLTRc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "symbol": "XDP",
+    "decimals": 18
   }
 ]
