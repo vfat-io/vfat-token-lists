@@ -177,7 +177,10 @@
     "chainId": 5000,
     "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
     "decimals": 18,
-    "symbol": "USDe"
+    "symbol": "USDe",
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "chainId": 5000,
@@ -332,25 +335,37 @@
     "chainId": 5000,
     "address": "0x1630f08370917e79df0b7572395a5e907508bbbc",
     "symbol": "wGOOGLx",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 5000,
     "address": "0x266e5923f6118f8b340ca5a23ae7f71897361476",
     "symbol": "wMSTRx",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 5000,
     "address": "0x93e62845c1dd5822ebc807ab71a5fb750decd15a",
     "symbol": "wNVDAx",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 5000,
     "address": "0x5aa7649fdbda47de64a07ac81d64b682af9c0724",
     "symbol": "wAAPLx",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 5000,
@@ -362,7 +377,10 @@
     "chainId": 5000,
     "address": "0x43680abf18cf54898be84c6ef78237cfbd441883",
     "symbol": "wTSLAx",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 5000,
@@ -374,19 +392,28 @@
     "chainId": 5000,
     "address": "0xa90872aca656ebe47bdebf3b19ec9dd9c5adc7f8",
     "symbol": "wCRCLx",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 5000,
     "address": "0x4e41a262caa93c6575d336e0a4eb79f3c67caa06",
     "symbol": "wMETAx",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 5000,
     "address": "0x953707d7a1cb30cc5c636bda8eaebe410341eb14",
     "symbol": "wHOODx",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 5000,

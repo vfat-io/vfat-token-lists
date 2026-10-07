@@ -897,7 +897,10 @@
     "chainId": 42161,
     "symbol": "USDC",
     "decimals": 6,
-    "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+    "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "chainId": 42161,
@@ -933,7 +936,10 @@
   {
     "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
     "decimals": 18,
-    "symbol": "USDe"
+    "symbol": "USDe",
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "address": "0x71dabf1ccab1a7a0c622b7473614fdce79f3600b",
@@ -1118,7 +1124,10 @@
   {
     "address": "0x2bcc6d6cdbbdc0a4071e48bb3b969b06b3330c07",
     "symbol": "SOL",
-    "decimals": 9
+    "decimals": 9,
+    "tags": [
+      "bluechip"
+    ]
   },
   {
     "address": "0xf0b68b1ead1ed21f6b69807af6ca1519a8250f00",
@@ -1627,7 +1636,10 @@
     "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
     "symbol": "cbBTC",
     "decimals": 8,
-    "chainId": 42161
+    "chainId": 42161,
+    "tags": [
+      "bluechip"
+    ]
   },
   {
     "address": "0x4026affabd9032bcc87fa05c02f088905f3dc09b",

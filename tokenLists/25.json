@@ -1599,7 +1599,10 @@
     "chainId": 25,
     "address": "0x3d7f2c478aafdb65542bcb44bceec05849999d2d",
     "symbol": "USDC",
-    "decimals": 6
+    "decimals": 6,
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "chainId": 25,

@@ -1605,7 +1605,10 @@
     "chainId": 137,
     "symbol": "USDC",
     "decimals": 6,
-    "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
+    "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "chainId": 137,
@@ -7749,7 +7752,10 @@
     "chainId": 137,
     "symbol": "SOL",
     "decimals": 9,
-    "address": "0xd93f7e271cb87c23aaa73edc008a79646d1f9912"
+    "address": "0xd93f7e271cb87c23aaa73edc008a79646d1f9912",
+    "tags": [
+      "bluechip"
+    ]
   },
   {
     "chainId": 137,

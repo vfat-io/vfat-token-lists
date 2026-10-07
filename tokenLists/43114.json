@@ -1701,7 +1701,10 @@
     "chainId": 43114,
     "symbol": "USDT",
     "decimals": 6,
-    "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7"
+    "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "chainId": 43114,
@@ -2139,7 +2142,10 @@
     "chainId": 43114,
     "symbol": "USDC",
     "decimals": 6,
-    "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e"
+    "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "chainId": 43114,
@@ -2949,7 +2955,10 @@
     "chainId": 43114,
     "symbol": "SOL",
     "decimals": 9,
-    "address": "0xfe6b19286885a4f7f55adad09c3cd1f906d2478f"
+    "address": "0xfe6b19286885a4f7f55adad09c3cd1f906d2478f",
+    "tags": [
+      "bluechip"
+    ]
   },
   {
     "chainId": 43114,
@@ -3273,7 +3282,10 @@
     "address": "0xc891eb4cbdeff6e073e859e987815ed1505c2acd",
     "symbol": "EURC",
     "decimals": 6,
-    "chainId": 43114
+    "chainId": 43114,
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "address": "0x223a368ad0e7396165fc629976d77596a51f155c",

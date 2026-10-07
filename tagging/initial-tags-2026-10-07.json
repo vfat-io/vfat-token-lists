@@ -1,0 +1,1350 @@
+[
+  {
+    "chainId": 1,
+    "address": "0x02a6c1789c3b4fdb1a7a3dfa39f90e5d3c94f4f9",
+    "expectedSymbol": "PMx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/PMx",
+    "reviewedAt": "2026-10-07",
+    "note": "Philip Morris xStock; underlying ISIN US7181721090; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x03183ce31b1656b72a55fa6056e287f50c35bbeb",
+    "expectedSymbol": "ACNx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/ACNx",
+    "reviewedAt": "2026-10-07",
+    "note": "Accenture xStock; underlying ISIN IE00B4BNMY34; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x053c784cd87b74f42e0c089f98643e79c1a3ff16",
+    "expectedSymbol": "CSCOx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/CSCOx",
+    "reviewedAt": "2026-10-07",
+    "note": "Cisco xStock; underlying ISIN US17275R1023; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x0588e851ec0418d660bee81230d6c678daf21d46",
+    "expectedSymbol": "MDTx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/MDTx",
+    "reviewedAt": "2026-10-07",
+    "note": "Medtronic xStock; underlying ISIN IE00BTN1Y115; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x12992613fdd35abe95dec5a4964331b1ee23b50d",
+    "expectedSymbol": "BRK.Bx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/BRK.Bx",
+    "reviewedAt": "2026-10-07",
+    "note": "Berkshire Hathaway xStock; underlying ISIN US0846707026; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x15059c599c16fd8f70b633ade165502d6402cd49",
+    "expectedSymbol": "LINx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/LINx",
+    "reviewedAt": "2026-10-07",
+    "note": "Linde xStock; underlying ISIN IE00BZ12WP82; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x167a6375da1efc4a5be0f470e73ecefd66245048",
+    "expectedSymbol": "UNHx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/UNHx",
+    "reviewedAt": "2026-10-07",
+    "note": "UnitedHealth xStock; underlying ISIN US91324P1021; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x17d8186ed8f68059124190d147174d0f6697dc40",
+    "expectedSymbol": "MRKx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/MRKx",
+    "reviewedAt": "2026-10-07",
+    "note": "Merck xStock; underlying ISIN US58933Y1055; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x19c41ea77b34bbdee61c3a87a75d1abda2ed0be4",
+    "expectedSymbol": "LLYx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/LLYx",
+    "reviewedAt": "2026-10-07",
+    "note": "Eli Lilly xStock; underlying ISIN US5324571083; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x1aad217b8f78dba5e6693460e8470f8b1a3977f3",
+    "expectedSymbol": "STRCx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/STRCx",
+    "reviewedAt": "2026-10-07",
+    "note": "Strategy PP Variable xStock; underlying ISIN US5949728530; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
+    "expectedSymbol": "EURC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/eurc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued EURC mainnet contract on Ethereum; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 1,
+    "address": "0x1ac765b5bea23184802c7d2d497f7c33f1444a9e",
+    "expectedSymbol": "PFEx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/PFEx",
+    "reviewedAt": "2026-10-07",
+    "note": "Pfizer xStock; underlying ISIN US7170811035; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x214151022c2a5e380ab80cdac31f23ae554a7345",
+    "expectedSymbol": "CRWDx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/CRWDx",
+    "reviewedAt": "2026-10-07",
+    "note": "CrowdStrike xStock; underlying ISIN US22788C1053; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+    "expectedSymbol": "WBTC",
+    "tags": [
+      "bluechip"
+    ],
+    "source": "https://www.wbtc.network/transparency",
+    "reviewedAt": "2026-10-07",
+    "note": "Issuer-listed WBTC contract on Ethereum mainnet; other same-symbol deployments require individual bridge/deployment review."
+  },
+  {
+    "chainId": 1,
+    "address": "0x2363fd1235c1b6d3a5088ddf8df3a0b3a30c5293",
+    "expectedSymbol": "Vx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/Vx",
+    "reviewedAt": "2026-10-07",
+    "note": "Visa xStock; underlying ISIN US92826C8394; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x2f9a35ab5ddfbc49927bfdeab98a86c53dc6e763",
+    "expectedSymbol": "AMBRx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/AMBRx",
+    "reviewedAt": "2026-10-07",
+    "note": "Amber xStock; underlying ISIN US45113Y2037; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x314938c596f5ce31c3f75307d2979338c346d7f2",
+    "expectedSymbol": "BACx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/BACx",
+    "reviewedAt": "2026-10-07",
+    "note": "Bank of America xStock; underlying ISIN US0605051046; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x3557ba345b01efa20a1bddc61f573bfd87195081",
+    "expectedSymbol": "AMZNx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/AMZNx",
+    "reviewedAt": "2026-10-07",
+    "note": "Amazon.com xStock; underlying ISIN US0231351067; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x364f210f430ec2448fc68a49203040f6124096f0",
+    "expectedSymbol": "COINx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/COINx",
+    "reviewedAt": "2026-10-07",
+    "note": "Coinbase xStock; underlying ISIN US19260Q1076; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x36c424a6ec0e264b1616102ad63ed2ad7857413e",
+    "expectedSymbol": "PEPx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/PEPx",
+    "reviewedAt": "2026-10-07",
+    "note": "PepsiCo xStock; underlying ISIN US7134481081; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x38bac69cbbd28156796e4163b2b6dcb81e336565",
+    "expectedSymbol": "AVGOx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/AVGOx",
+    "reviewedAt": "2026-10-07",
+    "note": "Broadcom xStock; underlying ISIN US11135F1012; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x3ee7e9b3a992fd23cd1c363b0e296856b04ab149",
+    "expectedSymbol": "GSx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/GSx",
+    "reviewedAt": "2026-10-07",
+    "note": "Goldman Sachs xStock; underlying ISIN US38141G1040; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x4a4073f2eaf299a1be22254dcd2c41727f6f54a2",
+    "expectedSymbol": "CRMx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/CRMx",
+    "reviewedAt": "2026-10-07",
+    "note": "Salesforce xStock; underlying ISIN US79466L3024; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+    "expectedSymbol": "USDe",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://docs.ethena.fi/technical-design/key-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "USDe token contract; the separate staked sUSDe contract is excluded."
+  },
+  {
+    "chainId": 1,
+    "address": "0x50a1291f69d9d3853def8209cfb1af0b46927be1",
+    "expectedSymbol": "APPx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/APPx",
+    "reviewedAt": "2026-10-07",
+    "note": "AppLovin xStock; underlying ISIN US03831W1080; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x521860bb5df5468358875266b89bfe90d990c6e7",
+    "expectedSymbol": "DFDVx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/DFDVx",
+    "reviewedAt": "2026-10-07",
+    "note": "DFDV xStock; underlying ISIN US47100L3015; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x548308e91ec9f285c7bff05295badbd56a6e4971",
+    "expectedSymbol": "ORCLx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/ORCLx",
+    "reviewedAt": "2026-10-07",
+    "note": "Oracle xStock; underlying ISIN US68389X1054; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x5621737f42dae558b81269fcb9e9e70c19aa6b35",
+    "expectedSymbol": "MSFTx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/MSFTx",
+    "reviewedAt": "2026-10-07",
+    "note": "Microsoft xStock; underlying ISIN US5949181045; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x5d642505fe1a28897eb3baba665f454755d8daa2",
+    "expectedSymbol": "AZNx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/AZNx",
+    "reviewedAt": "2026-10-07",
+    "note": "AstraZeneca xStock; underlying ISIN US0463531089; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x62a48560861b0b451654bfffdb5be6e47aa8ff1b",
+    "expectedSymbol": "HONx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/HONx",
+    "reviewedAt": "2026-10-07",
+    "note": "Honeywell xStock; underlying ISIN US4385161066; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28",
+    "expectedSymbol": "SPCXx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/SPCXx",
+    "reviewedAt": "2026-10-07",
+    "note": "SpaceX xStock; underlying ISIN US84615Q1031; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "expectedSymbol": "DAI",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://ethereum.org/developers/docs/standards/tokens/erc-20/",
+    "reviewedAt": "2026-10-07",
+    "note": "Ethereum documentation identifies this exact DAI contract; Sky documents DAI as Dai Stablecoin at https://developers.skyeco.com/protocol/tokens/dai/."
+  },
+  {
+    "chainId": 1,
+    "address": "0x6d482cec5f9dd1f05ccee9fd3ff79b246170f8e2",
+    "expectedSymbol": "PLTRx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/PLTRx",
+    "reviewedAt": "2026-10-07",
+    "note": "Palantir xStock; underlying ISIN US69608A1088; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x766b0cd6ed6d90b5d49d2c36a3761e9728501ba9",
+    "expectedSymbol": "HDx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/HDx",
+    "reviewedAt": "2026-10-07",
+    "note": "Home Depot xStock; underlying ISIN US4370761029; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x7aefc9965699fbea943e03264d96e50cd4a97b21",
+    "expectedSymbol": "WMTx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/WMTx",
+    "reviewedAt": "2026-10-07",
+    "note": "Walmart xStock; underlying ISIN US9311421039; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x80a77a372c1e12accda84299492f404902e2da67",
+    "expectedSymbol": "MCDx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/MCDx",
+    "reviewedAt": "2026-10-07",
+    "note": "McDonald's xStock; underlying ISIN US5801351017; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x89233399708c18ac6887f90a2b4cd8ba5fedd06e",
+    "expectedSymbol": "ABTx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/ABTx",
+    "reviewedAt": "2026-10-07",
+    "note": "Abbott xStock; underlying ISIN US0028241000; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+    "expectedSymbol": "TSLAx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/TSLAx",
+    "reviewedAt": "2026-10-07",
+    "note": "Tesla xStock; underlying ISIN US88160R1014; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x96702be57cd9777f835117a809c7124fe4ec989a",
+    "expectedSymbol": "METAx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/METAx",
+    "reviewedAt": "2026-10-07",
+    "note": "Meta xStock; underlying ISIN US30303M1027; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
+    "expectedSymbol": "AAPLx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/AAPLx",
+    "reviewedAt": "2026-10-07",
+    "note": "Apple xStock; underlying ISIN US0378331005; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "expectedSymbol": "USDC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on Ethereum; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 1,
+    "address": "0xa6a65ac27e76cd53cb790473e4345c46e5ebf961",
+    "expectedSymbol": "NFLXx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/NFLXx",
+    "reviewedAt": "2026-10-07",
+    "note": "Netflix xStock; underlying ISIN US64110L1061; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xa90424d5d3e770e8644103ab503ed775dd1318fd",
+    "expectedSymbol": "PGx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/PGx",
+    "reviewedAt": "2026-10-07",
+    "note": "Procter & Gamble xStock; underlying ISIN US7427181091; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xad5cdc3340904285b8159089974a99a1a09eb4c0",
+    "expectedSymbol": "CVXx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/CVXx",
+    "reviewedAt": "2026-10-07",
+    "note": "Chevron xStock; underlying ISIN US1667641005; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xae2f842ef90c0d5213259ab82639d5bbf649b08e",
+    "expectedSymbol": "MSTRx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/MSTRx",
+    "reviewedAt": "2026-10-07",
+    "note": "MicroStrategy xStock; underlying ISIN US5949724083; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xaf072f109a2c173d822a4fe9af311a1b18f83d19",
+    "expectedSymbol": "TMOx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/TMOx",
+    "reviewedAt": "2026-10-07",
+    "note": "Thermo Fisher xStock; underlying ISIN US8835561023; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xb365cd2588065f522d379ad19e903304f6b622c6",
+    "expectedSymbol": "MAx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/MAx",
+    "reviewedAt": "2026-10-07",
+    "note": "Mastercard xStock; underlying ISIN US57636Q1040; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xbc7170a1280be28513b4e940c681537eb25e39f4",
+    "expectedSymbol": "CMCSAx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/CMCSAx",
+    "reviewedAt": "2026-10-07",
+    "note": "Comcast xStock; underlying ISIN US20030N1019; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xbee6b69345f376598fe16abd5592c6f844825e66",
+    "expectedSymbol": "OPENx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/OPENx",
+    "reviewedAt": "2026-10-07",
+    "note": "OPEN xStock; underlying ISIN US6837121036; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "expectedSymbol": "WETH",
+    "tags": [
+      "bluechip"
+    ],
+    "source": "https://ercs.ethereum.org/ERCS/erc-7528",
+    "reviewedAt": "2026-10-07",
+    "note": "Canonical Ethereum mainnet WETH9; direct ETH wrapper, no staking or yield receipt."
+  },
+  {
+    "chainId": 1,
+    "address": "0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+    "expectedSymbol": "NVDAx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/NVDAx",
+    "reviewedAt": "2026-10-07",
+    "note": "NVIDIA xStock; underlying ISIN US67066G1040; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+    "expectedSymbol": "cbBTC",
+    "tags": [
+      "bluechip"
+    ],
+    "source": "https://www.coinbase.com/blog/coinbase-wrapped-btc-cbbtc-is-now-live",
+    "reviewedAt": "2026-10-07",
+    "note": "Issuer-listed cbBTC contract on this chain; direct BTC representation."
+  },
+  {
+    "chainId": 1,
+    "address": "0xd31a59c85ae9d8edefec411d448f90841571b89c",
+    "expectedSymbol": "SOL",
+    "tags": [
+      "bluechip"
+    ],
+    "source": "https://github.com/wormhole-foundation/wormhole-sdk-ts/blob/main/core/base/src/constants/tokens/mainnet.ts",
+    "sourceBlobSha": "1d2536fe77f49c7e09f7ed4452311e69f1033e55",
+    "reviewedAt": "2026-10-07",
+    "note": "Wormhole mainnet registry: Ethereum WSOL, original chain Solana; direct wrapped SOL representation. SOL is in VFAT's initial curated established-asset set."
+  },
+  {
+    "chainId": 1,
+    "address": "0xd9913208647671fe0f48f7f260076b2c6f310aac",
+    "expectedSymbol": "IBMx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/IBMx",
+    "reviewedAt": "2026-10-07",
+    "note": "International Business Machines xStock; underlying ISIN US4592001014; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xd9fc3e075d45254a1d834fea18af8041207dea0a",
+    "expectedSymbol": "JPMx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/JPMx",
+    "reviewedAt": "2026-10-07",
+    "note": "JPMorgan Chase xStock; underlying ISIN US46625H1005; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "expectedSymbol": "USDT",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://tether.to/en/supported-protocols/",
+    "reviewedAt": "2026-10-07",
+    "note": "Issuer-listed USDt contract on Ethereum; gold-backed XAUt is excluded."
+  },
+  {
+    "chainId": 1,
+    "address": "0xdb0482cfad4789798623e64b15eeba01b16e917c",
+    "expectedSymbol": "JNJx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/JNJx",
+    "reviewedAt": "2026-10-07",
+    "note": "Johnson & Johnson xStock; underlying ISIN US4781601046; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xdba228936f4079daf9aa906fd48a87f2300405f4",
+    "expectedSymbol": "DHRx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/DHRx",
+    "reviewedAt": "2026-10-07",
+    "note": "Danaher xStock; underlying ISIN US2358511028; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+    "expectedSymbol": "USDS",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.skyeco.com/guides/skylink/base-eth-native-bridge/",
+    "reviewedAt": "2026-10-07",
+    "note": "Sky USDS token on Ethereum; separate savings sUSDS contract excluded."
+  },
+  {
+    "chainId": 1,
+    "address": "0xdcc1a2699441079da889b1f49e12b69cc791129b",
+    "expectedSymbol": "KOx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/KOx",
+    "reviewedAt": "2026-10-07",
+    "note": "Coca-Cola xStock; underlying ISIN US1912161007; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xe1385fdd5ffb10081cd52c56584f25efa9084015",
+    "expectedSymbol": "HOODx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/HOODx",
+    "reviewedAt": "2026-10-07",
+    "note": "Robinhood xStock; underlying ISIN US7707001027; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xe5f6d3b2405abdfe6f660e63202b25d23763160d",
+    "expectedSymbol": "GMEx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/GMEx",
+    "reviewedAt": "2026-10-07",
+    "note": "Gamestop xStock; underlying ISIN US36467W1099; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xe92f673ca36c5e2efd2de7628f815f84807e803f",
+    "expectedSymbol": "GOOGLx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/GOOGLx",
+    "reviewedAt": "2026-10-07",
+    "note": "Alphabet xStock; underlying ISIN US02079K3059; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xeaad46f4146ded5a47b55aa7f6c48c191deaec88",
+    "expectedSymbol": "MRVLx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/MRVLx",
+    "reviewedAt": "2026-10-07",
+    "note": "Marvell xStock; underlying ISIN US5738741041; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xeedb0273c5af792745180e9ff568cd01550ffa13",
+    "expectedSymbol": "XOMx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/XOMx",
+    "reviewedAt": "2026-10-07",
+    "note": "Exxon Mobil xStock; underlying ISIN US30231G1022; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xf8a80d1cb9cfd70d03d655d9df42339846f3b3c8",
+    "expectedSymbol": "INTCx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/INTCx",
+    "reviewedAt": "2026-10-07",
+    "note": "Intel xStock; underlying ISIN US4581401001; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xf9523e369c5f55ad72dbaa75b0a9b92b3d8b147e",
+    "expectedSymbol": "NVOx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/NVOx",
+    "reviewedAt": "2026-10-07",
+    "note": "Novo Nordisk xStock; underlying ISIN US6701002056; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xfbf2398df672cee4afcc2a4a733222331c742a6a",
+    "expectedSymbol": "ABBVx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/ABBVx",
+    "reviewedAt": "2026-10-07",
+    "note": "AbbVie xStock; underlying ISIN US00287Y1091; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 1,
+    "address": "0xfebded1b0986a8ee107f5ab1a1c5a813491deceb",
+    "expectedSymbol": "CRCLx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/CRCLx",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle xStock; underlying ISIN US1725731079; issuer deployment field address on Ethereum."
+  },
+  {
+    "chainId": 10,
+    "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+    "expectedSymbol": "USDC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on OP Mainnet; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 10,
+    "address": "0x4200000000000000000000000000000000000006",
+    "expectedSymbol": "WETH",
+    "tags": [
+      "bluechip"
+    ],
+    "source": "https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/libraries/Predeploys.sol",
+    "reviewedAt": "2026-10-07",
+    "note": "Canonical WETH predeploy on this ETH-native OP Stack chain; no inheritance to arbitrary chains with the same address."
+  },
+  {
+    "chainId": 25,
+    "address": "0x3d7f2c478aafdb65542bcb44bceec05849999d2d",
+    "expectedSymbol": "USDC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on Cronos; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 56,
+    "address": "0x364f210f430ec2448fc68a49203040f6124096f0",
+    "expectedSymbol": "COINx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/COINx",
+    "reviewedAt": "2026-10-07",
+    "note": "Coinbase xStock; underlying ISIN US19260Q1076; issuer deployment field address on BinanceSmartChain."
+  },
+  {
+    "chainId": 56,
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "expectedSymbol": "USDe",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://docs.ethena.fi/technical-design/key-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "USDe deployment on an EVM network explicitly listed by the issuer; sUSDe is excluded."
+  },
+  {
+    "chainId": 56,
+    "address": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+    "expectedSymbol": "TSLAx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/TSLAx",
+    "reviewedAt": "2026-10-07",
+    "note": "Tesla xStock; underlying ISIN US88160R1014; issuer deployment field address on BinanceSmartChain."
+  },
+  {
+    "chainId": 56,
+    "address": "0xae2f842ef90c0d5213259ab82639d5bbf649b08e",
+    "expectedSymbol": "MSTRx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/MSTRx",
+    "reviewedAt": "2026-10-07",
+    "note": "MicroStrategy xStock; underlying ISIN US5949724083; issuer deployment field address on BinanceSmartChain."
+  },
+  {
+    "chainId": 56,
+    "address": "0xfa54ff1a158b5189ebba6ae130ced6bbd3aea76e",
+    "expectedSymbol": "SOL",
+    "tags": [
+      "bluechip"
+    ],
+    "source": "https://github.com/wormhole-foundation/wormhole-sdk-ts/blob/main/core/base/src/constants/tokens/mainnet.ts",
+    "sourceBlobSha": "1d2536fe77f49c7e09f7ed4452311e69f1033e55",
+    "reviewedAt": "2026-10-07",
+    "note": "Wormhole mainnet registry: Bsc WSOL, original chain Solana; direct wrapped SOL representation. SOL is in VFAT's initial curated established-asset set."
+  },
+  {
+    "chainId": 56,
+    "address": "0xfebded1b0986a8ee107f5ab1a1c5a813491deceb",
+    "expectedSymbol": "CRCLx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/CRCLx",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle xStock; underlying ISIN US1725731079; issuer deployment field address on BinanceSmartChain."
+  },
+  {
+    "chainId": 130,
+    "address": "0x078d782b760474a361dda0af3839290b0ef57ad6",
+    "expectedSymbol": "USDC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on Unichain; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 137,
+    "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+    "expectedSymbol": "USDC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on Polygon PoS; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 137,
+    "address": "0xd93f7e271cb87c23aaa73edc008a79646d1f9912",
+    "expectedSymbol": "SOL",
+    "tags": [
+      "bluechip"
+    ],
+    "source": "https://github.com/wormhole-foundation/wormhole-sdk-ts/blob/main/core/base/src/constants/tokens/mainnet.ts",
+    "sourceBlobSha": "1d2536fe77f49c7e09f7ed4452311e69f1033e55",
+    "reviewedAt": "2026-10-07",
+    "note": "Wormhole mainnet registry: Polygon WSOL, original chain Solana; direct wrapped SOL representation. SOL is in VFAT's initial curated established-asset set."
+  },
+  {
+    "chainId": 143,
+    "address": "0x754704bc059f8c67012fed69bc8a327a5aafb603",
+    "expectedSymbol": "USDC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on Monad; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 146,
+    "address": "0x29219dd400f2bf60e5a23d13be72b486d4038894",
+    "expectedSymbol": "USDC.e",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on Sonic; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 252,
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "expectedSymbol": "USDe",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://docs.ethena.fi/technical-design/key-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "USDe deployment on an EVM network explicitly listed by the issuer; sUSDe is excluded."
+  },
+  {
+    "chainId": 480,
+    "address": "0x1c60ba0a0ed1019e8eb035e6daf4155a5ce2380b",
+    "expectedSymbol": "EURC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/eurc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued EURC mainnet contract on World Chain; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 480,
+    "address": "0x79a02482a880bce3f13e09da970dc34db4cd24d1",
+    "expectedSymbol": "USDC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on World Chain; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 999,
+    "address": "0x6215a58ed045d71f2561aaabe54f4c885c522998",
+    "expectedSymbol": "wSKHYx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/SKHYx",
+    "reviewedAt": "2026-10-07",
+    "note": "SK hynix xStock; underlying ISIN US78392B2060; issuer deployment field wrapperAddressV2 on HyperEVM."
+  },
+  {
+    "chainId": 999,
+    "address": "0xa8ddb5cd96b5222afe198316e9a57caa642850d5",
+    "expectedSymbol": "wNVDAx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/NVDAx",
+    "reviewedAt": "2026-10-07",
+    "note": "NVIDIA xStock; underlying ISIN US67066G1040; issuer deployment field wrapperAddressV2 on HyperEVM."
+  },
+  {
+    "chainId": 999,
+    "address": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+    "expectedSymbol": "USDC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on HyperEVM; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 999,
+    "address": "0xe2047ee3bddb5c99ae428ab83df63f8730698e30",
+    "expectedSymbol": "wMUx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/MUx",
+    "reviewedAt": "2026-10-07",
+    "note": "Micron Technology xStock; underlying ISIN US5951121038; issuer deployment field wrapperAddressV2 on HyperEVM."
+  },
+  {
+    "chainId": 5000,
+    "address": "0x1630f08370917e79df0b7572395a5e907508bbbc",
+    "expectedSymbol": "wGOOGLx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/GOOGLx",
+    "reviewedAt": "2026-10-07",
+    "note": "Alphabet xStock; underlying ISIN US02079K3059; issuer deployment field wrapperAddress on Mantle."
+  },
+  {
+    "chainId": 5000,
+    "address": "0x266e5923f6118f8b340ca5a23ae7f71897361476",
+    "expectedSymbol": "wMSTRx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/MSTRx",
+    "reviewedAt": "2026-10-07",
+    "note": "MicroStrategy xStock; underlying ISIN US5949724083; issuer deployment field wrapperAddress on Mantle."
+  },
+  {
+    "chainId": 5000,
+    "address": "0x43680abf18cf54898be84c6ef78237cfbd441883",
+    "expectedSymbol": "wTSLAx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/TSLAx",
+    "reviewedAt": "2026-10-07",
+    "note": "Tesla xStock; underlying ISIN US88160R1014; issuer deployment field wrapperAddress on Mantle."
+  },
+  {
+    "chainId": 5000,
+    "address": "0x4e41a262caa93c6575d336e0a4eb79f3c67caa06",
+    "expectedSymbol": "wMETAx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/METAx",
+    "reviewedAt": "2026-10-07",
+    "note": "Meta xStock; underlying ISIN US30303M1027; issuer deployment field wrapperAddress on Mantle."
+  },
+  {
+    "chainId": 5000,
+    "address": "0x5aa7649fdbda47de64a07ac81d64b682af9c0724",
+    "expectedSymbol": "wAAPLx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/AAPLx",
+    "reviewedAt": "2026-10-07",
+    "note": "Apple xStock; underlying ISIN US0378331005; issuer deployment field wrapperAddress on Mantle."
+  },
+  {
+    "chainId": 5000,
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "expectedSymbol": "USDe",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://docs.ethena.fi/technical-design/key-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "USDe deployment on an EVM network explicitly listed by the issuer; sUSDe is excluded."
+  },
+  {
+    "chainId": 5000,
+    "address": "0x93e62845c1dd5822ebc807ab71a5fb750decd15a",
+    "expectedSymbol": "wNVDAx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/NVDAx",
+    "reviewedAt": "2026-10-07",
+    "note": "NVIDIA xStock; underlying ISIN US67066G1040; issuer deployment field wrapperAddress on Mantle."
+  },
+  {
+    "chainId": 5000,
+    "address": "0x953707d7a1cb30cc5c636bda8eaebe410341eb14",
+    "expectedSymbol": "wHOODx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/HOODx",
+    "reviewedAt": "2026-10-07",
+    "note": "Robinhood xStock; underlying ISIN US7707001027; issuer deployment field wrapperAddress on Mantle."
+  },
+  {
+    "chainId": 5000,
+    "address": "0xa90872aca656ebe47bdebf3b19ec9dd9c5adc7f8",
+    "expectedSymbol": "wCRCLx",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.xstocks.fi/api/v2/public/assets/CRCLx",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle xStock; underlying ISIN US1725731079; issuer deployment field wrapperAddress on Mantle."
+  },
+  {
+    "chainId": 8453,
+    "address": "0x311935cd80b76769bf2ecc9d8ab7635b2139cf82",
+    "expectedSymbol": "SOL",
+    "tags": [
+      "bluechip"
+    ],
+    "source": "https://github.com/base/sol2base/blob/main/README.md",
+    "sourceBlobSha": "ce218a7a584fae72655c83ca753548332faf5673",
+    "reviewedAt": "2026-10-07",
+    "note": "Base's sol2base README explicitly lists this wrapped SOL token on Base Mainnet. Direct bridged SOL representation; SOL is in VFAT's initial curated established-asset set."
+  },
+  {
+    "chainId": 8453,
+    "address": "0x4200000000000000000000000000000000000006",
+    "expectedSymbol": "WETH",
+    "tags": [
+      "bluechip"
+    ],
+    "source": "https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/libraries/Predeploys.sol",
+    "reviewedAt": "2026-10-07",
+    "note": "Canonical WETH predeploy on this ETH-native OP Stack chain; no inheritance to arbitrary chains with the same address."
+  },
+  {
+    "chainId": 8453,
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "expectedSymbol": "USDe",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://docs.ethena.fi/technical-design/key-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "USDe deployment on an EVM network explicitly listed by the issuer; sUSDe is excluded."
+  },
+  {
+    "chainId": 8453,
+    "address": "0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42",
+    "expectedSymbol": "EURC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/eurc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued EURC mainnet contract on Base; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 8453,
+    "address": "0x820c137fa70c8691f0e44dc420a5e53c168921dc",
+    "expectedSymbol": "USDS",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.skyeco.com/guides/skylink/base-eth-native-bridge/",
+    "reviewedAt": "2026-10-07",
+    "note": "Sky USDS token on Base, explicitly mapped to the Ethereum USDS contract by SkyLink; sUSDS excluded."
+  },
+  {
+    "chainId": 8453,
+    "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+    "expectedSymbol": "USDC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on Base; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+    "expectedSymbol": "cbBTC",
+    "tags": [
+      "bluechip"
+    ],
+    "source": "https://www.coinbase.com/blog/coinbase-wrapped-btc-cbbtc-is-now-live",
+    "reviewedAt": "2026-10-07",
+    "note": "Issuer-listed cbBTC contract on this chain; direct BTC representation."
+  },
+  {
+    "chainId": 9745,
+    "address": "0x2d661c89d812261039af9764eceaaee884f5f67f",
+    "expectedSymbol": "USDC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on Plasma; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 42161,
+    "address": "0x2bcc6d6cdbbdc0a4071e48bb3b969b06b3330c07",
+    "expectedSymbol": "SOL",
+    "tags": [
+      "bluechip"
+    ],
+    "source": "https://github.com/wormhole-foundation/wormhole-sdk-ts/blob/main/core/base/src/constants/tokens/mainnet.ts",
+    "sourceBlobSha": "1d2536fe77f49c7e09f7ed4452311e69f1033e55",
+    "reviewedAt": "2026-10-07",
+    "note": "Wormhole mainnet registry: Arbitrum WSOL, original chain Solana; direct wrapped SOL representation. SOL is in VFAT's initial curated established-asset set."
+  },
+  {
+    "chainId": 42161,
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "expectedSymbol": "USDe",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://docs.ethena.fi/technical-design/key-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "USDe deployment on an EVM network explicitly listed by the issuer; sUSDe is excluded."
+  },
+  {
+    "chainId": 42161,
+    "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "expectedSymbol": "USDC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on Arbitrum; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 42161,
+    "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+    "expectedSymbol": "cbBTC",
+    "tags": [
+      "bluechip"
+    ],
+    "source": "https://www.coinbase.com/blog/coinbase-wrapped-btc-cbbtc-is-now-live",
+    "reviewedAt": "2026-10-07",
+    "note": "Issuer-listed cbBTC contract on this chain; direct BTC representation."
+  },
+  {
+    "chainId": 42220,
+    "address": "0x48065fbbe25f71c9282ddf5e1cd6d6a887483d5e",
+    "expectedSymbol": "USD\u20ae",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://tether.to/en/supported-protocols/",
+    "reviewedAt": "2026-10-07",
+    "note": "Issuer-listed USDt contract on Celo; gold-backed XAUt is excluded."
+  },
+  {
+    "chainId": 42220,
+    "address": "0xceba9300f2b948710d2653dd7b07f33a8b32118c",
+    "expectedSymbol": "USDC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on Celo; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 43114,
+    "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+    "expectedSymbol": "USDT",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://tether.to/en/supported-protocols/",
+    "reviewedAt": "2026-10-07",
+    "note": "Issuer-listed USDt contract on Avalanche; gold-backed XAUt is excluded."
+  },
+  {
+    "chainId": 43114,
+    "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+    "expectedSymbol": "USDC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on Avalanche C-Chain; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 43114,
+    "address": "0xc891eb4cbdeff6e073e859e987815ed1505c2acd",
+    "expectedSymbol": "EURC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/eurc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued EURC mainnet contract on Avalanche C-Chain; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 43114,
+    "address": "0xfe6b19286885a4f7f55adad09c3cd1f906d2478f",
+    "expectedSymbol": "SOL",
+    "tags": [
+      "bluechip"
+    ],
+    "source": "https://github.com/wormhole-foundation/wormhole-sdk-ts/blob/main/core/base/src/constants/tokens/mainnet.ts",
+    "sourceBlobSha": "1d2536fe77f49c7e09f7ed4452311e69f1033e55",
+    "reviewedAt": "2026-10-07",
+    "note": "Wormhole mainnet registry: Avalanche WSOL, original chain Solana; direct wrapped SOL representation. SOL is in VFAT's initial curated established-asset set."
+  },
+  {
+    "chainId": 57073,
+    "address": "0x2d270e6886d130d724215a266106e6832161eaed",
+    "expectedSymbol": "USDC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on Ink; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 59144,
+    "address": "0x176211869ca2b568f2a7d4ee941e073a821ee1ff",
+    "expectedSymbol": "USDC",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "Circle-issued USDC mainnet contract on Linea; native issuance, not inferred from a ticker."
+  },
+  {
+    "chainId": 59144,
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "expectedSymbol": "USDe",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://docs.ethena.fi/technical-design/key-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "USDe deployment on an EVM network explicitly listed by the issuer; sUSDe is excluded."
+  },
+  {
+    "chainId": 80094,
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "expectedSymbol": "USDe",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://docs.ethena.fi/technical-design/key-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "USDe deployment on an EVM network explicitly listed by the issuer; sUSDe is excluded."
+  },
+  {
+    "chainId": 534352,
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "expectedSymbol": "USDe",
+    "tags": [
+      "stablecoin"
+    ],
+    "source": "https://docs.ethena.fi/technical-design/key-addresses",
+    "reviewedAt": "2026-10-07",
+    "note": "USDe deployment on an EVM network explicitly listed by the issuer; sUSDe is excluded."
+  }
+]

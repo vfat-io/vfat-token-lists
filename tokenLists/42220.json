@@ -117,7 +117,10 @@
     "chainId": 42220,
     "symbol": "USD₮",
     "decimals": 6,
-    "address": "0x48065fbbe25f71c9282ddf5e1cd6d6a887483d5e"
+    "address": "0x48065fbbe25f71c9282ddf5e1cd6d6a887483d5e",
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "chainId": 42220,
@@ -129,7 +132,10 @@
     "chainId": 42220,
     "symbol": "USDC",
     "decimals": 6,
-    "address": "0xceba9300f2b948710d2653dd7b07f33a8b32118c"
+    "address": "0xceba9300f2b948710d2653dd7b07f33a8b32118c",
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "chainId": 42220,
