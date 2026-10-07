@@ -2410,5 +2410,47 @@
     "address": "0x4db7374e966097be94c6680d49156d580f097bbf",
     "symbol": "TIBBIR",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x76cf788606f3d968b93b8a243d0e185c974ee407",
+    "symbol": "hOHM",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xc38c332012a9116dcade0c7f43b5d3c71799a9f8",
+    "symbol": "HOODCHAN",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x224a794031d54e49b46919ade2c55ff255dfdd97",
+    "symbol": "SS",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x416d0c4b431cfa33b4a4974e3dfc9f5089137148",
+    "symbol": "ARROWFARM",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x6d1f3baefb22d725b8068e60105b45c8a97da1fa",
+    "symbol": "ALFA",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xee049979960d5e42b389b941ec45790ca7b6e1f7",
+    "symbol": "HI",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x8e41fd25e85e624560fa50ff9f117a02cd30b8b3",
+    "symbol": "SIF",
+    "decimals": 18
   }
 ]

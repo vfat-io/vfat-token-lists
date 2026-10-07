@@ -5542,5 +5542,17 @@
     "address": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
     "symbol": "XDP",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000002feb517dfec7415344",
+    "symbol": "OUSD",
+    "decimals": 6
+  },
+  {
+    "chainId": 8453,
+    "address": "0x4f81f6ae802dec6c8e1846ad853019a5458186d1",
+    "symbol": "SM",
+    "decimals": 18
   }
 ]

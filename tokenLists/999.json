@@ -802,5 +802,11 @@
     "address": "0xc85ab8421c32d5f7620fe11358ad5bb5f29c1be3",
     "symbol": "MAX",
     "decimals": 18
+  },
+  {
+    "chainId": 999,
+    "address": "0xd5ee1c81fe161e985dce6b90713c965f9979cf80",
+    "symbol": "TREAD",
+    "decimals": 18
   }
 ]

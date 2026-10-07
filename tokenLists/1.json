@@ -34750,5 +34750,29 @@
     "address": "0xb0076de78dc50581770bba1d211ddc0ad4f2a241",
     "symbol": "EDGE",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x4e67db19044549ff420860834c91b45bad298722",
+    "symbol": "ZC",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x7adbfd873084db714a57ed648ee69aa4627cb998",
+    "symbol": "ALBRH",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x75e2fc69ff2ac12af65ba7d321bbf4f878c535d2",
+    "symbol": "STOCKER",
+    "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x0a092e544da31150b439a1aaa1a3a2214a867f46",
+    "symbol": "CT",
+    "decimals": 18
   }
 ]

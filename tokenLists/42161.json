@@ -2990,5 +2990,11 @@
     "address": "0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
     "symbol": "CARV",
     "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0xe649e6a1f2afc63ca268c2363691cecaf75cf47c",
+    "symbol": "RLC",
+    "decimals": 9
   }
 ]

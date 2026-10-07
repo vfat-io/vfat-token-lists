@@ -41230,5 +41230,41 @@
     "address": "0x617cab4aaae1f8dfb3ee138698330776a1e1b324",
     "symbol": "ARTY",
     "decimals": 6
+  },
+  {
+    "chainId": 56,
+    "address": "0x95b0409679b55c31772daa2fb4bee7b125b77521",
+    "symbol": "PDDB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0x94be0bba8e1e303fe998c9360b57b826f1a4f828",
+    "symbol": "KGST",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xeee9eee593cb8f7946260b4066cba7907f40acfa",
+    "symbol": "DISon",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xded1c5fb38c262beb9cff1e1116eff3c5bf278cd",
+    "symbol": "WENB",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xf3e82ea164cb344b2b11bad4c24b0ea4f7ba4714",
+    "symbol": "PDDon",
+    "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xa455ae0f04a2b86eee47adca98985e61d14cbefb",
+    "symbol": "AGPUB",
+    "decimals": 18
   }
 ]
