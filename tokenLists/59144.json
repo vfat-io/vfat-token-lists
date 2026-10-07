@@ -33,7 +33,10 @@
     "chainId": 59144,
     "address": "0x176211869ca2b568f2a7d4ee941e073a821ee1ff",
     "symbol": "USDC",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "chainId": 59144,
@@ -207,7 +210,10 @@
   {
     "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
     "decimals": 18,
-    "symbol": "USDe"
+    "symbol": "USDe",
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "address": "0x561890f5d43e3d12b5f9c8c1e95cfbfbfef9753b",

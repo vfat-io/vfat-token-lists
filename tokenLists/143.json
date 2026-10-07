@@ -27,7 +27,10 @@
     "address": "0x754704bc059f8c67012fed69bc8a327a5aafb603",
     "symbol": "USDC",
     "decimals": 6,
-    "chainId": 143
+    "chainId": 143,
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "address": "0x336d414754967c6682b5a665c7daf6f1409e63e8",

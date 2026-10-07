@@ -27,7 +27,10 @@
     "chainId": 252,
     "symbol": "USDe",
     "decimals": 18,
-    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "chainId": 252,

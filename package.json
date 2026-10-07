@@ -10,6 +10,8 @@
     "add-tokens": "node scripts/add-tokens.mjs",
     "audit-logos": "node scripts/audit-token-logos.mjs",
     "remove-token": "node scripts/remove-token.mjs",
+    "update-token-tags": "node scripts/update-token-tags.mjs",
+    "validate:tags": "node scripts/validate-token-tags.mjs",
     "test": "node --test"
   },
   "dependencies": {

@@ -135,7 +135,10 @@
     "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
     "symbol": "USDe",
     "decimals": 18,
-    "chainId": 534352
+    "chainId": 534352,
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "address": "0xc4d46e8402f476f269c379677c99f18e22ea030e",

@@ -5,6 +5,7 @@ import http from 'node:http';
 import { fileURLToPath } from 'node:url';
 import dotenv from 'dotenv';
 import sharp from 'sharp';
+import { normalizeTags } from './token-tags.mjs';
 
 dotenv.config({ path: path.join(process.cwd(), '.env') });
 
@@ -239,6 +240,7 @@ async function main() {
     const symbol = typeof entry.symbol === 'string' ? entry.symbol : null;
     const logoURI = typeof entry.logoURI === 'string' ? entry.logoURI : null;
     const decimals = Number.isFinite(entry.decimals) ? entry.decimals : null;
+    const tags = entry.tags === undefined ? [] : normalizeTags(entry.tags, `input token ${chainId}:${address}.tags`);
 
     if (!chainId || !address || !symbol || !logoURI || decimals == null) {
       console.warn(`skip invalid token entry: ${JSON.stringify(entry)}`);
@@ -252,7 +254,7 @@ async function main() {
     seen.add(key);
 
     const list = tokensByChain.get(chainId) || [];
-    list.push({ chainId, address, symbol, decimals, logoURI });
+    list.push({ chainId, address, symbol, decimals, logoURI, tags });
     tokensByChain.set(chainId, list);
   }
 
@@ -332,6 +334,9 @@ async function main() {
         symbol: token.symbol,
       };
       newToken.decimals = token.decimals;
+      if (token.tags.length > 0) {
+        newToken.tags = token.tags;
+      }
       existing.push(newToken);
       existingByAddress.set(token.address, newToken);
       chainChanged = true;

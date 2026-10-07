@@ -1,0 +1,14 @@
+{
+  "stablecoin": {
+    "name": "Stablecoins",
+    "description": "Verified tokens intended to track a fiat currency. Membership describes the asset and does not certify its peg or safety. Yield-bearing receipts require separate review."
+  },
+  "stock": {
+    "name": "Stocks",
+    "description": "Verified tokens representing individual company equity exposure, including individually verified wrappers. ETFs, bonds, commodities, and issuer governance tokens are excluded."
+  },
+  "bluechip": {
+    "name": "Blue chips",
+    "description": "VFAT's curated list of established crypto assets with broad adoption, a sustained operating history, and deep liquidity. Initial underlying assets are BTC, ETH, and SOL; additions require an evidence-backed review rather than automatic market-cap selection. Direct wrapped or bridged representations are verified individually. Staking derivatives and yield-bearing receipts are excluded. Membership is not a safety rating."
+  }
+}

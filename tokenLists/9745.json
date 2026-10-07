@@ -135,7 +135,10 @@
     "chainId": 9745,
     "address": "0x2d661c89d812261039af9764eceaaee884f5f67f",
     "symbol": "USDC",
-    "decimals": 6
+    "decimals": 6,
+    "tags": [
+      "stablecoin"
+    ]
   },
   {
     "chainId": 9745,

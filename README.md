@@ -8,6 +8,9 @@ This repo contains chain token list definitions and normalized token logos.
 - logos/<chainId>/<address>.png: lowercased address, 128x128 PNG
 - scripts/add-tokens.mjs: add tokens + normalize logo images
 - scripts/remove-token.mjs: remove tokens by address + delete matching logos
+- tags.json: supported token tags and their membership policies
+- tagging/: reviewed batches recording the evidence for token tags
+- scripts/update-token-tags.mjs: set or remove tags on existing tokens without touching logos
 
 ## Token list format
 Each token entry uses:
@@ -15,6 +18,21 @@ Each token entry uses:
 - address (hex string)
 - symbol (string)
 - decimals (number)
+- tags (optional array of identifiers from `tags.json`)
+
+Tags belong to the token at its exact chain and address. A pool matches a selection when any underlying token has any selected tag. Untagged tokens are unclassified. Never infer tags from symbols, names, prices, or price-oracle relationships.
+
+The initial tags are `stablecoin`, `stock`, and `bluechip`; see `tags.json` for definitions. `stock` covers individual company equities and verified wrappers, excluding ETFs. `bluechip` covers a curated set of established crypto assets, including individually verified direct wrapped or bridged representations. Staking derivatives and yield-bearing receipts are excluded. Categories describe assets, not their safety.
+
+### Bluechip membership policy
+
+Review underlying assets against all three criteria:
+
+- Broad, sustained adoption beyond VFAT.
+- An established project with several years of operating history.
+- Deep liquidity across major trading venues.
+
+The initial underlying asset set is BTC, ETH, and SOL. This is a curated policy, not a universal definition. Market capitalization can help identify candidates, but rankings and short-term price movements never assign the tag automatically. Additions or removals require a reviewed PR documenting the evidence for membership and updating this policy. Each token representation still needs an independently verified chain/address and evidence URL in the tagging batch; approving an underlying asset does not classify every token sharing its symbol.
 
 ## Fee-on-transfer token list format
 Same shape as the standard token list, plus optional fields:
@@ -29,6 +47,7 @@ Contributions must use the `add-tokens` script. Manual edits to `tokenLists/` or
 Run the script, review the changes, then commit them with a clear message (for example: `Add ABC token on chain 1`).
 
 Provide a JSON file with `chainId`, `address`, `symbol`, `decimals`, `logoURI`.
+New token inputs can also include `tags`, for example `"tags": ["stablecoin"]`. The script validates tags and stores them as a sorted, unique array. Use `update-token-tags` to change tags on tokens that are already listed.
 `logoURI` can be an `http(s)` URL or a local file path (absolute or relative to the input file).
 
 IMPORTANT: local logo files inside the repo are removed after successful processing (use `--dry-run` to keep them).
@@ -73,6 +92,37 @@ Options:
 - --force-logo
 - --logos-only (write images without changing whitelist membership)
 - --dry-run
+
+## Tag existing tokens
+
+Create a reviewed JSON batch in `tagging/` with the exact chain/address, the complete desired tag list, and an evidence URL. `expectedSymbol` is an optional guard against selecting the wrong entry; the address remains the identity. Preserve the evidence batch in the contribution so reviewers can check membership.
+
+```json
+[
+  {
+    "chainId": 8453,
+    "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+    "expectedSymbol": "USDC",
+    "tags": ["stablecoin"],
+    "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses"
+  }
+]
+```
+
+Preview the batch, apply it, then validate the lists:
+
+```shell
+npm run update-token-tags -- --input tagging/initial-tags-2026-10-07.json --dry-run
+npm run update-token-tags -- --input tagging/initial-tags-2026-10-07.json
+npm run validate:tags
+npm test
+```
+
+The updater validates the whole batch and all token matches before writing. It changes only existing tokens on the specified chains, preserves other metadata, and never changes logos. Legacy entries without `chainId` use their chain filename; conflicting explicit chain IDs fail. Tag lists replace the existing tags; use `"tags": []` to remove the optional field. Reapplying a batch makes no changes. Missing tokens, duplicate updates, ambiguous matches, unexpected symbols, and unknown input tags fail the batch. Reviewed updates can replace or remove invalid or retired existing tags.
+
+The initial batch is a dated review, not an exhaustive classification or an automatically refreshed registry. It records issuer sources and review notes alongside each update; only `tags` are copied into token entries. Review new addresses and wrappers individually. Leave uncertain assets unclassified, and retain existing data when external sources cannot be fetched.
+
+The initial xStocks feed returned null underlying types, so company equity membership was reviewed individually and ETFs were excluded. Each stock entry retains the company name, underlying ISIN, and issuer deployment field used to verify its chain/address.
 
 ## Compare and align logos across chains
 

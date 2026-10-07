@@ -83,6 +83,42 @@ test('adds token only after writing its logo', async (t) => {
   assert.equal(await pathExists(path.join(rootDir, 'logos', '1', `${address}.png`)), true);
 });
 
+test('preserves validated tags when adding a token', async (t) => {
+  const rootDir = await createFixture();
+  const address = '0xabcdefabcdefabcdefabcdefabcdefabcdefabcd';
+  t.after(() => fs.rm(rootDir, { recursive: true, force: true }));
+  await writeTokenList(rootDir, 1, []);
+  await fs.writeFile(path.join(rootDir, 'logos', '1', `${address}.png`), 'existing');
+  const input = { ...makeToken(1, address, 'TEST', 'unused.png'), tags: ['stock', 'bluechip', 'stock'] };
+  const inputPath = await writeInput(rootDir, [input]);
+  await execFileAsync(process.execPath, [scriptPath, '--input', inputPath], { cwd: rootDir });
+  assert.deepEqual(await readTokenList(rootDir, 1), [{
+    chainId: 1, address, symbol: 'TEST', decimals: 18, tags: ['bluechip', 'stock'],
+  }]);
+});
+
+test('rejects invalid optional tags anywhere in a batch before changing token lists or logos', async (t) => {
+  const rootDir = await createFixture();
+  t.after(() => fs.rm(rootDir, { recursive: true, force: true }));
+  const firstAddress = '0x1111111111111111111111111111111111111111';
+  const secondAddress = '0x2222222222222222222222222222222222222222';
+  await writeTokenList(rootDir, 1, []);
+  const listPath = path.join(rootDir, 'tokenLists', '1.json');
+  const originalList = await fs.readFile(listPath, 'utf8');
+  const sourceLogoPath = path.join(rootDir, 'source.svg');
+  await fs.writeFile(sourceLogoPath, SVG_LOGO);
+  for (const tags of [null, 'stock', ['unknown'], [42], ['__proto__']]) {
+    const inputPath = await writeInput(rootDir, [
+      { ...makeToken(1, firstAddress, 'FIRST', sourceLogoPath), tags: ['stablecoin'] },
+      { ...makeToken(1, secondAddress, 'SECOND', sourceLogoPath), tags },
+    ]);
+    await assert.rejects(execFileAsync(process.execPath, [scriptPath, '--input', inputPath], { cwd: rootDir }), /must be an array|unknown tag/);
+    assert.equal(await fs.readFile(listPath, 'utf8'), originalList);
+    assert.deepEqual(await fs.readdir(path.join(rootDir, 'logos', '1')), []);
+    assert.equal(await pathExists(sourceLogoPath), true);
+  }
+});
+
 test('fails without adding token when logo cannot be resolved', async (t) => {
   const rootDir = await createFixture();
   const address = '0x2222222222222222222222222222222222222222';
