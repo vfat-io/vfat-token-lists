@@ -2458,5 +2458,11 @@
     "address": "0x00000000d61733e7a393a10a5b48c311abe8f1e5",
     "symbol": "frxUSD",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x717d38587504b79e2e888c860bd1569c0d5984af",
+    "symbol": "CHONK",
+    "decimals": 18
   }
 ]
