@@ -38823,7 +38823,10 @@
     "chainId": 56,
     "address": "0xd0a58bc9d88d3ff48c0294cb7e45937d0e41a928",
     "symbol": "SPCXon",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 56,
@@ -40575,7 +40578,10 @@
     "chainId": 56,
     "address": "0x91fc7371d6de682a1e8cfcb4eb7da693312a03a4",
     "symbol": "BILIon",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 56,
@@ -40671,7 +40677,10 @@
     "chainId": 56,
     "address": "0xdabb9aff4cf02f26d2014e4ca9f94ac6fe6572a3",
     "symbol": "GMEon",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 56,
@@ -41013,7 +41022,10 @@
     "chainId": 56,
     "address": "0xa9ee28c80f960b889dfbd1902055218cba016f75",
     "symbol": "NVDAon",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 56,
@@ -41091,7 +41103,10 @@
     "chainId": 56,
     "address": "0x390a684ef9cade28a7ad0dfa61ab1eb3842618c4",
     "symbol": "AAPLon",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 56,
@@ -41265,7 +41280,10 @@
     "chainId": 56,
     "address": "0xeee9eee593cb8f7946260b4066cba7907f40acfa",
     "symbol": "DISon",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 56,
@@ -41277,7 +41295,10 @@
     "chainId": 56,
     "address": "0xf3e82ea164cb344b2b11bad4c24b0ea4f7ba4714",
     "symbol": "PDDon",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 56,

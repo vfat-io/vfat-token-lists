@@ -1,0 +1,1413 @@
+[
+  {
+    "chainId": 1,
+    "address": "0x14c3abf95cb9c93a8b82c1cdcb76d72cb87b2d4c",
+    "expectedSymbol": "AAPLon",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://github.com/ondoprotocol/ondo-global-markets-token-list/blob/main/tokenlist.json",
+    "reviewedAt": "2026-10-09",
+    "note": "Apple (Ondo Tokenized); individually reviewed company equity exposure; verified chainId and address in Ondo's official token list. ETFs, commodity funds and USDY are excluded."
+  },
+  {
+    "chainId": 1,
+    "address": "0x2d1f7226bd1f780af6b9a49dcc0ae00e8df4bdee",
+    "expectedSymbol": "NVDAon",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://github.com/ondoprotocol/ondo-global-markets-token-list/blob/main/tokenlist.json",
+    "reviewedAt": "2026-10-09",
+    "note": "NVIDIA (Ondo Tokenized); individually reviewed company equity exposure; verified chainId and address in Ondo's official token list. ETFs, commodity funds and USDY are excluded."
+  },
+  {
+    "chainId": 1,
+    "address": "0xc9eef266834730340a55b6cc24621b31baf55581",
+    "expectedSymbol": "SPCXon",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://github.com/ondoprotocol/ondo-global-markets-token-list/blob/main/tokenlist.json",
+    "reviewedAt": "2026-10-09",
+    "note": "SpaceX (Ondo Tokenized); individually reviewed company equity exposure; verified chainId and address in Ondo's official token list. ETFs, commodity funds and USDY are excluded."
+  },
+  {
+    "chainId": 1,
+    "address": "0xca468554e5c0423ee858fe3942c9568c51fcaa79",
+    "expectedSymbol": "HIMSon",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://github.com/ondoprotocol/ondo-global-markets-token-list/blob/main/tokenlist.json",
+    "reviewedAt": "2026-10-09",
+    "note": "Hims & Hers Health (Ondo Tokenized); individually reviewed company equity exposure; verified chainId and address in Ondo's official token list. ETFs, commodity funds and USDY are excluded."
+  },
+  {
+    "chainId": 1,
+    "address": "0xf6b1117ec07684d3958cad8beb1b302bfd21103f",
+    "expectedSymbol": "TSLAon",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://github.com/ondoprotocol/ondo-global-markets-token-list/blob/main/tokenlist.json",
+    "reviewedAt": "2026-10-09",
+    "note": "Tesla (Ondo Tokenized); individually reviewed company equity exposure; verified chainId and address in Ondo's official token list. ETFs, commodity funds and USDY are excluded."
+  },
+  {
+    "chainId": 56,
+    "address": "0x390a684ef9cade28a7ad0dfa61ab1eb3842618c4",
+    "expectedSymbol": "AAPLon",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://github.com/ondoprotocol/ondo-global-markets-token-list/blob/main/tokenlist.json",
+    "reviewedAt": "2026-10-09",
+    "note": "Apple (Ondo Tokenized); individually reviewed company equity exposure; verified chainId and address in Ondo's official token list. ETFs, commodity funds and USDY are excluded."
+  },
+  {
+    "chainId": 56,
+    "address": "0x91fc7371d6de682a1e8cfcb4eb7da693312a03a4",
+    "expectedSymbol": "BILIon",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://github.com/ondoprotocol/ondo-global-markets-token-list/blob/main/tokenlist.json",
+    "reviewedAt": "2026-10-09",
+    "note": "Bilibili (Ondo Tokenized); individually reviewed company equity exposure; verified chainId and address in Ondo's official token list. ETFs, commodity funds and USDY are excluded."
+  },
+  {
+    "chainId": 56,
+    "address": "0xa9ee28c80f960b889dfbd1902055218cba016f75",
+    "expectedSymbol": "NVDAon",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://github.com/ondoprotocol/ondo-global-markets-token-list/blob/main/tokenlist.json",
+    "reviewedAt": "2026-10-09",
+    "note": "NVIDIA (Ondo Tokenized); individually reviewed company equity exposure; verified chainId and address in Ondo's official token list. ETFs, commodity funds and USDY are excluded."
+  },
+  {
+    "chainId": 56,
+    "address": "0xd0a58bc9d88d3ff48c0294cb7e45937d0e41a928",
+    "expectedSymbol": "SPCXon",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://github.com/ondoprotocol/ondo-global-markets-token-list/blob/main/tokenlist.json",
+    "reviewedAt": "2026-10-09",
+    "note": "SpaceX (Ondo Tokenized); individually reviewed company equity exposure; verified chainId and address in Ondo's official token list. ETFs, commodity funds and USDY are excluded."
+  },
+  {
+    "chainId": 56,
+    "address": "0xdabb9aff4cf02f26d2014e4ca9f94ac6fe6572a3",
+    "expectedSymbol": "GMEon",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://github.com/ondoprotocol/ondo-global-markets-token-list/blob/main/tokenlist.json",
+    "reviewedAt": "2026-10-09",
+    "note": "GameStop (Ondo Tokenized); individually reviewed company equity exposure; verified chainId and address in Ondo's official token list. ETFs, commodity funds and USDY are excluded."
+  },
+  {
+    "chainId": 56,
+    "address": "0xeee9eee593cb8f7946260b4066cba7907f40acfa",
+    "expectedSymbol": "DISon",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://github.com/ondoprotocol/ondo-global-markets-token-list/blob/main/tokenlist.json",
+    "reviewedAt": "2026-10-09",
+    "note": "Disney (Ondo Tokenized); individually reviewed company equity exposure; verified chainId and address in Ondo's official token list. ETFs, commodity funds and USDY are excluded."
+  },
+  {
+    "chainId": 56,
+    "address": "0xf3e82ea164cb344b2b11bad4c24b0ea4f7ba4714",
+    "expectedSymbol": "PDDon",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://github.com/ondoprotocol/ondo-global-markets-token-list/blob/main/tokenlist.json",
+    "reviewedAt": "2026-10-09",
+    "note": "PDD Holdings (Ondo Tokenized); individually reviewed company equity exposure; verified chainId and address in Ondo's official token list. ETFs, commodity funds and USDY are excluded."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x03bc731ffb162cdd7b98d3c6542bfc291126075d",
+    "expectedSymbol": "FLY",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Firefly Aerospace Inc. • Robinhood Token; underlying ISIN US31816X1063; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x03dfbbe0ac4e7bcdafd08ed41a400326b77d8c80",
+    "expectedSymbol": "JNJ",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Johnson & Johnson • Robinhood Token; underlying ISIN US4781601046; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x05a3d1cd21d0c88145e82600e62e7e496e0f222b",
+    "expectedSymbol": "AMC",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "AMC Entertainment • Robinhood Token; underlying ISIN US00165C3025; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x05b37fb53a299a1b874a619e1c4c404d52c36f4c",
+    "expectedSymbol": "RDDT",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Reddit • Robinhood Token; underlying ISIN US75734B1008; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x0f17206447090e464c277571124dd2688e48aea9",
+    "expectedSymbol": "QCOM",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Qualcomm • Robinhood Token; underlying ISIN US7475251036; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x116f00968269b7bfbad4109ce591d6e74c0601d4",
+    "expectedSymbol": "NET",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Cloudflare, Inc. Class A common stock • Robinhood Token; underlying ISIN US18915M1071; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x12f190a9f9d7d37a250758b26824b97ce941bf54",
+    "expectedSymbol": "AMZN",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Amazon • Robinhood Token; underlying ISIN US0231351067; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x156e175dd063a8ce274c50654ef40e0032b3fbcf",
+    "expectedSymbol": "AVGO",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Broadcom • Robinhood Token; underlying ISIN US11135F1012; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x1b0e319c6a659f002271b69db8a7df2f911c153e",
+    "expectedSymbol": "GME",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "GameStop • Robinhood Token; underlying ISIN US36467W1099; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x1d11f0496982706c5e14a514d4e79f2e6bde4516",
+    "expectedSymbol": "DJT",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Trump Media & Technology Group • Robinhood Token; underlying ISIN US25400Q1058; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x25c288e6d899b9bc30160965ad9644c67e73be0c",
+    "expectedSymbol": "F",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Ford Motor • Robinhood Token; underlying ISIN US3453708600; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x27c99fbde9d0d2aa4f4bfb4943f237843ddf6958",
+    "expectedSymbol": "DDOG",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Datadog • Robinhood Token; underlying ISIN US23804L1035; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x2d427692e928fa156ec22acfabafa0447c5805b7",
+    "expectedSymbol": "GLXY",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Galaxy Digital Inc. • Robinhood Token; underlying ISIN US36317J2096; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x2e0847e8910a9732eb3fb1bb4b70a580adad4fe3",
+    "expectedSymbol": "GOOGL",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Alphabet Class A • Robinhood Token; underlying ISIN US02079K3059; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x322f0929c4625ed5bad873c95208d54e1c003b2d",
+    "expectedSymbol": "TSLA",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Tesla • Robinhood Token; underlying ISIN US88160R1014; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x329fcaceb9ad6f9580dd5f643fed0646900d043c",
+    "expectedSymbol": "LMT",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Lockheed • Robinhood Token; underlying ISIN US5398301094; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x3b14c39e89d60d627b42a1a4ca45b5bb45fc12e2",
+    "expectedSymbol": "RKLB",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Rocket Lab Corporation • Robinhood Token; underlying ISIN US7731211089; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x408c14038a04f7bd235329e26d2bf569ee20e250",
+    "expectedSymbol": "NU",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Nu • Robinhood Token; underlying ISIN KYG6683N1034; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x41f4267525a8aff329540ef24fd83d9044758b33",
+    "expectedSymbol": "FIG",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Figma • Robinhood Token; underlying ISIN US3168411052; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x43b07d15ce533bec5476d70c22a78a1b2b662155",
+    "expectedSymbol": "MRNA",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Moderna • Robinhood Token; underlying ISIN US60770K1079; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x47f93d52cbec7c6d2cfc080e154002370a60daea",
+    "expectedSymbol": "ASML",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "ASML Holding NV • Robinhood Token; underlying ISIN USN070592100; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x48e39e56acdba37b09020c0b734a613c9a2f100a",
+    "expectedSymbol": "BB",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Blackberry • Robinhood Token; underlying ISIN CA09228F1036; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+    "expectedSymbol": "SPCX",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Space Exploration Technologies Corp. Class A Common Stock • Robinhood Token; underlying ISIN US84615Q1031; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x4d21483a44bf67a86b77e3da301411880797d452",
+    "expectedSymbol": "BA",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Boeing • Robinhood Token; underlying ISIN US0970231058; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x4e62068525ab11fe768e29dfd00ef909b9803016",
+    "expectedSymbol": "LULU",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Lululemon • Robinhood Token; underlying ISIN US5500211090; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x4ea005168d7f09a7a0ba9d1def21a479950e44c2",
+    "expectedSymbol": "COST",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Costco • Robinhood Token; underlying ISIN US22160K1051; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x58ffe4a942d3885baa22d7520691f611ef09e7aa",
+    "expectedSymbol": "TSM",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Taiwan Semiconductor Manufacturing • Robinhood Token; underlying ISIN US8740391003; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x59818904ab4ce163b3ce4ffb64f2d6ca02c434b4",
+    "expectedSymbol": "QUBT",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Quantum Computing • Robinhood Token; underlying ISIN US74766W1080; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x5e81213613b6b86eab4c6c50d718d34359459786",
+    "expectedSymbol": "TTWO",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Take-Two Interactive Software • Robinhood Token; underlying ISIN US8740541094; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x5f10a1c971b69e47e059e1dc91901b59b3fb49c3",
+    "expectedSymbol": "CRWV",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "CoreWeave • Robinhood Token; underlying ISIN US21873S1087; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x62fd0668e10d8b72339be2dcf7643001688ff13b",
+    "expectedSymbol": "MRVL",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Marvell Technology • Robinhood Token; underlying ISIN US5738741041; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x6330d8c3178a418788df01a47479c0ce7ccf450b",
+    "expectedSymbol": "COIN",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Coinbase • Robinhood Token; underlying ISIN US19260Q1076; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x7066a64c24e4206cd62e83bf198c1e7eb361f51e",
+    "expectedSymbol": "PFE",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Pfizer • Robinhood Token; underlying ISIN US7170811035; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x8005d266423c7ea827372c9c864491e5786600ea",
+    "expectedSymbol": "LLY",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Eli Lilly • Robinhood Token; underlying ISIN US5324571083; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x822cc93ffd030293e9842c30bbd678f530701867",
+    "expectedSymbol": "BE",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Bloom Energy • Robinhood Token; underlying ISIN US0937121079; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x84cab63bc87912e71ad199ff14a0ba45de68fef8",
+    "expectedSymbol": "SKHY",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "SK hynix Inc. American Depositary Shares • Robinhood Token; underlying ISIN US78392B2060; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x86923f96303d656e4aa86d9d42d1e57ad2023fdc",
+    "expectedSymbol": "AMD",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "AMD • Robinhood Token; underlying ISIN US0079031078; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x894e1ec2d74ffe5aef8dc8a9e84686accb964f2a",
+    "expectedSymbol": "PLTR",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Palantir Technologies • Robinhood Token; underlying ISIN US69608A1088; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x8cf07c5a878945185d327aaa6e33faa95f95e7bf",
+    "expectedSymbol": "CELH",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Celsius • Robinhood Token; underlying ISIN US15118V2079; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x941ae714ec6d8130c7b75d67160ca08f1e7d11dd",
+    "expectedSymbol": "DELL",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Dell • Robinhood Token; underlying ISIN US24703L2025; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x980dcf6766fa79f5cf0c4aadb3ab477ff15a9619",
+    "expectedSymbol": "IBM",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "IBM • Robinhood Token; underlying ISIN US4592001014; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x9b23573b156b52565012f5ce02cdf60afbaa70be",
+    "expectedSymbol": "PENG",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Penguin Solutions • Robinhood Token; underlying ISIN US7069151055; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x9d9c6684f596f66a64c030b93a886d51fd4d7931",
+    "expectedSymbol": "NBIS",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Nebius Group • Robinhood Token; underlying ISIN NL0009805522; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x9e7abd3c9139d14e4c86dce0e455aab7a0c2fb3e",
+    "expectedSymbol": "WYFI",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "WhiteFiber, Inc. • Robinhood Token; underlying ISIN KYG961151035; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xad25ac6c84d497db898fa1e8387bf6af3532a1c4",
+    "expectedSymbol": "BABA",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Alibaba • Robinhood Token; underlying ISIN US01609W1027; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xaf3d76f1834a1d425780943c99ea8a608f8a93f9",
+    "expectedSymbol": "AAPL",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Apple • Robinhood Token; underlying ISIN US0378331005; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xb0992820e760d836549ba69bc7598b4af75dee03",
+    "expectedSymbol": "ORCL",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Oracle • Robinhood Token; underlying ISIN US68389X1054; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xb1bf26c1d20ff267a4f93550d1e0d06ac40a114b",
+    "expectedSymbol": "RIVN",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Rivian Automotive • Robinhood Token; underlying ISIN US76954A1034; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xb90a19ff0af67f7779aff50a882a9cff42446400",
+    "expectedSymbol": "SNDK",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Sandisk Corporation • Robinhood Token; underlying ISIN US80004C2008; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xba0cab75495255d0cb58e22b648bfed4ecd1f47e",
+    "expectedSymbol": "SNOW",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Snowflake • Robinhood Token; underlying ISIN US8334451098; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xbbd09f72b025360fee5c928053dca6248d35be54",
+    "expectedSymbol": "ON",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "ON Semiconductor • Robinhood Token; underlying ISIN US6821891057; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xc0d6457c16cc70d6790dd43521c899c87ce02f35",
+    "expectedSymbol": "META",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Meta Platforms • Robinhood Token; underlying ISIN US30303M1027; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xc72b96e0e48ecd4dc75e1e45396e26300bc39681",
+    "expectedSymbol": "INTC",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Intel • Robinhood Token; underlying ISIN US4581401001; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xccee82fe024c36fa15e1005ede3e9e4787e23d09",
+    "expectedSymbol": "HIMS",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Hims & Hers Health • Robinhood Token; underlying ISIN US4330001060; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xcef9027c7d6985b85f0ba431125073529a947a68",
+    "expectedSymbol": "BULL",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Webull • Robinhood Token; underlying ISIN KYG9572D1034; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+    "expectedSymbol": "NVDA",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "NVIDIA • Robinhood Token; underlying ISIN US67066G1040; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xd917b029c761d264c6a312bbbcda868658ef86a6",
+    "expectedSymbol": "USAR",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "USA Rare Earth • Robinhood Token; underlying ISIN US91733P1075; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xdf0992e440dd0be65bd8439b609d6d4366bf1cb5",
+    "expectedSymbol": "CRCL",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Circle Internet Group • Robinhood Token; underlying ISIN US1725731079; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xe0444ef8bf4ed74f74fd73686e2ddf4c1c5591e8",
+    "expectedSymbol": "NFLX",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Netflix • Robinhood Token; underlying ISIN US64110L1061; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xe93237c50d904957cf27e7b1133b510c669c2e74",
+    "expectedSymbol": "MSFT",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Microsoft • Robinhood Token; underlying ISIN US5949181045; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xec262a75e413fafd0df80480274532c79d42da09",
+    "expectedSymbol": "MSTR",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Strategy Inc. • Robinhood Token; underlying ISIN US5949724083; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xf0c4bf4c582cb3836e98394b1d4e7b7281101be8",
+    "expectedSymbol": "RBLX",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Roblox • Robinhood Token; underlying ISIN US7710491033; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xf23250dac154d05bb671cb0d0ebef3c635c79ce2",
+    "expectedSymbol": "UPS",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "UPS • Robinhood Token; underlying ISIN US9113121068; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xf53f66751b1eff985311b693531e3290f600c410",
+    "expectedSymbol": "SHOP",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Shopify • Robinhood Token; underlying ISIN CA82509L1076; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xf6589f11bc40b669e584073f428b05562f568733",
+    "expectedSymbol": "SNAP",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Snap • Robinhood Token; underlying ISIN US83304A1060; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xfde6b5d9bb419b10c23268c74e369abff39c0460",
+    "expectedSymbol": "RCAT",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Red Cat • Robinhood Token; underlying ISIN US75644T1007; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xff080c8ce2e5feadaca0da81314ae59d232d4afd",
+    "expectedSymbol": "MU",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.robinhood.com/rhj/assets",
+    "reviewedAt": "2026-10-09",
+    "note": "Micron Technology • Robinhood Token; underlying ISIN US5951121038; individually reviewed company equity exposure, including ADRs; verified deployments[].chainId and deployments[].contractAddress. Robinhood tokens provide economic exposure through tokenized debt securities."
+  },
+  {
+    "chainId": 8453,
+    "address": "0x19f89aaef8a93f38a974beca9776f09ab844887f",
+    "expectedSymbol": "wtSPCX",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://www.st0x.io/",
+    "reviewedAt": "2026-10-09",
+    "note": "Wrapped Space Exploration Technologies Corp. ST0x; underlying ISIN US84615Q1031; individually verified Base wrapper of company equity exposure, including SK hynix ADRs; matched chainId and address in the issuer application's market registry. Its vault exchange rate can change; see https://www.st0x.io/faqs. ETFs wtSPYM, wtQQQM, wtSGOV and wtDRAM are excluded."
+  },
+  {
+    "chainId": 8453,
+    "address": "0x3af952888cd89dad3e8af67cf4b7e740b36829c3",
+    "expectedSymbol": "wtCEG",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://www.st0x.io/",
+    "reviewedAt": "2026-10-09",
+    "note": "Wrapped Constellation Energy Corporation ST0x; underlying ISIN US21037T1097; individually verified Base wrapper of company equity exposure, including SK hynix ADRs; matched chainId and address in the issuer application's market registry. Its vault exchange rate can change; see https://www.st0x.io/faqs. ETFs wtSPYM, wtQQQM, wtSGOV and wtDRAM are excluded."
+  },
+  {
+    "chainId": 8453,
+    "address": "0x5cda0e1ca4ce2af96315f7f8963c85399c172204",
+    "expectedSymbol": "wtCOIN",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://www.st0x.io/",
+    "reviewedAt": "2026-10-09",
+    "note": "Wrapped Coinbase Global Inc ST0x; underlying ISIN US19260Q1076; individually verified Base wrapper of company equity exposure, including SK hynix ADRs; matched chainId and address in the issuer application's market registry. Its vault exchange rate can change; see https://www.st0x.io/faqs. ETFs wtSPYM, wtQQQM, wtSGOV and wtDRAM are excluded."
+  },
+  {
+    "chainId": 8453,
+    "address": "0x6aed8b1acfb04f4e0e6db580f12ff41438a394e5",
+    "expectedSymbol": "wtFGI",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://www.st0x.io/",
+    "reviewedAt": "2026-10-09",
+    "note": "Wrapped FGI Industries Ltd. ST0x; underlying ISIN KYG3302D2024; individually verified Base wrapper of company equity exposure, including SK hynix ADRs; matched chainId and address in the issuer application's market registry. Its vault exchange rate can change; see https://www.st0x.io/faqs. ETFs wtSPYM, wtQQQM, wtSGOV and wtDRAM are excluded."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000000d8ce462e99ee7a47b",
+    "expectedSymbol": "AMDc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Advanced Micro Devices, Inc.; underlying ISIN US0079031078; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb20000000000000000000016f9dfe862feba122b",
+    "expectedSymbol": "BEc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Bloom Energy Corporation; underlying ISIN US0937121079; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb20000000000000000000018fe7ec7d6dfeeb528",
+    "expectedSymbol": "PFEc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Pfizer Inc; underlying ISIN US7170811035; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000001e800a7f5189430cd0",
+    "expectedSymbol": "TSLAc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Tesla Inc.; underlying ISIN US88160R1014; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000002137743d4a01fe4e88",
+    "expectedSymbol": "SOUNc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "SoundHound AI, Inc.; underlying ISIN US8361001071; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000002601c5c94f435da168",
+    "expectedSymbol": "HTZc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Hertz Global Holdings, Inc.; underlying ISIN US42806J7000; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000002d0ba3164cc74f58b7",
+    "expectedSymbol": "GOOGLc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Alphabet Inc.; underlying ISIN US02079K3059; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000347afba223d7b6b63c",
+    "expectedSymbol": "ORCLc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Oracle Corporation; underlying ISIN US68389X1054; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000397293cb8cda9a10c5",
+    "expectedSymbol": "SNDKc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Sandisk Corporation; underlying ISIN US80004C2008; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000428e3a3eebbb20692b",
+    "expectedSymbol": "DJTc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Trump Media & Technology Group Corp.; underlying ISIN US25400Q1058; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb20000000000000000000043a599976181bcf336",
+    "expectedSymbol": "HIMSc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Hims & Hers Health, Inc.; underlying ISIN US4330001060; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb20000000000000000000044e3cd7a0e1028e57a",
+    "expectedSymbol": "WENc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Wendy's Co; underlying ISIN US95058W1009; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000450ad3abe5d4846c6e",
+    "expectedSymbol": "PYPLc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "PayPal Holdings, Inc.; underlying ISIN US70450Y1038; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000004884b426556b92883d",
+    "expectedSymbol": "MSTRc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Strategy Inc.; underlying ISIN US5949724083; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000535fe96f18204bfd96",
+    "expectedSymbol": "BIRDc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Smartbird, Inc.; underlying ISIN US01675A2087; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb20000000000000000000058b8c947e44011dfe6",
+    "expectedSymbol": "NFLXc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Netflix Inc; underlying ISIN US64110L1061; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000005bd7ae89b9e6189bb5",
+    "expectedSymbol": "RBLXc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Roblox Corporation; underlying ISIN US7710491033; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb20000000000000000000066242d4067724cb7a1",
+    "expectedSymbol": "RDDTc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Reddit, Inc.; underlying ISIN US75734B1008; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000007790ed6e48e06ed935",
+    "expectedSymbol": "GMEc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "GameStop Corp.; underlying ISIN US36467W1099; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb20000000000000000000078ee7ce2fe4908108c",
+    "expectedSymbol": "NVDAc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "NVIDIA Corporation; underlying ISIN US67066G1040; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000007b9fcbd005511acbd5",
+    "expectedSymbol": "SPCXc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Space Exploration Technologies Corp.; underlying ISIN US84615Q1031; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000007d16372840df4dabbe",
+    "expectedSymbol": "PLTRc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Palantir Technologies Inc.; underlying ISIN US69608A1088; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000008bc8786b856e61707c",
+    "expectedSymbol": "METAc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Meta Platforms Inc.; underlying ISIN US30303M1027; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000008fc2a8c23cf5937b66",
+    "expectedSymbol": "PMc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Philip Morris International Inc.; underlying ISIN US7181721090; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000009272a491812842aa84",
+    "expectedSymbol": "PTONc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Peloton Interactive, Inc.; underlying ISIN US70614W1009; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000a613d12deafbbb1db7",
+    "expectedSymbol": "DUOLc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Duolingo, Inc.; underlying ISIN US26603R1068; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000ab99cfa739e253872b",
+    "expectedSymbol": "MSFTc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Microsoft Corporation; underlying ISIN US5949181045; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000b1a29cf17a1819288a",
+    "expectedSymbol": "ASTSc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "AST SpaceMobile, Inc.; underlying ISIN US00217D1000; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000c2e324d24d7eecd1fb",
+    "expectedSymbol": "AAPLc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Apple Inc.; underlying ISIN US0378331005; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000c597c476fcf9aed3a8",
+    "expectedSymbol": "NVAXc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Novavax Inc; underlying ISIN US6700024010; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000ca425ab42e07c35bc3",
+    "expectedSymbol": "QUBTc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Quantum Computing Inc.; underlying ISIN US74766W1080; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000d9192b6b456483c2e8",
+    "expectedSymbol": "AMZNc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Amazon.com Inc.; underlying ISIN US0231351067; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000e215e9b76ecba02468",
+    "expectedSymbol": "MRNAc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Moderna, Inc.; underlying ISIN US60770K1079; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000ec3c4c7395cc609813",
+    "expectedSymbol": "MRVLc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Marvell Technology, Inc.; underlying ISIN US5738741041; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000f1a0f91e34892e4718",
+    "expectedSymbol": "LLYc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Eli Lilly & Co; underlying ISIN US5324571083; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000f215e4c890cfb7176b",
+    "expectedSymbol": "CAKEc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Cheesecake Factory Inc; underlying ISIN US1630721017; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000f720c26062bc3067da",
+    "expectedSymbol": "TTWOc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Take-Two Interactive Software, Inc.; underlying ISIN US8740541094; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000fc737aea6196ab5a4c",
+    "expectedSymbol": "AVGOc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Broadcom Inc.; underlying ISIN US11135F1012; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000fd2f87532b90095211",
+    "expectedSymbol": "MUc",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://api.coinbase.com/v1/tokenized-stocks",
+    "reviewedAt": "2026-10-09",
+    "note": "Micron Technology Inc.; underlying ISIN US5951121038; Coinbase-issued company equity exposure on Base, individually reviewed; verified contract_address in Coinbase's public Tokenized Stocks API documented at https://docs.base.org/sdks/tokenized-stocks/overview. B20 is asset-agnostic; its address prefix alone does not establish stock membership."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xdec933e2392ad908263e70a386fbf34e703ffe8f",
+    "expectedSymbol": "wbCOIN",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://assets.backed.fi/products/bcoin",
+    "reviewedAt": "2026-10-09",
+    "note": "Wrapped Backed Coinbase Global; individually verified company equity wrapper. asset() returns the issuer's bCOIN contract 0xbbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9; underlying Coinbase Global Inc. ISIN US19260Q1076, product ISIN CH1173294245. The issuer has ended new bToken issuance but continues redemption; membership describes the underlying equity exposure.",
+    "verification": {
+      "rpc": "https://base.gateway.tenderly.co",
+      "blockNumber": 52381215,
+      "method": "asset()",
+      "selector": "0x38d52e0f",
+      "result": "0xbbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9"
+    }
+  },
+  {
+    "chainId": 8453,
+    "address": "0xfb5b41acdba20a3230f84be995173cfb98b8d6e7",
+    "expectedSymbol": "wtNVDA",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://www.st0x.io/",
+    "reviewedAt": "2026-10-09",
+    "note": "Wrapped NVIDIA Corporation ST0x; underlying ISIN US67066G1040; individually verified Base wrapper of company equity exposure, including SK hynix ADRs; matched chainId and address in the issuer application's market registry. Its vault exchange rate can change; see https://www.st0x.io/faqs. ETFs wtSPYM, wtQQQM, wtSGOV and wtDRAM are excluded."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xfcd17ac4c4bf6a72c93018096f3fc09e66573ff9",
+    "expectedSymbol": "wtSKHY",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://www.st0x.io/",
+    "reviewedAt": "2026-10-09",
+    "note": "Wrapped SK hynix Inc. ADR ST0x; underlying ISIN US78392B2060; individually verified Base wrapper of company equity exposure, including SK hynix ADRs; matched chainId and address in the issuer application's market registry. Its vault exchange rate can change; see https://www.st0x.io/faqs. ETFs wtSPYM, wtQQQM, wtSGOV and wtDRAM are excluded."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xff05e1bd696900dc6a52ca35ca61bb1024eda8e2",
+    "expectedSymbol": "wtMSTR",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://www.st0x.io/",
+    "reviewedAt": "2026-10-09",
+    "note": "Wrapped MicroStrategy Incorporated ST0x; underlying ISIN US5949724083; individually verified Base wrapper of company equity exposure, including SK hynix ADRs; matched chainId and address in the issuer application's market registry. Its vault exchange rate can change; see https://www.st0x.io/faqs. ETFs wtSPYM, wtQQQM, wtSGOV and wtDRAM are excluded."
+  },
+  {
+    "chainId": 43114,
+    "address": "0xdec933e2392ad908263e70a386fbf34e703ffe8f",
+    "expectedSymbol": "wbCOIN",
+    "tags": [
+      "stock"
+    ],
+    "source": "https://assets.backed.fi/products/bcoin",
+    "reviewedAt": "2026-10-09",
+    "note": "Wrapped Backed Coinbase Global; individually verified company equity wrapper. asset() returns the issuer's bCOIN contract 0xbbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9; underlying Coinbase Global Inc. ISIN US19260Q1076, product ISIN CH1173294245. The issuer has ended new bToken issuance but continues redemption; membership describes the underlying equity exposure.",
+    "verification": {
+      "rpc": "https://api.avax.network/ext/bc/C/rpc",
+      "blockNumber": 97125471,
+      "method": "asset()",
+      "selector": "0x38d52e0f",
+      "result": "0xbbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9"
+    }
+  }
+]

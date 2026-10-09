@@ -33954,7 +33954,10 @@
     "chainId": 1,
     "address": "0xca468554e5c0423ee858fe3942c9568c51fcaa79",
     "symbol": "HIMSon",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 1,
@@ -34170,13 +34173,19 @@
     "chainId": 1,
     "address": "0x2d1f7226bd1f780af6b9a49dcc0ae00e8df4bdee",
     "symbol": "NVDAon",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 1,
     "address": "0xf6b1117ec07684d3958cad8beb1b302bfd21103f",
     "symbol": "TSLAon",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 1,
@@ -34332,7 +34341,10 @@
     "chainId": 1,
     "address": "0xc9eef266834730340a55b6cc24621b31baf55581",
     "symbol": "SPCXon",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 1,
@@ -34836,7 +34848,10 @@
     "chainId": 1,
     "address": "0x14c3abf95cb9c93a8b82c1cdcb76d72cb87b2d4c",
     "symbol": "AAPLon",
-    "decimals": 18
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
   },
   {
     "chainId": 1,
