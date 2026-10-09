@@ -41284,5 +41284,17 @@
     "address": "0xa455ae0f04a2b86eee47adca98985e61d14cbefb",
     "symbol": "AGPUB",
     "decimals": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xb81139f4539bc3d726fa0b675024d319af676666",
+    "symbol": "OCEAN",
+    "decimals": 9
+  },
+  {
+    "chainId": 56,
+    "address": "0xa5996fc5007dd2019f9a9ff6c50c1c847aa64444",
+    "symbol": "CLZD",
+    "decimals": 18
   }
 ]
