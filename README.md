@@ -42,6 +42,13 @@ Same shape as the standard token list, plus optional fields:
 
 Consumers should treat presence in the list as opaque: any token here is excluded from routing regardless of `feeBps`. Including reproducible `evidence` lets future contributors verify the classification without needing to re-run an audit from scratch.
 
+## Pull request reviews
+
+GitHub automatically requests review from `@SHA-2048` for changes anywhere in this
+repository through [CODEOWNERS](.github/CODEOWNERS). Draft pull requests request
+review when marked ready. This applies once the file is merged into the pull
+request's target branch.
+
 ## Add tokens (contributors)
 Contributions must use the `add-tokens` script. Manual edits to `tokenLists/` or `logos/` should be avoided.
 Run the script, review the changes, then commit them with a clear message (for example: `Add ABC token on chain 1`).
