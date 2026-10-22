@@ -268,5 +268,11 @@
     "address": "0xb7c934ff18730c24e6113bb4bc5a68feef16fd29",
     "symbol": "ARCUS",
     "decimals": 18
+  },
+  {
+    "chainId": 5042,
+    "address": "0x20077cc0d5e385a0fe9c91bbc7dc744f51559307",
+    "symbol": "xAERO",
+    "decimals": 18
   }
 ]

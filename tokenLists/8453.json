@@ -6040,5 +6040,17 @@
     "address": "0xb200000000000000000000e88efe88d8ade3f0da",
     "symbol": "WRDc",
     "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
+    "symbol": "AERO",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x6cdda0e730744dc6ff67654b35350adad05ecee7",
+    "symbol": "xAERO",
+    "decimals": 18
   }
 ]

@@ -2701,5 +2701,11 @@
     "address": "0xbeeff033f34c046626b8d0a041844c5d1a5409dd",
     "symbol": "steakUSDG",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x9e148c5716b5aadcfd3b71ceae9ee7a9e22c29e2",
+    "symbol": "xAERO",
+    "decimals": 18
   }
 ]

@@ -3008,5 +3008,11 @@
     "address": "0xe649e6a1f2afc63ca268c2363691cecaf75cf47c",
     "symbol": "RLC",
     "decimals": 9
+  },
+  {
+    "chainId": 42161,
+    "address": "0x436a085b2751cb87db270ffa66f8d698f87bec82",
+    "symbol": "xAERO",
+    "decimals": 18
   }
 ]
