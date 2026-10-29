@@ -6136,5 +6136,11 @@
     "address": "0xb200000000000000000000d2f4cf2f7debb244bb",
     "symbol": "MCDc",
     "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0x44b63af715d5ef02cc3646a6ce96875e11d69e85",
+    "symbol": "RSGP",
+    "decimals": 18
   }
 ]
