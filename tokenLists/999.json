@@ -388,12 +388,6 @@
   },
   {
     "chainId": 999,
-    "address": "0x4bb19336c973506b9405db586b7aee302a7cbcfc",
-    "symbol": "bbHLP",
-    "decimals": 18
-  },
-  {
-    "chainId": 999,
     "address": "0x8888888fdaac0e7cf8c6523c8955bf7954c216fa",
     "symbol": "vHYPE",
     "decimals": 18

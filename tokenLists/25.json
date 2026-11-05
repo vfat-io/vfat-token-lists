@@ -792,12 +792,6 @@
     "chainId": 25
   },
   {
-    "symbol": "CLMRS",
-    "address": "0xaad00d36dbc8343c3505ba51418a43d3622d2964",
-    "decimal": 18,
-    "chainId": 25
-  },
-  {
     "symbol": "ACA",
     "address": "0x213e6fb02009c13692baa23c63fde8d623d22705",
     "decimal": 12,

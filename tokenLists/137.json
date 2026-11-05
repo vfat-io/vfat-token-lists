@@ -1,12 +1,6 @@
 [
   {
     "chainId": 137,
-    "symbol": "POL",
-    "decimals": 18,
-    "address": "0x0000000000000000000000000000000000001010"
-  },
-  {
-    "chainId": 137,
     "symbol": "SIKKA",
     "decimals": 18,
     "address": "0x00658fc8ec685727f3f59d381b8ad8f5e0fedbc2"
@@ -973,12 +967,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "DMA",
-    "decimals": 18,
-    "address": "0x16dfb898cf7029303c2376031392cb9bac450f94"
-  },
-  {
-    "chainId": 137,
     "symbol": "ROUTE",
     "decimals": 18,
     "address": "0x16eccfdbb4ee1a85a33f3a9b21175cd7ae753db4"
@@ -1810,12 +1798,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "FLYP",
-    "decimals": 18,
-    "address": "0x2cc58c81cfd3958e268bc68d3dda08fd4e17977c"
-  },
-  {
-    "chainId": 137,
     "symbol": "RVF",
     "decimals": 18,
     "address": "0x2ce13e4199443fdfff531abb30c9b6594446bbc7"
@@ -2197,12 +2179,6 @@
     "symbol": "PCOMB",
     "decimals": 18,
     "address": "0x37d1ebc3af809b8fadb45dce7077efc629b2b5bb"
-  },
-  {
-    "chainId": 137,
-    "symbol": "HANZO",
-    "decimals": 9,
-    "address": "0x37eb60f78e06c4bb2a5f836b0fc6bccbbaa995b3"
   },
   {
     "chainId": 137,
@@ -2866,12 +2842,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "VERSE",
-    "decimals": 18,
-    "address": "0x48c97cf0a3837106cb58009d308df4dfabe441c7"
-  },
-  {
-    "chainId": 137,
     "symbol": "FOUR",
     "decimals": 18,
     "address": "0x48cbc913de09317df2365e6827df50da083701d5"
@@ -3355,12 +3325,6 @@
     "symbol": "ZUSD",
     "decimals": 18,
     "address": "0x5668f6d40e15188045a1de6295054103c13ffac1"
-  },
-  {
-    "chainId": 137,
-    "symbol": "AWX",
-    "decimals": 18,
-    "address": "0x56a0efefc9f1fbb54fbd25629ac2aa764f1b56f7"
   },
   {
     "chainId": 137,
@@ -4480,12 +4444,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "RMTX",
-    "decimals": 18,
-    "address": "0x76a15a8628ce4c66629ea964f8dc796a8159170b"
-  },
-  {
-    "chainId": 137,
     "symbol": "CRYSTL",
     "decimals": 18,
     "address": "0x76bf0c28e604cc3fe9967c83b3c3f31c213cfe64"
@@ -5428,12 +5386,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "SROCKET",
-    "decimals": 18,
-    "address": "0x94788309d420ad9f9f16d79fc13ab74de83f85f7"
-  },
-  {
-    "chainId": 137,
     "symbol": "NSHARE",
     "decimals": 18,
     "address": "0x948d0a28b600bdbd77af4ea30e6f338167034181"
@@ -6166,18 +6118,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "PECO",
-    "decimals": 18,
-    "address": "0xa9536b9c75a9e0fae3b56a96ac8edf76abc91978"
-  },
-  {
-    "chainId": 137,
-    "symbol": "AWS",
-    "decimals": 18,
-    "address": "0xa96d47c621a8316d4f9539e3b38180c7067e84ca"
-  },
-  {
-    "chainId": 137,
     "symbol": "MAMA",
     "decimals": 9,
     "address": "0xa9a779aea33b6f40cfc78a29cf56fc7e6fb329ab"
@@ -6397,12 +6337,6 @@
     "symbol": "RAMP",
     "decimals": 18,
     "address": "0xaecebfcf604ad245eaf0d5bd68459c3a7a6399c2"
-  },
-  {
-    "chainId": 137,
-    "symbol": "AWG",
-    "decimals": 18,
-    "address": "0xaee0ffb690b37449b7f1c49b199e1e3ec6084490"
   },
   {
     "chainId": 137,
@@ -7270,12 +7204,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "PARA",
-    "decimals": 9,
-    "address": "0xcca3e26be51b8905f1a01872524f17eb55bd02fb"
-  },
-  {
-    "chainId": 137,
     "symbol": "STACK",
     "decimals": 18,
     "address": "0xccbe9b810d6574701d324fd6dbe0a1b68f9d5bf7"
@@ -7525,12 +7453,6 @@
     "symbol": "CXBTC",
     "decimals": 18,
     "address": "0xd30dc92b8ec0fa8de625768d208f51a93c10aff2"
-  },
-  {
-    "chainId": 137,
-    "symbol": "ARTHX",
-    "decimals": 18,
-    "address": "0xd354d56dae3588f1145dd664bc5094437b889d6f"
   },
   {
     "chainId": 137,
@@ -7795,12 +7717,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "CYFM",
-    "decimals": 18,
-    "address": "0xda5949544aaf6124d06f398bfde4c86cc33b0ee7"
-  },
-  {
-    "chainId": 137,
     "symbol": "NCR",
     "decimals": 18,
     "address": "0xda6f726e2088f129d3ecb2257206adf7d8537ba5"
@@ -7966,12 +7882,6 @@
     "symbol": "WAIF",
     "decimals": 18,
     "address": "0xdee1ebd2a9f6fe069a045601ebee7c42572abd5f"
-  },
-  {
-    "chainId": 137,
-    "symbol": "CERBY",
-    "decimals": 18,
-    "address": "0xdef1fac7bf08f173d286bbbdcbeeade695129840"
   },
   {
     "chainId": 137,
@@ -8323,12 +8233,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "MSU",
-    "decimals": 18,
-    "address": "0xe8377a076adabb3f9838afb77bee96eac101ffb1"
-  },
-  {
-    "chainId": 137,
     "symbol": "xHDX",
     "decimals": 12,
     "address": "0xe8388f307caa9c338955465f0ae2aa4c3e023dd8"
@@ -8470,12 +8374,6 @@
     "symbol": "XOR",
     "decimals": 18,
     "address": "0xecae5e66d7f2bae250dff839216a01c2702adffd"
-  },
-  {
-    "chainId": 137,
-    "symbol": "NTIC",
-    "decimals": 18,
-    "address": "0xecb51acf9967331b7f282f855079671fe22c56c3"
   },
   {
     "chainId": 137,
@@ -8839,12 +8737,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "FCD",
-    "decimals": 18,
-    "address": "0xf78610d0a197842bf98ca45254897edd13c5d182"
-  },
-  {
-    "chainId": 137,
     "symbol": "OCAVU",
     "decimals": 18,
     "address": "0xf796969fa47fb0748c80b8b153cbb895e88cbd54"
@@ -9049,12 +8941,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "MTBC",
-    "decimals": 18,
-    "address": "0xfc541ec44a41974d76fc0b2f526cae781ffabaed"
-  },
-  {
-    "chainId": 137,
     "symbol": "WHIRL",
     "decimals": 18,
     "address": "0xfc5a11d0fe8b5ad23b8a643df5eae60b979ce1bf"
@@ -9214,12 +9100,6 @@
     "symbol": "PIKA",
     "decimals": 18,
     "address": "0xffb89d7637cf4860884ed48b57ae5562bf64e10f"
-  },
-  {
-    "chainId": 137,
-    "symbol": "DUCKIES",
-    "decimals": 2,
-    "address": "0xffb9f1907f827709b0ed09b37956cd3c7462abdb"
   },
   {
     "address": "0x6985884c4392d348587b19cb9eaaf157f13271cd",

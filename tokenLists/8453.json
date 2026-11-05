@@ -252,12 +252,6 @@
     "decimals": 18
   },
   {
-    "address": "0xf37923311d71c986d701cddb3394777322294e3a",
-    "symbol": "DOH",
-    "chainId": 8453,
-    "decimals": 18
-  },
-  {
     "address": "0xff8adec2221f9f4d8dfbafa6b9a297d17603493d",
     "symbol": "WELL",
     "chainId": 8453,
@@ -2808,12 +2802,6 @@
     "chainId": 8453
   },
   {
-    "address": "0x1b68244b100a6713ca7f540697b1be12148a8bf9",
-    "symbol": "YES",
-    "decimals": 18,
-    "chainId": 8453
-  },
-  {
     "address": "0x340a79f07b1c3541f9e961b3c5ecc589cec44c92",
     "symbol": "GOLDI",
     "decimals": 18,
@@ -5257,12 +5245,6 @@
     "address": "0x14913815bcfde78baead2111f463d038ac9c2949",
     "symbol": "eUSD",
     "decimals": 6
-  },
-  {
-    "chainId": 8453,
-    "address": "0x55f9c8992fc4abce5aca585bf8f18284a2379d4c",
-    "symbol": "8LNDS",
-    "decimals": 18
   },
   {
     "chainId": 8453,

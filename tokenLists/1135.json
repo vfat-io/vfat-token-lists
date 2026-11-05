@@ -42,12 +42,6 @@
     "chainId": 1135
   },
   {
-    "address": "0x18bc5bcc660cf2b9ce3cd51a404afe1a0cbd3c22",
-    "symbol": "IDRX",
-    "decimals": 2,
-    "chainId": 1135
-  },
-  {
     "address": "0x05d032ac25d322df992303dca074ee7392c117b9",
     "symbol": "USDT",
     "decimals": 6,

@@ -115,12 +115,6 @@
   },
   {
     "chainId": 40,
-    "address": "0xcc47eb13916a76e262b0ee48a71e3c7953091e7a",
-    "symbol": "SWAP",
-    "decimals": 18
-  },
-  {
-    "chainId": 40,
     "address": "0xa84df7afbcbcc1106834a5fed9453bd1219b1fb5",
     "symbol": "Arc",
     "decimals": 18
@@ -147,12 +141,6 @@
     "chainId": 40,
     "address": "0xac45ede2098bc989dfe0798b4630872006e24c3f",
     "symbol": "SLUSH",
-    "decimals": 18
-  },
-  {
-    "chainId": 40,
-    "address": "0xaae65b3b41f7c372c729b59b08ca93d53e9b79b3",
-    "symbol": "ICE",
     "decimals": 18
   },
   {
