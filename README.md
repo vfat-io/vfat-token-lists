@@ -1,4 +1,4 @@
-# VFAT Token Lists
+# vfat Token Lists
 
 This repo contains chain token list definitions and normalized token logos.
 
@@ -28,7 +28,7 @@ The initial tags are `stablecoin`, `stock`, and `bluechip`; see `tags.json` for 
 
 Review underlying assets against all three criteria:
 
-- Broad, sustained adoption beyond VFAT.
+- Broad, sustained adoption beyond vfat.
 - An established project with several years of operating history.
 - Deep liquidity across major trading venues.
 
