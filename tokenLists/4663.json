@@ -2707,5 +2707,11 @@
     "address": "0x9e148c5716b5aadcfd3b71ceae9ee7a9e22c29e2",
     "symbol": "xAERO",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xca678d0d69f9e815d1a4f4df05c904b2dde017f8",
+    "symbol": "wtHOOD",
+    "decimals": 18
   }
 ]

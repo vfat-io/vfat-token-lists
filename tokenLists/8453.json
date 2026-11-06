@@ -6142,5 +6142,95 @@
     "address": "0x44b63af715d5ef02cc3646a6ce96875e11d69e85",
     "symbol": "RSGP",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0x5e63e9c06c3f2c779ef29a8071f94f5a724eb5e4",
+    "symbol": "CADC",
+    "decimals": 6
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000cf36d05963a3e2205c",
+    "symbol": "AAOIc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb20000000000000000000034533ed3961f222cd4",
+    "symbol": "ADBEc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000a640ec8c1de0efb484",
+    "symbol": "AXTIc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000ea2df44a307cab279c",
+    "symbol": "BMNRc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000645c1ec509e4261682",
+    "symbol": "BXc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000a8c925f62e6d194715",
+    "symbol": "COHRc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb20000000000000000000019f6e7c675b73c2e4d",
+    "symbol": "CRCLc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000a0de75786c9f8fc58c",
+    "symbol": "CRWDc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000003bf350e420c13e431a",
+    "symbol": "CVXc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000ffef181db6dc5ed6a3",
+    "symbol": "KOc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000eda6c2c6f11e0f838f",
+    "symbol": "LITEc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000004acdc9a922fcfbcc7f",
+    "symbol": "SNOWc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb20000000000000000000054b11fd279a4f7d4ef",
+    "symbol": "Vc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb20000000000000000000079dc24fe2fbd09110f",
+    "symbol": "VSTc",
+    "decimals": 8
   }
 ]
