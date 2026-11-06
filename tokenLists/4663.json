@@ -2713,5 +2713,35 @@
     "address": "0xca678d0d69f9e815d1a4f4df05c904b2dde017f8",
     "symbol": "wtHOOD",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xfce34d21a92069100e3226638140706cf03a266e",
+    "symbol": "GLDSTN",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x6ddb8541af17dadea47df41d1c13faf8deee1902",
+    "symbol": "KSKD",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xe258427467c5d5ed73b1d0c838cbc2d140fb88e9",
+    "symbol": "ULAB",
+    "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x0a4be7073bc336e451082502d768e8d644ca780c",
+    "symbol": "gAIX",
+    "decimals": 12
+  },
+  {
+    "chainId": 4663,
+    "address": "0x5be5b092ad0d1f0c81f394f0e00086196115779c",
+    "symbol": "gHOOD",
+    "decimals": 12
   }
 ]
