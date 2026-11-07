@@ -6232,5 +6232,11 @@
     "address": "0xb20000000000000000000079dc24fe2fbd09110f",
     "symbol": "VSTc",
     "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb80194e3868511b8f43e1d5d6e255cd9e7c3e7dd",
+    "symbol": "KNTQ",
+    "decimals": 18
   }
 ]
