@@ -7027,12 +7027,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "Nafty",
-    "decimals": 9,
-    "address": "0x2eed4682197834708c0ea8d11d683440bbe104d1"
-  },
-  {
-    "chainId": 56,
     "symbol": "NFTC",
     "decimals": 2,
     "address": "0x2efcdd1383eae3af14d785dcc65d6b865b562312"
@@ -7060,12 +7054,6 @@
     "symbol": "TAKO",
     "decimals": 18,
     "address": "0x2f3391aebe27393aba0a790aa5e1577fea0361c2"
-  },
-  {
-    "chainId": 56,
-    "symbol": "RFX",
-    "decimals": 18,
-    "address": "0x2f499c6da2c84063bb7e0cb1c478687210cdb615"
   },
   {
     "chainId": 56,
@@ -7114,12 +7102,6 @@
     "symbol": "TT",
     "decimals": 9,
     "address": "0x2f8a4c0ca0b45a2fb240cba7010c34ba60ad9b6d"
-  },
-  {
-    "chainId": 56,
-    "symbol": "SWAP",
-    "decimals": 18,
-    "address": "0x2f917c9f6bb4186e57841f5747fcc3fedf026b35"
   },
   {
     "chainId": 56,
@@ -7291,12 +7273,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "ROO",
-    "decimals": 18,
-    "address": "0x30b29c6c03546f6395ddb454538d0eb7e4a6e32f"
-  },
-  {
-    "chainId": 56,
     "symbol": "SCALE",
     "decimals": 9,
     "address": "0x30be7cd57aeaed3d0772e9f41c7706166d2c1ff4"
@@ -7315,12 +7291,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "DOX",
-    "decimals": 18,
-    "address": "0x30ea7c369b87fe261de28a1eefafe806696a738b"
-  },
-  {
-    "chainId": 56,
     "symbol": "Pool",
     "decimals": 9,
     "address": "0x30f11795b21b5efc1a2ded78d04574d0e36442bd"
@@ -7330,12 +7300,6 @@
     "symbol": "GXT",
     "decimals": 18,
     "address": "0x3107c0a1126268ca303f8d99c712392fa596e6d7"
-  },
-  {
-    "chainId": 56,
-    "symbol": "FLASH",
-    "decimals": 18,
-    "address": "0x311e015e2e255dd14eddc4a2107e39649dc81c5d"
   },
   {
     "chainId": 56,
@@ -7438,12 +7402,6 @@
     "symbol": "START",
     "decimals": 18,
     "address": "0x31d0a7ada4d4c131eb612db48861211f63e57610"
-  },
-  {
-    "chainId": 56,
-    "symbol": "AvaxUp",
-    "decimals": 9,
-    "address": "0x31db9fae1747a84afed39ef28d76cd1ccde96e38"
   },
   {
     "chainId": 56,
@@ -7591,12 +7549,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "NFTBS",
-    "decimals": 9,
-    "address": "0x3279510e89600ee1767a037dbd0ad49c974063ae"
-  },
-  {
-    "chainId": 56,
     "symbol": "ECIO",
     "decimals": 18,
     "address": "0x327a3e880bf2674ee40b6f872be2050ed406b021"
@@ -7705,12 +7657,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "WEB3",
-    "decimals": 18,
-    "address": "0x333fd139caef6aa31056cc905987b77b1044d259"
-  },
-  {
-    "chainId": 56,
     "symbol": "AMPLE",
     "decimals": 18,
     "address": "0x335f6e0e804b70a96bf9eb8af31588942e9b2515"
@@ -7750,12 +7696,6 @@
     "symbol": "PEA",
     "decimals": 18,
     "address": "0x337b07656a2fe8ab015912c1f2319e178a7cbffd"
-  },
-  {
-    "chainId": 56,
-    "symbol": "XBX",
-    "decimals": 18,
-    "address": "0x337c218f16dbc290fb841ee8b97a74dcdabfede8"
   },
   {
     "chainId": 56,
@@ -7993,12 +7933,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "bSDX",
-    "decimals": 18,
-    "address": "0x351494731d28f35d648c200b35e628aecba3e577"
-  },
-  {
-    "chainId": 56,
     "symbol": "CHIRO",
     "decimals": 9,
     "address": "0x35156b404c3f9bdaf45ab65ba315419bcde3775c"
@@ -8089,12 +8023,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "$DRAGONS",
-    "decimals": 9,
-    "address": "0x35d975d9b6bfee81d1e060d6dde07a5b082cb79b"
-  },
-  {
-    "chainId": 56,
     "symbol": "bCHAIN",
     "decimals": 18,
     "address": "0x35de111558f691f77f791fb0c08b2d6b931a9d47"
@@ -8173,21 +8101,9 @@
   },
   {
     "chainId": 56,
-    "symbol": "CDOGE",
-    "decimals": 18,
-    "address": "0x3699d20715c750aba5a108baca5c555347da034f"
-  },
-  {
-    "chainId": 56,
     "symbol": "SeaChain",
     "decimals": 9,
     "address": "0x36b24b2f78725495e858af9e72f7df69dade3dca"
-  },
-  {
-    "chainId": 56,
-    "symbol": "FLY",
-    "decimals": 5,
-    "address": "0x36b4a286068e43e18d58c9a594734a0b55f9c6fd"
   },
   {
     "chainId": 56,
@@ -8257,12 +8173,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "PSHIB",
-    "decimals": 18,
-    "address": "0x371b1eb93a746c801ae345255f5f29b07b36326c"
-  },
-  {
-    "chainId": 56,
     "symbol": "END",
     "decimals": 9,
     "address": "0x373e4b4e4d328927bc398a9b50e0082c6f91b7bb"
@@ -8272,12 +8182,6 @@
     "symbol": "DERC",
     "decimals": 18,
     "address": "0x373e768f79c820aa441540d254dca6d045c6d25b"
-  },
-  {
-    "chainId": 56,
-    "symbol": "CTCO",
-    "decimals": 2,
-    "address": "0x3746519cfb4a0ca13745a38326282585de95e0a5"
   },
   {
     "chainId": 56,
@@ -8332,12 +8236,6 @@
     "symbol": "WZYX",
     "decimals": 18,
     "address": "0x377c6e37633e390aef9afb4f5e0b16689351eed4"
-  },
-  {
-    "chainId": 56,
-    "symbol": "ALTRU",
-    "decimals": 18,
-    "address": "0x377ef66728d344bfa2bb370186ab4b57092577bd"
   },
   {
     "chainId": 56,
@@ -8437,12 +8335,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "RC2",
-    "decimals": 18,
-    "address": "0x38330281b627240b1f5470014091f69ad5a84146"
-  },
-  {
-    "chainId": 56,
     "symbol": "CKT",
     "decimals": 18,
     "address": "0x3837e18b901629fcb200e0ad9c2f2441804bd6c8"
@@ -8452,12 +8344,6 @@
     "symbol": "PTA",
     "decimals": 9,
     "address": "0x3843f234b35a311e195608d32283a68284b3c44d"
-  },
-  {
-    "chainId": 56,
-    "symbol": "BABYPOO",
-    "decimals": 9,
-    "address": "0x38895e0b3e7cd13c45bd4e93af5a402604b762e3"
   },
   {
     "chainId": 56,
@@ -8689,12 +8575,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "CATBOY",
-    "decimals": 18,
-    "address": "0x39c3f75b837eae0d6d0ea87425ac99bd646a7b1e"
-  },
-  {
-    "chainId": 56,
     "symbol": "OCTAX",
     "decimals": 18,
     "address": "0x39cab1ddafda34b9202f5a41f71b15d2f3eba2ac"
@@ -8704,12 +8584,6 @@
     "symbol": "AGRO",
     "decimals": 4,
     "address": "0x39cc67690d0f2d4acd68d3d9b612a80d780b84c0"
-  },
-  {
-    "chainId": 56,
-    "symbol": "FrostyFloki",
-    "decimals": 18,
-    "address": "0x39d0291f0aaad6cf0b5213f7cc6df72493692cae"
   },
   {
     "chainId": 56,
@@ -8752,12 +8626,6 @@
     "symbol": "NNT",
     "decimals": 18,
     "address": "0x3a2927e68749dd6ad0a568d7c05b587863c0bc10"
-  },
-  {
-    "chainId": 56,
-    "symbol": "PIGS",
-    "decimals": 18,
-    "address": "0x3a4c15f96b3b058ab3fb5faf1440cc19e7ae07ce"
   },
   {
     "chainId": 56,
@@ -8899,12 +8767,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "LZ",
-    "decimals": 18,
-    "address": "0x3b78458981eb7260d1f781cb8be2caac7027dbe2"
-  },
-  {
-    "chainId": 56,
     "symbol": "PIN",
     "decimals": 18,
     "address": "0x3b79a28264fc52c7b4cea90558aa0b162f7faf57"
@@ -8962,12 +8824,6 @@
     "symbol": "MINIBTC",
     "decimals": 9,
     "address": "0x3bc72eff96752c2f66c7de855f97c23ec4a1ac01"
-  },
-  {
-    "chainId": 56,
-    "symbol": "DXW",
-    "decimals": 18,
-    "address": "0x3be068bcc82460d866ee6816ac986630964371b7"
   },
   {
     "chainId": 56,
@@ -9217,12 +9073,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "BABYLONDON",
-    "decimals": 2,
-    "address": "0x3de0a68721bc846e950438071f6afc1faa42ef3e"
-  },
-  {
-    "chainId": 56,
     "symbol": "XFE",
     "decimals": 18,
     "address": "0x3de70dd9f65a860140f69f286a483f46e9be875a"
@@ -9286,12 +9136,6 @@
     "symbol": "MANY",
     "decimals": 9,
     "address": "0x3e2ed75f718251fd011312b9e33bf10a4dbfda54"
-  },
-  {
-    "chainId": 56,
-    "symbol": "CATCOIN",
-    "decimals": 9,
-    "address": "0x3e362283b86c1b45097cc3fb02213b79cf6211df"
   },
   {
     "chainId": 56,
@@ -9394,12 +9238,6 @@
     "symbol": "BabyKitty",
     "decimals": 9,
     "address": "0x3efe3bee4dbeb77d260bc12aeb62072cf6e68478"
-  },
-  {
-    "chainId": 56,
-    "symbol": "WSC",
-    "decimals": 2,
-    "address": "0x3f203c1403ce39d4d42c4667287a7fb2b1db1066"
   },
   {
     "chainId": 56,
@@ -9769,12 +9607,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "DDC",
-    "decimals": 9,
-    "address": "0x418236ca7c807cfc1d04eb64475df7ce17c2f218"
-  },
-  {
-    "chainId": 56,
     "symbol": "POLICEDOGE",
     "decimals": 9,
     "address": "0x4186829914d1b7b130b5153f4aabd21142e8e658"
@@ -10063,12 +9895,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "MNOP",
-    "decimals": 18,
-    "address": "0x435d4fd0bfdeb588626fe5abf6a6eb2ef2e26988"
-  },
-  {
-    "chainId": 56,
     "symbol": "EQX",
     "decimals": 18,
     "address": "0x436c52a8cee41d5e9c5e6f4cb146e66d552fb700"
@@ -10162,12 +9988,6 @@
     "symbol": "NEKOS",
     "decimals": 0,
     "address": "0x43ce64a4fba3c30c0164e935b0095862a67dc0c9"
-  },
-  {
-    "chainId": 56,
-    "symbol": "CPAC",
-    "decimals": 9,
-    "address": "0x43d096cdd8a71d9421af406e8eeefed5861e74e1"
   },
   {
     "chainId": 56,
@@ -41172,12 +40992,6 @@
     "chainId": 56,
     "address": "0x0e63b9c287e32a05e6b9ab8ee8df88a2760225a9",
     "symbol": "PIEVERSE",
-    "decimals": 18
-  },
-  {
-    "chainId": 56,
-    "address": "0x40ff3dea2eec93a7b71879874dc4407918da77a6",
-    "symbol": "SPUSD",
     "decimals": 18
   },
   {
