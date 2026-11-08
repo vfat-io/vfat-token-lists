@@ -2200,12 +2200,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "HANZO",
-    "decimals": 9,
-    "address": "0x37eb60f78e06c4bb2a5f836b0fc6bccbbaa995b3"
-  },
-  {
-    "chainId": 137,
     "symbol": "FROGE",
     "decimals": 9,
     "address": "0x37ff2a6cf0e8061cbd9a00919690f1b0a46ee674"
@@ -4480,12 +4474,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "RMTX",
-    "decimals": 18,
-    "address": "0x76a15a8628ce4c66629ea964f8dc796a8159170b"
-  },
-  {
-    "chainId": 137,
     "symbol": "CRYSTL",
     "decimals": 18,
     "address": "0x76bf0c28e604cc3fe9967c83b3c3f31c213cfe64"
@@ -6166,18 +6154,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "PECO",
-    "decimals": 18,
-    "address": "0xa9536b9c75a9e0fae3b56a96ac8edf76abc91978"
-  },
-  {
-    "chainId": 137,
-    "symbol": "AWS",
-    "decimals": 18,
-    "address": "0xa96d47c621a8316d4f9539e3b38180c7067e84ca"
-  },
-  {
-    "chainId": 137,
     "symbol": "MAMA",
     "decimals": 9,
     "address": "0xa9a779aea33b6f40cfc78a29cf56fc7e6fb329ab"
@@ -6397,12 +6373,6 @@
     "symbol": "RAMP",
     "decimals": 18,
     "address": "0xaecebfcf604ad245eaf0d5bd68459c3a7a6399c2"
-  },
-  {
-    "chainId": 137,
-    "symbol": "AWG",
-    "decimals": 18,
-    "address": "0xaee0ffb690b37449b7f1c49b199e1e3ec6084490"
   },
   {
     "chainId": 137,
@@ -7969,12 +7939,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "CERBY",
-    "decimals": 18,
-    "address": "0xdef1fac7bf08f173d286bbbdcbeeade695129840"
-  },
-  {
-    "chainId": 137,
     "symbol": "ICE",
     "decimals": 18,
     "address": "0xdf00c50a3dae240860f57b77508203b8d9593283"
@@ -8323,12 +8287,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "MSU",
-    "decimals": 18,
-    "address": "0xe8377a076adabb3f9838afb77bee96eac101ffb1"
-  },
-  {
-    "chainId": 137,
     "symbol": "xHDX",
     "decimals": 12,
     "address": "0xe8388f307caa9c338955465f0ae2aa4c3e023dd8"
@@ -8470,12 +8428,6 @@
     "symbol": "XOR",
     "decimals": 18,
     "address": "0xecae5e66d7f2bae250dff839216a01c2702adffd"
-  },
-  {
-    "chainId": 137,
-    "symbol": "NTIC",
-    "decimals": 18,
-    "address": "0xecb51acf9967331b7f282f855079671fe22c56c3"
   },
   {
     "chainId": 137,
