@@ -5260,12 +5260,6 @@
   },
   {
     "chainId": 8453,
-    "address": "0x55f9c8992fc4abce5aca585bf8f18284a2379d4c",
-    "symbol": "8LNDS",
-    "decimals": 18
-  },
-  {
-    "chainId": 8453,
     "address": "0x21cfcfc3d8f98fc728f48341d10ad8283f6eb7ab",
     "symbol": "TRUE",
     "decimals": 18
