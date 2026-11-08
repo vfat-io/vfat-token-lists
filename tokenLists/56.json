@@ -2449,12 +2449,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "EARN",
-    "decimals": 9,
-    "address": "0x11ba78277d800502c84c5aed1374ff0a91f19f7e"
-  },
-  {
-    "chainId": 56,
     "symbol": "KSHIB",
     "decimals": 9,
     "address": "0x11c0c93035d1302083eb09841042cfa582839a8c"
@@ -2482,12 +2476,6 @@
     "symbol": "NBL",
     "decimals": 18,
     "address": "0x11f331c62ab3ca958c5212d21f332a81c66f06e7"
-  },
-  {
-    "chainId": 56,
-    "symbol": "MYP",
-    "decimals": 9,
-    "address": "0x11f59d29ba0a7b765c4a454fd46ff40525a85402"
   },
   {
     "chainId": 56,
