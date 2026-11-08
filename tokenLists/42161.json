@@ -1340,11 +1340,6 @@
     "symbol": "GRAI"
   },
   {
-    "address": "0xaaa1ee8dc1864ae49185c368e8c64dd780a50fb7",
-    "decimals": 18,
-    "symbol": "xRAM"
-  },
-  {
     "address": "0x308f66ebee21861d304c8013eb3a9a5fc78a8a6c",
     "decimals": 18,
     "symbol": "SHRP"

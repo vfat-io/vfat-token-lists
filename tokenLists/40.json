@@ -115,12 +115,6 @@
   },
   {
     "chainId": 40,
-    "address": "0xcc47eb13916a76e262b0ee48a71e3c7953091e7a",
-    "symbol": "SWAP",
-    "decimals": 18
-  },
-  {
-    "chainId": 40,
     "address": "0xa84df7afbcbcc1106834a5fed9453bd1219b1fb5",
     "symbol": "Arc",
     "decimals": 18

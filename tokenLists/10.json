@@ -145,12 +145,6 @@
   },
   {
     "chainId": 10,
-    "symbol": "sBTC",
-    "decimals": 18,
-    "address": "0x298b9b95708152ff6968aafd889c6586e9169f1d"
-  },
-  {
-    "chainId": 10,
     "symbol": "FRAX",
     "decimals": 18,
     "address": "0x2e3d870790dc77a83dd1d18184acc7439a53f475"

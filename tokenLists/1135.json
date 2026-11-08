@@ -13,7 +13,7 @@
   },
   {
     "address": "0x43f2376d5d03553ae72f4a8093bbe9de4336eb08",
-    "symbol": "USD\u20ae0",
+    "symbol": "USD₮0",
     "decimals": 6,
     "chainId": 1135
   },
@@ -39,12 +39,6 @@
     "address": "0x03c7054bcb39f7b2e5b2c7acb37583e32d70cfa3",
     "symbol": "WBTC",
     "decimals": 8,
-    "chainId": 1135
-  },
-  {
-    "address": "0x18bc5bcc660cf2b9ce3cd51a404afe1a0cbd3c22",
-    "symbol": "IDRX",
-    "decimals": 2,
     "chainId": 1135
   },
   {
