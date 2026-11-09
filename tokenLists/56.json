@@ -2773,12 +2773,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "BLT",
-    "decimals": 18,
-    "address": "0x13c944ef30a2b9b1e4d5cfcec65411278b7b7524"
-  },
-  {
-    "chainId": 56,
     "symbol": "BMIC",
     "decimals": 18,
     "address": "0x13cadddd0fb00ba2fe0fb3d308e90bb15ae625ee"
@@ -2902,12 +2896,6 @@
     "symbol": "ICNV2",
     "decimals": 9,
     "address": "0x1480a5dc8dc864e671023ddd65e8b1fb41262eb8"
-  },
-  {
-    "chainId": 56,
-    "symbol": "HoHoHo",
-    "decimals": 4,
-    "address": "0x14940169e2db1595cdd3cacd30decc5bbb4d9f19"
   },
   {
     "chainId": 56,
@@ -3673,12 +3661,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "BMND",
-    "decimals": 9,
-    "address": "0x198fa9f58f8f5a492beb40d61c1ab65b4efe1104"
-  },
-  {
-    "chainId": 56,
     "symbol": "HotDoge",
     "decimals": 9,
     "address": "0x1991501f1398663f69dd7391c055bb0df6514f76"
@@ -4249,12 +4231,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "MND",
-    "decimals": 9,
-    "address": "0x1cd2528522a17b6be63012fb63ae81f3e3e29d97"
-  },
-  {
-    "chainId": 56,
     "symbol": "ASV",
     "decimals": 18,
     "address": "0x1cd9d494bfdd8bb4132e6d1f905952b654dd1dea"
@@ -4777,12 +4753,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "LDX",
-    "decimals": 9,
-    "address": "0x2089f0cbe8aca0950fa8c5bb04ade2323aee832f"
-  },
-  {
-    "chainId": 56,
     "symbol": "SHELL",
     "decimals": 18,
     "address": "0x208cfec94d2ba8b8537da7a9bb361c6baad77272"
@@ -5239,12 +5209,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "SEN",
-    "decimals": 18,
-    "address": "0x23383e18deedf460ebb918545c8b0588038b7998"
-  },
-  {
-    "chainId": 56,
     "symbol": "UST",
     "decimals": 18,
     "address": "0x23396cf899ca06c4472205fc903bdb4de249d6fc"
@@ -5272,12 +5236,6 @@
     "symbol": "SLG",
     "decimals": 18,
     "address": "0x2348b010fa9c0ce30bb042d54c298a3411361a01"
-  },
-  {
-    "chainId": 56,
-    "symbol": "VEGAS",
-    "decimals": 9,
-    "address": "0x234a97aa8c9b64b69c8344bf2c59dc3a5b1ff2ce"
   },
   {
     "chainId": 56,
@@ -5713,12 +5671,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "HOTZILLA",
-    "decimals": 4,
-    "address": "0x26303d4f293b70529c845a14cc4cdb475bac456a"
-  },
-  {
-    "chainId": 56,
     "symbol": "MANA",
     "decimals": 18,
     "address": "0x26433c8127d9b4e9b71eaa15111df99ea2eeb2f8"
@@ -5929,12 +5881,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "PLASTIK",
-    "decimals": 9,
-    "address": "0x2764be4756fec8de911d8d37efe4ae8aff178254"
-  },
-  {
-    "chainId": 56,
     "symbol": "SQM",
     "decimals": 18,
     "address": "0x2766cc2537538ac68816b6b5a393fa978a4a8931"
@@ -6130,12 +6076,6 @@
     "symbol": "BITUP",
     "decimals": 9,
     "address": "0x28a27ba716d306c842a4b5da20a42e1d4d1e8d6b"
-  },
-  {
-    "chainId": 56,
-    "symbol": "LUNG",
-    "decimals": 18,
-    "address": "0x28b9aed756de31b6b362aa0f23211d13093ebb79"
   },
   {
     "chainId": 56,
@@ -10930,12 +10870,6 @@
     "symbol": "ANFT",
     "decimals": 9,
     "address": "0x4ad871d02415717f55adb23def23faec98e7bba8"
-  },
-  {
-    "chainId": 56,
-    "symbol": "PESA",
-    "decimals": 18,
-    "address": "0x4adc604a0261e3d340745533964fff6bb130f3c3"
   },
   {
     "chainId": 56,
@@ -17068,12 +17002,6 @@
     "symbol": "AGS",
     "decimals": 18,
     "address": "0x73ffdf2d2afb3def5b10bf967da743f2306a51db"
-  },
-  {
-    "chainId": 56,
-    "symbol": "GREEN",
-    "decimals": 18,
-    "address": "0x7403802c0ffee2d83fb13513e23aaf4a3a9c69f0"
   },
   {
     "chainId": 56,
