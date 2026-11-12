@@ -34021,5 +34021,11 @@
     "address": "0xab5eb14c09d416f0ac63661e57edb7aecdb9befa",
     "symbol": "msUSD",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0x8888cdad9ef66382f89e68f95ec384d89ec28888",
+    "symbol": "NAMI",
+    "decimals": 18
   }
 ]

@@ -2743,5 +2743,11 @@
     "address": "0x5be5b092ad0d1f0c81f394f0e00086196115779c",
     "symbol": "gHOOD",
     "decimals": 12
+  },
+  {
+    "chainId": 4663,
+    "address": "0x8888cdad9ef66382f89e68f95ec384d89ec28888",
+    "symbol": "NAMI",
+    "decimals": 18
   }
 ]
