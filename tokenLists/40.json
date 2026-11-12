@@ -145,12 +145,6 @@
   },
   {
     "chainId": 40,
-    "address": "0xaae65b3b41f7c372c729b59b08ca93d53e9b79b3",
-    "symbol": "ICE",
-    "decimals": 18
-  },
-  {
-    "chainId": 40,
     "address": "0xfb319ea5dded8cfe8bcf9c720ed380b98874bf63",
     "symbol": "RBN",
     "decimals": 6

@@ -96,13 +96,6 @@
     "chainId": 747474
   },
   {
-    "address": "0x6e9c1f88a960fe63387eb4b71bc525a9313d8461",
-    "symbol": "KAT v2",
-    "decimals": 18,
-    "chainId": 747474,
-    "priceTokenAddress": "0x7f1f4b4b29f5058fa32cc7a97141b8d7e5abdc2d"
-  },
-  {
     "address": "0x7f1f4b4b29f5058fa32cc7a97141b8d7e5abdc2d",
     "symbol": "KAT",
     "decimals": 18,

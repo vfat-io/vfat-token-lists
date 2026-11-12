@@ -1810,12 +1810,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "FLYP",
-    "decimals": 18,
-    "address": "0x2cc58c81cfd3958e268bc68d3dda08fd4e17977c"
-  },
-  {
-    "chainId": 137,
     "symbol": "RVF",
     "decimals": 18,
     "address": "0x2ce13e4199443fdfff531abb30c9b6594446bbc7"
@@ -7237,12 +7231,6 @@
     "symbol": "OXRP",
     "decimals": 6,
     "address": "0xcc2a9051e904916047c26c90f41c000d4f273456"
-  },
-  {
-    "chainId": 137,
-    "symbol": "PARA",
-    "decimals": 9,
-    "address": "0xcca3e26be51b8905f1a01872524f17eb55bd02fb"
   },
   {
     "chainId": 137,
