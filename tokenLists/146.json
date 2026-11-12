@@ -543,12 +543,6 @@
     "chainId": 146
   },
   {
-    "address": "0x5050bc082ff4a74fb6b0b04385defddb114b2424",
-    "symbol": "xSHADOW",
-    "decimals": 18,
-    "chainId": 146
-  },
-  {
     "address": "0x3333b97138d4b086720b5ae8a7844b1345a33333",
     "symbol": "SHADOW",
     "decimals": 18,
