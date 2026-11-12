@@ -1,0 +1,855 @@
+[
+  {
+    "chainId": 25,
+    "address": "0x0bcca089f12ae9e78f5060e1d6fbbe1c827c5990",
+    "symbol": "WCRO",
+    "sourceFile": "tokenLists/25.json",
+    "reason": "chain-metadata-conflict",
+    "declaredChainId": 324
+  },
+  {
+    "chainId": 25,
+    "address": "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4",
+    "symbol": "USDC",
+    "sourceFile": "tokenLists/25.json",
+    "reason": "chain-metadata-conflict",
+    "declaredChainId": 324
+  },
+  {
+    "chainId": 25,
+    "address": "0x5aea5775959fbc2557cc8789bc1bf90a239d9a91",
+    "symbol": "WETH",
+    "sourceFile": "tokenLists/25.json",
+    "reason": "chain-metadata-conflict",
+    "declaredChainId": 324
+  },
+  {
+    "chainId": 25,
+    "address": "0x7b350e8b405090496b02d28f7cdb6fbb3f8c6418",
+    "symbol": "VVS",
+    "sourceFile": "tokenLists/25.json",
+    "reason": "chain-metadata-conflict",
+    "declaredChainId": 324
+  },
+  {
+    "chainId": 40,
+    "address": "0xa9991e4daa44922d00a78b6d986cdf628d46c4dd",
+    "symbol": "STLOS",
+    "sourceFile": "tokenLists/40.json",
+    "reason": "chain-metadata-conflict",
+    "declaredChainId": 41
+  },
+  {
+    "chainId": 40,
+    "address": "0xae85bf723a9e74d6c663dd226996ac1b8d075aa9",
+    "symbol": "WTLOS",
+    "sourceFile": "tokenLists/40.json",
+    "reason": "chain-metadata-conflict",
+    "declaredChainId": 41
+  },
+  {
+    "chainId": 40,
+    "address": "0xd159c4e586421a507907fad705e067bfb350dc07",
+    "symbol": "FIAT",
+    "sourceFile": "tokenLists/40.json",
+    "reason": "chain-metadata-conflict",
+    "declaredChainId": 41
+  },
+  {
+    "chainId": 40,
+    "address": "0xd9151f839a9d8d280c0a3a694c82b6865bbca099",
+    "symbol": "CAKE",
+    "sourceFile": "tokenLists/40.json",
+    "reason": "chain-metadata-conflict",
+    "declaredChainId": 41
+  },
+  {
+    "chainId": 40,
+    "address": "0xe1afb545b5701d884a674d90b31927bbd0fca380",
+    "symbol": "USDT",
+    "sourceFile": "tokenLists/40.json",
+    "reason": "chain-metadata-conflict",
+    "declaredChainId": 41
+  },
+  {
+    "chainId": 40,
+    "address": "0xe5de07ec385b1bd55f6bb02c01860547be9d7c0b",
+    "symbol": "PIG",
+    "sourceFile": "tokenLists/40.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xe5de07ec385b1bd55f6bb02c01860547be9d7c0b-40/public",
+    "cdnError": "HTTP Error 404: Not Found",
+    "issuerEvidenceUrl": "https://raw.githubusercontent.com/telosnetwork/token-list/79049989673a7cc8881725188be96f040382baf6/telosevm.tokenlist.json",
+    "logoURI": "https://gateway.ipfs.io/ipfs/QmPThPaz3kjWaLjDAZKP8frpzaVm5Rvi5wCcUbag8QhgRL",
+    "fetchError": "HTTP Error 403: Forbidden"
+  },
+  {
+    "chainId": 56,
+    "address": "0x0ae38f7e10a43b5b2fb064b42a2f4514cba909ef",
+    "symbol": "unshETH",
+    "sourceFile": "tokenLists/56.json",
+    "reason": "chain-metadata-conflict",
+    "declaredChainId": 18
+  },
+  {
+    "chainId": 56,
+    "address": "0xd069599e718f963bd84502b49ba8f8657faf5b3a",
+    "symbol": "PLAY",
+    "sourceFile": "tokenLists/56.json",
+    "reason": "chain-metadata-conflict",
+    "declaredChainId": 18
+  },
+  {
+    "chainId": 146,
+    "address": "0x0104ad770f314edc2a3ed53e3609ebf25c83c163",
+    "symbol": "SMONS",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x0104ad770f314edc2a3ed53e3609ebf25c83c163-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x018a2494201a2c68031bcf4653816a9500c90998",
+    "symbol": "$CHAD",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x018a2494201a2c68031bcf4653816a9500c90998-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x028d08fd909d55446c33cc2705b2a797a0fb90eb",
+    "symbol": "soonic",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x028d08fd909d55446c33cc2705b2a797a0fb90eb-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x13d25c11330d5be46213fa13f2ea61a9fb14939e",
+    "symbol": "SONA",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x13d25c11330d5be46213fa13f2ea61a9fb14939e-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x18b26086ecd683a1894aab014de54d3e860aa98a",
+    "symbol": "SPC",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x18b26086ecd683a1894aab014de54d3e860aa98a-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x1ecfa7a6434159217aeb4f1594830ea7f9cb8d40",
+    "symbol": "TK",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x1ecfa7a6434159217aeb4f1594830ea7f9cb8d40-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x1f8a54422088522101e896973a7bebe94ef9dcaa",
+    "symbol": "S",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x1f8a54422088522101e896973a7bebe94ef9dcaa-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x2030170901a9d87f6bd0ca9b8ad130119c7e1173",
+    "symbol": "BABYSONIC",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x2030170901a9d87f6bd0ca9b8ad130119c7e1173-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x21a280cf4b4ea14392072d588735e9f6db817d77",
+    "symbol": "ANC",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x21a280cf4b4ea14392072d588735e9f6db817d77-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x265f1fbc842aedaed11eb67af0fa07e52d96b2e7",
+    "symbol": "300AI",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x265f1fbc842aedaed11eb67af0fa07e52d96b2e7-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x309c92261178fa0cf748a855e90ae73fdb79ebc7",
+    "symbol": "WETH",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x309c92261178fa0cf748a855e90ae73fdb79ebc7-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x313636d4f23859142b523a7965b76f6e3965af64",
+    "symbol": "SonicSwap",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x313636d4f23859142b523a7965b76f6e3965af64-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x34e8b905c77fe0eb36c9a7574d9026b73a1a2766",
+    "symbol": "SM",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x34e8b905c77fe0eb36c9a7574d9026b73a1a2766-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x5e26be93509c161de8989af290375200081ca023",
+    "symbol": "LOVE",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x5e26be93509c161de8989af290375200081ca023-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x6125b11b9e3cb15c5ccd22a174b4e5d0e441b335",
+    "symbol": "test",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x6125b11b9e3cb15c5ccd22a174b4e5d0e441b335-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x62122f0a374474b132dfd718b9ba3f2e865e8911",
+    "symbol": "fUMAN",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x62122f0a374474b132dfd718b9ba3f2e865e8911-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x69ac532faca5138fd11037e9ac64fbcea4ad7276",
+    "symbol": "DE2",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x69ac532faca5138fd11037e9ac64fbcea4ad7276-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x6c02834d9077811c48a12f47a73ad313800d0ceb",
+    "symbol": "Bum",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x6c02834d9077811c48a12f47a73ad313800d0ceb-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x70317fc7b09dfea57f56f7e65820368bd976b342",
+    "symbol": "SPENG",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x70317fc7b09dfea57f56f7e65820368bd976b342-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x70d91c319af70789d6cd2ebbafa47a3156c569f9",
+    "symbol": "TEST",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x70d91c319af70789d6cd2ebbafa47a3156c569f9-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x79c582313390c0faf99cd7c697eb93209aa84fe9",
+    "symbol": "StrategyBedrock",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x79c582313390c0faf99cd7c697eb93209aa84fe9-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x803e0496acd32398480b92143062a4bb8c98a71c",
+    "symbol": "ANT",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x803e0496acd32398480b92143062a4bb8c98a71c-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x84893535b25ce124c74600a20cb9d669ef45a5eb",
+    "symbol": "Zonica",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x84893535b25ce124c74600a20cb9d669ef45a5eb-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x8f49efc0f5ec36fbe3ae9c21e3c352fda115f034",
+    "symbol": "💥",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x8f49efc0f5ec36fbe3ae9c21e3c352fda115f034-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x9b567e03d891f537b2b7874aa4a3308cfe2f4fbb",
+    "symbol": "$STONER",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x9b567e03d891f537b2b7874aa4a3308cfe2f4fbb-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0x9c0cb5f0622933e3fc0611dcba86b9d767eb1f6c",
+    "symbol": "SILVER",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x9c0cb5f0622933e3fc0611dcba86b9d767eb1f6c-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xa4d0bf8a66ac5115b5f428d313d7c73054d1e5d4",
+    "symbol": "axlSonic",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xa4d0bf8a66ac5115b5f428d313d7c73054d1e5d4-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xba56b07d7d730212a1f0e5eb6684a02760f7e1e7",
+    "symbol": "LDX",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xba56b07d7d730212a1f0e5eb6684a02760f7e1e7-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xcceec0f70faf11ed59f87dfad787aba6b102a80b",
+    "symbol": "EGG",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xcceec0f70faf11ed59f87dfad787aba6b102a80b-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xcd052abf47bb2d10c3a609d76b0374dc1672522c",
+    "symbol": "Chuck",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xcd052abf47bb2d10c3a609d76b0374dc1672522c-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xd0ba12a3a86ff87e61f08a18332acaa1dc3e166e",
+    "symbol": "$SODA",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xd0ba12a3a86ff87e61f08a18332acaa1dc3e166e-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xd25527815f50a96a8c36b4ff47bd1c62a9282618",
+    "symbol": "FISH",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xd25527815f50a96a8c36b4ff47bd1c62a9282618-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xe41e61eb4fc55aed52af05dfd8b77a4420bb1f80",
+    "symbol": "ramen",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xe41e61eb4fc55aed52af05dfd8b77a4420bb1f80-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xe4bd970b4ced16eb80a93d9434243569cbec8e2c",
+    "symbol": "t",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xe4bd970b4ced16eb80a93d9434243569cbec8e2c-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xeb5b99669f43f0e4d10e2be7a1c33e5916d3b590",
+    "symbol": "SonicDex",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xeb5b99669f43f0e4d10e2be7a1c33e5916d3b590-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xf05749a113634f32cc22332297f71c7bc8b532a6",
+    "symbol": "TEST",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xf05749a113634f32cc22332297f71c7bc8b532a6-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xf19e49d85066f79f54a5a8f07f1457e4f55f0b63",
+    "symbol": "SDOG",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xf19e49d85066f79f54a5a8f07f1457e4f55f0b63-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xf65d78d32ebe779550400f7fa861f77c717a5844",
+    "symbol": "PINK",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xf65d78d32ebe779550400f7fa861f77c717a5844-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xf785392426357945be6e75c9b8abe424f5755939",
+    "symbol": "MCEX",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xf785392426357945be6e75c9b8abe424f5755939-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xf83f59808dabf2afe0a9bc7d82abb551f03fd9be",
+    "symbol": "DERP",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xf83f59808dabf2afe0a9bc7d82abb551f03fd9be-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xfe626a8475fbfbc856fc19bd8af11b122923cb9f",
+    "symbol": "SODA",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xfe626a8475fbfbc856fc19bd8af11b122923cb9f-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 146,
+    "address": "0xfe8bdddb292ee9ca9887e765d8d8e2807a6c080e",
+    "symbol": "NTGEN",
+    "sourceFile": "tokenLists/146.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xfe8bdddb292ee9ca9887e765d8d8e2807a6c080e-146/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 250,
+    "address": "0x7560976acc6d08a359c4bff22d86a0efd846a896",
+    "symbol": "sGOAT",
+    "sourceFile": "tokenLists/250.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x7560976acc6d08a359c4bff22d86a0efd846a896-250/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 369,
+    "address": "0x7fb5120d2db148e91f572d2f69bc04fe454dbd9b",
+    "symbol": "uPLS",
+    "sourceFile": "tokenLists/369.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x7fb5120d2db148e91f572d2f69bc04fe454dbd9b-369/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 8453,
+    "address": "0x817cab331aaa4c24b4e32024fca093ad40cba208",
+    "symbol": "❤️",
+    "sourceFile": "tokenLists/8453.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x817cab331aaa4c24b4e32024fca093ad40cba208-8453/public",
+    "cdnError": "HTTP Error 404: Not Found",
+    "sourceErrors": {
+      "coingeckoTokenRegistry": "HTTP 403: Forbidden"
+    }
+  },
+  {
+    "chainId": 8453,
+    "address": "0xd1b771cb462a4b0e4d56bb68b4bf832994cc8820",
+    "symbol": "🌱",
+    "sourceFile": "tokenLists/8453.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xd1b771cb462a4b0e4d56bb68b4bf832994cc8820-8453/public",
+    "cdnError": "HTTP Error 404: Not Found",
+    "sourceErrors": {
+      "coingeckoTokenRegistry": "HTTP 403: Forbidden"
+    }
+  },
+  {
+    "chainId": 42161,
+    "address": "0x1819e21698b777b69f903ff5550361cf12ed1def",
+    "symbol": "FEAR",
+    "sourceFile": "tokenLists/42161.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x1819e21698b777b69f903ff5550361cf12ed1def-42161/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 42161,
+    "address": "0x30c8cf6b46aa4df3f9fbc2857aca92f10a6cad7f",
+    "symbol": "ELITE",
+    "sourceFile": "tokenLists/42161.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x30c8cf6b46aa4df3f9fbc2857aca92f10a6cad7f-42161/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 42161,
+    "address": "0x8a72b245d60f2dabad44041d050d08c35ba60f43",
+    "symbol": "PLAY",
+    "sourceFile": "tokenLists/42161.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x8a72b245d60f2dabad44041d050d08c35ba60f43-42161/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 42161,
+    "address": "0xb9c8f0d3254007ee4b98970b94544e473cd610ec",
+    "symbol": "QI",
+    "sourceFile": "tokenLists/42161.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xb9c8f0d3254007ee4b98970b94544e473cd610ec-42161/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 42161,
+    "address": "0xbf05279f9bf1ce69bbfed670813b7e431142afa4",
+    "symbol": "RING",
+    "sourceFile": "tokenLists/42161.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0xbf05279f9bf1ce69bbfed670813b7e431142afa4-42161/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 57073,
+    "address": "0x145922e65ceaf0e4cf6e37e3a0e5bb57d9e1ff09",
+    "symbol": "SQWARD",
+    "sourceFile": "tokenLists/57073.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x145922e65ceaf0e4cf6e37e3a0e5bb57d9e1ff09-57073/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  },
+  {
+    "chainId": 57073,
+    "address": "0x6b6299a7cde8b0d3e735af178b7b5a870a624408",
+    "symbol": "Mojo",
+    "sourceFile": "tokenLists/57073.json",
+    "reason": "no-verified-artwork-retrieved",
+    "checkedSources": [
+      "vfat-cdn",
+      "coingecko-token-registry",
+      "dexscreener"
+    ],
+    "cdnUrl": "https://imagedelivery.net/tLQGX6fO2lhA7EXY2jvPQQ/0x6b6299a7cde8b0d3e735af178b7b5a870a624408-57073/public",
+    "cdnError": "HTTP Error 404: Not Found"
+  }
+]
