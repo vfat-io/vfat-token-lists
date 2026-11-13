@@ -22,5 +22,83 @@
     "address": "0xe45a355d9e9cad2ad85f2d03e3ee3102a036acf0",
     "symbol": "KNTQ",
     "decimals": 18
+  },
+  {
+    "chainId": 99901,
+    "address": "0x248888d396a546a69a188f3deb476964e581e9d0",
+    "symbol": "kHYPE",
+    "decimals": 18
+  },
+  {
+    "chainId": 99901,
+    "address": "0xa60a69b0508500a0181c299ba4eac4b81e19ac96",
+    "symbol": "kmHYPE",
+    "decimals": 18
+  },
+  {
+    "chainId": 99901,
+    "address": "0x119e8ab9f722295dc32f284ef8d4cf95671c485e",
+    "symbol": "vkHYPE",
+    "decimals": 18
+  },
+  {
+    "chainId": 99901,
+    "address": "0x7a66a75fe41bc26867c17fe1bc7d1c076ebd4ecd",
+    "symbol": "UETH",
+    "decimals": 18
+  },
+  {
+    "chainId": 99901,
+    "address": "0xe9c29585eae4b9a55b02a9605aea892b40d972e8",
+    "symbol": "UBTC",
+    "decimals": 8
+  },
+  {
+    "chainId": 99901,
+    "address": "0x3bde42a1da8f1d95564f2c4a51a0cf73a725674c",
+    "symbol": "USD₮0",
+    "decimals": 6
+  },
+  {
+    "chainId": 99901,
+    "address": "0x437c847644ff22cbcf0ea56896aa25504aad93b4",
+    "symbol": "wSPYx",
+    "decimals": 18
+  },
+  {
+    "chainId": 99901,
+    "address": "0x11265018bf2d5a99fb71efae73ad670203c1df44",
+    "symbol": "wNVDAx",
+    "decimals": 18,
+    "tags": [
+      "stock"
+    ]
+  },
+  {
+    "chainId": 99901,
+    "address": "0x5ceff5c7316067b81b537a9ae011d6882f0a558a",
+    "symbol": "EQNVDA",
+    "decimals": 8,
+    "tags": [
+      "stock"
+    ]
+  },
+  {
+    "chainId": 99901,
+    "address": "0x063f7cc5339f92a5fd7baf3d22233044fda1f327",
+    "symbol": "MONTRA",
+    "decimals": 18
+  },
+  {
+    "chainId": 99901,
+    "address": "0x0f79931689af199e7cf868ed1107bba2c83c68f7",
+    "symbol": "VOLTA",
+    "decimals": 18
+  },
+  {
+    "chainId": 99901,
+    "address": "0x9e148c5716b5aadcfd3b71ceae9ee7a9e22c29e2",
+    "symbol": "xAERO",
+    "decimals": 18
   }
 ]
