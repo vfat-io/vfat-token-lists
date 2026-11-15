@@ -2749,5 +2749,11 @@
     "address": "0x8888cdad9ef66382f89e68f95ec384d89ec28888",
     "symbol": "NAMI",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0x378a50eac56f45fb74e4ce7f1962dbca33515c14",
+    "symbol": "MCD",
+    "decimals": 18
   }
 ]

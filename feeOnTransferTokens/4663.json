@@ -872,5 +872,39 @@
       "reproduce": "eth_getLogs on address 0x181a4040caca806d7afa16becd5d11b45cf07777 at block 40782848 for topic0 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef, then group by (transactionHash, topics[1]) and look for the two legs sharing this sender."
     },
     "note": "Fee-on-transfer token: a taxed transfer emits TWO Transfer events with the SAME sender -- 98% of the amount to the intended recipient and 2% credited to the token contract itself, which accumulates the fee for later swap-back. Both legs are in the receipt, so the split is reproducible from eth_getLogs alone with no tracing. The fee is a floored integer division, so the realised rate equals 200 bps up to a rounding residue of at most one base unit; the exact rational for the cited transaction is in evidence.taxBpsExactRational. Confirmed on 10 independent two-leg transfers, 9 of them with the pool 0xca71f544c2467b50e98205a38c513669847255e6 as an endpoint, so pool-side transfers ARE taxed -- which is what makes the token unsafe as a routing hop rather than merely unusual. Failure modes by position in a router path: (1) as INPUT or INTERMEDIATE -- the destination pool receives only 98% of amountSent, so pool.swap(amount0Out, ...) reverts K() because the demanded output assumed the full amountSent; (2) as TERMINAL OUTPUT -- no next pool and no K() revert, but the user receives 98% of the quoted amountOut, silently violating the minAmountOut slippage promise (delivered < quoted). Both modes are unsafe."
+  },
+  {
+    "address": "0x378a50eac56f45fb74e4ce7f1962dbca33515c14",
+    "symbol": "MCD",
+    "chainId": 4663,
+    "decimals": 18,
+    "feeBps": 100,
+    "evidence": {
+      "txHash": "0x5dc4950edbeb1ce7e1be974ea58e02db8fba77937eb117f7f80f77c7622d2f6f",
+      "blockNumber": 115153460,
+      "explorer": "https://robinhoodchain.blockscout.com/tx/0x5dc4950edbeb1ce7e1be974ea58e02db8fba77937eb117f7f80f77c7622d2f6f",
+      "sender": "0xe08cf5897800ed3df6cba2f1d499fb6571ca2e7c",
+      "recipient": "0x1c7d14d2147795daf0b534521fec5dbb6579b2d6",
+      "pool": "0x1c7d14d2147795daf0b534521fec5dbb6579b2d6",
+      "requestedAmount": "615331345369400897243",
+      "transferToRecipient": "609178031915706888271",
+      "transferToTaxDestination": "6153313453694008972",
+      "taxDestination": "0x378a50eac56f45fb74e4ce7f1962dbca33515c14",
+      "computation": "fee = floor(615331345369400897243 * 100 / 10000) = 6153313453694008972; recipient = 615331345369400897243 - 6153313453694008972 = 609178031915706888271",
+      "corroboration": {
+        "txHash": "0x0ade7af7c90904a13545ceb15ce08476f6e4d35b10178e8946cb3b64cbf66665",
+        "blockNumber": 115165532,
+        "explorer": "https://robinhoodchain.blockscout.com/tx/0x0ade7af7c90904a13545ceb15ce08476f6e4d35b10178e8946cb3b64cbf66665",
+        "sender": "0x1c7d14d2147795daf0b534521fec5dbb6579b2d6",
+        "recipient": "0x6a000f20005980200259b80c5102003040001068",
+        "pool": "0x1c7d14d2147795daf0b534521fec5dbb6579b2d6",
+        "requestedAmount": "1502050540388103338185",
+        "transferToRecipient": "1487030034984222304804",
+        "transferToTaxDestination": "15020505403881033381",
+        "taxDestination": "0x378a50eac56f45fb74e4ce7f1962dbca33515c14",
+        "computation": "fee = floor(1502050540388103338185 * 100 / 10000) = 15020505403881033381; recipient = 1502050540388103338185 - 15020505403881033381 = 1487030034984222304804"
+      }
+    },
+    "note": "Marked AMM-pair transfers charge a 1% buy/sell tax. The cited sell and buy receipts each contain recipient and tax-destination Transfer events from the same sender; both reproduce the 100 bps floor calculation exactly. Wallet and PoolManager transfers can be untaxed. Keep this token excluded from routing paths that assume unrestricted, untaxed transfers."
   }
 ]
