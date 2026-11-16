@@ -1,0 +1,47 @@
+name: Token transfer safety
+
+# Simulates a real transfer of every token added to tokenLists/ and fails when the token
+# reverts or delivers less than was sent (transfer caps, blacklists, fee-on-transfer).
+# Runs on pushes to master as well as pull requests, because token additions are often
+# pushed directly.
+on:
+  pull_request:
+    paths:
+      - 'tokenLists/**'
+      - 'scripts/check-transfer-safety.mjs'
+      - 'scripts/transfer-probe/**'
+  push:
+    branches: [master]
+    paths:
+      - 'tokenLists/**'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Unit tests
+        run: node --test tests/check-transfer-safety.test.mjs
+      - name: Probe added tokens
+        env:
+          # JSON object of chainId -> RPC URL, e.g. {"8453":"https://..."}. Each RPC must
+          # support eth_getLogs and eth_call state overrides. Chains without an entry are
+          # reported as warnings, not failures. Not available to pull requests from forks.
+          TRANSFER_PROBE_RPC_URLS: ${{ secrets.TRANSFER_PROBE_RPC_URLS }}
+          # The pull_request checkout is the merge commit; its first parent is the base branch.
+          BASE: ${{ github.event_name == 'pull_request' && 'HEAD^1' || github.event.before }}
+        run: |
+          if ! git cat-file -e "${BASE}^{commit}" 2>/dev/null; then
+            echo "::warning::Base commit ${BASE} is not available (new branch or force push); transfer safety not checked"
+            exit 0
+          fi
+          node scripts/check-transfer-safety.mjs --base "$BASE"
