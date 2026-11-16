@@ -49,11 +49,15 @@ blacklists, sell blocks or transfer fees make every deposit, exit and swap throu
 pools fail, so they must not be listed.
 
 The `Token transfer safety` workflow runs on pull requests and on pushes to `master`. For each
-added token it finds the largest recent holders from Transfer logs and simulates moving 50% of a
-holder's balance to a fresh address and back, using `eth_call` with a code state override
+added token it takes up to 60 recent participants from Transfer logs and probes every one with a
+positive balance, largest first. This keeps a smaller pool in the sample even when larger wallets
+transfer without fees. It simulates moving 50% of a holder's balance to a fresh address and back,
+using `eth_call` with a code state override
 (`scripts/transfer-probe/TransferProbe.sol`). Nothing is sent on chain. A revert or a short
-delivery fails the check. A chain with no configured RPC, or a token with no recent holders, is
-reported as a warning.
+delivery or excess sender debit beyond the 0.1% tolerance on either leg fails the check. The probe
+measures both sides of each transfer, including the `transferFrom` return leg. A chain with no
+configured RPC, or a token with no recent holders, is reported as a warning. This is a bounded
+sample of recent activity; a passing result does not establish safety for unobserved pools.
 
 Run it locally before adding a token:
 
@@ -64,6 +68,11 @@ RPC_URL_8453=https://... npm run check-transfer-safety -- --base origin/master
 
 CI reads endpoints from the `TRANSFER_PROBE_RPC_URLS` repository secret, a JSON object of chain
 id to RPC URL. Each RPC must support `eth_getLogs` and `eth_call` state overrides.
+
+After editing `TransferProbe.sol`, regenerate its embedded runtime with `npm run build:transfer-probe`.
+The build pins solc 0.8.35, optimizer runs 200 and the Shanghai EVM target. CI verifies the bytecode
+against the source and runs Solidity regressions in an in-process EVM, including sender-paid fees
+on both legs and a taxed pool behind three larger wallets.
 
 ## Pull request reviews
 

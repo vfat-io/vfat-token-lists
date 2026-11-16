@@ -1,7 +1,7 @@
 // Simulates a real transfer of every token a change adds to tokenLists/, and fails when the
-// token reverts or delivers less than was sent. Tokens like that (daily transfer caps,
-// blacklists, fee-on-transfer, sell blocks) break every deposit, exit and swap through their
-// pools, so they must not be listed.
+// token reverts, delivers less than was sent or debits more than requested. Tokens like that
+// (daily transfer caps, blacklists, fee-on-transfer, sell blocks) break every deposit, exit
+// and swap through their pools, so they must not be listed.
 //
 // The check finds real holders from recent Transfer logs and, with an eth_call code state
 // override, runs TransferProbe at each holder's address: move 50% of the holder's balance to a
@@ -36,7 +36,6 @@ export const DEFAULTS = {
   maxLogChunks: 25,
   targetParticipants: 40,
   maxBalanceReads: 60,
-  holdersToProbe: 3,
 };
 
 const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
@@ -231,16 +230,24 @@ export async function recentParticipants(rpc, token, latest, options = DEFAULTS)
   return [...seen].slice(0, options.maxBalanceReads);
 }
 
-export function classifyRoundTrip(amount, received, returned, toleranceBps) {
+export function classifyRoundTrip(amount, { received, returned, spent, spentReturning }, toleranceBps) {
   const minReceived = amount - (amount * BigInt(toleranceBps)) / 10_000n;
   if (received < minReceived) {
     return { status: 'restricted', reason: `recipient received ${received} of ${amount} (fee-on-transfer or rebasing)` };
+  }
+  const maxSpent = amount + (amount * BigInt(toleranceBps)) / 10_000n;
+  if (spent > maxSpent) {
+    return { status: 'restricted', reason: `holder spent ${spent} to send ${amount} (sender-paid transfer fee)` };
   }
   const minReturned = received - (received * BigInt(toleranceBps)) / 10_000n;
   if (returned < minReturned) {
     return { status: 'restricted', reason: `transferring back returned ${returned} of ${received} (sell-restricted)` };
   }
-  return { status: 'safe', reason: 'full amount moved in both directions' };
+  const maxSpentReturning = received + (received * BigInt(toleranceBps)) / 10_000n;
+  if (spentReturning > maxSpentReturning) {
+    return { status: 'restricted', reason: `transferring back spent ${spentReturning} to send ${received} (sender-paid transfer fee)` };
+  }
+  return { status: 'safe', reason: 'both transfer legs stayed within tolerance' };
 }
 
 export async function probeHolder(rpc, token, holder, balance, block, options = DEFAULTS) {
@@ -266,11 +273,11 @@ export async function probeHolder(rpc, token, holder, balance, block, options = 
         [PROBE_SPENDER]: { code: TRANSFER_PROBE_RUNTIME_BYTECODE },
       },
     ]);
-    const [received, returned] = decodeWords(result);
-    if (received === undefined || returned === undefined) {
-      return { status: 'inconclusive', reason: 'probe returned no data', holder, amount };
+    const [received, returned, spent, spentReturning] = decodeWords(result);
+    if ([received, returned, spent, spentReturning].some((value) => value === undefined)) {
+      return { status: 'inconclusive', reason: 'probe did not return all balance deltas', holder, amount };
     }
-    return { ...classifyRoundTrip(amount, received, returned, options.toleranceBps), holder, amount };
+    return { ...classifyRoundTrip(amount, { received, returned, spent, spentReturning }, options.toleranceBps), holder, amount };
   } catch (error) {
     if (isExecutionRevert(error)) {
       const data = typeof error.data === 'string' ? ` (${error.data.slice(0, 74)})` : '';
@@ -280,8 +287,8 @@ export async function probeHolder(rpc, token, holder, balance, block, options = 
   }
 }
 
-// Probes the largest few recent holders. One restricted result is enough to fail the token:
-// a cap or blacklist only needs to hit one realistic transfer to break the pools.
+// Probe every funded holder in the bounded participant sample, largest first. A smaller pool
+// must not be displaced by larger fee-exempt wallets. One restricted result fails the token.
 export async function checkToken(rpc, token, options = DEFAULTS) {
   const address = token.address.toLowerCase();
   try {
@@ -300,12 +307,11 @@ export async function checkToken(rpc, token, options = DEFAULTS) {
       }
     }
     balances.sort((a, b) => (a.balance === b.balance ? 0 : a.balance > b.balance ? -1 : 1));
-    const selected = balances.slice(0, options.holdersToProbe);
-    if (selected.length === 0) {
+    if (balances.length === 0) {
       return { status: 'inconclusive', reason: 'no holder with a balance found in recent Transfer logs', probes: [] };
     }
     const probes = [];
-    for (const { holder, balance } of selected) {
+    for (const { holder, balance } of balances) {
       probes.push(await probeHolder(rpc, address, holder, balance, block, options));
     }
     const restricted = probes.find((probe) => probe.status === 'restricted');
@@ -313,7 +319,7 @@ export async function checkToken(rpc, token, options = DEFAULTS) {
       return { status: 'restricted', reason: restricted.reason, probes };
     }
     if (probes.some((probe) => probe.status === 'safe')) {
-      return { status: 'safe', reason: 'full amount moved in both directions', probes };
+      return { status: 'safe', reason: 'both transfer legs stayed within tolerance', probes };
     }
     return { status: 'inconclusive', reason: probes[0].reason, probes };
   } catch (error) {
