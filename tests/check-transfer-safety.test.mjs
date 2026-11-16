@@ -6,6 +6,7 @@ import path from 'node:path';
 import test from 'node:test';
 import { promisify } from 'node:util';
 import {
+  DEFAULTS,
   RpcError,
   addedTokens,
   checkToken,
@@ -62,7 +63,7 @@ function fakeRpc({ balances, roundTrip, overrides = true, logs } = {}) {
       if (data.startsWith(SELECTORS.probeRoundTrip)) {
         const amount = BigInt(`0x${data.slice(-64)}`);
         const [received, returned] = roundTrip(to, amount);
-        return `0x${word(received)}${word(returned)}`;
+        return `0x${word(received)}${word(returned)}${word(amount)}${word(received)}`;
       }
     }
     throw new Error(`unexpected ${method}`);
@@ -93,10 +94,27 @@ test('addedTokens falls back to the file chain id for entries without one', () =
 });
 
 test('classifyRoundTrip flags short deliveries in either direction', () => {
-  assert.equal(classifyRoundTrip(1000n, 1000n, 1000n, 10).status, 'safe');
-  assert.equal(classifyRoundTrip(1000n, 999n, 999n, 10).status, 'safe');
-  assert.equal(classifyRoundTrip(1000n, 990n, 990n, 10).status, 'restricted');
-  assert.equal(classifyRoundTrip(1000n, 1000n, 0n, 10).status, 'restricted');
+  const classify = (received, returned) => classifyRoundTrip(1000n, {
+    received, returned, spent: 1000n, spentReturning: received,
+  }, 10).status;
+  assert.equal(classify(1000n, 1000n), 'safe');
+  assert.equal(classify(999n, 999n), 'safe');
+  assert.equal(classify(990n, 990n), 'restricted');
+  assert.equal(classify(1000n, 0n), 'restricted');
+});
+
+test('sender debits respect the tolerance on each leg with exact integer rounding', () => {
+  const classify = (amount, spent, spentReturning) => classifyRoundTrip(amount, {
+    received: amount, returned: amount, spent, spentReturning,
+  }, 10).status;
+  assert.equal(classify(1000n, 1001n, 1001n), 'safe');
+  assert.equal(classify(1000n, 1002n, 1000n), 'restricted');
+  assert.equal(classify(1000n, 1000n, 1002n), 'restricted');
+  assert.equal(classify(5n, 6n, 5n), 'restricted');
+  assert.equal(classify(5n, 5n, 6n), 'restricted');
+  const large = 2n ** 200n;
+  assert.equal(classify(large, large + large / 1000n, large), 'safe');
+  assert.equal(classify(large, large + large / 1000n + 1n, large), 'restricted');
 });
 
 test('checkToken passes a token that moves the full amount', async () => {
@@ -133,6 +151,33 @@ test('checkToken fails a fee-on-transfer token', async () => {
   });
   const result = await checkToken(rpc, { chainId: 8453, address: TOKEN });
   assert.equal(result.status, 'restricted');
+});
+
+test('checkToken probes a smaller taxed pool even when three larger wallets transfer normally', async () => {
+  const whales = ['b2', 'b3', 'b4'].map((suffix) => `0x${suffix.padStart(40, '0')}`);
+  const rpc = fakeRpc({
+    balances: { [POOL]: 1000n, ...Object.fromEntries(whales.map((holder) => [holder, 10_000n])) },
+    logs: [POOL, ...whales].map((holder) => ({ topics: [TRANSFER_TOPIC, topic(USER), topic(holder)] })),
+    roundTrip: (holder, amount) => holder === POOL ? [(amount * 99n) / 100n, amount] : [amount, amount],
+  });
+  const result = await checkToken(rpc, { chainId: 8453, address: TOKEN });
+  assert.equal(result.status, 'restricted');
+  assert.equal(result.probes.find((probe) => probe.holder === POOL)?.status, 'restricted');
+  assert.ok(whales.every((holder) => result.probes.find((probe) => probe.holder === holder)?.status === 'safe'));
+});
+
+test('holder probing stays bounded by the existing participant limit', async () => {
+  const holders = Array.from({ length: DEFAULTS.maxBalanceReads + 10 }, (_, i) =>
+    `0x${(0x1000 + i).toString(16).padStart(40, '0')}`,
+  );
+  const rpc = fakeRpc({
+    balances: Object.fromEntries(holders.map((holder) => [holder, 1000n])),
+    logs: holders.map((holder) => ({ topics: [TRANSFER_TOPIC, topic(holder), topic(holder)] })),
+    roundTrip: (_holder, amount) => [amount, amount],
+  });
+  const result = await checkToken(rpc, { chainId: 8453, address: TOKEN });
+  assert.equal(result.status, 'safe');
+  assert.equal(result.probes.length, DEFAULTS.maxBalanceReads);
 });
 
 test('checkToken is inconclusive on transport errors and when no holder is found', async () => {

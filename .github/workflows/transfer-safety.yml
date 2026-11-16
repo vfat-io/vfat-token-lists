@@ -10,6 +10,9 @@ on:
       - 'tokenLists/**'
       - 'scripts/check-transfer-safety.mjs'
       - 'scripts/transfer-probe/**'
+      - 'tests/**'
+      - 'package*.json'
+      - '.github/workflows/transfer-safety.yml'
   push:
     branches: [master]
     paths:
@@ -29,8 +32,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Unit tests
-        run: node --test tests/check-transfer-safety.test.mjs
+      - run: npm ci
+      - name: Verify probe bytecode
+        run: npm run build:transfer-probe -- --check
+      - name: Tests
+        run: npm test
       - name: Probe added tokens
         env:
           # JSON object of chainId -> RPC URL, e.g. {"8453":"https://..."}. Each RPC must
