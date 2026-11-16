@@ -42,6 +42,29 @@ Same shape as the standard token list, plus optional fields:
 
 Consumers should treat presence in the list as opaque: any token here is excluded from routing regardless of `feeBps`. Including reproducible `evidence` lets future contributors verify the classification without needing to re-run an audit from scratch.
 
+## Transfer safety check
+
+Every token added to `tokenLists/` must transfer normally. Tokens with transfer caps,
+blacklists, sell blocks or transfer fees make every deposit, exit and swap through their
+pools fail, so they must not be listed.
+
+The `Token transfer safety` workflow runs on pull requests and on pushes to `master`. For each
+added token it finds the largest recent holders from Transfer logs and simulates moving 50% of a
+holder's balance to a fresh address and back, using `eth_call` with a code state override
+(`scripts/transfer-probe/TransferProbe.sol`). Nothing is sent on chain. A revert or a short
+delivery fails the check. A chain with no configured RPC, or a token with no recent holders, is
+reported as a warning.
+
+Run it locally before adding a token:
+
+```bash
+RPC_URL_8453=https://... npm run check-transfer-safety -- --chain-id 8453 --address 0x...
+RPC_URL_8453=https://... npm run check-transfer-safety -- --base origin/master
+```
+
+CI reads endpoints from the `TRANSFER_PROBE_RPC_URLS` repository secret, a JSON object of chain
+id to RPC URL. Each RPC must support `eth_getLogs` and `eth_call` state overrides.
+
 ## Pull request reviews
 
 GitHub automatically requests review from `@SHA-2048` for changes anywhere in this
