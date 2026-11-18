@@ -1,35 +1,5 @@
 [
   {
-    "chainId": 41,
-    "address": "0xae85bf723a9e74d6c663dd226996ac1b8d075aa9",
-    "symbol": "WTLOS",
-    "decimals": 18
-  },
-  {
-    "chainId": 41,
-    "address": "0xe1afb545b5701d884a674d90b31927bbd0fca380",
-    "symbol": "USDT",
-    "decimals": 6
-  },
-  {
-    "chainId": 41,
-    "address": "0xd159c4e586421a507907fad705e067bfb350dc07",
-    "symbol": "FIAT",
-    "decimals": 4
-  },
-  {
-    "chainId": 41,
-    "address": "0xd9151f839a9d8d280c0a3a694c82b6865bbca099",
-    "symbol": "CAKE",
-    "decimals": 18
-  },
-  {
-    "chainId": 41,
-    "address": "0xa9991e4daa44922d00a78b6d986cdf628d46c4dd",
-    "symbol": "STLOS",
-    "decimals": 18
-  },
-  {
     "chainId": 40,
     "address": "0x7627b27594bc71e6ab0fce755ae8931eb1e12dac",
     "symbol": "BTC.b",

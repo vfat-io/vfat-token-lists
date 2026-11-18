@@ -136,5 +136,17 @@
     "symbol": "ZK",
     "decimals": 18,
     "address": "0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e"
+  },
+  {
+    "chainId": 324,
+    "address": "0x7b350e8b405090496b02d28f7cdb6fbb3f8c6418",
+    "symbol": "VVS",
+    "decimals": 18
+  },
+  {
+    "chainId": 324,
+    "address": "0x0bcca089f12ae9e78f5060e1d6fbbe1c827c5990",
+    "symbol": "CRO",
+    "decimals": 8
   }
 ]

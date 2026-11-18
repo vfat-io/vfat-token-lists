@@ -7486,12 +7486,6 @@
   },
   {
     "chainId": 137,
-    "symbol": "ARTHX",
-    "decimals": 18,
-    "address": "0xd354d56dae3588f1145dd664bc5094437b889d6f"
-  },
-  {
-    "chainId": 137,
     "symbol": "YEL",
     "decimals": 18,
     "address": "0xd3b71117e6c1558c1553305b44988cd944e97300"
@@ -9148,12 +9142,6 @@
     "symbol": "PIKA",
     "decimals": 18,
     "address": "0xffb89d7637cf4860884ed48b57ae5562bf64e10f"
-  },
-  {
-    "chainId": 137,
-    "symbol": "DUCKIES",
-    "decimals": 2,
-    "address": "0xffb9f1907f827709b0ed09b37956cd3c7462abdb"
   },
   {
     "address": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
