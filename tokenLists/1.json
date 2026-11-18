@@ -3484,12 +3484,6 @@
   },
   {
     "chainId": 1,
-    "symbol": "TT",
-    "decimals": 18,
-    "address": "0x1e053d89e08c24aa2ce5c5b4206744dc2d7bd8f5"
-  },
-  {
-    "chainId": 1,
     "symbol": "PICIPO",
     "decimals": 18,
     "address": "0x1e05f68b29b286fb3bbad3c688d7e2abda549b80"
@@ -23674,12 +23668,6 @@
   },
   {
     "chainId": 1,
-    "symbol": "AETHB",
-    "decimals": 18,
-    "address": "0xd01ef7c0a5d8c432fc2d1a85c66cf2327362e5c6"
-  },
-  {
-    "chainId": 1,
     "symbol": "TSANGNYON",
     "decimals": 18,
     "address": "0xd031edafac6a6ae5425e77f936022e506444c242"
@@ -26497,12 +26485,6 @@
     "symbol": "ZNT",
     "decimals": 18,
     "address": "0xe95990825aab1a7f0af4cc648f76a3bcc99f25b2"
-  },
-  {
-    "chainId": 1,
-    "symbol": "AETHC",
-    "decimals": 18,
-    "address": "0xe95a203b1a91a908f9b9ce46459d101078c2c3cb"
   },
   {
     "chainId": 1,

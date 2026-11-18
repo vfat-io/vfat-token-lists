@@ -618,12 +618,6 @@
     "chainId": 25
   },
   {
-    "symbol": "WETH",
-    "address": "0x5aea5775959fbc2557cc8789bc1bf90a239d9a91",
-    "decimal": 18,
-    "chainId": 324
-  },
-  {
     "symbol": "AGLD",
     "address": "0xd3bb5c6961157eb4eb03658dc5d4144808828168",
     "decimal": 18,
@@ -688,12 +682,6 @@
     "address": "0x813effe620c71bd1b522a8e6fa74c0e46c80da2e",
     "decimal": 18,
     "chainId": 25
-  },
-  {
-    "symbol": "USDC",
-    "address": "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4",
-    "decimal": 6,
-    "chainId": 324
   },
   {
     "symbol": "CSPR",
@@ -1162,18 +1150,6 @@
     "address": "0xa8d3288f4fe8650ec038c398fc65b7c93540cc10",
     "decimal": 9,
     "chainId": 25
-  },
-  {
-    "symbol": "VVS",
-    "address": "0x7b350e8b405090496b02d28f7cdb6fbb3f8c6418",
-    "decimal": 18,
-    "chainId": 324
-  },
-  {
-    "symbol": "WCRO",
-    "address": "0x0bcca089f12ae9e78f5060e1d6fbbe1c827c5990",
-    "decimal": 18,
-    "chainId": 324
   },
   {
     "symbol": "UNLOADED",

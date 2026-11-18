@@ -31873,12 +31873,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "$tipsy",
-    "decimals": 18,
-    "address": "0xe097bceb09bfb18047cf259f321cc129b7beba5e"
-  },
-  {
-    "chainId": 56,
     "symbol": "CSWAP",
     "decimals": 18,
     "address": "0xe0b0c16038845bed3fcf70304d3e167df81ce225"
@@ -36333,13 +36327,13 @@
     "address": "0x259b30c916e440fb79747cd559207ffdabbae057"
   },
   {
-    "chainId": 18,
+    "chainId": 56,
     "symbol": "PLAY",
     "decimals": 18,
     "address": "0xd069599e718f963bd84502b49ba8f8657faf5b3a"
   },
   {
-    "chainId": 18,
+    "chainId": 56,
     "symbol": "unshETH",
     "decimals": 18,
     "address": "0x0ae38f7e10a43b5b2fb064b42a2f4514cba909ef"
