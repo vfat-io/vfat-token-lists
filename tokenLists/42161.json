@@ -3021,5 +3021,47 @@
     "address": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
     "symbol": "USDG",
     "decimals": 6
+  },
+  {
+    "chainId": 42161,
+    "address": "0x861a85a78c371bc0a02675bbe00a4cbc0826b421",
+    "symbol": "rCRCL",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x548cc634a64301a346f174071a90efa93dae4eb3",
+    "symbol": "rMU",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x0a85b6ebe3c150a1979a65656e304033d62b1e12",
+    "symbol": "rNVDA",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x6760e0064eee21c89c21f6c00b752e37cb1cd6de",
+    "symbol": "rQQQ",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x8c61758c719780d62d17470ec94362433bdfd8d5",
+    "symbol": "rSKHY",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0x9a0fda21276f245b89d2b7f1120f42e4466b1cb5",
+    "symbol": "rSPY",
+    "decimals": 18
+  },
+  {
+    "chainId": 42161,
+    "address": "0xf912911c9c8d5131929c758e66e6dc54e65cf3ba",
+    "symbol": "rTSLA",
+    "decimals": 18
   }
 ]

@@ -33583,5 +33583,11 @@
     "address": "0x8888cdad9ef66382f89e68f95ec384d89ec28888",
     "symbol": "NAMI",
     "decimals": 18
+  },
+  {
+    "chainId": 1,
+    "address": "0xf40c07d7cd45f291b93ca674db66a15c8a98957e",
+    "symbol": "INFI",
+    "decimals": 18
   }
 ]

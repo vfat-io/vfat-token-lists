@@ -233,5 +233,47 @@
     "address": "0x8a76fe7fa6da27f85a626c5c53730b38d13603d7",
     "symbol": "syrupUSDT",
     "decimals": 6
+  },
+  {
+    "chainId": 57073,
+    "address": "0x30987adf0b11dc698438a99ba04ec3a1ab2c7eab",
+    "symbol": "wMSTRx",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0xa8ddb5cd96b5222afe198316e9a57caa642850d5",
+    "symbol": "wNVDAx",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0x4a2df09536f62341c9f946427d16414c04e21342",
+    "symbol": "wPLTRx",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0x4c1ae29c159838fc1b224636e28e086eb69101f7",
+    "symbol": "wQQQx",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0x8e2eed8b8b5e13ea7bf38e50d7821d2c57309072",
+    "symbol": "wSPCXx",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0xe7e553cd128f0011777323a0b44a7b96ea1cb540",
+    "symbol": "wSPYx",
+    "decimals": 18
+  },
+  {
+    "chainId": 57073,
+    "address": "0xc3fdbe3a68ee5de461d30415a8165cf9aefe1171",
+    "symbol": "wTSLAx",
+    "decimals": 18
   }
 ]

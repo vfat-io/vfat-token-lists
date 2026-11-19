@@ -6244,5 +6244,29 @@
     "address": "0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea",
     "symbol": "AXIS",
     "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000006f944897540579d3f2",
+    "symbol": "HOODc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0x9f4c76f421f47b3c234f841f477897f1d895177d",
+    "symbol": "INFI",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb20000000000000000000016e38fd364d271ba28",
+    "symbol": "ANTc",
+    "decimals": 8
+  },
+  {
+    "chainId": 8453,
+    "address": "0x0000006238e3c7797ae71827da303560bae1b125",
+    "symbol": "BRS",
+    "decimals": 6
   }
 ]

@@ -2755,5 +2755,11 @@
     "address": "0x378a50eac56f45fb74e4ce7f1962dbca33515c14",
     "symbol": "MCD",
     "decimals": 18
+  },
+  {
+    "chainId": 4663,
+    "address": "0xbbb6c29bcc3a1028a2b54310df73f4f7a3bcb373",
+    "symbol": "ANT",
+    "decimals": 18
   }
 ]
