@@ -252,12 +252,6 @@
     "decimals": 18
   },
   {
-    "address": "0xf37923311d71c986d701cddb3394777322294e3a",
-    "symbol": "DOH",
-    "chainId": 8453,
-    "decimals": 18
-  },
-  {
     "address": "0xff8adec2221f9f4d8dfbafa6b9a297d17603493d",
     "symbol": "WELL",
     "chainId": 8453,
