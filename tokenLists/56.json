@@ -2977,12 +2977,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "OPS",
-    "decimals": 18,
-    "address": "0x14fc542fd0364ad8361274657cab141a8c8820e0"
-  },
-  {
-    "chainId": 56,
     "symbol": "VGM",
     "decimals": 9,
     "address": "0x1511cd02655926ee9b2ddebf4726b7ab5d005b9e"
@@ -4711,12 +4705,6 @@
   },
   {
     "chainId": 56,
-    "symbol": "MUSO",
-    "decimals": 9,
-    "address": "0x20512ee0052236b009772af0ed22bc58b40c27b9"
-  },
-  {
-    "chainId": 56,
     "symbol": "OBROK",
     "decimals": 9,
     "address": "0x205afd08cefe438377a0abc5a20cb4462e1a8c5c"
@@ -4954,12 +4942,6 @@
     "symbol": "TOD",
     "decimals": 9,
     "address": "0x21d5fa5ecf2605c0e835ae054af9bba0468e5951"
-  },
-  {
-    "chainId": 56,
-    "symbol": "SPC",
-    "decimals": 9,
-    "address": "0x21ea8618b9168eb8936c3e02f0809bbe901282ac"
   },
   {
     "chainId": 56,
@@ -5338,12 +5320,6 @@
     "symbol": "HMC",
     "decimals": 18,
     "address": "0x2407f9136df8ddf84fd9bde34d48cfc32305447b"
-  },
-  {
-    "chainId": 56,
-    "symbol": "BANKR",
-    "decimals": 18,
-    "address": "0x240eb70aafe740f753066a413ddad73b7c72b4e2"
   },
   {
     "chainId": 56,
@@ -15352,12 +15328,6 @@
     "symbol": "SD",
     "decimals": 18,
     "address": "0x69eb9dda7776dfa2fef16b61d0ada70f4bc1a3ca"
-  },
-  {
-    "chainId": 56,
-    "symbol": "NRCH",
-    "decimals": 9,
-    "address": "0x69fa8e7f6bf1ca1fb0de61e1366f7412b827cc51"
   },
   {
     "chainId": 56,
