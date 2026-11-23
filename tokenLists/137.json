@@ -9586,5 +9586,17 @@
     "address": "0xd9a1070f832cc02ff9d839500eef6e8c64983726",
     "symbol": "BAT",
     "decimals": 18
+  },
+  {
+    "chainId": 137,
+    "address": "0x6ab707aca953edaefbc4fd23ba73294241490620",
+    "symbol": "aPolUSDT",
+    "decimals": 6
+  },
+  {
+    "chainId": 137,
+    "address": "0x6d80113e533a2c0fe82eabd35f1875dcea89ea97",
+    "symbol": "aPolWMATIC",
+    "decimals": 18
   }
 ]
