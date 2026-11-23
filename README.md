@@ -53,11 +53,17 @@ added token it takes up to 60 recent participants from Transfer logs and probes 
 positive balance, largest first. This keeps a smaller pool in the sample even when larger wallets
 transfer without fees. It simulates moving 50% of a holder's balance to a fresh address and back,
 using `eth_call` with a code state override
-(`scripts/transfer-probe/TransferProbe.sol`). Nothing is sent on chain. A revert or a short
-delivery or excess sender debit beyond the 0.1% tolerance on either leg fails the check. The probe
-measures both sides of each transfer, including the `transferFrom` return leg. A chain with no
+(`scripts/transfer-probe/TransferProbe.sol`). Nothing is sent on chain. By default, a revert,
+short delivery, or excess sender debit beyond the 0.1% tolerance on either leg fails the check.
+The probe measures both sides of each transfer, including the `transferFrom` return leg. A chain with no
 configured RPC, or a token with no recent holders, is reported as a warning. This is a bounded
 sample of recent activity; a passing result does not establish safety for unobserved pools.
+
+For Polygon Aave V3, the checker verifies each aToken against the official Pool at the
+same block as the simulation. A balance difference is attributed to rounding only if every
+measured delta matches the scaled-balance calculation on both legs. Aave's two borrower
+collateral errors are reported for the affected holders. Passing still requires a successful
+round trip and no other transfer failure among the sampled holders.
 
 Run it locally before adding a token:
 

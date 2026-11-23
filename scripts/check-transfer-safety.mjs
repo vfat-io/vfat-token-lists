@@ -15,6 +15,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { promisify } from 'node:util';
+import { AAVE_COLLATERAL_ERRORS, matchesAaveRounding, polygonAaveReserve } from './transfer-probe/aave.mjs';
 import {
   OVERRIDE_SUPPORT_PROBE_ADDRESS,
   OVERRIDE_SUPPORT_SPENDER_ADDRESS,
@@ -250,7 +251,7 @@ export function classifyRoundTrip(amount, { received, returned, spent, spentRetu
   return { status: 'safe', reason: 'both transfer legs stayed within tolerance' };
 }
 
-export async function probeHolder(rpc, token, holder, balance, block, options = DEFAULTS) {
+export async function probeHolder(rpc, token, holder, balance, block, options = DEFAULTS, getAaveReserve) {
   let amount = (balance * BigInt(options.probeBps)) / 10_000n;
   if (amount === 0n) {
     amount = balance;
@@ -277,10 +278,23 @@ export async function probeHolder(rpc, token, holder, balance, block, options = 
     if ([received, returned, spent, spentReturning].some((value) => value === undefined)) {
       return { status: 'inconclusive', reason: 'probe did not return all balance deltas', holder, amount };
     }
-    return { ...classifyRoundTrip(amount, { received, returned, spent, spentReturning }, options.toleranceBps), holder, amount };
+    const deltas = { received, returned, spent, spentReturning };
+    const classification = classifyRoundTrip(amount, deltas, options.toleranceBps);
+    if (classification.status === 'restricted') {
+      const reserve = await getAaveReserve?.();
+      if (reserve && await matchesAaveRounding(rpc, token, reserve, holder, amount, deltas, block)) {
+        return { status: 'safe', reason: 'both transfer legs matched Aave scaled-balance rounding', holder, amount };
+      }
+    }
+    return { ...classification, holder, amount };
   } catch (error) {
     if (isExecutionRevert(error)) {
-      const data = typeof error.data === 'string' ? ` (${error.data.slice(0, 74)})` : '';
+      const revertData = typeof error.data === 'string' ? error.data : '';
+      const collateralError = AAVE_COLLATERAL_ERRORS.get(revertData.toLowerCase());
+      if (collateralError && await getAaveReserve?.()) {
+        return { status: 'collateral-limited', reason: `Aave holder collateral validation: ${collateralError}`, holder, amount };
+      }
+      const data = revertData ? ` (${revertData.slice(0, 74)})` : '';
       return { status: 'restricted', reason: `transfer reverted${data}`, holder, amount };
     }
     return { status: 'inconclusive', reason: error?.message ?? String(error), holder, amount };
@@ -310,16 +324,23 @@ export async function checkToken(rpc, token, options = DEFAULTS) {
     if (balances.length === 0) {
       return { status: 'inconclusive', reason: 'no holder with a balance found in recent Transfer logs', probes: [] };
     }
+    let aaveReserve;
+    const getAaveReserve = token.chainId === 137
+      ? () => aaveReserve ??= polygonAaveReserve(rpc, address, block)
+      : undefined;
     const probes = [];
     for (const { holder, balance } of balances) {
-      probes.push(await probeHolder(rpc, address, holder, balance, block, options));
+      probes.push(await probeHolder(rpc, address, holder, balance, block, options, getAaveReserve));
     }
     const restricted = probes.find((probe) => probe.status === 'restricted');
     if (restricted) {
       return { status: 'restricted', reason: restricted.reason, probes };
     }
     if (probes.some((probe) => probe.status === 'safe')) {
-      return { status: 'safe', reason: 'both transfer legs stayed within tolerance', probes };
+      return { status: 'safe', reason: 'a sampled holder completed both transfer legs', probes };
+    }
+    if (probes.some((probe) => probe.status === 'collateral-limited')) {
+      return { status: 'restricted', reason: 'no successful round trip after Aave holder collateral checks', probes };
     }
     return { status: 'inconclusive', reason: probes[0].reason, probes };
   } catch (error) {
@@ -436,7 +457,7 @@ export async function main(argv = process.argv.slice(2), { env = process.env, ro
     }
     if (result.status === 'restricted') {
       failures += 1;
-      console.log(`::error::${label} is transfer-restricted: ${result.reason}. Deposits, exits and swaps through its pools will fail; do not list it.`);
+      console.log(`::error::${label} failed the transfer safety check: ${result.reason}. Do not list it.`);
     } else if (result.status === 'inconclusive') {
       console.log(`::warning::Transfer safety inconclusive for ${label}: ${result.reason}`);
     } else {

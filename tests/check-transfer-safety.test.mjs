@@ -15,7 +15,7 @@ import {
   rpcUrlsFromEnv,
   supportsStateOverride,
 } from '../scripts/check-transfer-safety.mjs';
-import { SELECTORS, TRANSFER_TOPIC } from '../scripts/transfer-probe/probe-contract.mjs';
+import { PROBE_RECIPIENT, SELECTORS, TRANSFER_TOPIC } from '../scripts/transfer-probe/probe-contract.mjs';
 
 const execFileAsync = promisify(execFile);
 
@@ -32,8 +32,8 @@ function topic(address) {
 }
 
 // A fake JSON-RPC node. `roundTrip(holder, amount)` decides what the probe does at each holder:
-// return [received, returned], or throw an RpcError to simulate a revert.
-function fakeRpc({ balances, roundTrip, overrides = true, logs } = {}) {
+// return the balance deltas, or throw an RpcError to simulate a revert.
+function fakeRpc({ balances, roundTrip, overrides = true, logs, read } = {}) {
   const calls = [];
   const rpc = async (method, params) => {
     calls.push({ method, params });
@@ -62,9 +62,12 @@ function fakeRpc({ balances, roundTrip, overrides = true, logs } = {}) {
       }
       if (data.startsWith(SELECTORS.probeRoundTrip)) {
         const amount = BigInt(`0x${data.slice(-64)}`);
-        const [received, returned] = roundTrip(to, amount);
-        return `0x${word(received)}${word(returned)}${word(amount)}${word(received)}`;
+        const [received, returned, spent = amount, spentReturning = received] = roundTrip(to, amount);
+        return `0x${word(received)}${word(returned)}${word(spent)}${word(spentReturning)}`;
       }
+    }
+    if (read) {
+      return read(method, params);
     }
     throw new Error(`unexpected ${method}`);
   };
@@ -191,6 +194,96 @@ test('checkToken is inconclusive on transport errors and when no holder is found
 
   const empty = fakeRpc({ logs: [], roundTrip: () => [0n, 0n] });
   assert.equal((await checkToken(empty, { chainId: 8453, address: TOKEN })).status, 'inconclusive');
+});
+
+const POLYGON_AAVE = { chainId: 137, address: TOKEN };
+const AAVE_POOL = '0x794a61358d6845594f94dc1db02a252b5b4814ad';
+const AAVE_INDEX = 1235125837814019991654501472n;
+
+function aaveRpc({ registeredToken = TOKEN, chain = '0x89', recipientScaled = 0n, balances = { [POOL]: 6n }, roundTrip }) {
+  return fakeRpc({
+    balances,
+    roundTrip,
+    read(method, params) {
+      if (method === 'eth_chainId') {
+        return chain;
+      }
+      assert.equal(method, 'eth_call');
+      const [{ to, data }, block] = params;
+      assert.equal(block, '0x1000');
+      if (to === TOKEN && data === '0xb16a19de') {
+        return topic(USER);
+      }
+      if (to === AAVE_POOL && data === '0xcff027d9' + topic(USER).slice(2)) {
+        return topic(registeredToken);
+      }
+      if (to === AAVE_POOL && data === '0xd15e0053' + topic(USER).slice(2)) {
+        return `0x${word(AAVE_INDEX)}`;
+      }
+      if (to === TOKEN && data === '0x1da24f3e' + topic(POOL).slice(2)) {
+        return `0x${word(5)}`;
+      }
+      if (to === TOKEN && data === '0x1da24f3e' + topic(PROBE_RECIPIENT).slice(2)) {
+        return `0x${word(recipientScaled)}`;
+      }
+      throw new Error(`unexpected eth_call for ${to}: ${data}`);
+    },
+  });
+}
+
+test('verified Polygon aToken must match rounding on all four balance deltas', async () => {
+  // This existing recipient balance exercises different scaled amounts on send and return.
+  const expected = [4n, 5n, 4n, 5n];
+  const run = (deltas) => checkToken(aaveRpc({ recipientScaled: 4n, roundTrip: () => deltas }), POLYGON_AAVE);
+  const result = await run(expected);
+  assert.equal(result.status, 'safe');
+  assert.match(result.probes[0].reason, /Aave scaled-balance rounding/);
+
+  for (let i = 0; i < expected.length; i += 1) {
+    const changed = [...expected];
+    changed[i] += 1n;
+    assert.equal((await run(changed)).status, 'restricted');
+  }
+});
+
+test('Polygon token cannot claim Aave rounding by exposing the same token methods', async () => {
+  const rpc = aaveRpc({ registeredToken: USER, roundTrip: () => [3n, 4n, 4n, 3n] });
+  const result = await checkToken(rpc, POLYGON_AAVE);
+  assert.equal(result.status, 'restricted');
+  assert.match(result.reason, /sender-paid transfer fee/);
+});
+
+function revert(data) {
+  throw new RpcError('eth_call: execution reverted', { code: 3, data });
+}
+
+test('known Polygon Aave collateral errors require another successful sampled holder', async () => {
+  const collateralErrors = ['0x6679996d', '0x5b263df7'];
+  for (const error of collateralErrors) {
+    const rpc = aaveRpc({
+      balances: { [POOL]: 6n, [USER]: 4n },
+      roundTrip: (holder, amount) => holder === POOL ? revert(error) : [amount, amount],
+    });
+    const result = await checkToken(rpc, POLYGON_AAVE);
+    assert.equal(result.status, 'safe');
+    assert.deepEqual(result.probes.map(({ status }) => status), ['collateral-limited', 'safe']);
+  }
+  const rpc = aaveRpc({ roundTrip: () => revert(collateralErrors[0]) });
+  assert.equal((await checkToken(rpc, POLYGON_AAVE)).status, 'restricted');
+});
+
+test('collateral reverts retain normal failure for an unverified token, wrong chain or unknown error', async () => {
+  const collateralRevert = () => revert('0x6679996d');
+  const cases = [
+    { registeredToken: USER, roundTrip: collateralRevert },
+    { chain: '0x1', roundTrip: collateralRevert },
+    { roundTrip: () => revert('0x6679996d00') },
+  ];
+  for (const options of cases) {
+    const result = await checkToken(aaveRpc(options), POLYGON_AAVE);
+    assert.equal(result.status, 'restricted');
+    assert.equal(result.probes[0].status, 'restricted');
+  }
 });
 
 test('supportsStateOverride requires the probe magic value', async () => {
