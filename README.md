@@ -73,7 +73,8 @@ RPC_URL_8453=https://... npm run check-transfer-safety -- --base origin/master
 ```
 
 CI reads endpoints from the `TRANSFER_PROBE_RPC_URLS` repository secret, a JSON object of chain
-id to RPC URL. Each RPC must support `eth_getLogs` and `eth_call` state overrides.
+id to RPC URL. If the secret is unavailable, CI uses PublicNode for Polygon. Each RPC must support
+`eth_getLogs` and `eth_call` state overrides.
 
 After editing `TransferProbe.sol`, regenerate its embedded runtime with `npm run build:transfer-probe`.
 The build pins solc 0.8.35, optimizer runs 200 and the Shanghai EVM target. CI verifies the bytecode

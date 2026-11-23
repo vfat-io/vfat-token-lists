@@ -41,8 +41,8 @@ jobs:
         env:
           # JSON object of chainId -> RPC URL, e.g. {"8453":"https://..."}. Each RPC must
           # support eth_getLogs and eth_call state overrides. Chains without an entry are
-          # reported as warnings, not failures. Not available to pull requests from forks.
-          TRANSFER_PROBE_RPC_URLS: ${{ secrets.TRANSFER_PROBE_RPC_URLS }}
+          # reported as warnings, not failures. Use Polygon's public RPC when the map is unavailable.
+          TRANSFER_PROBE_RPC_URLS: ${{ secrets.TRANSFER_PROBE_RPC_URLS || '{"137":"https://polygon-bor-rpc.publicnode.com"}' }}
           # The pull_request checkout is the merge commit; its first parent is the base branch.
           BASE: ${{ github.event_name == 'pull_request' && 'HEAD^1' || github.event.before }}
         run: |
