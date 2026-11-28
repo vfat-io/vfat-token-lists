@@ -6262,5 +6262,11 @@
     "address": "0x0000006238e3c7797ae71827da303560bae1b125",
     "symbol": "BRS",
     "decimals": 6
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb783f2d2e031a7c4aa48aedac4c58be85bfa04d3",
+    "symbol": "INJ",
+    "decimals": 18
   }
 ]

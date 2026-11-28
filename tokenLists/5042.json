@@ -280,5 +280,11 @@
     "address": "0xf197ffc28c23e0309b5559e7a166f2c6164c80aa",
     "symbol": "MXNB",
     "decimals": 6
+  },
+  {
+    "chainId": 5042,
+    "address": "0xe205b4e7ac03e3f7b2060c3edf2171aa7126c0d5",
+    "symbol": "ZARU",
+    "decimals": 18
   }
 ]
